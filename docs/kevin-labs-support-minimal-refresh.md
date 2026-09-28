@@ -115,3 +115,14 @@
 2. **删除 callout 内「联系作者」徽章**(`.callout-badge`,8 处)——CSS 规则(含暗色覆盖)同步删除,全站无其他使用。
 
 另:CSS 引用版本号 bump 为 `?v=1.4.1`(因 site.css 有变更,延续第四轮的 Cloudflare 缓存规避方案)。
+
+---
+
+# 第六轮调整(2026-09-29): 首页联系 callout 区左对齐与扁平化 (方案 A)
+
+用户反馈首页联系区块文本未与上下段落（上方 eyebrow、下方「全部应用与指南」标题）左对齐。
+
+1. **`.callout-box` 扁平化** — 移除卡片浅色背景 `#f7f5ef`、暗色模式背景 `var(--card)`、圆角 `border-radius: 14px` 以及内边距 `padding: 28px 32px`，改为 `margin: 24px 0 44px; padding: 0;`。
+2. **左对齐一致性** — 去除内边距后，内部 `<h3>` 与 `.callout-actions` 主按钮及 Gmail 链接在水平方向直接贴齐页面主容器左基准线（x = 0），与上方 eyebrow 及下方应用列表完全对齐。
+3. **版本号升级** — 全站 16 个 HTML 文件中的 `site.css?v=1.4.1` 引用升级为 `?v=1.4.2`，规避 Cloudflare 边缘缓存。
+
