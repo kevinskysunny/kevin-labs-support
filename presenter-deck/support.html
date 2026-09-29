@@ -9,12 +9,8 @@
   <link rel="icon" type="image/png" href="../assets/favicon.png">
 <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <meta property="og:image" content="https://support.kevinlabs.app/assets/logo.png">
-  <link rel="stylesheet" href="../assets/site.css?v=1.4.2">
+  <link rel="stylesheet" href="../assets/site.css?v=1.4.4">
   <script defer src="../assets/site.js"></script>
-  <style>
-    .card { margin: 20px 0; padding: 18px 20px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
-    kbd { border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; font: inherit; background: var(--bg); }
-  </style>
 </head>
 <body>
   <a class="skip" href="#main">
@@ -58,32 +54,42 @@
       <a class="back" href="../index.html">← All apps</a>
       <h1>PresenterDeck Support</h1>
       <p class="lead">PresenterDeck is a native, local-first presentation companion for macOS: a presentation runbook with rehearsal review, screen annotation, mouse spotlight with built-in magnifier, and a presentation timer.</p>
-      <div class="card">
-        <strong>Contact support</strong><br>
-        <a href="mailto:support@kevinlabs.app">support@kevinlabs.app</a><br>
-        <p class="meta" style="margin-top:8px;">Include your macOS version, PresenterDeck version, steps to reproduce, and screenshots that contain no private information.</p>
+      <div class="contact-card">
+        <strong>Contact support</strong>
+        <p><a href="mailto:support@kevinlabs.app?subject=%5BPresenterDeck%20Support%5D%20">support@kevinlabs.app</a></p>
+        <p class="meta">Include your macOS version, PresenterDeck version, steps to reproduce, and screenshots that contain no private information.</p>
       </div>
       <h2>Frequently asked questions</h2>
-      <div class="card">
-        <strong>How do I plan and rehearse a presentation?</strong><br>
-        Press <kbd>⌥ Option + R</kbd> or click the menu bar icon and choose Open Presentation Runbook. Add agenda sections with planned minutes, start a rehearsal, and advance sections as you present. The review compares planned vs. actual time for each section — all stored locally.
-      </div>
-      <div class="card">
-        <strong>How do I activate the screen canvas?</strong><br>
-        Press <kbd>⌥ Option + D</kbd> to toggle the full-screen drawing layer, then pick a pen, laser pointer, arrow, or shape from the toolbar. Use <kbd>⌘ + Z</kbd> to undo and <kbd>⎋ Esc</kbd> to exit.
-      </div>
-      <div class="card">
-        <strong>How do I use the mouse spotlight with magnifier?</strong><br>
-        Press <kbd>⌥ Option + S</kbd> to dim the background; the spotlight shows a live magnified view around the cursor. Press <kbd>⌥ Option + S</kbd> again to cycle shapes (circle, rounded rectangle, ellipse). Scroll to resize the spotlight, <kbd>⌘ + scroll</kbd> to adjust magnification. Press <kbd>⎋ Esc</kbd> or right-click to exit. The magnifier requires Screen Recording permission; content is rendered locally and never saved or transmitted.
-      </div>
-      <div class="card">
-        <strong>How do I use the presentation timer?</strong><br>
-        Press <kbd>⌥ Option + T</kbd> to start or pause the floating timer, and <kbd>⌥ Option + ⇧ Shift + T</kbd> to reset it. It stays visible without blocking your slides.
-      </div>
-      <div class="card">
-        <strong>Why are Accessibility and Screen Recording permissions needed?</strong><br>
-        Accessibility enables global hotkeys while presenting over other apps. Screen Recording is used solely by the spotlight magnifier to enlarge real screen content around the cursor — rendered locally in real time and never saved, recorded, or transmitted. PresenterDeck is 100% offline and collects no data.
-      </div>
+      <details class="faq-accordion">
+        <summary>How do I plan and rehearse a presentation?</summary>
+        <div class="faq-answer">
+          <p>Press <kbd>⌥ Option + R</kbd> or click the menu bar icon and choose Open Presentation Runbook. Add agenda sections with planned minutes, start a rehearsal, and advance sections as you present. The review compares planned vs. actual time for each section — all stored locally.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>How do I activate the screen canvas?</summary>
+        <div class="faq-answer">
+          <p>Press <kbd>⌥ Option + D</kbd> to toggle the full-screen drawing layer, then pick a pen, laser pointer, arrow, or shape from the toolbar. Use <kbd>⌘ + Z</kbd> to undo and <kbd>⎋ Esc</kbd> to exit.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>How do I use the mouse spotlight with magnifier?</summary>
+        <div class="faq-answer">
+          <p>Press <kbd>⌥ Option + S</kbd> to dim the background; the spotlight shows a live magnified view around the cursor. Press <kbd>⌥ Option + S</kbd> again to cycle shapes (circle, rounded rectangle, ellipse). Scroll to resize the spotlight, <kbd>⌘ + scroll</kbd> to adjust magnification. Press <kbd>⎋ Esc</kbd> or right-click to exit. The magnifier requires Screen Recording permission; content is rendered locally and never saved or transmitted.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>How do I use the presentation timer?</summary>
+        <div class="faq-answer">
+          <p>Press <kbd>⌥ Option + T</kbd> to start or pause the floating timer, and <kbd>⌥ Option + ⇧ Shift + T</kbd> to reset it. It stays visible without blocking your slides.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Why are Accessibility and Screen Recording permissions needed?</summary>
+        <div class="faq-answer">
+          <p>Accessibility enables global hotkeys while presenting over other apps. Screen Recording is used solely by the spotlight magnifier to enlarge real screen content around the cursor — rendered locally in real time and never saved, recorded, or transmitted. PresenterDeck is 100% offline and collects no data.</p>
+        </div>
+      </details>
       <h2>Privacy</h2>
       <p>Read the <a href="privacy.html">PresenterDeck Privacy Policy</a>.</p>
     </section>
@@ -92,32 +98,42 @@
       <a class="back" href="../index.html">← 全部应用</a>
       <h1>PresenterDeck 支持中心</h1>
       <p class="lead">PresenterDeck 是 macOS 原生、本地优先的演示辅助工具：演示流程台与排练复盘、屏幕标注、集成放大镜的鼠标聚光灯，以及演示计时器。</p>
-      <div class="card">
-        <strong>联系技术支持</strong><br>
-        <a href="mailto:support@kevinlabs.app">support@kevinlabs.app</a><br>
-        <p class="meta" style="margin-top:8px;">请附上 macOS 版本、PresenterDeck 版本、复现步骤和不含隐私信息的截图。</p>
+      <div class="contact-card">
+        <strong>联系技术支持</strong>
+        <p><a href="mailto:support@kevinlabs.app?subject=%5BPresenterDeck%20支持%5D%20">support@kevinlabs.app</a></p>
+        <p class="meta">请附上 macOS 版本、PresenterDeck 版本、复现步骤和不含隐私信息的截图。</p>
       </div>
       <h2>常见问题</h2>
-      <div class="card">
-        <strong>如何规划与排练演示？</strong><br>
-        按 <kbd>⌥ Option + R</kbd> 或点击菜单栏图标选择"打开演示流程台"。为每个章节设置计划时长后开始排练，演示时逐段推进；排练复盘会对比各章节的计划与实际用时，数据仅保存在本机。
-      </div>
-      <div class="card">
-        <strong>如何开启屏幕画布？</strong><br>
-        按 <kbd>⌥ Option + D</kbd> 切换全屏绘制图层，然后从工具栏选择画笔、激光笔、箭头或图形。按 <kbd>⌘ + Z</kbd> 撤销，按 <kbd>⎋ Esc</kbd> 退出。
-      </div>
-      <div class="card">
-        <strong>如何使用鼠标聚光灯与放大镜？</strong><br>
-        按 <kbd>⌥ Option + S</kbd> 暗化背景，聚光区内会实时放大光标周围的屏幕内容。再按 <kbd>⌥ Option + S</kbd> 循环切换形状（圆形、圆角矩形、椭圆）。滚动鼠标调整聚光灯大小，<kbd>⌘ + 滚动</kbd> 调整放大倍率。按 <kbd>⎋ Esc</kbd> 或右键退出。放大镜需要屏幕录制权限，内容仅本地实时显示，不会保存、录制或传输。
-      </div>
-      <div class="card">
-        <strong>演示计时器如何使用？</strong><br>
-        按 <kbd>⌥ Option + T</kbd> 开始或暂停浮动计时器，按 <kbd>⌥ Option + ⇧ Shift + T</kbd> 重置。计时器不会遮挡幻灯片内容。
-      </div>
-      <div class="card">
-        <strong>为什么需要辅助功能与屏幕录制权限？</strong><br>
-        辅助功能用于在其他应用之上演示时启用全局快捷键；屏幕录制仅用于聚光灯内实时放大光标周围的屏幕内容——仅在本机实时渲染，绝不保存、录制或传输。PresenterDeck 100% 离线，不收集任何数据。
-      </div>
+      <details class="faq-accordion">
+        <summary>如何规划与排练演示？</summary>
+        <div class="faq-answer">
+          <p>按 <kbd>⌥ Option + R</kbd> 或点击菜单栏图标选择"打开演示流程台"。为每个章节设置计划时长后开始排练，演示时逐段推进；排练复盘会对比各章节的计划与实际用时，数据仅保存在本机。</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>如何开启屏幕画布？</summary>
+        <div class="faq-answer">
+          <p>按 <kbd>⌥ Option + D</kbd> 切换全屏绘制图层，然后从工具栏选择画笔、激光笔、箭头或图形。按 <kbd>⌘ + Z</kbd> 撤销，按 <kbd>⎋ Esc</kbd> 退出。</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>如何使用鼠标聚光灯与放大镜？</summary>
+        <div class="faq-answer">
+          <p>按 <kbd>⌥ Option + S</kbd> 暗化背景，聚光区内会实时放大光标周围的屏幕内容。再按 <kbd>⌥ Option + S</kbd> 循环切换形状（圆形、圆角矩形、椭圆）。滚动鼠标调整聚光灯大小，<kbd>⌘ + 滚动</kbd> 调整放大倍率。按 <kbd>⎋ Esc</kbd> 或右键退出。放大镜需要屏幕录制权限，内容仅本地实时显示，不会保存、录制或传输。</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>演示计时器如何使用？</summary>
+        <div class="faq-answer">
+          <p>按 <kbd>⌥ Option + T</kbd> 开始或暂停浮动计时器，按 <kbd>⌥ Option + ⇧ Shift + T</kbd> 重置。计时器不会遮挡幻灯片内容。</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>为什么需要辅助功能与屏幕录制权限？</summary>
+        <div class="faq-answer">
+          <p>辅助功能用于在其他应用之上演示时启用全局快捷键；屏幕录制仅用于聚光灯内实时放大光标周围的屏幕内容——仅在本机实时渲染，绝不保存、录制或传输。PresenterDeck 100% 离线，不收集任何数据。</p>
+        </div>
+      </details>
       <h2>隐私</h2>
       <p>请查看 <a href="privacy.html">PresenterDeck 隐私政策</a>。</p>
     </section>

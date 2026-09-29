@@ -8,14 +8,8 @@
   <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:image" content="https://support.kevinlabs.app/assets/logo.png">
-  <link rel="stylesheet" href="assets/site.css?v=1.4.2">
+  <link rel="stylesheet" href="assets/site.css?v=1.4.4">
   <script defer src="assets/site.js"></script>
-  <style>
-    .card { margin: 24px 0; padding: 20px 24px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
-    .faq-item { margin-bottom: 24px; }
-    .faq-item strong { display: block; font-size: 17px; margin-bottom: 6px; color: var(--ink); }
-    .faq-item p { margin: 0; color: var(--ink); }
-  </style>
 </head>
 <body>
   <a class="skip" href="#main">
@@ -61,33 +55,43 @@
       <h1>KSIC Studio Support</h1>
       <p class="lead">KSIC Studio is a local-first macOS work launcher. If you run into any issues, the information below may help.</p>
       
-      <div class="card">
-        <strong>Contact Support</strong><br>
-        <a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Support">support@kevinlabs.app</a><br>
-        <p class="meta" style="margin-top:8px;">Please include your macOS version, app version, reproduction steps, and screenshots (without personal data). We typically reply within three business days.</p>
+      <div class="contact-card">
+        <strong>Contact Support</strong>
+        <p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20Support%5D%20">support@kevinlabs.app</a></p>
+        <p class="meta">Please include your macOS version, app version, reproduction steps, and screenshots (without personal data). We typically reply within three business days.</p>
       </div>
 
       <h2>Frequently Asked Questions</h2>
-      <div class="faq-item">
-        <strong>Where is my data stored?</strong>
-        <p>Work groups, entries, and Recents stay in the macOS App Sandbox and are never uploaded to remote servers.</p>
-      </div>
-      <div class="faq-item">
-        <strong>Why does an HTTP address show no health status?</strong>
-        <p>For connection security, the app only checks HTTPS addresses. HTTP addresses can still be opened in your default browser.</p>
-      </div>
-      <div class="faq-item">
-        <strong>How do I migrate my configuration?</strong>
-        <p>In Settings, import a JSON configuration file or use the backup and restore features. We recommend backing up before importing.</p>
-      </div>
-      <div class="faq-item">
-        <strong>How does language selection work?</strong>
-        <p>The app automatically follows the preferred language set in macOS System Settings. Change your preferred language in macOS Settings, then relaunch the app.</p>
-      </div>
-      <div class="faq-item">
-        <strong>How do I remove all data?</strong>
-        <p>Use "Restore Default Entries" in Settings. Please export any configuration you wish to keep before proceeding.</p>
-      </div>
+      <details class="faq-accordion">
+        <summary>Where is my data stored?</summary>
+        <div class="faq-answer">
+          <p>Work groups, entries, and Recents stay in the macOS App Sandbox and are never uploaded to remote servers.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Why does an HTTP address show no health status?</summary>
+        <div class="faq-answer">
+          <p>For connection security, the app only checks HTTPS addresses. HTTP addresses can still be opened in your default browser.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>How do I migrate my configuration?</summary>
+        <div class="faq-answer">
+          <p>In Settings, import a JSON configuration file or use the backup and restore features. We recommend backing up before importing.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>How does language selection work?</summary>
+        <div class="faq-answer">
+          <p>The app automatically follows the preferred language set in macOS System Settings. Change your preferred language in macOS Settings, then relaunch the app.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>How do I remove all data?</summary>
+        <div class="faq-answer">
+          <p>Use "Restore Default Entries" in Settings. Please export any configuration you wish to keep before proceeding.</p>
+        </div>
+      </details>
 
       <h2>Privacy Policy</h2>
       <p>Read the <a href="privacy.html">KSIC Studio Privacy Policy</a>.</p>
@@ -99,33 +103,43 @@
       <h1>KSIC Studio 支持</h1>
       <p class="lead">KSIC Studio 是一款本地优先的 macOS 工作入口管理器。使用中遇到问题，可以先参考以下说明。</p>
       
-      <div class="card">
-        <strong>联系支持</strong><br>
-        <a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20支持">support@kevinlabs.app</a><br>
-        <p class="meta" style="margin-top:8px;">请附上 macOS 版本、App 版本、复现步骤和不含隐私信息的截图。通常会在 3 个工作日内回复。</p>
+      <div class="contact-card">
+        <strong>联系支持</strong>
+        <p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20支持%5D%20">support@kevinlabs.app</a></p>
+        <p class="meta">请附上 macOS 版本、App 版本、复现步骤和不含隐私信息的截图。通常会在 3 个工作日内回复。</p>
       </div>
 
       <h2>常见问题</h2>
-      <div class="faq-item">
-        <strong>数据保存在哪里？</strong>
-        <p>分组、入口和最近使用记录保存在 macOS App Sandbox 沙盒中，绝不会自动上传到远程服务器。</p>
-      </div>
-      <div class="faq-item">
-        <strong>为什么 HTTP 地址没有健康状态？</strong>
-        <p>为保护连接安全，App 仅检查 HTTPS 地址；HTTP 地址仍可正常交给系统默认浏览器打开。</p>
-      </div>
-      <div class="faq-item">
-        <strong>如何迁移配置？</strong>
-        <p>在“设置”中选择导入 JSON 配置文件，或使用导出与恢复功能。导入前建议先导出备份。</p>
-      </div>
-      <div class="faq-item">
-        <strong>语言如何切换？</strong>
-        <p>App 自动跟随 macOS 系统中为该 App 选定的首选语言。请在 macOS 系统设置中更改 App 语言后重启 App 即可。</p>
-      </div>
-      <div class="faq-item">
-        <strong>如何删除全部数据？</strong>
-        <p>在“设置”中使用“恢复默认入口”。执行该操作前请先导出需要保留的配置。</p>
-      </div>
+      <details class="faq-accordion">
+        <summary>数据保存在哪里？</summary>
+        <div class="faq-answer">
+          <p>分组、入口和最近使用记录保存在 macOS App Sandbox 沙盒中，绝不会自动上传到远程服务器。</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>为什么 HTTP 地址没有健康状态？</summary>
+        <div class="faq-answer">
+          <p>为保护连接安全，App 仅检查 HTTPS 地址；HTTP 地址仍可正常交给系统默认浏览器打开。</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>如何迁移配置？</summary>
+        <div class="faq-answer">
+          <p>在“设置”中选择导入 JSON 配置文件，或使用导出与恢复功能。导入前建议先导出备份。</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>语言如何切换？</summary>
+        <div class="faq-answer">
+          <p>App 自动跟随 macOS 系统中为该 App 选定的首选语言。请在 macOS 系统设置中更改 App 语言后重启 App 即可。</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>如何删除全部数据？</summary>
+        <div class="faq-answer">
+          <p>在“设置”中使用“恢复默认入口”。执行该操作前请先导出需要保留的配置。</p>
+        </div>
+      </details>
 
       <h2>隐私政策</h2>
       <p>请阅读 <a href="privacy.html">KSIC Studio 隐私政策</a>。</p>
@@ -137,33 +151,43 @@
       <h1>KSIC Studio サポート</h1>
       <p class="lead">KSIC Studioは、ローカルファーストのmacOSワークランチャーです。問題が発生した場合は、以下の情報をご確認ください。</p>
       
-      <div class="card">
-        <strong>サポートへのお問い合わせ</strong><br>
-        <a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Support">support@kevinlabs.app</a><br>
-        <p class="meta" style="margin-top:8px;">macOSバージョン、アプリバージョン、再現手順、個人情報を含まないスクリーンショットを添えてご連絡ください。通常3営業日以内に返信いたします。</p>
+      <div class="contact-card">
+        <strong>サポートへのお問い合わせ</strong>
+        <p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20Support%5D%20">support@kevinlabs.app</a></p>
+        <p class="meta">macOSバージョン、アプリバージョン、再現手順、個人情報を含まないスクリーンショットを添えてご連絡ください。通常3営業日以内に返信いたします。</p>
       </div>
 
       <h2>よくあるご質問</h2>
-      <div class="faq-item">
-        <strong>データはどこに保存されますか？</strong>
-        <p>ワークグループ、エントリー、最近使用した履歴はすべてmacOSのApp Sandbox内に保持され、外部サーバーに自動アップロードされることはありません。</p>
-      </div>
-      <div class="faq-item">
-        <strong>なぜHTTPアドレスには稼働状況が表示されないのですか？</strong>
-        <p>接続のセキュリティ保護のため、HTTPSアドレスのみヘルスチェックを行います。HTTPアドレスも既定のブラウザで通常どおり開くことができます。</p>
-      </div>
-      <div class="faq-item">
-        <strong>設定を移行するにはどうすればよいですか？</strong>
-        <p>「設定」からJSON設定ファイルをインポートするか、バックアップ・復元機能をご利用ください。インポート前にバックアップをお勧めします。</p>
-      </div>
-      <div class="faq-item">
-        <strong>言語の切り替え方法は？</strong>
-        <p>macOSのシステム設定で指定された言語に自動的に従います。macOSの設定でアプリ言語を変更し、アプリを再起動してください。</p>
-      </div>
-      <div class="faq-item">
-        <strong>すべてのデータを削除するには？</strong>
-        <p>「設定」の「デフォルトエントリーを復元」を使用します。実行する前に保持したい設定をエクスポートしてください。</p>
-      </div>
+      <details class="faq-accordion">
+        <summary>データはどこに保存されますか？</summary>
+        <div class="faq-answer">
+          <p>ワークグループ、エントリー、最近使用した履歴はすべてmacOSのApp Sandbox内に保持され、外部サーバーに自動アップロードされることはありません。</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>なぜHTTPアドレスには稼働状況が表示されないのですか？</summary>
+        <div class="faq-answer">
+          <p>接続のセキュリティ保護のため、HTTPSアドレスのみヘルスチェックを行います。HTTPアドレスも既定のブラウザで通常どおり開くことができます。</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>設定を移行するにはどうすればよいですか？</summary>
+        <div class="faq-answer">
+          <p>「設定」からJSON設定ファイルをインポートするか、バックアップ・復元機能をご利用ください。インポート前にバックアップをお勧めします。</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>言語の切り替え方法は？</summary>
+        <div class="faq-answer">
+          <p>macOSのシステム設定で指定された言語に自動的に従います。macOSの設定でアプリ言語を変更し、アプリを再起動してください。</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>すべてのデータを削除するには？</summary>
+        <div class="faq-answer">
+          <p>「設定」の「デフォルトエントリーを復元」を使用します。実行する前に保持したい設定をエクスポートしてください。</p>
+        </div>
+      </details>
 
       <h2>プライバシーポリシー</h2>
       <p><a href="privacy.html">KSIC Studio プライバシーポリシー</a>をご確認ください。</p>
@@ -175,33 +199,43 @@
       <h1>KSIC Studio 지원</h1>
       <p class="lead">KSIC Studio는 로컬 우선 macOS 워크 런처입니다. 문제가 발생한 경우 아래 정보를 참조하세요.</p>
       
-      <div class="card">
-        <strong>고객 지원 문의</strong><br>
-        <a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Support">support@kevinlabs.app</a><br>
-        <p class="meta" style="margin-top:8px;">macOS 버전, 앱 버전, 재현 단계 및 개인 정보가 포함되지 않은 스크린샷을 첨부해 주세요. 보통 영업일 기준 3일 이내에 답변드립니다.</p>
+      <div class="contact-card">
+        <strong>고객 지원 문의</strong>
+        <p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20Support%5D%20">support@kevinlabs.app</a></p>
+        <p class="meta">macOS 버전, 앱 버전, 재현 단계 및 개인 정보가 포함되지 않은 스크린샷을 첨부해 주세요. 보통 영업일 기준 3일 이내에 답변드립니다.</p>
       </div>
 
       <h2>자주 묻는 질문</h2>
-      <div class="faq-item">
-        <strong>내 데이터는 어디에 저장되나요?</strong>
-        <p>작업 그룹, 항목 및 최근 기록은 macOS App Sandbox에 안전하게 보관되며 원격 서버로 전송되지 않습니다.</p>
-      </div>
-      <div class="faq-item">
-        <strong>HTTP 주소에 상태가 표시되지 않는 이유는 무엇인가요?</strong>
-        <p>연결 보안을 위해 HTTPS 주소만 상태를 확인합니다. HTTP 주소도 기본 브라우저에서 정상적으로 열 수 있습니다.</p>
-      </div>
-      <div class="faq-item">
-        <strong>구성을 마이그레이션하려면 어떻게 해야 하나요?</strong>
-        <p>설정에서 JSON 구성 파일을 가져오거나 백업 및 복원 기능을 사용하세요. 가져오기 전에 미리 백업해 두는 것이 좋습니다.</p>
-      </div>
-      <div class="faq-item">
-        <strong>언어 선택은 어떻게 작동하나요?</strong>
-        <p>macOS 시스템 설정에 지정된 언어를 자동으로 따릅니다. macOS 설정에서 언어를 변경한 후 앱을 다시 실행하세요.</p>
-      </div>
-      <div class="faq-item">
-        <strong>모든 데이터를 삭제하려면 어떻게 해야 하나요?</strong>
-        <p>설정에서 '기본 항목 복원'을 사용하세요. 실행하기 전에 보관할 구성을 먼저 내보내세요.</p>
-      </div>
+      <details class="faq-accordion">
+        <summary>내 데이터는 어디에 저장되나요?</summary>
+        <div class="faq-answer">
+          <p>작업 그룹, 항목 및 최근 기록은 macOS App Sandbox에 안전하게 보관되며 원격 서버로 전송되지 않습니다.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>HTTP 주소에 상태가 표시되지 않는 이유는 무엇인가요?</summary>
+        <div class="faq-answer">
+          <p>연결 보안을 위해 HTTPS 주소만 상태를 확인합니다. HTTP 주소도 기본 브라우저에서 정상적으로 열 수 있습니다.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>구성을 마이그레이션하려면 어떻게 해야 하나요?</summary>
+        <div class="faq-answer">
+          <p>설정에서 JSON 구성 파일을 가져오거나 백업 및 복원 기능을 사용하세요. 가져오기 전에 미리 백업해 두는 것이 좋습니다.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>언어 선택은 어떻게 작동하나요?</summary>
+        <div class="faq-answer">
+          <p>macOS 시스템 설정에 지정된 언어를 자동으로 따릅니다. macOS 설정에서 언어를 변경한 후 앱을 다시 실행하세요.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>모든 데이터를 삭제하려면 어떻게 해야 하나요?</summary>
+        <div class="faq-answer">
+          <p>설정에서 '기본 항목 복원'을 사용하세요. 실행하기 전에 보관할 구성을 먼저 내보내세요.</p>
+        </div>
+      </details>
 
       <h2>개인정보 처리방침</h2>
       <p><a href="privacy.html">KSIC Studio 개인정보 처리방침</a>을 읽어보세요.</p>
@@ -213,33 +247,43 @@
       <h1>KSIC Studio Support</h1>
       <p class="lead">KSIC Studio ist ein lokaler macOS-Work-Launcher. Bei Problemen helfen Ihnen die folgenden Informationen.</p>
       
-      <div class="card">
-        <strong>Support kontaktieren</strong><br>
-        <a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Support">support@kevinlabs.app</a><br>
-        <p class="meta" style="margin-top:8px;">Bitte geben Sie macOS-Version, App-Version, Schritte zur Reproduktion sowie Screenshots (ohne private Daten) an. Wir antworten in der Regel innerhalb von 3 Werktagen.</p>
+      <div class="contact-card">
+        <strong>Support kontaktieren</strong>
+        <p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20Support%5D%20">support@kevinlabs.app</a></p>
+        <p class="meta">Bitte geben Sie macOS-Version, App-Version, Schritte zur Reproduktion sowie Screenshots (ohne private Daten) an. Wir antworten in der Regel innerhalb von 3 Werktagen.</p>
       </div>
 
       <h2>Häufig gestellte Fragen</h2>
-      <div class="faq-item">
-        <strong>Wo werden meine Daten gespeichert?</strong>
-        <p>Gruppen, Einträge und der Verlauf verbleiben in der macOS App Sandbox und werden niemals auf externe Server hochgeladen.</p>
-      </div>
-      <div class="faq-item">
-        <strong>Warum haben HTTP-Adressen keinen Status?</strong>
-        <p>Aus Sicherheitsgründen prüft die App nur HTTPS-Adressen. HTTP-Adressen werden weiterhin in Ihrem Standardbrowser geöffnet.</p>
-      </div>
-      <div class="faq-item">
-        <strong>Wie migriere ich meine Konfiguration?</strong>
-        <p>In den Einstellungen können Sie eine JSON-Datei importieren oder Backup &amp; Wiederherstellung nutzen.</p>
-      </div>
-      <div class="faq-item">
-        <strong>Wie funktioniert die Sprachauswahl?</strong>
-        <p>Die App folgt der in den macOS-Systemeinstellungen gewählten Sprache. Nach der Sprachänderung die App neu starten.</p>
-      </div>
-      <div class="faq-item">
-        <strong>Wie lösche ich alle Daten?</strong>
-        <p>Nutzen Sie „Standardeinträge wiederherstellen“ in den Einstellungen. Exportieren Sie vorher gewünschte Konfigurationen.</p>
-      </div>
+      <details class="faq-accordion">
+        <summary>Wo werden meine Daten gespeichert?</summary>
+        <div class="faq-answer">
+          <p>Gruppen, Einträge und der Verlauf verbleiben in der macOS App Sandbox und werden niemals auf externe Server hochgeladen.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Warum haben HTTP-Adressen keinen Status?</summary>
+        <div class="faq-answer">
+          <p>Aus Sicherheitsgründen prüft die App nur HTTPS-Adressen. HTTP-Adressen werden weiterhin in Ihrem Standardbrowser geöffnet.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Wie migriere ich meine Konfiguration?</summary>
+        <div class="faq-answer">
+          <p>In den Einstellungen können Sie eine JSON-Datei importieren oder Backup &amp; Wiederherstellung nutzen.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Wie funktioniert die Sprachauswahl?</summary>
+        <div class="faq-answer">
+          <p>Die App folgt der in den macOS-Systemeinstellungen gewählten Sprache. Nach der Sprachänderung die App neu starten.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Wie lösche ich alle Daten?</summary>
+        <div class="faq-answer">
+          <p>Nutzen Sie „Standardeinträge wiederherstellen“ in den Einstellungen. Exportieren Sie vorher gewünschte Konfigurationen.</p>
+        </div>
+      </details>
 
       <h2>Datenschutz</h2>
       <p>Lesen Sie die <a href="privacy.html">KSIC Studio Datenschutzerklärung</a>.</p>
@@ -251,33 +295,43 @@
       <h1>KSIC Studio Assistance</h1>
       <p class="lead">KSIC Studio est un lanceur de travail local pour macOS. En cas de problème, consultez les réponses ci-dessous.</p>
       
-      <div class="card">
-        <strong>Contacter l'assistance</strong><br>
-        <a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Assistance">support@kevinlabs.app</a><br>
-        <p class="meta" style="margin-top:8px;">Indiquez votre version de macOS, de l'application, les étapes de reproduction et des captures sans données privées. Réponse sous 3 jours ouvrés.</p>
+      <div class="contact-card">
+        <strong>Contacter l'assistance</strong>
+        <p><a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Assistance">support@kevinlabs.app</a></p>
+        <p class="meta">Indiquez votre version de macOS, de l'application, les étapes de reproduction et des captures sans données privées. Réponse sous 3 jours ouvrés.</p>
       </div>
 
       <h2>Foire aux questions</h2>
-      <div class="faq-item">
-        <strong>Où sont stockées mes données ?</strong>
-        <p>Vos groupes, entrées et récents restent dans le bac à sable (App Sandbox) de macOS et ne sont jamais téléversés.</p>
-      </div>
-      <div class="faq-item">
-        <strong>Pourquoi une adresse HTTP n'a pas d'état de santé ?</strong>
-        <p>Pour la sécurité, l'application ne vérifie que les adresses HTTPS. Les liens HTTP s'ouvrent toujours dans votre navigateur par défaut.</p>
-      </div>
-      <div class="faq-item">
-        <strong>Comment migrer ma configuration ?</strong>
-        <p>Dans Réglages, importez un fichier JSON ou utilisez la fonction de sauvegarde et restauration.</p>
-      </div>
-      <div class="faq-item">
-        <strong>Comment changer la langue ?</strong>
-        <p>L'application suit la langue définie dans les Réglages Système de macOS. Modifiez la langue dans macOS puis relancez l'app.</p>
-      </div>
-      <div class="faq-item">
-        <strong>Comment effacer toutes les données ?</strong>
-        <p>Utilisez « Restaurer les entrées par défaut » dans les Réglages. Pensez à exporter vos données au préalable.</p>
-      </div>
+      <details class="faq-accordion">
+        <summary>Où sont stockées mes données ?</summary>
+        <div class="faq-answer">
+          <p>Vos groupes, entrées et récents restent dans le bac à sable (App Sandbox) de macOS et ne sont jamais téléversés.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Pourquoi une adresse HTTP n'a pas d'état de santé ?</summary>
+        <div class="faq-answer">
+          <p>Pour la sécurité, l'application ne vérifie que les adresses HTTPS. Les liens HTTP s'ouvrent toujours dans votre navigateur par défaut.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Comment migrer ma configuration ?</summary>
+        <div class="faq-answer">
+          <p>Dans Réglages, importez un fichier JSON ou utilisez la fonction de sauvegarde et restauration.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Comment changer la langue ?</summary>
+        <div class="faq-answer">
+          <p>L'application suit la langue définie dans les Réglages Système de macOS. Modifiez la langue dans macOS puis relancez l'app.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Comment effacer toutes les données ?</summary>
+        <div class="faq-answer">
+          <p>Utilisez « Restaurer les entrées par défaut » dans les Réglages. Pensez à exporter vos données au préalable.</p>
+        </div>
+      </details>
 
       <h2>Confidentialité</h2>
       <p>Consultez la <a href="privacy.html">Politique de confidentialité de KSIC Studio</a>.</p>
@@ -289,33 +343,43 @@
       <h1>KSIC Studio Soporte</h1>
       <p class="lead">KSIC Studio es un lanzador de trabajo local para macOS. Si tiene algún problema, la siguiente información puede ayudarle.</p>
       
-      <div class="card">
-        <strong>Contactar con soporte</strong><br>
-        <a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Soporte">support@kevinlabs.app</a><br>
-        <p class="meta" style="margin-top:8px;">Incluya versión de macOS, de la app, pasos de reproducción y capturas sin información privada. Respondemos en 3 días hábiles.</p>
+      <div class="contact-card">
+        <strong>Contactar con soporte</strong>
+        <p><a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Soporte">support@kevinlabs.app</a></p>
+        <p class="meta">Incluya versión de macOS, de la app, pasos de reproducción y capturas sin información privada. Respondemos en 3 días hábiles.</p>
       </div>
 
       <h2>Preguntas frecuentes</h2>
-      <div class="faq-item">
-        <strong>¿Dónde se guardan mis datos?</strong>
-        <p>Los grupos, enlaces y recientes permanecen en el App Sandbox de macOS y nunca se suben a servidores externos.</p>
-      </div>
-      <div class="faq-item">
-        <strong>¿Por qué una dirección HTTP no muestra estado?</strong>
-        <p>Por seguridad de conexión, la app solo comprueba enlaces HTTPS. Los enlaces HTTP se abren igualmente en su navegador.</p>
-      </div>
-      <div class="faq-item">
-        <strong>¿Cómo migro mi configuración?</strong>
-        <p>En Ajustes, importe un archivo JSON o use la copia de seguridad y restauración. Haga una copia antes de importar.</p>
-      </div>
-      <div class="faq-item">
-        <strong>¿Cómo funciona la selección de idioma?</strong>
-        <p>La app sigue automáticamente el idioma establecido en Ajustes del Sistema de macOS. Cámbielo en macOS y reinicie la app.</p>
-      </div>
-      <div class="faq-item">
-        <strong>¿Cómo borro todos los datos?</strong>
-        <p>Utilice «Restaurar entradas predeterminadas» en Ajustes. Exporte previamente lo que desee conservar.</p>
-      </div>
+      <details class="faq-accordion">
+        <summary>¿Dónde se guardan mis datos?</summary>
+        <div class="faq-answer">
+          <p>Los grupos, enlaces y recientes permanecen en el App Sandbox de macOS y nunca se suben a servidores externos.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>¿Por qué una dirección HTTP no muestra estado?</summary>
+        <div class="faq-answer">
+          <p>Por seguridad de conexión, la app solo comprueba enlaces HTTPS. Los enlaces HTTP se abren igualmente en su navegador.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>¿Cómo migro mi configuración?</summary>
+        <div class="faq-answer">
+          <p>En Ajustes, importe un archivo JSON o use la copia de seguridad y restauración. Haga una copia antes de importar.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>¿Cómo funciona la selección de idioma?</summary>
+        <div class="faq-answer">
+          <p>La app sigue automáticamente el idioma establecido en Ajustes del Sistema de macOS. Cámbielo en macOS y reinicie la app.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>¿Cómo borro todos los datos?</summary>
+        <div class="faq-answer">
+          <p>Utilice «Restaurar entradas predeterminadas» en Ajustes. Exporte previamente lo que desee conservar.</p>
+        </div>
+      </details>
 
       <h2>Política de privacidad</h2>
       <p>Consulte la <a href="privacy.html">Política de privacidad de KSIC Studio</a>.</p>
@@ -327,33 +391,43 @@
       <h1>KSIC Studio Suporte</h1>
       <p class="lead">O KSIC Studio é um inicializador de trabalho local para macOS. Se encontrar problemas, as informações abaixo podem ajudar.</p>
       
-      <div class="card">
-        <strong>Fale com o suporte</strong><br>
-        <a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Suporte">support@kevinlabs.app</a><br>
-        <p class="meta" style="margin-top:8px;">Inclua sua versão do macOS, do app, passos para reproduzir e capturas sem dados privados. Respondemos em até 3 dias úteis.</p>
+      <div class="contact-card">
+        <strong>Fale com o suporte</strong>
+        <p><a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Suporte">support@kevinlabs.app</a></p>
+        <p class="meta">Inclua sua versão do macOS, do app, passos para reproduzir e capturas sem dados privados. Respondemos em até 3 dias úteis.</p>
       </div>
 
       <h2>Perguntas frequentes</h2>
-      <div class="faq-item">
-        <strong>Onde meus dados são armazenados?</strong>
-        <p>Grupos, entradas e recentes permanecem no App Sandbox do macOS e nunca são enviados para servidores remotos.</p>
-      </div>
-      <div class="faq-item">
-        <strong>Por que endereços HTTP não têm status de integridade?</strong>
-        <p>Por segurança, o app verifica apenas links HTTPS. Endereços HTTP continuam abrindo no seu navegador padrão.</p>
-      </div>
-      <div class="faq-item">
-        <strong>Como migrar minha configuração?</strong>
-        <p>Nos Ajustes, importe um arquivo JSON ou use os recursos de backup e restauração.</p>
-      </div>
-      <div class="faq-item">
-        <strong>Como funciona o idioma?</strong>
-        <p>O app segue o idioma definido nos Ajustes do Sistema do macOS. Altere no macOS e reinicie o app.</p>
-      </div>
-      <div class="faq-item">
-        <strong>Como apagar todos os dados?</strong>
-        <p>Use «Restaurar entradas padrão» nos Ajustes. Exporte suas configurações antes de continuar.</p>
-      </div>
+      <details class="faq-accordion">
+        <summary>Onde meus dados são armazenados?</summary>
+        <div class="faq-answer">
+          <p>Grupos, entradas e recentes permanecem no App Sandbox do macOS e nunca são enviados para servidores remotos.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Por que endereços HTTP não têm status de integridade?</summary>
+        <div class="faq-answer">
+          <p>Por segurança, o app verifica apenas links HTTPS. Endereços HTTP continuam abrindo no seu navegador padrão.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Como migrar minha configuração?</summary>
+        <div class="faq-answer">
+          <p>Nos Ajustes, importe um arquivo JSON ou use os recursos de backup e restauração.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Como funciona o idioma?</summary>
+        <div class="faq-answer">
+          <p>O app segue o idioma definido nos Ajustes do Sistema do macOS. Altere no macOS e reinicie o app.</p>
+        </div>
+      </details>
+      <details class="faq-accordion">
+        <summary>Como apagar todos os dados?</summary>
+        <div class="faq-answer">
+          <p>Use «Restaurar entradas padrão» nos Ajustes. Exporte suas configurações antes de continuar.</p>
+        </div>
+      </details>
 
       <h2>Privacidade</h2>
       <p>Leia a <a href="privacy.html">Política de Privacidade do KSIC Studio</a>.</p>
