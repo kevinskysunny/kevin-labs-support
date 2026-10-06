@@ -166,5 +166,89 @@
     "version": "0.6.0",
     "os": "macOS & Windows",
     "nativeStore": "https://ie-compat.kevinlabs.app/"
+  },
+  {
+    "id": "presenter-deck",
+    "name": "PresenterDeck",
+    "mark": "PD",
+    "tag": [
+      "Presentation runbook",
+      "演说流程台"
+    ],
+    "headline": [
+      "Keep every minute of your talk under control.",
+      "专为演讲者打造的分章节议程规划、排练复盘与演示流程台。"
+    ],
+    "summary": [
+      "A native macOS presentation runbook for section-by-section agenda planning, rehearsal review, and live presentation control.",
+      "专为演讲者打造的分章节议程规划、秒级排练复盘与演示流程台工具。"
+    ],
+    "features": [
+      [
+        "Section agenda planning and live countdown pacing",
+        "分章节议程规划与实时倒计时节奏把控"
+      ],
+      [
+        "Per-second rehearsal review and history tracking",
+        "秒级排练复盘与演说历史趋势"
+      ],
+      [
+        "Floating HUD teleprompter and presentation remote",
+        "悬浮提示窗与便携遥控辅助"
+      ]
+    ],
+    "limits": [
+      "Native macOS runbook companion. Does not edit PowerPoint/Keynote slide content directly.",
+      "原生 macOS 演说助手工具，不直接修改 PowerPoint/Keynote 幻灯片文件本身。"
+    ],
+    "support": "presenter-deck/support.html",
+    "privacy": "presenter-deck/privacy.html",
+    "demo": "presenter-deck/review/index.html",
+    "store": "https://apps.apple.com/app/id6805086319?mt=12&ct=ksic_website",
+    "version": "1.4.0",
+    "os": "14.0",
+    "nativeStore": "macappstores://apps.apple.com/app/id6805086319?mt=12&ct=ksic_website"
+  },
+  {
+    "id": "smoothcast",
+    "name": "SmoothCast",
+    "mark": "SC",
+    "tag": [
+      "Screen recording & tutorials",
+      "运镜录屏与教程工坊"
+    ],
+    "headline": [
+      "Turn recordings into polished videos and step-by-step guides.",
+      "电影级平滑运镜录屏与分步教程工坊。"
+    ],
+    "summary": [
+      "Turn screen recordings into polished videos and auto-generated step-by-step tutorial guide packages.",
+      "为 macOS 打造的智能录屏工具，自带智能平滑变焦运镜，独创一键导出分步图文教程资料包。"
+    ],
+    "features": [
+      [
+        "Smooth automatic zoom and pan around clicks",
+        "智能平滑变焦运镜与光标柔化"
+      ],
+      [
+        "Auto-generated step-by-step tutorial guide packages",
+        "一键导出分步图文教程资料包 (Markdown + HTML)"
+      ],
+      [
+        "100% local processing with no cloud dependencies",
+        "100% 本地处理，无云端依赖与数据泄露隐患"
+      ]
+    ],
+    "limits": [
+      "Requires macOS 14.0 or later and screen recording permissions. Direct download and licensing provided via official website.",
+      "需要 macOS 14.0 或更高版本及屏幕录制权限。通过官网直销提供下载与授权。"
+    ],
+    "support": "https://smoothcast.kevinlabs.app/",
+    "privacy": "https://smoothcast.kevinlabs.app/privacy",
+    "demo": null,
+    "store": "https://smoothcast.kevinlabs.app/",
+    "version": "1.1.1",
+    "os": "14.0",
+    "nativeStore": "https://smoothcast.kevinlabs.app/"
   }
 ]

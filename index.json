@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-10-06",
   "apps": [
     {
       "id": "ksic-studio",
@@ -128,7 +128,24 @@
       "availability": "available",
       "verifiedAt": "2026-09-06",
       "version": "0.6.0"
+    },
+    {
+      "id": "smoothcast",
+      "name": "SmoothCast",
+      "platform": "macOS",
+      "videos": [],
+      "summary": {
+        "en": "Cinematic screen recording with smooth zooms and auto-generated step-by-step tutorial guide packages.",
+        "zh": "电影级平滑运镜录屏与分步教程工坊，独创一键导出图文教程资料包。"
+      },
+      "supportUrl": "https://smoothcast.kevinlabs.app/",
+      "privacyUrl": "https://smoothcast.kevinlabs.app/privacy",
+      "productUrl": "https://smoothcast.kevinlabs.app/",
+      "appStoreUrl": "https://smoothcast.kevinlabs.app/",
+      "availability": "available",
+      "verifiedAt": "2026-10-06",
+      "version": "1.1.1"
     }
   ],
-  "siteVersion": "1.4.0"
+  "siteVersion": "1.4.5"
 }
