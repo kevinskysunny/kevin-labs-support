@@ -1,5 +1,47 @@
 [
   {
+    "id": "barnest",
+    "name": "BarNest",
+    "mark": "BN",
+    "tag": [
+      "Menu Bar Organizer",
+      "菜单栏收纳管家"
+    ],
+    "headline": [
+      "Clean up your Mac menu bar with elegance.",
+      "优雅整理与折叠 Mac 菜单栏图标。"
+    ],
+    "summary": [
+      "Intelligently hide, tier, and organize menu bar items with instant hover drawers, multi-display support, and notch protection.",
+      "智能分级收纳与折叠菜单栏图标，支持悬停快速唤起、刘海屏防遮挡与多显示器独立记忆。"
+    ],
+    "features": [
+      [
+        "3-tier organization: Always Visible, Auto Hide, and Always Hidden",
+        "三阶分级收纳：常驻、折叠、隐藏"
+      ],
+      [
+        "Silky hover & click activation with notch collision protection",
+        "丝滑悬停/点击唤起与刘海屏防遮挡保护"
+      ],
+      [
+        "100% Local-First, privacy-friendly with zero network requests",
+        "100% 本地优先，无网络请求保护绝对隐私"
+      ]
+    ],
+    "limits": [
+      "Requires macOS 14.0 or later and Accessibility permission to detect status bar item positions. Runs 100% locally on your Mac.",
+      "需要 macOS 14.0 或更高版本及辅助功能权限以检测菜单栏图标位置。完全在本地运行。"
+    ],
+    "support": "barnest/support.html",
+    "privacy": "barnest/privacy.html",
+    "demo": null,
+    "store": "https://apps.apple.com/app/id6808892011?mt=12&ct=ksic_website",
+    "version": "1.0.0",
+    "os": "14.0",
+    "nativeStore": "macappstores://apps.apple.com/app/id6808892011?mt=12&ct=ksic_website"
+  },
+  {
     "id": "volmix",
     "name": "VolMix",
     "mark": "VM",

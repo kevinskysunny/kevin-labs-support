@@ -1,7 +1,24 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-09",
   "apps": [
+    {
+      "id": "barnest",
+      "name": "BarNest",
+      "platform": "macOS",
+      "summary": {
+        "en": "Intelligently hide, tier, and organize menu bar items with instant hover drawers and notch protection.",
+        "zh": "智能分级收纳与折叠菜单栏图标，支持悬停快速唤起、刘海屏防遮挡与多显示器独立记忆。"
+      },
+      "supportUrl": "barnest/support.html",
+      "privacyUrl": "barnest/privacy.html",
+      "videos": [],
+      "productUrl": "barnest/",
+      "appStoreUrl": "https://apps.apple.com/app/id6808892011?mt=12&ct=ksic_website",
+      "availability": "available",
+      "verifiedAt": "2026-10-09",
+      "version": "1.0.0"
+    },
     {
       "id": "ksic-studio",
       "name": "KSIC Studio",
