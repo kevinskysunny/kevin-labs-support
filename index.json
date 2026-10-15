@@ -14,9 +14,10 @@
       "privacyUrl": "barnest/privacy.html",
       "videos": [],
       "productUrl": "barnest/",
-      "appStoreUrl": "https://apps.apple.com/app/id6808892011?mt=12&ct=ksic_website",
-      "availability": "pending_review",
-      "verifiedAt": "2026-10-09",
+      "appStoreUrl": "https://apps.apple.com/app/id6820881227?mt=12&ct=ksic_website",
+      "downloadUrl": "downloads/BarNest.dmg",
+      "availability": "available",
+      "verifiedAt": "2026-10-15",
       "version": "1.0.0"
     },
     {

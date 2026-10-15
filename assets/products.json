@@ -36,10 +36,11 @@
     "support": "barnest/support.html",
     "privacy": "barnest/privacy.html",
     "demo": null,
-    "store": "https://apps.apple.com/app/id6808892011?mt=12&ct=ksic_website",
+    "store": "https://apps.apple.com/app/id6820881227?mt=12&ct=ksic_website",
+    "download": "downloads/BarNest.dmg",
     "version": "1.0.0",
     "os": "14.0",
-    "nativeStore": "macappstores://apps.apple.com/app/id6808892011?mt=12&ct=ksic_website"
+    "nativeStore": "macappstores://apps.apple.com/app/id6820881227?mt=12&ct=ksic_website"
   },
   {
     "id": "volmix",
