@@ -46,3 +46,16 @@ kbd{border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-size:13p
 .site-toast.show{transform:translateX(-50%) translateY(0);opacity:1;pointer-events:auto}
 .site-toast a{color:var(--accent);text-decoration:underline;font-weight:650;white-space:nowrap}
 @media(prefers-color-scheme:dark){.site-toast{background:#2a3a36;color:#e7eee8;box-shadow:0 10px 35px rgba(0,0,0,0.6);border:1px solid rgba(255,255,255,0.1)}}
+
+/* User Guide Components */
+.guide-section{margin:40px 0}
+.guide-grid{display:flex;flex-direction:column;gap:32px;margin:24px 0}
+.guide-card{padding:28px;border:1px solid var(--line);border-radius:var(--radius-lg);background:var(--card);box-shadow:0 2px 10px rgba(0,0,0,0.03)}
+.guide-badge{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.05em;color:var(--accent);background:rgba(23,102,90,0.08);padding:4px 10px;border-radius:var(--radius-sm);margin-bottom:12px;text-transform:uppercase}
+@media(prefers-color-scheme:dark){.guide-badge{background:rgba(141,216,183,0.15);color:var(--accent)}}
+.guide-card h3{margin:0 0 12px;font-size:20px}
+.guide-card p{margin:0 0 16px;color:var(--muted);font-size:15px;line-height:1.7}
+.guide-card p strong{color:var(--ink)}
+.guide-figure{margin:18px 0 0;padding:0}
+.guide-figure img{display:block;width:100%;height:auto;border-radius:var(--radius-md);border:1px solid var(--line);box-shadow:0 8px 24px rgba(0,0,0,0.08)}
+.guide-figure figcaption{margin-top:10px;font-size:13px;color:var(--muted);text-align:center}
