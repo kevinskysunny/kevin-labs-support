@@ -25,21 +25,20 @@
         "丝滑悬停/点击唤起与刘海屏防遮挡保护"
       ],
       [
-        "100% Local-First, privacy-friendly with zero network requests",
-        "100% 本地优先，无网络请求保护绝对隐私"
+        "100% Zero-Permission & Local-First, privacy-friendly with zero network requests",
+        "100% 零系统权限与本地优先，无网络请求保护绝对隐私"
       ]
     ],
     "limits": [
-      "Requires macOS 14.0 or later and Accessibility permission to detect status bar item positions. Runs 100% locally on your Mac.",
-      "需要 macOS 14.0 或更高版本及辅助功能权限以检测菜单栏图标位置。完全在本地运行。"
+      "Compatible with macOS 12.0 or later. Zero-Permission architecture — runs safely in sandbox without requiring Accessibility or screen recording permissions.",
+      "兼容 macOS 12.0 或更高版本。纯净零系统权限架构，无需辅助功能与屏幕录制权限，沙盒安全即开即用。"
     ],
     "support": "barnest/support.html",
     "privacy": "barnest/privacy.html",
     "demo": null,
     "store": "https://apps.apple.com/app/id6820881227?mt=12&ct=ksic_website",
-    "download": "downloads/BarNest.dmg",
     "version": "1.0.0",
-    "os": "14.0",
+    "os": "12.0",
     "nativeStore": "macappstores://apps.apple.com/app/id6820881227?mt=12&ct=ksic_website"
   },
   {
