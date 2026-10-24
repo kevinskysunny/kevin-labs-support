@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Control and mute volume for individual apps on macOS Sequoia &amp; Sonoma from your menu bar. Lightweight, native, driver-free SoundSource alternative.">
+<meta name="description" content="Set volume, mute and output device for each app on your Mac from the menu bar: meetings on headphones, music on speakers. Lightweight, native, driver-free SoundSource alternative.">
 <meta name="color-scheme" content="light dark">
 <title>VolMix — Mac Per-App Volume Mixer &amp; Menu Bar Audio Control (SoundSource Alternative)</title>
 <link rel="canonical" href="https://support.kevinlabs.app/volmix/index.html">
@@ -11,12 +11,12 @@
 <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="VolMix — Mac Per-App Volume Mixer &amp; Menu Bar Audio Control (SoundSource Alternative)">
-<meta property="og:description" content="Control and mute volume for individual apps on macOS Sequoia &amp; Sonoma from your menu bar. Lightweight, native, driver-free SoundSource alternative.">
+<meta property="og:description" content="Set volume, mute and output device for each app on your Mac from the menu bar: meetings on headphones, music on speakers. Lightweight, native, driver-free SoundSource alternative.">
 <meta property="og:url" content="https://support.kevinlabs.app/volmix/index.html">
 <meta property="og:image" content="https://support.kevinlabs.app/assets/logo.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="VolMix — Mac Per-App Volume Mixer &amp; Menu Bar Audio Control (SoundSource Alternative)">
-<meta name="twitter:description" content="Control and mute volume for individual apps on macOS Sequoia &amp; Sonoma from your menu bar. Lightweight, native, driver-free SoundSource alternative.">
+<meta name="twitter:description" content="Set volume, mute and output device for each app on your Mac from the menu bar: meetings on headphones, music on speakers. Lightweight, native, driver-free SoundSource alternative.">
 <meta name="twitter:image" content="https://support.kevinlabs.app/assets/logo.png">
 <link rel="stylesheet" href="../assets/site.css?v=1.4.4">
 <script defer src="../assets/site.js"></script>
@@ -60,8 +60,8 @@
 <section data-lang="en">
 <a class="back" href="../index.html">← All apps</a>
 <div class="eyebrow">VolMix / macOS 14.2+</div>
-<h1>Control one app’s sound.</h1>
-<p class="lead">Adjust volume and mute for detected audio apps from your Mac menu bar.</p>
+<h1>Every app, its own volume and its own speakers.</h1>
+<p class="lead">Set volume, mute and output device for each app from your Mac menu bar: meetings on headphones, music on speakers.</p>
 <p class="meta">On a Mac, use “Open App Store on your Mac” to request the app in the App Store. Availability and purchase depend on your Apple Account region. On other devices, view the app here and install later on your Mac.</p>
 <div class="actions">
 <a class="button button-accent" href="macappstores://apps.apple.com/app/id6806717830?mt=12&ct=ksic_website">Open App Store on your Mac ↗</a>
@@ -72,12 +72,16 @@
 <ul>
 <li>Independent volume from 0% to 100%</li>
 <li>App mute and live audio indicators</li>
+<li>Per-app output device: meetings on headphones, music on speakers. The system default output stays as it is; if a device disconnects, that app falls back to the default output</li>
+<li>Scenes remember each app’s output device</li>
+<li>Panel width: Standard, Wide or Wider</li>
+<li>Sound from Safari and web content inside apps shows as one “Safari &amp; Embedded Web Audio” row, which you can hide in Preferences</li>
 <li>System output selection in the same panel</li>
 </ul>
 </section>
 <section>
 <h2>Before you start</h2>
-<p>Requires system-audio capture permission. Protected audio and some routing or devices may not work. Controls apps, not browser tabs; no amplification above 100% or per-app output routing.</p>
+<p>Requires system-audio capture permission. Protected audio and some routing or devices may not work. Controls apps, not browser tabs; no amplification above 100%.</p>
 <p>Use the Mac App Store listing for purchase, downloads, updates and current pricing.</p>
 </section>
 <section class="help">
@@ -92,8 +96,8 @@
 <section data-lang="zh" lang="zh-Hans">
 <a class="back" href="../index.html">← 全部应用</a>
 <div class="eyebrow">VolMix / macOS 14.2+</div>
-<h1>单独调整一个应用的声音。</h1>
-<p class="lead">在 Mac 菜单栏中，为检测到的音频应用独立调音或静音。</p>
+<h1>每个应用，各自的音量，各自的输出设备。</h1>
+<p class="lead">在 Mac 菜单栏里为每个应用单独调音量、静音、选输出设备：会议留在耳机，音乐放在音箱。</p>
 <p class="meta">在 Mac 上请点击“在 Mac 上打开 App Store”前往应用详情。能否下载与购买取决于 Apple 账户地区及当地上架状态。其他设备可先查看本页，再到 Mac 上安装。</p>
 <div class="actions">
 <a class="button button-accent" href="macappstores://apps.apple.com/app/id6806717830?mt=12&ct=ksic_website">在 Mac 上打开 App Store ↗</a>
@@ -104,12 +108,16 @@
 <ul>
 <li>0%–100% 独立音量调节</li>
 <li>应用静音与实时发声指示</li>
+<li>按应用选择输出设备：会议留在耳机，音乐放在音箱。系统默认输出保持不变；设备断开时，该应用会自动回到默认输出</li>
+<li>场景可以记住每个应用的输出设备</li>
+<li>面板宽度：标准、宽、更宽</li>
+<li>Safari 及应用内嵌网页的声音合并为一行「Safari 及内嵌网页音频」，可在设置中隐藏</li>
 <li>在同一面板选择系统输出设备</li>
 </ul>
 </section>
 <section>
 <h2>使用前了解</h2>
-<p>需要系统音频捕获权限。受保护音频、部分路由或设备可能不兼容。按应用而非浏览器标签页控制；不支持超过 100% 放大或按应用分配输出设备。</p>
+<p>需要系统音频捕获权限。受保护音频、部分路由或设备可能不兼容。按应用而非浏览器标签页控制；不支持超过 100% 放大。</p>
 <p>购买、下载、更新及当前价格请以 Mac App Store 页面为准。</p>
 </section>
 <section class="help">
@@ -126,8 +134,8 @@
 <section data-lang="ja" lang="ja">
 <a class="back" href="../index.html">← すべてのアプリ</a>
 <div class="eyebrow">VolMix / macOS 14.2+</div>
-<h1>アプリの音声を個別にコントロール。</h1>
-<p class="lead">Mac のメニューバーから、検出されたオーディオアプリの音量と消音を個別に調整します。</p>
+<h1>アプリごとに、音量も出力先も。</h1>
+<p class="lead">Mac のメニューバーから、アプリごとに音量・消音・出力デバイスを設定。会議はヘッドフォン、音楽はスピーカーで。</p>
 <p class="meta">Mac では「Mac の App Store で開く」をクリックして詳細をご確認ください。ダウンロードや購入の可否はお使いの Apple Account の国・地域に準じます。</p>
 <div class="actions">
 <a class="button button-accent" href="macappstores://apps.apple.com/app/id6806717830?mt=12&ct=ksic_website">Mac の App Store で開く ↗</a>
@@ -138,12 +146,16 @@
 <ul>
 <li>0%〜100% の個別音量調整</li>
 <li>アプリごとの消音とリアルタイム発声インジケーター</li>
+<li>アプリごとの出力デバイス：会議はヘッドフォン、音楽はスピーカーで。システムのデフォルト出力は変わらず、デバイスが切断されると自動的にデフォルト出力に戻ります</li>
+<li>シーンにアプリごとの出力デバイスを保存</li>
+<li>パネルの幅：「標準」「広い」「さらに広い」</li>
+<li>Safari とアプリに埋め込まれた Web コンテンツの音声を「Safari と埋め込み Web オーディオ」の1行にまとめ、設定で非表示にできます</li>
 <li>同一パネルでのシステム出力デバイス選択</li>
 </ul>
 </section>
 <section>
 <h2>ご利用の前に</h2>
-<p>システムオーディオ録音/キャプチャ権限が必要です。著作権保護された音声や一部のルーティング・機器は対象外となる場合があります。ブラウザの個別タブではなくアプリ単位で制御し、100% を超える増幅やアプリ別出力先指定には対応していません。</p>
+<p>システムオーディオ録音/キャプチャ権限が必要です。著作権保護された音声や一部のルーティング・機器は対象外となる場合があります。ブラウザの個別タブではなくアプリ単位で制御し、100% を超える増幅には対応していません。</p>
 <p>購入、ダウンロード、アップデートおよび最新価格は Mac App Store をご確認ください。</p>
 </section>
 <section class="help">
@@ -160,8 +172,8 @@
 <section data-lang="ko" lang="ko">
 <a class="back" href="../index.html">← 모든 앱</a>
 <div class="eyebrow">VolMix / macOS 14.2+</div>
-<h1>개별 앱의 사운드를 제어하세요.</h1>
-<p class="lead">Mac 메뉴 막대에서 감지된 오디오 앱의 음량과 음소거를 개별적으로 조절합니다.</p>
+<h1>앱마다 각자의 음량, 각자의 출력 기기.</h1>
+<p class="lead">Mac 메뉴 막대에서 앱별로 음량, 음소거, 출력 기기를 설정하세요. 회의는 헤드폰으로, 음악은 스피커로.</p>
 <p class="meta">Mac에서는 'Mac의 App Store에서 열기'를 클릭하여 앱 상세 정보를 확인하세요. 다운로드 및 구매 가능 여부는 Apple 계정 지역에 따라 다릅니다.</p>
 <div class="actions">
 <a class="button button-accent" href="macappstores://apps.apple.com/app/id6806717830?mt=12&ct=ksic_website">Mac의 App Store에서 열기 ↗</a>
@@ -172,6 +184,10 @@
 <ul>
 <li>0%–100% 개별 음량 조절</li>
 <li>앱 음소거 및 실시간 재생 표시</li>
+<li>앱별 출력 기기: 회의는 헤드폰으로, 음악은 스피커로. 시스템 기본 출력은 그대로 유지되며, 기기 연결이 끊기면 해당 앱은 자동으로 기본 출력으로 돌아갑니다</li>
+<li>장면에 앱별 출력 기기 저장</li>
+<li>패널 너비: 표준, 넓게, 더 넓게</li>
+<li>Safari와 앱에 내장된 웹 콘텐츠의 소리를 하나의 'Safari 및 내장 웹 오디오' 행으로 표시하며, 설정에서 숨길 수 있습니다</li>
 <li>동일한 패널에서 시스템 출력 기기 선택</li>
 </ul>
 </section>
@@ -194,8 +210,8 @@
 <section data-lang="de" lang="de">
 <a class="back" href="../index.html">← Alle Apps</a>
 <div class="eyebrow">VolMix / macOS 14.2+</div>
-<h1>Audio einzelner Apps steuern.</h1>
-<p class="lead">Passen Sie Lautstärke und Stummschaltung für erkannte Audio-Apps direkt in der Mac-Menüleiste an.</p>
+<h1>Jede App mit eigener Lautstärke und eigenem Ausgabegerät.</h1>
+<p class="lead">Stellen Sie Lautstärke, Stummschaltung und Ausgabegerät pro App direkt in der Mac-Menüleiste ein: Meetings über die Kopfhörer, Musik über die Lautsprecher.</p>
 <p class="meta">Klicken Sie auf dem Mac auf „Im Mac App Store öffnen“, um zur Produktseite zu gelangen. Verfügbarkeit und Kauf hängen von Ihrer Apple Account-Region ab.</p>
 <div class="actions">
 <a class="button button-accent" href="macappstores://apps.apple.com/app/id6806717830?mt=12&ct=ksic_website">Im Mac App Store öffnen ↗</a>
@@ -206,6 +222,10 @@
 <ul>
 <li>Individuelle Lautstärkeregelung von 0 % bis 100 %</li>
 <li>App-Stummschaltung und Live-Audioanzeige</li>
+<li>Ausgabegerät pro App: Meetings über die Kopfhörer, Musik über die Lautsprecher. Die Standardausgabe des Systems bleibt unverändert; wird ein Gerät getrennt, wechselt die App automatisch zurück zur Standardausgabe</li>
+<li>Szenen speichern das Ausgabegerät jeder App</li>
+<li>Panelbreite: Standard, Breit oder Breiter</li>
+<li>Ton aus Safari und aus in Apps eingebetteten Webinhalten erscheint als eine Zeile „Safari &amp; eingebettetes Web-Audio“, die Sie in den Einstellungen ausblenden können</li>
 <li>System-Ausgabegeräte direkt im selben Menü wählen</li>
 </ul>
 </section>
@@ -228,8 +248,8 @@
 <section data-lang="fr" lang="fr">
 <a class="back" href="../index.html">← Toutes les apps</a>
 <div class="eyebrow">VolMix / macOS 14.2+</div>
-<h1>Contrôlez le son de chaque application.</h1>
-<p class="lead">Ajustez le volume et le silence des apps audio détectées directement depuis la barre des menus de votre Mac.</p>
+<h1>Chaque app, son volume et sa sortie audio.</h1>
+<p class="lead">Réglez le volume, le silence et la sortie audio de chaque app depuis la barre des menus de votre Mac : les réunions dans le casque, la musique sur les haut-parleurs.</p>
 <p class="meta">Sur Mac, cliquez sur « Ouvrir l'App Store sur Mac » pour afficher l'application. La disponibilité dépend de la région de votre compte Apple.</p>
 <div class="actions">
 <a class="button button-accent" href="macappstores://apps.apple.com/app/id6806717830?mt=12&ct=ksic_website">Ouvrir l'App Store sur Mac ↗</a>
@@ -240,6 +260,10 @@
 <ul>
 <li>Contrôle de volume indépendant de 0 % à 100 %</li>
 <li>Mise en sourdine par application et indicateurs audio en direct</li>
+<li>Sortie audio par app : les réunions dans le casque, la musique sur les haut-parleurs. La sortie par défaut du système ne change pas, et si un appareil est déconnecté, l'app revient automatiquement à la sortie par défaut</li>
+<li>Les scènes mémorisent la sortie audio de chaque app</li>
+<li>Largeur du panneau : Standard, Large ou Plus large</li>
+<li>Le son de Safari et des contenus web intégrés aux apps apparaît sur une seule ligne « Safari et audio Web intégré », que vous pouvez masquer dans les Réglages</li>
 <li>Sélection du périphérique de sortie dans le même panneau</li>
 </ul>
 </section>
@@ -262,8 +286,8 @@
 <section data-lang="es" lang="es">
 <a class="back" href="../index.html">← Todas las apps</a>
 <div class="eyebrow">VolMix / macOS 14.2+</div>
-<h1>Controla el sonido de cada aplicación.</h1>
-<p class="lead">Ajusta el volumen y el silenciado de las aplicaciones de audio detectadas desde la barra de menús de tu Mac.</p>
+<h1>Cada app, con su volumen y su salida.</h1>
+<p class="lead">Ajusta el volumen, el silenciado y el dispositivo de salida de cada app desde la barra de menús de tu Mac: las reuniones en los auriculares, la música en los altavoces.</p>
 <p class="meta">En un Mac, haz clic en «Abrir App Store en Mac» para ver los detalles. La disponibilidad de descarga y compra depende de tu región de cuenta de Apple.</p>
 <div class="actions">
 <a class="button button-accent" href="macappstores://apps.apple.com/app/id6806717830?mt=12&ct=ksic_website">Abrir App Store en Mac ↗</a>
@@ -274,6 +298,10 @@
 <ul>
 <li>Regulación individual de volumen de 0 % a 100 %</li>
 <li>Silenciado por app e indicadores de audio en vivo</li>
+<li>Salida por app: las reuniones en los auriculares, la música en los altavoces. La salida predeterminada del sistema no cambia y, si un dispositivo se desconecta, la app vuelve automáticamente a la salida predeterminada</li>
+<li>Las escenas recuerdan el dispositivo de salida de cada app</li>
+<li>Ancho del panel: Estándar, Ancho o Más ancho</li>
+<li>El sonido de Safari y del contenido web integrado en apps aparece en una sola fila, «Safari y audio web integrado», que puedes ocultar en Ajustes</li>
 <li>Selección de dispositivo de salida en el mismo panel</li>
 </ul>
 </section>
@@ -296,8 +324,8 @@
 <section data-lang="pt" lang="pt">
 <a class="back" href="../index.html">← Todos os apps</a>
 <div class="eyebrow">VolMix / macOS 14.2+</div>
-<h1>Controle o áudio de cada aplicativo.</h1>
-<p class="lead">Ajuste o volume e mudo dos aplicativos de áudio detectados diretamente na barra de menus do seu Mac.</p>
+<h1>Cada app com seu volume e sua saída.</h1>
+<p class="lead">Ajuste volume, mudo e dispositivo de saída de cada app na barra de menus do Mac: reuniões no fone de ouvido, música nas caixas de som.</p>
 <p class="meta">No Mac, clique em «Abrir App Store no Mac» para ver o app. A disponibilidade de download e compra varia conforme a região da sua Conta Apple.</p>
 <div class="actions">
 <a class="button button-accent" href="macappstores://apps.apple.com/app/id6806717830?mt=12&ct=ksic_website">Abrir App Store no Mac ↗</a>
@@ -308,6 +336,10 @@
 <ul>
 <li>Ajuste individual de volume de 0% a 100%</li>
 <li>Mudo por app e indicadores de reprodução em tempo real</li>
+<li>Saída por app: reuniões no fone de ouvido, música nas caixas de som. A saída padrão do sistema não muda e, se um dispositivo for desconectado, o app volta automaticamente para a saída padrão</li>
+<li>Os cenários lembram o dispositivo de saída de cada app</li>
+<li>Largura do painel: Padrão, Largo ou Mais largo</li>
+<li>O som do Safari e de conteúdo web incorporado em apps aparece em uma única linha, "Safari e áudio da Web incorporado", que você pode ocultar em Ajustes</li>
 <li>Seleção de saída do sistema no mesmo painel</li>
 </ul>
 </section>
@@ -359,6 +391,7 @@
 <span data-lang="pt" lang="pt">Fale com o suporte</span>
 </a>
 </div>
+<p>© 2026 Kevin Labs</p>
 </footer>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "46b4d93f83ac42788eb60ed45468c15d"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
