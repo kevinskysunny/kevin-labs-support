@@ -130,23 +130,6 @@
       "version": "1.1"
     },
     {
-      "id": "ie-compat-bridge",
-      "name": "IE Compat Bridge",
-      "platform": "Chrome Extension (macOS & Windows)",
-      "videos": [],
-      "summary": {
-        "en": "Run legacy business and intranet pages in modern Chrome without running a Windows virtual machine.",
-        "zh": "在现代化 Chrome 中流畅运行传统政企办公与内网页面，摆脱笨重的 Windows 虚拟机。"
-      },
-      "supportUrl": "https://ie-compat.kevinlabs.app/",
-      "privacyUrl": "https://ie-compat.kevinlabs.app/privacy",
-      "productUrl": "https://ie-compat.kevinlabs.app/",
-      "appStoreUrl": "https://ie-compat.kevinlabs.app/",
-      "availability": "available",
-      "verifiedAt": "2026-09-06",
-      "version": "0.6.0"
-    },
-    {
       "id": "smoothcast",
       "name": "SmoothCast",
       "platform": "macOS",

@@ -168,48 +168,6 @@
     "nativeStore": "macappstores://apps.apple.com/app/id6801325655?mt=12&ct=ksic_website"
   },
   {
-    "id": "ie-compat-bridge",
-    "name": "IE Compat Bridge",
-    "mark": "IE",
-    "tag": [
-      "Web compatibility",
-      "企业网页兼容"
-    ],
-    "headline": [
-      "Run legacy business pages in modern Chrome.",
-      "在现代化 Chrome 中流畅运行传统企业办公系统。"
-    ],
-    "summary": [
-      "Run legacy business and intranet pages in modern Chrome without running a Windows virtual machine.",
-      "在现代化 Chrome 中流畅运行传统政企办公与内网页面，摆脱笨重的 Windows 虚拟机。"
-    ],
-    "features": [
-      [
-        "DOM & JavaScript shims for legacy web forms",
-        "针对传统表单与弹窗选择器的 DOM/JS 兼容补丁"
-      ],
-      [
-        "Scoped per-domain rule matching",
-        "按域名精细化匹配兼容规则"
-      ],
-      [
-        "Zero Windows VM required on macOS",
-        "在 macOS 上无需启动笨重的 Windows 虚拟机"
-      ]
-    ],
-    "limits": [
-      "JavaScript & DOM compatibility helper for modern Chrome. Not an Internet Explorer engine; does not run ActiveX, VBScript, or COM controls.",
-      "现代 Chrome 的 JS 与 DOM 兼容补丁工具；非 IE 内核，不支持 ActiveX、VBScript 或 COM 控件。"
-    ],
-    "support": "https://ie-compat.kevinlabs.app/",
-    "privacy": "https://ie-compat.kevinlabs.app/privacy",
-    "demo": null,
-    "store": "https://chromewebstore.google.com/detail/ie-compat-bridge/blaopiiafdfificalgbkjnljbhmjojpa?utm_source=ksic_website&utm_medium=support_portal",
-    "version": "0.6.0",
-    "os": "macOS & Windows",
-    "nativeStore": "https://ie-compat.kevinlabs.app/"
-  },
-  {
     "id": "presenter-deck",
     "name": "PresenterDeck",
     "mark": "PD",
