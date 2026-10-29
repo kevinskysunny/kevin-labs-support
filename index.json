@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-30",
   "apps": [
+    {
+      "id": "barnest-pro",
+      "name": "BarNest Pro",
+      "platform": "macOS",
+      "summary": {
+        "en": "Organize your Mac menu bar with always-visible, folded, and hidden icon zones.",
+        "zh": "按常驻、折叠与隐藏三个区域整理 Mac 菜单栏图标。",
+        "ja": "常に表示・折りたたむ・非表示の3つのエリアでMacのメニューバーを整理。",
+        "ko": "항상 표시, 접기, 숨기기의 세 영역으로 Mac 메뉴 막대를 정리하세요.",
+        "de": "Mac-Menüleiste in immer sichtbare, eingeklappte und ausgeblendete Symbole aufteilen.",
+        "fr": "Organisez la barre de menus du Mac en icônes visibles, repliées et masquées.",
+        "es": "Organiza la barra de menús del Mac en iconos visibles, plegados y ocultos.",
+        "pt": "Organize a barra de menus do Mac em ícones visíveis, recolhidos e ocultos."
+      },
+      "productUrl": "https://barnest.kevinlabs.app/",
+      "supportUrl": "https://barnest.kevinlabs.app/support",
+      "privacyUrl": "https://barnest.kevinlabs.app/privacy",
+      "videos": [],
+      "availability": "coming_soon",
+      "version": "1.0.0",
+      "verifiedAt": "2026-10-30"
+    },
     {
       "id": "barnest",
       "name": "BarNest",
