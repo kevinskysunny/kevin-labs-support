@@ -5,7 +5,7 @@ import vm from 'node:vm';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8');
 test('SmoothCast catalog uses current app version and localized summaries',()=>{
  const app=JSON.parse(read('index.json')).apps.find(a=>a.id==='smoothcast');
- assert.equal(app.version,'1.3.1');assert.equal(Object.keys(app.summary).length,8);
+ assert.equal(app.version,'1.3.2');assert.equal(Object.keys(app.summary).length,8);
  assert.equal(app.supportUrl,'https://smoothcast.kevinlabs.app/support');
  assert.equal(app.releaseNotesUrl,'https://smoothcast.kevinlabs.app/releases');
  for(const summary of Object.values(app.summary))assert.ok(summary.includes('ProRes'));
