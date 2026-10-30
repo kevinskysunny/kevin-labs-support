@@ -20,9 +20,11 @@
       "supportUrl": "https://barnest.kevinlabs.app/support",
       "privacyUrl": "https://barnest.kevinlabs.app/privacy",
       "videos": [],
-      "availability": "coming_soon",
+      "availability": "available",
       "version": "1.0.0",
-      "verifiedAt": "2026-10-30"
+      "verifiedAt": "2026-10-30",
+      "build": 61,
+      "downloadUrl": "https://barnest.kevinlabs.app/download"
     },
     {
       "id": "barnest",
