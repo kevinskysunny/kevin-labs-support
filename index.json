@@ -159,17 +159,25 @@
       "platform": "macOS",
       "videos": [],
       "summary": {
-        "en": "Cinematic screen recording with smooth zooms and auto-generated step-by-step tutorial guide packages.",
-        "zh": "电影级平滑运镜录屏与分步教程工坊，独创一键导出图文教程资料包。"
+        "zh": "免费录制与制作教程；Pro 解锁无水印、4K 与 ProRes 导出。",
+        "en": "Record and create guides for free. Pro unlocks watermark-free, 4K and ProRes exports.",
+        "ja": "録画とガイド作成は無料。Proは透かしなし、4K、ProRes出力に対応。",
+        "ko": "녹화와 가이드 제작은 무료. Pro는 워터마크 제거, 4K 및 ProRes 내보내기를 제공합니다.",
+        "de": "Aufnahme und Anleitungen sind kostenlos. Pro schaltet Exporte ohne Wasserzeichen, 4K und ProRes frei.",
+        "fr": "Capture et guides gratuits. Pro débloque les exports sans filigrane, 4K et ProRes.",
+        "es": "Graba y crea guías gratis. Pro permite exportar sin marca de agua, en 4K y ProRes.",
+        "pt": "Grave e crie guias gratuitamente. Pro libera exportações sem marca d’água, em 4K e ProRes."
       },
-      "supportUrl": "https://smoothcast.kevinlabs.app/",
+      "supportUrl": "https://smoothcast.kevinlabs.app/support",
       "privacyUrl": "https://smoothcast.kevinlabs.app/privacy",
       "productUrl": "https://smoothcast.kevinlabs.app/",
       "appStoreUrl": "https://smoothcast.kevinlabs.app/",
       "availability": "available",
-      "verifiedAt": "2026-10-06",
-      "version": "1.1.1"
+      "verifiedAt": "2026-10-30",
+      "version": "1.3.1",
+      "releaseNotesUrl": "https://smoothcast.kevinlabs.app/releases",
+      "downloadUrl": "https://smoothcast.kevinlabs.app/download"
     }
   ],
-  "siteVersion": "1.4.5"
+  "siteVersion": "1.4.6"
 }

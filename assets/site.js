@@ -94,6 +94,14 @@
       node.hidden = node.dataset.lang !== lang;
     });
 
+    // Preserve the user's explicit language mode across product origins.
+    document.querySelectorAll('a[href]').forEach(link => {
+      const destination = new URL(link.getAttribute('href'), location.href);
+      if (destination.hostname === 'smoothcast.kevinlabs.app') {
+        destination.searchParams.set('lang', preference);
+        link.href = destination.href;
+      }
+    });
     select.value = preference;
     select.setAttribute('aria-label', langLabels[lang] || 'Language');
     if (select.options[0]) {
