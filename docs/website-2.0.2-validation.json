@@ -1,0 +1,80 @@
+{
+  "website_version": "2.0.2",
+  "date": "2026-11-04",
+  "runtime_checks": 608,
+  "widths": [
+    320,
+    375,
+    1280,
+    1920
+  ],
+  "languages": [
+    "en",
+    "zh",
+    "ja",
+    "ko",
+    "de",
+    "fr",
+    "es",
+    "pt"
+  ],
+  "visible_locale_failures": 0,
+  "overflow_failures": 0,
+  "broken_image_cases": 0,
+  "no_js_visible_locales": [
+    "en"
+  ],
+  "field_border": [
+    "rgb(118, 118, 118)"
+  ],
+  "interaction_checks": [
+    {
+      "route": "index.html",
+      "skipAndHeaderOrder": true,
+      "borderContrast": 4.542224959605253,
+      "persistence": true
+    },
+    {
+      "route": "guides.html",
+      "skipAndHeaderOrder": true,
+      "borderContrast": 4.542224959605253,
+      "persistence": true
+    },
+    {
+      "route": "barnest/support.html",
+      "skipAndHeaderOrder": true,
+      "borderContrast": 4.542224959605253,
+      "persistence": true
+    },
+    {
+      "route": "volmix/index.html",
+      "skipAndHeaderOrder": true,
+      "borderContrast": 4.542224959605253,
+      "persistence": true
+    },
+    {
+      "route": "review/index.html",
+      "threeWidths": true,
+      "whiteShell": true,
+      "nativePlayerFocus": true
+    },
+    {
+      "route": "volmix/review/index.html",
+      "threeWidths": true,
+      "whiteShell": true,
+      "nativePlayerFocus": true
+    },
+    {
+      "route": "presenter-deck/review/index.html",
+      "threeWidths": true,
+      "whiteShell": true,
+      "nativePlayerFocus": true
+    }
+  ],
+  "limits": "Local browser checks, source and link preservation; existing Hallmark typography/copy warnings are not a full zero-finding certification.",
+  "independent_finish_review": {
+    "verdict": "ship",
+    "scope": "Homepage desktop/mobile composition, 19 shared page fallback and DOM order, control border contrast",
+    "video_verification": "Separately checked by browser on all 3 video routes"
+  }
+}

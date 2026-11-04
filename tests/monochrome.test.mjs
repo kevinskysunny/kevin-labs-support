@@ -10,7 +10,7 @@ test('redesign retains all eight homepage languages and live product destination
  }
  assert.match(html,/barnest\.kevinlabs\.app/);assert.match(html,/smoothcast\.kevinlabs\.app/);
  for(const path of ['index.html','guides.html','volmix/index.html','barnest/support.html','barnest/privacy.html']){
-  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.0\.1/);assert.match(content,/id="language"/);assert.match(content,/v2\.0\.1/);
+  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.0\.2/);assert.match(content,/id="language"/);assert.match(content,/v2\.0\.2/);
  }
 });
 test('documentation contents point at actual translated headings',()=>{
@@ -27,4 +27,19 @@ test('product artwork uses current approved assets with language-aware VolMix va
   assert.equal((html.match(/src="(?:\.\.\/)?assets\/volmix-comparison-zh.png"/g)||[]).length,1);
   assert.equal((html.match(/src="(?:\.\.\/)?assets\/volmix-comparison-en.png"/g)||[]).length,7);
  }
+});
+test('language fallback and header DOM stay usable before scripts run',()=>{
+ for(const path of ['index.html','guides.html','barnest/support.html','volmix/index.html','website-privacy.html']){
+  const html=read(path),header=html.slice(html.indexOf('<header'),html.indexOf('</header>'));
+  assert.ok(header.indexOf('class="brand"')<header.indexOf('class="site-nav"'),path);
+  for(const tag of html.matchAll(/<[^>]+data-lang="([a-z]{2})"[^>]*>/g)){
+   assert.equal(/\shidden(?:=|\s|>)/.test(tag[0]),tag[1]!=='en',path+' '+tag[1]);
+  }
+  assert.match(html,/noscript data-language-fallback/);
+ }
+});
+test('featured products explain their use in every supported language',()=>{
+ const html=read('index.html');
+ assert.equal((html.match(/class="catalog-product-copy"/g)||[]).length,8);
+ assert.equal((html.match(/class="product-action"/g)||[]).length,16);
 });
