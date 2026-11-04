@@ -1,0 +1,385 @@
+{
+  "date": "2026-11-04",
+  "baseline_commit": "6a38c6c",
+  "inventory": [
+    {
+      "path": "barnest/index.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "title": "BarNest — Menu Bar Organizer & Support"
+    },
+    {
+      "path": "barnest/privacy.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "title": "BarNest Privacy Policy"
+    },
+    {
+      "path": "barnest/support.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "title": "BarNest Support"
+    },
+    {
+      "path": "guides.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "title": "Support & guides | Kevin Labs"
+    },
+    {
+      "path": "index.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "title": "Kevin Labs — Official Support & Guides for Mac Apps"
+    },
+    {
+      "path": "ksic-studio/index.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "title": "KSIC Studio — Information & support"
+    },
+    {
+      "path": "netdoctor/index.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "title": "NetDoctor — Information & support"
+    },
+    {
+      "path": "netdoctor/privacy.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "title": "NetDoctor Privacy"
+    },
+    {
+      "path": "netdoctor/support.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "title": "NetDoctor Support"
+    },
+    {
+      "path": "networkconsole-lite/index.html",
+      "kind": "redirect",
+      "languages": [],
+      "title": "Moved to NetDoctor — 已迁移至 NetDoctor"
+    },
+    {
+      "path": "networkconsole-lite/privacy.html",
+      "kind": "redirect",
+      "languages": [],
+      "title": "Moved to NetDoctor — 已迁移至 NetDoctor"
+    },
+    {
+      "path": "networkconsole-lite/support.html",
+      "kind": "redirect",
+      "languages": [],
+      "title": "Moved to NetDoctor — 已迁移至 NetDoctor"
+    },
+    {
+      "path": "photoslim/privacy.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "title": "相册瘦身 PhotoSlim 隐私政策 / Privacy Policy"
+    },
+    {
+      "path": "presenter-deck/index.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "title": "PresenterDeck Support"
+    },
+    {
+      "path": "presenter-deck/privacy.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "title": "PresenterDeck Privacy Policy"
+    },
+    {
+      "path": "presenter-deck/review/index.html",
+      "kind": "video",
+      "languages": [],
+      "title": "PresenterDeck 1.1.0 功能演示 · Feature Demo"
+    },
+    {
+      "path": "presenter-deck/support.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "title": "PresenterDeck Support"
+    },
+    {
+      "path": "privacy.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "title": "KSIC Studio Privacy Policy"
+    },
+    {
+      "path": "review/index.html",
+      "kind": "video",
+      "languages": [],
+      "title": "KSIC Studio 1.1.0 Review Demo"
+    },
+    {
+      "path": "smoothcast/index.html",
+      "kind": "redirect",
+      "languages": [],
+      "title": "SmoothCast"
+    },
+    {
+      "path": "smoothcast/privacy.html",
+      "kind": "redirect",
+      "languages": [],
+      "title": "SmoothCast"
+    },
+    {
+      "path": "smoothcast/releases.html",
+      "kind": "redirect",
+      "languages": [],
+      "title": "SmoothCast"
+    },
+    {
+      "path": "smoothcast/support.html",
+      "kind": "redirect",
+      "languages": [],
+      "title": "SmoothCast"
+    },
+    {
+      "path": "support.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "title": "KSIC Studio Support"
+    },
+    {
+      "path": "volmix/index.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "title": "VolMix — Mac Per-App Volume Mixer & Menu Bar Audio Control (SoundSource Alternative)"
+    },
+    {
+      "path": "volmix/privacy.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "title": "VolMix Privacy Policy"
+    },
+    {
+      "path": "volmix/review/index.html",
+      "kind": "video",
+      "languages": [],
+      "title": "VolMix - TikTok Demo (Apple Music Integration)"
+    },
+    {
+      "path": "volmix/support.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "title": "VolMix Support & FAQ — Mac Per-App Volume Mixer Setup & Troubleshooting"
+    },
+    {
+      "path": "website-privacy.html",
+      "kind": "shared",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "title": "Website privacy"
+    }
+  ],
+  "mechanical_scan": {
+    "fails": 233,
+    "reflex": 84,
+    "warns": 110,
+    "waived": 0,
+    "rejected": 0,
+    "answered": 0,
+    "dismissed": 0,
+    "notes": 0,
+    "files": 31,
+    "render": "ran",
+    "before": "before: recorded 133 links, 1 fields, 0 handlers, 0 test hooks, 2 script hooks and 29 rendered page(s) in .hallmark/before.json; --kept checks a redesign against it"
+  },
+  "classification": "Raw scanner totals are untriaged, not a count of confirmed user-facing defects.",
+  "runtime": {
+    "checks": 608,
+    "widths": [
+      320,
+      375,
+      1280,
+      1920
+    ],
+    "languages": [
+      "en",
+      "zh",
+      "ja",
+      "ko",
+      "de",
+      "fr",
+      "es",
+      "pt"
+    ],
+    "overflow_cases": 0,
+    "multiple_visible_locale_cases": 0,
+    "no_js": {
+      "visibleLanguages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "de",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "nav": "Support & guides支持与指南サポート・ガイド지원 및 가이드Hilfe & AnleitungenAide et guidesAyuda y guíasSuporte e guias"
+    },
+    "1920_home_geometry": {
+      "mainX": 344,
+      "mainWidth": 1232,
+      "headingX": 344,
+      "focusOrder": [
+        {
+          "text": "Skip to content\n跳转到正文\nコンテンツへ",
+          "x": -10000
+        },
+        {
+          "text": "Support & guides支持与指南サポート・ガイ",
+          "x": 1308
+        },
+        {
+          "text": "Kevin Labs",
+          "x": 344
+        },
+        {
+          "text": "跟随系统（自动）\nEnglish\n中文\n日本語\n한국어\n",
+          "x": 1434
+        },
+        {
+          "text": "探索应用",
+          "x": 1124
+        }
+      ],
+      "fieldBorder": "rgb(222, 222, 222)"
+    }
+  }
+}

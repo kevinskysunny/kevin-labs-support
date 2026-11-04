@@ -9,3 +9,11 @@ html,body{overflow-x:clip}body{background:var(--bg);color:var(--ink)}.bar,main,f
 @media(max-width:600px){.home-page .catalog-list{grid-template-columns:minmax(0,1fr)}.home-page .catalog-picture{height:277px}}
 .guides-page main>section{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:32px 64px;align-items:start}.guides-page h1{grid-column:1/-1;font-size:48px;margin-bottom:24px}.guides-page .catalog-list{display:block;margin:0}.guides-page .app-row{padding:24px 0}.guides-page main>section>a{padding:32px;background:var(--card);border-radius:8px;overflow-wrap:anywhere;font-size:18px}
 @media(max-width:700px){.guides-page main>section{grid-template-columns:minmax(0,1fr);gap:24px}.guides-page h1{font-size:36px}.guides-page main>section>a{padding:24px;font-size:16px}}
+
+/* Product artwork retains its native composition. */
+.home-feature>img{height:auto;max-height:400px;object-fit:contain}.comparison-stage img{width:100%;height:auto}.comparison-stage{min-height:0;padding:20px}.home-page .catalog-picture{object-fit:contain}
+
+/* PresenterDeck uses a text entry rather than the old blue demonstration poster. */
+.home-page .visual-product{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,.65fr) minmax(0,1.35fr);align-items:center;gap:40px}.home-page .visual-product .catalog-picture{grid-column:2;grid-row:1;margin:0}.catalog-product-name{grid-column:1;grid-row:1}.text-product-hero{grid-template-columns:minmax(0,1fr)}.text-product-hero .product-copy{max-width:900px}
+@media(max-width:600px){.home-page .visual-product{grid-template-columns:minmax(0,1fr);gap:20px}.home-page .visual-product .catalog-picture{grid-column:1;grid-row:1}.catalog-product-name{grid-column:1;grid-row:2}}
+.home-page .app-row:not(.visual-product){grid-column:1/-1}
