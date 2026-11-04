@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-11-04",
   "apps": [
     {
       "id": "barnest-pro",
@@ -179,5 +179,5 @@
       "downloadUrl": "https://smoothcast.kevinlabs.app/download"
     }
   ],
-  "siteVersion": "1.4.7"
+  "siteVersion": "2.1.0"
 }

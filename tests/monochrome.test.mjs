@@ -10,7 +10,7 @@ test('redesign retains all eight homepage languages and live product destination
  }
  assert.match(html,/barnest\.kevinlabs\.app/);assert.match(html,/smoothcast\.kevinlabs\.app/);
  for(const path of ['index.html','guides.html','volmix/index.html','barnest/support.html','barnest/privacy.html']){
-  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.0\.2/);assert.match(content,/id="language"/);assert.match(content,/v2\.0\.2/);
+  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.1\.0/);assert.match(content,/id="language"/);assert.match(content,/v2\.1\.0/);
  }
 });
 test('documentation contents point at actual translated headings',()=>{
@@ -21,12 +21,11 @@ test('documentation contents point at actual translated headings',()=>{
 });
 test('product artwork uses current approved assets with language-aware VolMix variants',()=>{
  const home=read('index.html'),product=read('volmix/index.html');
- assert.equal((home.match(/src="assets\/barnest-pro-overview.png"/g)||[]).length,8);
- for(const html of [home,product]){
-  assert.doesNotMatch(html,/src="(?:\.\.\/)?assets\/volmix-panel.png"/);
-  assert.equal((html.match(/src="(?:\.\.\/)?assets\/volmix-comparison-zh.png"/g)||[]).length,1);
-  assert.equal((html.match(/src="(?:\.\.\/)?assets\/volmix-comparison-en.png"/g)||[]).length,7);
- }
+ assert.equal((home.match(/src="assets\/barnest-pro-icon.png"/g)||[]).length,8);
+ assert.doesNotMatch(home,/class="(?:home-feature|catalog-picture)"/);
+ assert.doesNotMatch(product,/src="(?:\.\.\/)?assets\/volmix-panel.png"/);
+ assert.equal((product.match(/src="\.\.\/assets\/volmix-comparison-zh.png"/g)||[]).length,1);
+ assert.equal((product.match(/src="\.\.\/assets\/volmix-comparison-en.png"/g)||[]).length,7);
 });
 test('language fallback and header DOM stay usable before scripts run',()=>{
  for(const path of ['index.html','guides.html','barnest/support.html','volmix/index.html','website-privacy.html']){
@@ -38,8 +37,16 @@ test('language fallback and header DOM stay usable before scripts run',()=>{
   assert.match(html,/noscript data-language-fallback/);
  }
 });
-test('featured products explain their use in every supported language',()=>{
+test('homepage presents three featured peers and three unique utility entries per language',()=>{
  const html=read('index.html');
- assert.equal((html.match(/class="catalog-product-copy"/g)||[]).length,8);
- assert.equal((html.match(/class="product-action"/g)||[]).length,16);
+ const sections=[...html.matchAll(/<section data-lang="([a-z]{2})"[^>]*>([\s\S]*?)(?=<section class="faq-section">)/g)];
+ assert.equal(sections.length,8);
+ for(const [,lang,section] of sections){
+  const featured=[...section.matchAll(/class="product-card" data-product="([^"]+)"/g)].map(x=>x[1]);
+  const others=[...section.matchAll(/class="tool-card" data-product="([^"]+)"/g)].map(x=>x[1]);
+  assert.deepEqual(featured,['volmix','barnest-pro','smoothcast'],lang);
+  assert.deepEqual(others,['presenter-deck','netdoctor','ksic-studio'],lang);
+  assert.equal(new Set([...featured,...others]).size,6);
+  assert.match(section,/href="barnest\/support.html"/);assert.match(section,/href="barnest\/privacy.html"/);
+ }
 });

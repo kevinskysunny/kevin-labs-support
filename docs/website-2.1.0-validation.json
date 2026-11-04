@@ -1,0 +1,28 @@
+{
+  "checks": 48,
+  "widths": [
+    320,
+    390,
+    768,
+    900,
+    1280,
+    1920
+  ],
+  "languages": [
+    "en",
+    "zh",
+    "ja",
+    "ko",
+    "de",
+    "fr",
+    "es",
+    "pt"
+  ],
+  "equalDesktopCards": true,
+  "uniqueProducts": true,
+  "brokenImages": 0,
+  "overflow": 0,
+  "persistence": true,
+  "faq": true,
+  "nojs": true
+}
