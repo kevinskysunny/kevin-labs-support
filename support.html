@@ -1,31 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <title>KSIC Studio Support</title>
-  <link rel="canonical" href="https://support.kevinlabs.app/support.html">
-  <link rel="icon" type="image/png" href="assets/favicon.png">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<meta property="og:image" content="https://support.kevinlabs.app/assets/logo.png">
-  <link rel="stylesheet" href="assets/site.css?v=1.4.4">
-  <script defer src="assets/site.js"></script>
-</head>
-<body>
-  <a class="skip" href="#main">
-    <span data-lang="en">Skip to content</span>
-    <span data-lang="zh" lang="zh-Hans">跳转到正文</span>
-    <span data-lang="ja" lang="ja">コンテンツへスキップ</span>
-    <span data-lang="ko" lang="ko">본문으로 건너뛰기</span>
-    <span data-lang="de" lang="de">Zum Inhalt springen</span>
-    <span data-lang="fr" lang="fr">Passer au contenu</span>
-    <span data-lang="es" lang="es">Saltar al contenido</span>
-    <span data-lang="pt" lang="pt">Pular para o conteúdo</span>
-  </a>
-
-  <header class="bar">
-    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Kevin Labs Logo" width="32" height="32">Kevin Labs</a>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<title>KSIC Studio Support</title>
+<link href="https://support.kevinlabs.app/support.html" rel="canonical"/>
+<link href="assets/favicon.png" rel="icon" type="image/png"/>
+<link href="assets/apple-touch-icon.png" rel="apple-touch-icon"/>
+<meta content="https://support.kevinlabs.app/assets/logo.png" property="og:image"/>
+<link href="assets/site.css?v=2.0.0" rel="stylesheet"/>
+<script defer="" src="assets/site.js"></script>
+<link href="assets/monochrome.css?v=2.0.0" rel="stylesheet"/></head>
+<body class="reading-page">
+<a class="skip" href="#main">
+<span data-lang="en">Skip to content</span>
+<span data-lang="zh" lang="zh-Hans">跳转到正文</span>
+<span data-lang="ja" lang="ja">コンテンツへスキップ</span>
+<span data-lang="ko" lang="ko">본문으로 건너뛰기</span>
+<span data-lang="de" lang="de">Zum Inhalt springen</span>
+<span data-lang="fr" lang="fr">Passer au contenu</span>
+<span data-lang="es" lang="es">Saltar al contenido</span>
+<span data-lang="pt" lang="pt">Pular para o conteúdo</span>
+</a>
+<header class="bar">
+<a class="site-nav" href="guides.html"><span data-lang="en">Support &amp; guides</span><span data-lang="zh">支持与指南</span><span data-lang="ja">サポート・ガイド</span><span data-lang="ko">지원 및 가이드</span><span data-lang="de">Hilfe &amp; Anleitungen</span><span data-lang="fr">Aide et guides</span><span data-lang="es">Ayuda y guías</span><span data-lang="pt">Suporte e guias</span></a><a class="brand" href="index.html"><img alt="Kevin Labs Logo" class="brand-logo" height="32" src="assets/logo.png" width="32"/>Kevin Labs</a>
 <label class="language">
 <span data-lang="en">Language</span>
 <span data-lang="zh" lang="zh-Hans">语言</span>
@@ -35,7 +35,7 @@
 <span data-lang="fr" lang="fr">Langue</span>
 <span data-lang="es" lang="es">Idioma</span>
 <span data-lang="pt" lang="pt">Idioma</span>
-<select id="language" aria-label="Language / 语言">
+<select aria-label="Language / 语言" id="language">
 <option value="system">跟随系统 (自动)</option>
 <option value="en">English</option>
 <option value="zh">中文</option>
@@ -47,428 +47,395 @@
 <option value="pt">Português</option>
 </select>
 </label>
-  </header>
-
-  <main id="main">
-    <!-- English -->
-    <section data-lang="en">
-      <a class="back" href="index.html">← All apps</a>
-      <h1>KSIC Studio Support</h1>
-      <p class="lead">KSIC Studio is a local-first macOS work launcher. If you run into any issues, the information below may help.</p>
-      
-      <div class="contact-card">
-        <strong>Contact Support</strong>
-        <p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20Support%5D%20">support@kevinlabs.app</a></p>
-        <p class="meta">Please include your macOS version, app version, reproduction steps, and screenshots (without personal data). We typically reply within three business days.</p>
-      </div>
-
-      <h2>Frequently Asked Questions</h2>
-      <details class="faq-accordion">
-        <summary>Where is my data stored?</summary>
-        <div class="faq-answer">
-          <p>Work groups, entries, and Recents stay in the macOS App Sandbox and are never uploaded to remote servers.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>Why does an HTTP address show no health status?</summary>
-        <div class="faq-answer">
-          <p>For connection security, the app only checks HTTPS addresses. HTTP addresses can still be opened in your default browser.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>How do I migrate my configuration?</summary>
-        <div class="faq-answer">
-          <p>In Settings, import a JSON configuration file or use the backup and restore features. We recommend backing up before importing.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>How does language selection work?</summary>
-        <div class="faq-answer">
-          <p>The app automatically follows the preferred language set in macOS System Settings. Change your preferred language in macOS Settings, then relaunch the app.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>How do I remove all data?</summary>
-        <div class="faq-answer">
-          <p>Use "Restore Default Entries" in Settings. Please export any configuration you wish to keep before proceeding.</p>
-        </div>
-      </details>
-
-      <h2>Privacy Policy</h2>
-      <p>Read the <a href="privacy.html">KSIC Studio Privacy Policy</a>.</p>
-    </section>
-
-    <!-- Chinese -->
-    <section data-lang="zh" lang="zh-Hans">
-      <a class="back" href="index.html">← 全部应用</a>
-      <h1>KSIC Studio 支持</h1>
-      <p class="lead">KSIC Studio 是一款本地优先的 macOS 工作入口管理器。使用中遇到问题，可以先参考以下说明。</p>
-      
-      <div class="contact-card">
-        <strong>联系支持</strong>
-        <p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20支持%5D%20">support@kevinlabs.app</a></p>
-        <p class="meta">请附上 macOS 版本、App 版本、复现步骤和不含隐私信息的截图。通常会在 3 个工作日内回复。</p>
-      </div>
-
-      <h2>常见问题</h2>
-      <details class="faq-accordion">
-        <summary>数据保存在哪里？</summary>
-        <div class="faq-answer">
-          <p>分组、入口和最近使用记录保存在 macOS App Sandbox 沙盒中，绝不会自动上传到远程服务器。</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>为什么 HTTP 地址没有健康状态？</summary>
-        <div class="faq-answer">
-          <p>为保护连接安全，App 仅检查 HTTPS 地址；HTTP 地址仍可正常交给系统默认浏览器打开。</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>如何迁移配置？</summary>
-        <div class="faq-answer">
-          <p>在“设置”中选择导入 JSON 配置文件，或使用导出与恢复功能。导入前建议先导出备份。</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>语言如何切换？</summary>
-        <div class="faq-answer">
-          <p>App 自动跟随 macOS 系统中为该 App 选定的首选语言。请在 macOS 系统设置中更改 App 语言后重启 App 即可。</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>如何删除全部数据？</summary>
-        <div class="faq-answer">
-          <p>在“设置”中使用“恢复默认入口”。执行该操作前请先导出需要保留的配置。</p>
-        </div>
-      </details>
-
-      <h2>隐私政策</h2>
-      <p>请阅读 <a href="privacy.html">KSIC Studio 隐私政策</a>。</p>
-    </section>
-
-    <!-- Japanese -->
-    <section data-lang="ja" lang="ja">
-      <a class="back" href="index.html">← すべてのアプリ</a>
-      <h1>KSIC Studio サポート</h1>
-      <p class="lead">KSIC Studioは、ローカルファーストのmacOSワークランチャーです。問題が発生した場合は、以下の情報をご確認ください。</p>
-      
-      <div class="contact-card">
-        <strong>サポートへのお問い合わせ</strong>
-        <p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20Support%5D%20">support@kevinlabs.app</a></p>
-        <p class="meta">macOSバージョン、アプリバージョン、再現手順、個人情報を含まないスクリーンショットを添えてご連絡ください。通常3営業日以内に返信いたします。</p>
-      </div>
-
-      <h2>よくあるご質問</h2>
-      <details class="faq-accordion">
-        <summary>データはどこに保存されますか？</summary>
-        <div class="faq-answer">
-          <p>ワークグループ、エントリー、最近使用した履歴はすべてmacOSのApp Sandbox内に保持され、外部サーバーに自動アップロードされることはありません。</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>なぜHTTPアドレスには稼働状況が表示されないのですか？</summary>
-        <div class="faq-answer">
-          <p>接続のセキュリティ保護のため、HTTPSアドレスのみヘルスチェックを行います。HTTPアドレスも既定のブラウザで通常どおり開くことができます。</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>設定を移行するにはどうすればよいですか？</summary>
-        <div class="faq-answer">
-          <p>「設定」からJSON設定ファイルをインポートするか、バックアップ・復元機能をご利用ください。インポート前にバックアップをお勧めします。</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>言語の切り替え方法は？</summary>
-        <div class="faq-answer">
-          <p>macOSのシステム設定で指定された言語に自動的に従います。macOSの設定でアプリ言語を変更し、アプリを再起動してください。</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>すべてのデータを削除するには？</summary>
-        <div class="faq-answer">
-          <p>「設定」の「デフォルトエントリーを復元」を使用します。実行する前に保持したい設定をエクスポートしてください。</p>
-        </div>
-      </details>
-
-      <h2>プライバシーポリシー</h2>
-      <p><a href="privacy.html">KSIC Studio プライバシーポリシー</a>をご確認ください。</p>
-    </section>
-
-    <!-- Korean -->
-    <section data-lang="ko" lang="ko">
-      <a class="back" href="index.html">← 모든 앱</a>
-      <h1>KSIC Studio 지원</h1>
-      <p class="lead">KSIC Studio는 로컬 우선 macOS 워크 런처입니다. 문제가 발생한 경우 아래 정보를 참조하세요.</p>
-      
-      <div class="contact-card">
-        <strong>고객 지원 문의</strong>
-        <p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20Support%5D%20">support@kevinlabs.app</a></p>
-        <p class="meta">macOS 버전, 앱 버전, 재현 단계 및 개인 정보가 포함되지 않은 스크린샷을 첨부해 주세요. 보통 영업일 기준 3일 이내에 답변드립니다.</p>
-      </div>
-
-      <h2>자주 묻는 질문</h2>
-      <details class="faq-accordion">
-        <summary>내 데이터는 어디에 저장되나요?</summary>
-        <div class="faq-answer">
-          <p>작업 그룹, 항목 및 최근 기록은 macOS App Sandbox에 안전하게 보관되며 원격 서버로 전송되지 않습니다.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>HTTP 주소에 상태가 표시되지 않는 이유는 무엇인가요?</summary>
-        <div class="faq-answer">
-          <p>연결 보안을 위해 HTTPS 주소만 상태를 확인합니다. HTTP 주소도 기본 브라우저에서 정상적으로 열 수 있습니다.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>구성을 마이그레이션하려면 어떻게 해야 하나요?</summary>
-        <div class="faq-answer">
-          <p>설정에서 JSON 구성 파일을 가져오거나 백업 및 복원 기능을 사용하세요. 가져오기 전에 미리 백업해 두는 것이 좋습니다.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>언어 선택은 어떻게 작동하나요?</summary>
-        <div class="faq-answer">
-          <p>macOS 시스템 설정에 지정된 언어를 자동으로 따릅니다. macOS 설정에서 언어를 변경한 후 앱을 다시 실행하세요.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>모든 데이터를 삭제하려면 어떻게 해야 하나요?</summary>
-        <div class="faq-answer">
-          <p>설정에서 '기본 항목 복원'을 사용하세요. 실행하기 전에 보관할 구성을 먼저 내보내세요.</p>
-        </div>
-      </details>
-
-      <h2>개인정보 처리방침</h2>
-      <p><a href="privacy.html">KSIC Studio 개인정보 처리방침</a>을 읽어보세요.</p>
-    </section>
-
-    <!-- German -->
-    <section data-lang="de" lang="de">
-      <a class="back" href="index.html">← Alle Apps</a>
-      <h1>KSIC Studio Support</h1>
-      <p class="lead">KSIC Studio ist ein lokaler macOS-Work-Launcher. Bei Problemen helfen Ihnen die folgenden Informationen.</p>
-      
-      <div class="contact-card">
-        <strong>Support kontaktieren</strong>
-        <p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20Support%5D%20">support@kevinlabs.app</a></p>
-        <p class="meta">Bitte geben Sie macOS-Version, App-Version, Schritte zur Reproduktion sowie Screenshots (ohne private Daten) an. Wir antworten in der Regel innerhalb von 3 Werktagen.</p>
-      </div>
-
-      <h2>Häufig gestellte Fragen</h2>
-      <details class="faq-accordion">
-        <summary>Wo werden meine Daten gespeichert?</summary>
-        <div class="faq-answer">
-          <p>Gruppen, Einträge und der Verlauf verbleiben in der macOS App Sandbox und werden niemals auf externe Server hochgeladen.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>Warum haben HTTP-Adressen keinen Status?</summary>
-        <div class="faq-answer">
-          <p>Aus Sicherheitsgründen prüft die App nur HTTPS-Adressen. HTTP-Adressen werden weiterhin in Ihrem Standardbrowser geöffnet.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>Wie migriere ich meine Konfiguration?</summary>
-        <div class="faq-answer">
-          <p>In den Einstellungen können Sie eine JSON-Datei importieren oder Backup &amp; Wiederherstellung nutzen.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>Wie funktioniert die Sprachauswahl?</summary>
-        <div class="faq-answer">
-          <p>Die App folgt der in den macOS-Systemeinstellungen gewählten Sprache. Nach der Sprachänderung die App neu starten.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>Wie lösche ich alle Daten?</summary>
-        <div class="faq-answer">
-          <p>Nutzen Sie „Standardeinträge wiederherstellen“ in den Einstellungen. Exportieren Sie vorher gewünschte Konfigurationen.</p>
-        </div>
-      </details>
-
-      <h2>Datenschutz</h2>
-      <p>Lesen Sie die <a href="privacy.html">KSIC Studio Datenschutzerklärung</a>.</p>
-    </section>
-
-    <!-- French -->
-    <section data-lang="fr" lang="fr">
-      <a class="back" href="index.html">← Toutes les apps</a>
-      <h1>KSIC Studio Assistance</h1>
-      <p class="lead">KSIC Studio est un lanceur de travail local pour macOS. En cas de problème, consultez les réponses ci-dessous.</p>
-      
-      <div class="contact-card">
-        <strong>Contacter l'assistance</strong>
-        <p><a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Assistance">support@kevinlabs.app</a></p>
-        <p class="meta">Indiquez votre version de macOS, de l'application, les étapes de reproduction et des captures sans données privées. Réponse sous 3 jours ouvrés.</p>
-      </div>
-
-      <h2>Foire aux questions</h2>
-      <details class="faq-accordion">
-        <summary>Où sont stockées mes données ?</summary>
-        <div class="faq-answer">
-          <p>Vos groupes, entrées et récents restent dans le bac à sable (App Sandbox) de macOS et ne sont jamais téléversés.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>Pourquoi une adresse HTTP n'a pas d'état de santé ?</summary>
-        <div class="faq-answer">
-          <p>Pour la sécurité, l'application ne vérifie que les adresses HTTPS. Les liens HTTP s'ouvrent toujours dans votre navigateur par défaut.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>Comment migrer ma configuration ?</summary>
-        <div class="faq-answer">
-          <p>Dans Réglages, importez un fichier JSON ou utilisez la fonction de sauvegarde et restauration.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>Comment changer la langue ?</summary>
-        <div class="faq-answer">
-          <p>L'application suit la langue définie dans les Réglages Système de macOS. Modifiez la langue dans macOS puis relancez l'app.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>Comment effacer toutes les données ?</summary>
-        <div class="faq-answer">
-          <p>Utilisez « Restaurer les entrées par défaut » dans les Réglages. Pensez à exporter vos données au préalable.</p>
-        </div>
-      </details>
-
-      <h2>Confidentialité</h2>
-      <p>Consultez la <a href="privacy.html">Politique de confidentialité de KSIC Studio</a>.</p>
-    </section>
-
-    <!-- Spanish -->
-    <section data-lang="es" lang="es">
-      <a class="back" href="index.html">← Todas las apps</a>
-      <h1>KSIC Studio Soporte</h1>
-      <p class="lead">KSIC Studio es un lanzador de trabajo local para macOS. Si tiene algún problema, la siguiente información puede ayudarle.</p>
-      
-      <div class="contact-card">
-        <strong>Contactar con soporte</strong>
-        <p><a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Soporte">support@kevinlabs.app</a></p>
-        <p class="meta">Incluya versión de macOS, de la app, pasos de reproducción y capturas sin información privada. Respondemos en 3 días hábiles.</p>
-      </div>
-
-      <h2>Preguntas frecuentes</h2>
-      <details class="faq-accordion">
-        <summary>¿Dónde se guardan mis datos?</summary>
-        <div class="faq-answer">
-          <p>Los grupos, enlaces y recientes permanecen en el App Sandbox de macOS y nunca se suben a servidores externos.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>¿Por qué una dirección HTTP no muestra estado?</summary>
-        <div class="faq-answer">
-          <p>Por seguridad de conexión, la app solo comprueba enlaces HTTPS. Los enlaces HTTP se abren igualmente en su navegador.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>¿Cómo migro mi configuración?</summary>
-        <div class="faq-answer">
-          <p>En Ajustes, importe un archivo JSON o use la copia de seguridad y restauración. Haga una copia antes de importar.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>¿Cómo funciona la selección de idioma?</summary>
-        <div class="faq-answer">
-          <p>La app sigue automáticamente el idioma establecido en Ajustes del Sistema de macOS. Cámbielo en macOS y reinicie la app.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>¿Cómo borro todos los datos?</summary>
-        <div class="faq-answer">
-          <p>Utilice «Restaurar entradas predeterminadas» en Ajustes. Exporte previamente lo que desee conservar.</p>
-        </div>
-      </details>
-
-      <h2>Política de privacidad</h2>
-      <p>Consulte la <a href="privacy.html">Política de privacidad de KSIC Studio</a>.</p>
-    </section>
-
-    <!-- Portuguese -->
-    <section data-lang="pt" lang="pt">
-      <a class="back" href="index.html">← Todos os apps</a>
-      <h1>KSIC Studio Suporte</h1>
-      <p class="lead">O KSIC Studio é um inicializador de trabalho local para macOS. Se encontrar problemas, as informações abaixo podem ajudar.</p>
-      
-      <div class="contact-card">
-        <strong>Fale com o suporte</strong>
-        <p><a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Suporte">support@kevinlabs.app</a></p>
-        <p class="meta">Inclua sua versão do macOS, do app, passos para reproduzir e capturas sem dados privados. Respondemos em até 3 dias úteis.</p>
-      </div>
-
-      <h2>Perguntas frequentes</h2>
-      <details class="faq-accordion">
-        <summary>Onde meus dados são armazenados?</summary>
-        <div class="faq-answer">
-          <p>Grupos, entradas e recentes permanecem no App Sandbox do macOS e nunca são enviados para servidores remotos.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>Por que endereços HTTP não têm status de integridade?</summary>
-        <div class="faq-answer">
-          <p>Por segurança, o app verifica apenas links HTTPS. Endereços HTTP continuam abrindo no seu navegador padrão.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>Como migrar minha configuração?</summary>
-        <div class="faq-answer">
-          <p>Nos Ajustes, importe um arquivo JSON ou use os recursos de backup e restauração.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>Como funciona o idioma?</summary>
-        <div class="faq-answer">
-          <p>O app segue o idioma definido nos Ajustes do Sistema do macOS. Altere no macOS e reinicie o app.</p>
-        </div>
-      </details>
-      <details class="faq-accordion">
-        <summary>Como apagar todos os dados?</summary>
-        <div class="faq-answer">
-          <p>Use «Restaurar entradas padrão» nos Ajustes. Exporte suas configurações antes de continuar.</p>
-        </div>
-      </details>
-
-      <h2>Privacidade</h2>
-      <p>Leia a <a href="privacy.html">Política de Privacidade do KSIC Studio</a>.</p>
-    </section>
-  </main>
-
-  <footer>
-    <div>
-      <a href="index.html">
-        <span data-lang="en">All apps</span>
-        <span data-lang="zh" lang="zh-Hans">全部应用</span>
-        <span data-lang="ja" lang="ja">すべてのアプリ</span>
-        <span data-lang="ko" lang="ko">모든 앱</span>
-        <span data-lang="de" lang="de">Alle Apps</span>
-        <span data-lang="fr" lang="fr">Toutes les apps</span>
-        <span data-lang="es" lang="es">Todas las apps</span>
-        <span data-lang="pt" lang="pt">Todos os apps</span>
-      </a> · 
+</header>
+<main id="main">
+<!-- English -->
+<section data-lang="en">
+<a class="back" href="index.html">← All apps</a>
+<h1>KSIC Studio Support</h1>
+<p class="lead">KSIC Studio is a local-first macOS work launcher. If you run into any issues, the information below may help.</p>
+<div class="contact-card">
+<strong>Contact Support</strong>
+<p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20Support%5D%20">support@kevinlabs.app</a></p>
+<p class="meta">Please include your macOS version, app version, reproduction steps, and screenshots (without personal data). We typically reply within three business days.</p>
+</div>
+<div class="reading-layout"><nav aria-label="KSIC Studio Support" class="contents"><a href="#en-topic-0">Frequently Asked Questions</a><a href="#en-topic-1">Privacy Policy</a></nav><div class="reading-body"><h2 id="en-topic-0">Frequently Asked Questions</h2>
+<details class="faq-accordion">
+<summary>Where is my data stored?</summary>
+<div class="faq-answer">
+<p>Work groups, entries, and Recents stay in the macOS App Sandbox and are never uploaded to remote servers.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>Why does an HTTP address show no health status?</summary>
+<div class="faq-answer">
+<p>For connection security, the app only checks HTTPS addresses. HTTP addresses can still be opened in your default browser.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>How do I migrate my configuration?</summary>
+<div class="faq-answer">
+<p>In Settings, import a JSON configuration file or use the backup and restore features. We recommend backing up before importing.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>How does language selection work?</summary>
+<div class="faq-answer">
+<p>The app automatically follows the preferred language set in macOS System Settings. Change your preferred language in macOS Settings, then relaunch the app.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>How do I remove all data?</summary>
+<div class="faq-answer">
+<p>Use "Restore Default Entries" in Settings. Please export any configuration you wish to keep before proceeding.</p>
+</div>
+</details>
+<h2 id="en-topic-1">Privacy Policy</h2>
+<p>Read the <a href="privacy.html">KSIC Studio Privacy Policy</a>.</p>
+</div></div></section>
+<!-- Chinese -->
+<section data-lang="zh" lang="zh-Hans">
+<a class="back" href="index.html">← 全部应用</a>
+<h1>KSIC Studio 支持</h1>
+<p class="lead">KSIC Studio 是一款本地优先的 macOS 工作入口管理器。使用中遇到问题，可以先参考以下说明。</p>
+<div class="contact-card">
+<strong>联系支持</strong>
+<p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20支持%5D%20">support@kevinlabs.app</a></p>
+<p class="meta">请附上 macOS 版本、App 版本、复现步骤和不含隐私信息的截图。通常会在 3 个工作日内回复。</p>
+</div>
+<div class="reading-layout"><nav aria-label="KSIC Studio 支持" class="contents"><a href="#zh-topic-0">常见问题</a><a href="#zh-topic-1">隐私政策</a></nav><div class="reading-body"><h2 id="zh-topic-0">常见问题</h2>
+<details class="faq-accordion">
+<summary>数据保存在哪里？</summary>
+<div class="faq-answer">
+<p>分组、入口和最近使用记录保存在 macOS App Sandbox 沙盒中，绝不会自动上传到远程服务器。</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>为什么 HTTP 地址没有健康状态？</summary>
+<div class="faq-answer">
+<p>为保护连接安全，App 仅检查 HTTPS 地址；HTTP 地址仍可正常交给系统默认浏览器打开。</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>如何迁移配置？</summary>
+<div class="faq-answer">
+<p>在“设置”中选择导入 JSON 配置文件，或使用导出与恢复功能。导入前建议先导出备份。</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>语言如何切换？</summary>
+<div class="faq-answer">
+<p>App 自动跟随 macOS 系统中为该 App 选定的首选语言。请在 macOS 系统设置中更改 App 语言后重启 App 即可。</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>如何删除全部数据？</summary>
+<div class="faq-answer">
+<p>在“设置”中使用“恢复默认入口”。执行该操作前请先导出需要保留的配置。</p>
+</div>
+</details>
+<h2 id="zh-topic-1">隐私政策</h2>
+<p>请阅读 <a href="privacy.html">KSIC Studio 隐私政策</a>。</p>
+</div></div></section>
+<!-- Japanese -->
+<section data-lang="ja" lang="ja">
+<a class="back" href="index.html">← すべてのアプリ</a>
+<h1>KSIC Studio サポート</h1>
+<p class="lead">KSIC Studioは、ローカルファーストのmacOSワークランチャーです。問題が発生した場合は、以下の情報をご確認ください。</p>
+<div class="contact-card">
+<strong>サポートへのお問い合わせ</strong>
+<p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20Support%5D%20">support@kevinlabs.app</a></p>
+<p class="meta">macOSバージョン、アプリバージョン、再現手順、個人情報を含まないスクリーンショットを添えてご連絡ください。通常3営業日以内に返信いたします。</p>
+</div>
+<div class="reading-layout"><nav aria-label="KSIC Studio サポート" class="contents"><a href="#ja-topic-0">よくあるご質問</a><a href="#ja-topic-1">プライバシーポリシー</a></nav><div class="reading-body"><h2 id="ja-topic-0">よくあるご質問</h2>
+<details class="faq-accordion">
+<summary>データはどこに保存されますか？</summary>
+<div class="faq-answer">
+<p>ワークグループ、エントリー、最近使用した履歴はすべてmacOSのApp Sandbox内に保持され、外部サーバーに自動アップロードされることはありません。</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>なぜHTTPアドレスには稼働状況が表示されないのですか？</summary>
+<div class="faq-answer">
+<p>接続のセキュリティ保護のため、HTTPSアドレスのみヘルスチェックを行います。HTTPアドレスも既定のブラウザで通常どおり開くことができます。</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>設定を移行するにはどうすればよいですか？</summary>
+<div class="faq-answer">
+<p>「設定」からJSON設定ファイルをインポートするか、バックアップ・復元機能をご利用ください。インポート前にバックアップをお勧めします。</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>言語の切り替え方法は？</summary>
+<div class="faq-answer">
+<p>macOSのシステム設定で指定された言語に自動的に従います。macOSの設定でアプリ言語を変更し、アプリを再起動してください。</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>すべてのデータを削除するには？</summary>
+<div class="faq-answer">
+<p>「設定」の「デフォルトエントリーを復元」を使用します。実行する前に保持したい設定をエクスポートしてください。</p>
+</div>
+</details>
+<h2 id="ja-topic-1">プライバシーポリシー</h2>
+<p><a href="privacy.html">KSIC Studio プライバシーポリシー</a>をご確認ください。</p>
+</div></div></section>
+<!-- Korean -->
+<section data-lang="ko" lang="ko">
+<a class="back" href="index.html">← 모든 앱</a>
+<h1>KSIC Studio 지원</h1>
+<p class="lead">KSIC Studio는 로컬 우선 macOS 워크 런처입니다. 문제가 발생한 경우 아래 정보를 참조하세요.</p>
+<div class="contact-card">
+<strong>고객 지원 문의</strong>
+<p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20Support%5D%20">support@kevinlabs.app</a></p>
+<p class="meta">macOS 버전, 앱 버전, 재현 단계 및 개인 정보가 포함되지 않은 스크린샷을 첨부해 주세요. 보통 영업일 기준 3일 이내에 답변드립니다.</p>
+</div>
+<div class="reading-layout"><nav aria-label="KSIC Studio 지원" class="contents"><a href="#ko-topic-0">자주 묻는 질문</a><a href="#ko-topic-1">개인정보 처리방침</a></nav><div class="reading-body"><h2 id="ko-topic-0">자주 묻는 질문</h2>
+<details class="faq-accordion">
+<summary>내 데이터는 어디에 저장되나요?</summary>
+<div class="faq-answer">
+<p>작업 그룹, 항목 및 최근 기록은 macOS App Sandbox에 안전하게 보관되며 원격 서버로 전송되지 않습니다.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>HTTP 주소에 상태가 표시되지 않는 이유는 무엇인가요?</summary>
+<div class="faq-answer">
+<p>연결 보안을 위해 HTTPS 주소만 상태를 확인합니다. HTTP 주소도 기본 브라우저에서 정상적으로 열 수 있습니다.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>구성을 마이그레이션하려면 어떻게 해야 하나요?</summary>
+<div class="faq-answer">
+<p>설정에서 JSON 구성 파일을 가져오거나 백업 및 복원 기능을 사용하세요. 가져오기 전에 미리 백업해 두는 것이 좋습니다.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>언어 선택은 어떻게 작동하나요?</summary>
+<div class="faq-answer">
+<p>macOS 시스템 설정에 지정된 언어를 자동으로 따릅니다. macOS 설정에서 언어를 변경한 후 앱을 다시 실행하세요.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>모든 데이터를 삭제하려면 어떻게 해야 하나요?</summary>
+<div class="faq-answer">
+<p>설정에서 '기본 항목 복원'을 사용하세요. 실행하기 전에 보관할 구성을 먼저 내보내세요.</p>
+</div>
+</details>
+<h2 id="ko-topic-1">개인정보 처리방침</h2>
+<p><a href="privacy.html">KSIC Studio 개인정보 처리방침</a>을 읽어보세요.</p>
+</div></div></section>
+<!-- German -->
+<section data-lang="de" lang="de">
+<a class="back" href="index.html">← Alle Apps</a>
+<h1>KSIC Studio Support</h1>
+<p class="lead">KSIC Studio ist ein lokaler macOS-Work-Launcher. Bei Problemen helfen Ihnen die folgenden Informationen.</p>
+<div class="contact-card">
+<strong>Support kontaktieren</strong>
+<p><a href="mailto:support@kevinlabs.app?subject=%5BKSIC%20Studio%20Support%5D%20">support@kevinlabs.app</a></p>
+<p class="meta">Bitte geben Sie macOS-Version, App-Version, Schritte zur Reproduktion sowie Screenshots (ohne private Daten) an. Wir antworten in der Regel innerhalb von 3 Werktagen.</p>
+</div>
+<div class="reading-layout"><nav aria-label="KSIC Studio Support" class="contents"><a href="#de-topic-0">Häufig gestellte Fragen</a><a href="#de-topic-1">Datenschutz</a></nav><div class="reading-body"><h2 id="de-topic-0">Häufig gestellte Fragen</h2>
+<details class="faq-accordion">
+<summary>Wo werden meine Daten gespeichert?</summary>
+<div class="faq-answer">
+<p>Gruppen, Einträge und der Verlauf verbleiben in der macOS App Sandbox und werden niemals auf externe Server hochgeladen.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>Warum haben HTTP-Adressen keinen Status?</summary>
+<div class="faq-answer">
+<p>Aus Sicherheitsgründen prüft die App nur HTTPS-Adressen. HTTP-Adressen werden weiterhin in Ihrem Standardbrowser geöffnet.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>Wie migriere ich meine Konfiguration?</summary>
+<div class="faq-answer">
+<p>In den Einstellungen können Sie eine JSON-Datei importieren oder Backup &amp; Wiederherstellung nutzen.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>Wie funktioniert die Sprachauswahl?</summary>
+<div class="faq-answer">
+<p>Die App folgt der in den macOS-Systemeinstellungen gewählten Sprache. Nach der Sprachänderung die App neu starten.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>Wie lösche ich alle Daten?</summary>
+<div class="faq-answer">
+<p>Nutzen Sie „Standardeinträge wiederherstellen“ in den Einstellungen. Exportieren Sie vorher gewünschte Konfigurationen.</p>
+</div>
+</details>
+<h2 id="de-topic-1">Datenschutz</h2>
+<p>Lesen Sie die <a href="privacy.html">KSIC Studio Datenschutzerklärung</a>.</p>
+</div></div></section>
+<!-- French -->
+<section data-lang="fr" lang="fr">
+<a class="back" href="index.html">← Toutes les apps</a>
+<h1>KSIC Studio Assistance</h1>
+<p class="lead">KSIC Studio est un lanceur de travail local pour macOS. En cas de problème, consultez les réponses ci-dessous.</p>
+<div class="contact-card">
+<strong>Contacter l'assistance</strong>
+<p><a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Assistance">support@kevinlabs.app</a></p>
+<p class="meta">Indiquez votre version de macOS, de l'application, les étapes de reproduction et des captures sans données privées. Réponse sous 3 jours ouvrés.</p>
+</div>
+<div class="reading-layout"><nav aria-label="KSIC Studio Assistance" class="contents"><a href="#fr-topic-0">Foire aux questions</a><a href="#fr-topic-1">Confidentialité</a></nav><div class="reading-body"><h2 id="fr-topic-0">Foire aux questions</h2>
+<details class="faq-accordion">
+<summary>Où sont stockées mes données ?</summary>
+<div class="faq-answer">
+<p>Vos groupes, entrées et récents restent dans le bac à sable (App Sandbox) de macOS et ne sont jamais téléversés.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>Pourquoi une adresse HTTP n'a pas d'état de santé ?</summary>
+<div class="faq-answer">
+<p>Pour la sécurité, l'application ne vérifie que les adresses HTTPS. Les liens HTTP s'ouvrent toujours dans votre navigateur par défaut.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>Comment migrer ma configuration ?</summary>
+<div class="faq-answer">
+<p>Dans Réglages, importez un fichier JSON ou utilisez la fonction de sauvegarde et restauration.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>Comment changer la langue ?</summary>
+<div class="faq-answer">
+<p>L'application suit la langue définie dans les Réglages Système de macOS. Modifiez la langue dans macOS puis relancez l'app.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>Comment effacer toutes les données ?</summary>
+<div class="faq-answer">
+<p>Utilisez « Restaurer les entrées par défaut » dans les Réglages. Pensez à exporter vos données au préalable.</p>
+</div>
+</details>
+<h2 id="fr-topic-1">Confidentialité</h2>
+<p>Consultez la <a href="privacy.html">Politique de confidentialité de KSIC Studio</a>.</p>
+</div></div></section>
+<!-- Spanish -->
+<section data-lang="es" lang="es">
+<a class="back" href="index.html">← Todas las apps</a>
+<h1>KSIC Studio Soporte</h1>
+<p class="lead">KSIC Studio es un lanzador de trabajo local para macOS. Si tiene algún problema, la siguiente información puede ayudarle.</p>
+<div class="contact-card">
+<strong>Contactar con soporte</strong>
+<p><a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Soporte">support@kevinlabs.app</a></p>
+<p class="meta">Incluya versión de macOS, de la app, pasos de reproducción y capturas sin información privada. Respondemos en 3 días hábiles.</p>
+</div>
+<div class="reading-layout"><nav aria-label="KSIC Studio Soporte" class="contents"><a href="#es-topic-0">Preguntas frecuentes</a><a href="#es-topic-1">Política de privacidad</a></nav><div class="reading-body"><h2 id="es-topic-0">Preguntas frecuentes</h2>
+<details class="faq-accordion">
+<summary>¿Dónde se guardan mis datos?</summary>
+<div class="faq-answer">
+<p>Los grupos, enlaces y recientes permanecen en el App Sandbox de macOS y nunca se suben a servidores externos.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>¿Por qué una dirección HTTP no muestra estado?</summary>
+<div class="faq-answer">
+<p>Por seguridad de conexión, la app solo comprueba enlaces HTTPS. Los enlaces HTTP se abren igualmente en su navegador.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>¿Cómo migro mi configuración?</summary>
+<div class="faq-answer">
+<p>En Ajustes, importe un archivo JSON o use la copia de seguridad y restauración. Haga una copia antes de importar.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>¿Cómo funciona la selección de idioma?</summary>
+<div class="faq-answer">
+<p>La app sigue automáticamente el idioma establecido en Ajustes del Sistema de macOS. Cámbielo en macOS y reinicie la app.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>¿Cómo borro todos los datos?</summary>
+<div class="faq-answer">
+<p>Utilice «Restaurar entradas predeterminadas» en Ajustes. Exporte previamente lo que desee conservar.</p>
+</div>
+</details>
+<h2 id="es-topic-1">Política de privacidad</h2>
+<p>Consulte la <a href="privacy.html">Política de privacidad de KSIC Studio</a>.</p>
+</div></div></section>
+<!-- Portuguese -->
+<section data-lang="pt" lang="pt">
+<a class="back" href="index.html">← Todos os apps</a>
+<h1>KSIC Studio Suporte</h1>
+<p class="lead">O KSIC Studio é um inicializador de trabalho local para macOS. Se encontrar problemas, as informações abaixo podem ajudar.</p>
+<div class="contact-card">
+<strong>Fale com o suporte</strong>
+<p><a href="mailto:support@kevinlabs.app?subject=KSIC%20Studio%20Suporte">support@kevinlabs.app</a></p>
+<p class="meta">Inclua sua versão do macOS, do app, passos para reproduzir e capturas sem dados privados. Respondemos em até 3 dias úteis.</p>
+</div>
+<div class="reading-layout"><nav aria-label="KSIC Studio Suporte" class="contents"><a href="#pt-topic-0">Perguntas frequentes</a><a href="#pt-topic-1">Privacidade</a></nav><div class="reading-body"><h2 id="pt-topic-0">Perguntas frequentes</h2>
+<details class="faq-accordion">
+<summary>Onde meus dados são armazenados?</summary>
+<div class="faq-answer">
+<p>Grupos, entradas e recentes permanecem no App Sandbox do macOS e nunca são enviados para servidores remotos.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>Por que endereços HTTP não têm status de integridade?</summary>
+<div class="faq-answer">
+<p>Por segurança, o app verifica apenas links HTTPS. Endereços HTTP continuam abrindo no seu navegador padrão.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>Como migrar minha configuração?</summary>
+<div class="faq-answer">
+<p>Nos Ajustes, importe um arquivo JSON ou use os recursos de backup e restauração.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>Como funciona o idioma?</summary>
+<div class="faq-answer">
+<p>O app segue o idioma definido nos Ajustes do Sistema do macOS. Altere no macOS e reinicie o app.</p>
+</div>
+</details>
+<details class="faq-accordion">
+<summary>Como apagar todos os dados?</summary>
+<div class="faq-answer">
+<p>Use «Restaurar entradas padrão» nos Ajustes. Exporte suas configurações antes de continuar.</p>
+</div>
+</details>
+<h2 id="pt-topic-1">Privacidade</h2>
+<p>Leia a <a href="privacy.html">Política de Privacidade do KSIC Studio</a>.</p>
+</div></div></section>
+</main>
+<footer>
+<div>
+<a href="index.html">
+<span data-lang="en">All apps</span>
+<span data-lang="zh" lang="zh-Hans">全部应用</span>
+<span data-lang="ja" lang="ja">すべてのアプリ</span>
+<span data-lang="ko" lang="ko">모든 앱</span>
+<span data-lang="de" lang="de">Alle Apps</span>
+<span data-lang="fr" lang="fr">Toutes les apps</span>
+<span data-lang="es" lang="es">Todas las apps</span>
+<span data-lang="pt" lang="pt">Todos os apps</span>
+</a> ·
       <a href="privacy.html">
-        <span data-lang="en">Privacy policy</span>
-        <span data-lang="zh" lang="zh-Hans">隐私政策</span>
-        <span data-lang="ja" lang="ja">プライバシーポリシー</span>
-        <span data-lang="ko" lang="ko">개인정보 처리방침</span>
-        <span data-lang="de" lang="de">Datenschutz</span>
-        <span data-lang="fr" lang="fr">Confidentialité</span>
-        <span data-lang="es" lang="es">Privacidad</span>
-        <span data-lang="pt" lang="pt">Privacidade</span>
-      </a> · 
+<span data-lang="en">Privacy policy</span>
+<span data-lang="zh" lang="zh-Hans">隐私政策</span>
+<span data-lang="ja" lang="ja">プライバシーポリシー</span>
+<span data-lang="ko" lang="ko">개인정보 처리방침</span>
+<span data-lang="de" lang="de">Datenschutz</span>
+<span data-lang="fr" lang="fr">Confidentialité</span>
+<span data-lang="es" lang="es">Privacidad</span>
+<span data-lang="pt" lang="pt">Privacidade</span>
+</a> ·
       <a href="mailto:support@kevinlabs.app">
-        <span data-lang="en">Contact support</span>
-        <span data-lang="zh" lang="zh-Hans">联系支持</span>
-        <span data-lang="ja" lang="ja">サポートへのお問い合わせ</span>
-        <span data-lang="ko" lang="ko">고객 지원 문의</span>
-        <span data-lang="de" lang="de">Support kontaktieren</span>
-        <span data-lang="fr" lang="fr">Contacter l'assistance</span>
-        <span data-lang="es" lang="es">Contactar con soporte</span>
-        <span data-lang="pt" lang="pt">Fale com o suporte</span>
-      </a>
-    </div>
-  </footer>
-<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "46b4d93f83ac42788eb60ed45468c15d"}'></script><!-- End Cloudflare Web Analytics -->
+<span data-lang="en">Contact support</span>
+<span data-lang="zh" lang="zh-Hans">联系支持</span>
+<span data-lang="ja" lang="ja">サポートへのお問い合わせ</span>
+<span data-lang="ko" lang="ko">고객 지원 문의</span>
+<span data-lang="de" lang="de">Support kontaktieren</span>
+<span data-lang="fr" lang="fr">Contacter l'assistance</span>
+<span data-lang="es" lang="es">Contactar con soporte</span>
+<span data-lang="pt" lang="pt">Fale com o suporte</span>
+</a>
+</div>
+<span class="site-version">v2.0.0</span></footer>
+<!-- Cloudflare Web Analytics --><script data-cf-beacon='{"token": "46b4d93f83ac42788eb60ed45468c15d"}' src="https://static.cloudflareinsights.com/beacon.min.js" type="module"></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
