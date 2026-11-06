@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "currencyPrices": {
+    "CN": {
+      "currency": "CNY",
+      "regularMinor": 4900,
+      "earlyBirdMinor": 2500,
+      "discountMinor": 2400,
+      "discountId": "dsc_01m6sk5z38gwfzwktyj5hyyse1",
+      "discountCode": "NEXTMIRRORCN24"
+    },
+    "international": {
+      "currency": "USD",
+      "regularMinor": 999,
+      "earlyBirdMinor": 499,
+      "discountMinor": 500,
+      "discountId": "dsc_01m6sk0pg1bd3sz7xwnhq8yyr5",
+      "discountCode": "NEXTMIRRORUSD5"
+    }
+  },
+  "provider": "paddle",
+  "saleEnabled": false,
+  "earlyBirdEndsAt": null,
+  "license": {
+    "majorVersion": 1,
+    "trialDays": 14,
+    "maxDevices": 2,
+    "offlineDays": 30
+  },
+  "updatedAt": "2026-11-07",
+  "productId": "pro_01m6sjktmdvcfgc62xd3nfbgyq",
+  "priceId": "pri_01m6sjsy8n4yewekevwjz23xn5",
+  "promotionEndMode": "manual",
+  "paddleEnvironment": "live"
+}

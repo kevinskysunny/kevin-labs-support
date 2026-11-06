@@ -10,7 +10,7 @@ test('redesign retains all eight homepage languages and live product destination
  }
  assert.match(html,/barnest\.kevinlabs\.app/);assert.match(html,/smoothcast\.kevinlabs\.app/);
  for(const path of ['index.html','guides.html','volmix/index.html','barnest/support.html','barnest/privacy.html']){
-  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.1\.0/);assert.match(content,/id="language"/);assert.match(content,/v2\.1\.0/);
+  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.1\.0/);assert.match(content,/id="language"/);assert.match(content,/v2\.2\.0/);
  }
 });
 test('documentation contents point at actual translated headings',()=>{
@@ -37,7 +37,7 @@ test('language fallback and header DOM stay usable before scripts run',()=>{
   assert.match(html,/noscript data-language-fallback/);
  }
 });
-test('homepage presents three featured peers and three unique utility entries per language',()=>{
+test('homepage presents three featured peers and four unique utility entries per language',()=>{
  const html=read('index.html');
  const sections=[...html.matchAll(/<section data-lang="([a-z]{2})"[^>]*>([\s\S]*?)(?=<section class="faq-section">)/g)];
  assert.equal(sections.length,8);
@@ -45,8 +45,20 @@ test('homepage presents three featured peers and three unique utility entries pe
   const featured=[...section.matchAll(/class="product-card" data-product="([^"]+)"/g)].map(x=>x[1]);
   const others=[...section.matchAll(/class="tool-card" data-product="([^"]+)"/g)].map(x=>x[1]);
   assert.deepEqual(featured,['volmix','barnest-pro','smoothcast'],lang);
-  assert.deepEqual(others,['presenter-deck','netdoctor','ksic-studio'],lang);
-  assert.equal(new Set([...featured,...others]).size,6);
+  assert.deepEqual(others,['presenter-deck','netdoctor','ksic-studio','nextmirror'],lang);
+  assert.equal(new Set([...featured,...others]).size,7);
   assert.match(section,/href="barnest\/support.html"/);assert.match(section,/href="barnest\/privacy.html"/);
  }
+});
+test('NextMirror prelaunch cannot send users to an unlicensed installer or checkout',()=>{
+ const catalog=JSON.parse(read('index.json')).apps.find(app=>app.id==='nextmirror');
+ assert.equal(catalog.availability,'coming-soon');assert.equal(catalog.architecture,'arm64');
+ assert.equal(catalog.downloadUrl,undefined);assert.equal(catalog.appStoreUrl,undefined);
+ const pricing=JSON.parse(read('nextmirror/pricing.json'));
+ assert.equal(pricing.saleEnabled,false);assert.equal(pricing.promotionEndMode,'manual');
+ assert.equal(pricing.currencyPrices.CN.regularMinor-pricing.currencyPrices.CN.discountMinor,2500);
+ assert.equal(pricing.currencyPrices.international.regularMinor-pricing.currencyPrices.international.discountMinor,499);
+ const page=read('nextmirror/index.html');
+ assert.doesNotMatch(page,/href="[^"]*(?:\.dmg|\/buy|checkout)[^"]*"/);
+ for(const lang of ['en','zh','ja','ko','de','fr','es','pt'])assert.ok(page.includes(`id="support-${lang}"`));
 });

@@ -1,0 +1,3 @@
+.nextmirror-icon{width:min(100%,280px);height:auto;justify-self:center}.nextmirror-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-bottom:48px}.release-state{font-weight:600}main p{line-height:1.8}main>section>p{max-width:850px}.muted{color:var(--muted);margin-top:48px}@media(max-width:700px){.nextmirror-features{grid-template-columns:1fr}.nextmirror-icon{width:160px}.product-hero{display:flex;flex-direction:column-reverse;align-items:flex-start}}
+
+.pricing{max-width:850px;margin:40px 0}.pricing table{width:100%;border-collapse:collapse}.pricing th,.pricing td{padding:14px 8px;text-align:left;border-bottom:1px solid var(--line)}.pricing td{white-space:nowrap}.pricing th{font-weight:500}.pricing p{font-size:14px;color:var(--muted)}
