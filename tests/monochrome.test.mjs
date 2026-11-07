@@ -10,7 +10,7 @@ test('redesign retains all eight homepage languages and live product destination
  }
  assert.match(html,/barnest\.kevinlabs\.app/);assert.match(html,/smoothcast\.kevinlabs\.app/);
  for(const path of ['index.html','guides.html','volmix/index.html','barnest/support.html','barnest/privacy.html']){
-  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.1\.0/);assert.match(content,/id="language"/);assert.match(content,/v2\.2\.0/);
+  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.1\.0/);assert.match(content,/id="language"/);assert.match(content,/v2\.2\.1/);
  }
 });
 test('documentation contents point at actual translated headings',()=>{
