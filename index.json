@@ -203,6 +203,30 @@
       "verifiedAt": "2026-11-07",
       "build": 6,
       "downloadUrl": "https://nextmirror.kevinlabs.app/download"
+    },
+    {
+      "id": "mindcharge",
+      "name": "MindCharge",
+      "platform": "macOS",
+      "summary": {
+        "en": "Track mood and recurring costs together, then give purchase decisions time to settle.",
+        "zh": "把心情与订阅资产放在一起管理，用记录帮助自己更冷静地做决定。",
+        "ja": "気分と定期支出を一緒に記録し、購入の判断に時間を置けます。",
+        "ko": "기분과 정기 지출을 함께 기록하고 구매 결정을 천천히 검토하세요.",
+        "de": "Stimmung und wiederkehrende Kosten gemeinsam verfolgen und Kaufentscheidungen ruhiger treffen.",
+        "fr": "Suivez humeur et dépenses récurrentes ensemble pour décider plus sereinement.",
+        "es": "Registra estado de ánimo y gastos recurrentes juntos para decidir con más calma.",
+        "pt": "Registre humor e despesas recorrentes juntos para decidir com mais calma."
+      },
+      "productUrl": "https://mindcharge.kevinlabs.app/",
+      "supportUrl": "mindcharge/support.html",
+      "privacyUrl": "https://mindcharge.kevinlabs.app/privacy.html",
+      "videos": [],
+      "availability": "available",
+      "version": "1.0.0",
+      "build": 5,
+      "verifiedAt": "2026-11-07",
+      "downloadUrl": "https://mindcharge.kevinlabs.app/download"
     }
   ],
   "siteVersion": "2.2.4"
