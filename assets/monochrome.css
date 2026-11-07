@@ -54,3 +54,6 @@ html,body{overflow-x:clip}body{background:var(--bg);color:var(--ink)}.bar,main,f
 /* Support catalog icons stay aligned with their app names. */
 .guides-page .app-row{flex-wrap:nowrap;align-items:center;white-space:nowrap}
 .guides-page .app-row>img{display:block;width:36px;height:36px;object-fit:contain;flex-shrink:0}
+
+/* Keep the same brand/language row on every small product page. */
+@media(max-width:600px){.bar{gap:12px 8px}.bar .brand{order:1;font-size:18px;gap:8px;margin-right:0}.bar .brand-logo{width:30px;height:30px}.bar .language{order:2;width:auto;margin-left:auto}.bar .language select{width:112px;max-width:112px}.bar .site-nav{order:3;flex-basis:100%;margin:0;min-height:32px;display:flex;align-items:center}}

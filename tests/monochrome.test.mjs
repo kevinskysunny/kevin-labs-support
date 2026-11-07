@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8');
 test('redesign retains all eight homepage languages and live product destinations',()=>{
  const html=read('index.html');
@@ -10,7 +11,11 @@ test('redesign retains all eight homepage languages and live product destination
  }
  assert.match(html,/barnest\.kevinlabs\.app/);assert.match(html,/smoothcast\.kevinlabs\.app/);
  for(const path of ['index.html','guides.html','volmix/index.html','barnest/support.html','barnest/privacy.html']){
-  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.2\.3/);assert.match(content,/id="language"/);assert.match(content,/v2\.2\.4/);
+  const content=read(path);for(const asset of ['site.css','monochrome.css']){
+   const revision=createHash('sha256').update(read('assets/'+asset)).digest('hex').slice(0,12);
+   assert.ok(content.includes('assets/'+asset+'?v='+revision),path+' loads the current '+asset);
+  }
+  assert.match(content,/id="language"/);assert.match(content,/v2\.2\.5/);
  }
 });
 test('documentation contents point at actual translated headings',()=>{
@@ -37,7 +42,7 @@ test('language fallback and header DOM stay usable before scripts run',()=>{
   assert.match(html,/noscript data-language-fallback/);
  }
 });
-test('homepage presents three featured peers and four unique utility entries per language',()=>{
+test('homepage presents three featured peers and five unique utility entries per language',()=>{
  const html=read('index.html');
  const sections=[...html.matchAll(/<section data-lang="([a-z]{2})"[^>]*>([\s\S]*?)(?=<section class="faq-section">)/g)];
  assert.equal(sections.length,8);
@@ -45,8 +50,8 @@ test('homepage presents three featured peers and four unique utility entries per
   const featured=[...section.matchAll(/class="product-card" data-product="([^"]+)"/g)].map(x=>x[1]);
   const others=[...section.matchAll(/class="tool-card" data-product="([^"]+)"/g)].map(x=>x[1]);
   assert.deepEqual(featured,['volmix','barnest-pro','nextmirror'],lang);
-  assert.deepEqual(others,['smoothcast','presenter-deck','netdoctor','ksic-studio'],lang);
-  assert.equal(new Set([...featured,...others]).size,7);
+  assert.deepEqual(others,['mindcharge','smoothcast','presenter-deck','netdoctor','ksic-studio'],lang);
+  assert.equal(new Set([...featured,...others]).size,8);
   assert.match(section,/href="barnest\/support.html"/);assert.match(section,/href="barnest\/privacy.html"/);
  }
 });
@@ -63,15 +68,15 @@ test('NextMirror catalog points to its licensed product domain and manual launch
  assert.match(page,/nextmirror\.kevinlabs\.app/);
 });
 
-test('support directory offers all seven apps with real icons in every language',()=>{
+test('support directory offers all eight apps with real icons in every language',()=>{
  const html=read('guides.html').replace(/<!--[\s\S]*?-->/g,'');
  const sections=[...html.matchAll(/<section data-lang="([a-z]{2})"[^>]*>([\s\S]*?)<\/section>/g)];
  assert.equal(sections.length,8);
  for(const [,lang,section] of sections){
   const rows=[...section.matchAll(/<a class="app-row"[^>]*>([\s\S]*?)<\/a>/g)].map(x=>x[1]);
-  assert.equal(rows.length,7,lang);
-  assert.deepEqual(rows.map(row=>row.replace(/<[^>]*>/g,'').trim()),['VolMix','BarNest Pro','NextMirror','SmoothCast','PresenterDeck','NetDoctor','KSIC Studio'],lang);
-  for(const app of ['BarNest Pro','VolMix','NextMirror','SmoothCast','KSIC Studio','NetDoctor','PresenterDeck']) {
+  assert.equal(rows.length,8,lang);
+  assert.deepEqual(rows.map(row=>row.replace(/<[^>]*>/g,'').trim()),['VolMix','BarNest Pro','NextMirror','MindCharge','SmoothCast','PresenterDeck','NetDoctor','KSIC Studio'],lang);
+  for(const app of ['BarNest Pro','VolMix','NextMirror','MindCharge','SmoothCast','KSIC Studio','NetDoctor','PresenterDeck']) {
    assert.equal(rows.filter(row=>row.endsWith(app)).length,1,lang+' '+app);
   }
   for(const row of rows) assert.match(row,/<img[^>]*src="assets\/[^" ]+-icon\.png"/,lang);
