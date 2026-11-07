@@ -10,7 +10,7 @@ test('redesign retains all eight homepage languages and live product destination
  }
  assert.match(html,/barnest\.kevinlabs\.app/);assert.match(html,/smoothcast\.kevinlabs\.app/);
  for(const path of ['index.html','guides.html','volmix/index.html','barnest/support.html','barnest/privacy.html']){
-  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.2\.3/);assert.match(content,/id="language"/);assert.match(content,/v2\.2\.3/);
+  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.2\.3/);assert.match(content,/id="language"/);assert.match(content,/v2\.2\.4/);
  }
 });
 test('documentation contents point at actual translated headings',()=>{
@@ -70,6 +70,7 @@ test('support directory offers all seven apps with real icons in every language'
  for(const [,lang,section] of sections){
   const rows=[...section.matchAll(/<a class="app-row"[^>]*>([\s\S]*?)<\/a>/g)].map(x=>x[1]);
   assert.equal(rows.length,7,lang);
+  assert.deepEqual(rows.map(row=>row.replace(/<[^>]*>/g,'').trim()),['VolMix','BarNest Pro','NextMirror','SmoothCast','PresenterDeck','NetDoctor','KSIC Studio'],lang);
   for(const app of ['BarNest Pro','VolMix','NextMirror','SmoothCast','KSIC Studio','NetDoctor','PresenterDeck']) {
    assert.equal(rows.filter(row=>row.endsWith(app)).length,1,lang+' '+app);
   }
