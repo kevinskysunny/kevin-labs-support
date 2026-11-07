@@ -50,3 +50,7 @@ html,body{overflow-x:clip}body{background:var(--bg);color:var(--ink)}.bar,main,f
 
 /* Utility cards use real app icons at the same size as the monograms. */
 .tool-card>img{width:36px;height:36px;object-fit:contain;margin-bottom:20px}
+
+/* Support catalog icons stay aligned with their app names. */
+.guides-page .app-row{flex-wrap:nowrap;align-items:center;white-space:nowrap}
+.guides-page .app-row>img{display:block;width:36px;height:36px;object-fit:contain;flex-shrink:0}

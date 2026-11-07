@@ -10,7 +10,7 @@ test('redesign retains all eight homepage languages and live product destination
  }
  assert.match(html,/barnest\.kevinlabs\.app/);assert.match(html,/smoothcast\.kevinlabs\.app/);
  for(const path of ['index.html','guides.html','volmix/index.html','barnest/support.html','barnest/privacy.html']){
-  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.1\.0/);assert.match(content,/id="language"/);assert.match(content,/v2\.2\.2/);
+  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.2\.3/);assert.match(content,/id="language"/);assert.match(content,/v2\.2\.3/);
  }
 });
 test('documentation contents point at actual translated headings',()=>{
@@ -61,4 +61,19 @@ test('NextMirror catalog points to its licensed product domain and manual launch
  const page=read('nextmirror/index.html');
  assert.doesNotMatch(page,/href="[^"]*(?:\.dmg|\/buy|checkout)[^"]*"/);
  assert.match(page,/nextmirror\.kevinlabs\.app/);
+});
+
+test('support directory offers all seven apps with real icons in every language',()=>{
+ const html=read('guides.html').replace(/<!--[\s\S]*?-->/g,'');
+ const sections=[...html.matchAll(/<section data-lang="([a-z]{2})"[^>]*>([\s\S]*?)<\/section>/g)];
+ assert.equal(sections.length,8);
+ for(const [,lang,section] of sections){
+  const rows=[...section.matchAll(/<a class="app-row"[^>]*>([\s\S]*?)<\/a>/g)].map(x=>x[1]);
+  assert.equal(rows.length,7,lang);
+  for(const app of ['BarNest Pro','VolMix','NextMirror','SmoothCast','KSIC Studio','NetDoctor','PresenterDeck']) {
+   assert.equal(rows.filter(row=>row.endsWith(app)).length,1,lang+' '+app);
+  }
+  for(const row of rows) assert.match(row,/<img[^>]*src="assets\/[^" ]+-icon\.png"/,lang);
+  assert.match(section,new RegExp('nextmirror\\.kevinlabs\\.app/\\?lang='+lang+'#support-'+lang));
+ }
 });
