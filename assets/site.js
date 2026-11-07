@@ -202,3 +202,18 @@
 
   render();
 })();
+
+/* Kevin Labs website analytics v1.0.0. No cookies or persistent browser identifier. */
+(()=>{
+ if(typeof window==='undefined'||typeof document==='undefined'||typeof navigator==='undefined'||typeof document.addEventListener!=='function')return;
+ if(window.__kevinProductAnalytics)return;window.__kevinProductAnalytics=true;
+ if(navigator.doNotTrack==='1'||navigator.globalPrivacyControl)return;
+ const endpoint='https://www.ks-sic.com/api/product-analytics/event';
+ const send=event=>{const body=JSON.stringify({event,path:location.pathname});try{if(navigator.sendBeacon&&navigator.sendBeacon(endpoint,body))return;fetch(endpoint,{method:'POST',body,keepalive:true,credentials:'omit'}).catch(()=>{})}catch{}};
+ if(document.prerendering){document.addEventListener('prerenderingchange',()=>send('page'),{once:true})}else send('page');
+ document.addEventListener('click',event=>{const link=event.target.closest?.('a[href]');if(!link)return;let url;try{url=new URL(link.href,location.href)}catch{return}
+ if(['apps.apple.com','chromewebstore.google.com','microsoftedge.microsoft.com','addons.mozilla.org'].includes(url.hostname))send('store_click');
+ else if(/\.dmg$|\.zip$|\/download(?:s\/|$)|\/releases\/download\//i.test(url.pathname))send('download_click');
+ else if(/\/buy(?:\/|$)|checkout/i.test(url.pathname)||url.hash==='#buy')send('buy_click');
+ },{capture:true});
+})();
