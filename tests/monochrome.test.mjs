@@ -15,7 +15,7 @@ test('redesign retains all eight homepage languages and live product destination
    const revision=createHash('sha256').update(read('assets/'+asset)).digest('hex').slice(0,12);
    assert.ok(content.includes('assets/'+asset+'?v='+revision),path+' loads the current '+asset);
   }
-  assert.match(content,/id="language"/);assert.match(content,/v2\.2\.5/);
+  assert.match(content,/id="language"/);assert.match(content,/v2\.2\.6/);
  }
 });
 test('documentation contents point at actual translated headings',()=>{
@@ -101,4 +101,25 @@ test('every product identity has an explicit catalog return above it',()=>{
    previous=match.index;
   }
  }
+});
+
+test('shared footers contain policy links without repeated task navigation',()=>{
+ for(const path of ['index.html','guides.html','volmix/index.html','barnest/support.html','netdoctor/index.html','presenter-deck/privacy.html','ksic-studio/index.html']){
+  const footer=read(path).match(/<footer[\s\S]*?<\/footer>/)?.[0];
+  assert.ok(footer,path);
+  const hrefs=[...footer.matchAll(/href="([^"]+)"/g)].map(x=>x[1]);
+  assert.equal(new Set(hrefs).size,hrefs.length,path);
+  for(const href of hrefs)assert.match(href,/privacy\.html/,path+' policy-only footer');
+  assert.doesNotMatch(footer,/mailto:|Contact support|All apps|全部应用|联系支持/);
+ }
+});
+test('MindCharge support resolves directly to its product support section',()=>{
+ const app=JSON.parse(read('index.json')).apps.find(app=>app.id==='mindcharge');
+ assert.equal(app.supportUrl,'https://mindcharge.kevinlabs.app/#support');
+ const guide=read('guides.html');
+ assert.doesNotMatch(guide,/href="mindcharge\/support\.html/);
+ assert.match(guide,/href="https:\/\/mindcharge\.kevinlabs\.app\/#support"/);
+ const legacy=read('mindcharge/support.html');
+ assert.match(legacy,/http-equiv="refresh"/);assert.match(legacy,/location\.replace\(target\.href\)/);
+ assert.doesNotMatch(legacy,/contact-card/);
 });

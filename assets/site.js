@@ -97,6 +97,11 @@
     // Preserve the user's explicit language mode across product origins.
     document.querySelectorAll('a[href]').forEach(link => {
       const destination = new URL(link.getAttribute('href'), location.href);
+      if (destination.hostname === 'mindcharge.kevinlabs.app') {
+        const productLanguage = {system:'system',en:'en',zh:'zh-Hans',ja:'ja',de:'de',fr:'fr',es:'es'};
+        destination.searchParams.set('lang', productLanguage[preference] || 'en');
+        link.href = destination.href;
+      }
       if (destination.hostname === 'smoothcast.kevinlabs.app') {
         destination.searchParams.set('lang', preference);
         link.href = destination.href;

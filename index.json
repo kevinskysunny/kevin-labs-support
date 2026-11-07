@@ -219,8 +219,8 @@
         "pt": "Registre humor e despesas recorrentes juntos para decidir com mais calma."
       },
       "productUrl": "https://mindcharge.kevinlabs.app/",
-      "supportUrl": "mindcharge/support.html",
-      "privacyUrl": "https://mindcharge.kevinlabs.app/privacy.html",
+      "supportUrl": "https://mindcharge.kevinlabs.app/#support",
+      "privacyUrl": "https://mindcharge.kevinlabs.app/legal.html#privacy",
       "videos": [],
       "availability": "available",
       "version": "1.0.0",
@@ -229,5 +229,5 @@
       "downloadUrl": "https://mindcharge.kevinlabs.app/download"
     }
   ],
-  "siteVersion": "2.2.5"
+  "siteVersion": "2.2.6"
 }

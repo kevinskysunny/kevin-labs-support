@@ -57,3 +57,6 @@ html,body{overflow-x:clip}body{background:var(--bg);color:var(--ink)}.bar,main,f
 
 /* Keep the same brand/language row on every small product page. */
 @media(max-width:600px){.bar{gap:12px 8px}.bar .brand{order:1;font-size:18px;gap:8px;margin-right:0}.bar .brand-logo{width:30px;height:30px}.bar .language{order:2;width:auto;margin-left:auto}.bar .language select{width:112px;max-width:112px}.bar .site-nav{order:3;flex-basis:100%;margin:0;min-height:32px;display:flex;align-items:center}}
+
+/* Policies belong in the footer; task navigation stays beside its content. */
+footer{padding:24px 0 32px;font-size:13px;line-height:1.7}footer .footer-links{display:flex;flex-wrap:wrap;gap:12px 24px}footer a{font-size:13px;line-height:1.7}footer p{margin:16px 0 0}footer .site-version{display:inline;margin:0;font-size:13px}
