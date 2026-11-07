@@ -47,3 +47,6 @@ html,body{overflow-x:clip}body{background:var(--bg);color:var(--ink)}.bar,main,f
 .legacy-support a{color:var(--ink)}.home-page .faq-section{margin-top:40px}
 @media(max-width:900px){.featured-products,.other-products{gap:20px}.product-card{padding:24px 20px}.product-card h3{font-size:24px}}
 @media(max-width:700px){.featured-products,.other-products{grid-template-columns:minmax(0,1fr);gap:20px}.product-card{padding:24px}.product-card>img{width:64px;height:64px;margin-bottom:20px}.product-card h3{font-size:26px}.product-description{max-width:100%;margin-bottom:20px}.home-page .home-intro{padding-bottom:32px}.tool-card{padding:24px 0}.home-page main>section>.other-heading{margin-top:40px}.legacy-support{gap:12px 20px}.legacy-support>span{flex-basis:100%}}
+
+/* Utility cards use real app icons at the same size as the monograms. */
+.tool-card>img{width:36px;height:36px;object-fit:contain;margin-bottom:20px}

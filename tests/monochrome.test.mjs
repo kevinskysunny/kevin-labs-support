@@ -10,7 +10,7 @@ test('redesign retains all eight homepage languages and live product destination
  }
  assert.match(html,/barnest\.kevinlabs\.app/);assert.match(html,/smoothcast\.kevinlabs\.app/);
  for(const path of ['index.html','guides.html','volmix/index.html','barnest/support.html','barnest/privacy.html']){
-  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.1\.0/);assert.match(content,/id="language"/);assert.match(content,/v2\.2\.1/);
+  const content=read(path);assert.match(content,/monochrome\.css\?v=2\.1\.0/);assert.match(content,/id="language"/);assert.match(content,/v2\.2\.2/);
  }
 });
 test('documentation contents point at actual translated headings',()=>{
@@ -44,21 +44,21 @@ test('homepage presents three featured peers and four unique utility entries per
  for(const [,lang,section] of sections){
   const featured=[...section.matchAll(/class="product-card" data-product="([^"]+)"/g)].map(x=>x[1]);
   const others=[...section.matchAll(/class="tool-card" data-product="([^"]+)"/g)].map(x=>x[1]);
-  assert.deepEqual(featured,['volmix','barnest-pro','smoothcast'],lang);
-  assert.deepEqual(others,['presenter-deck','netdoctor','ksic-studio','nextmirror'],lang);
+  assert.deepEqual(featured,['volmix','barnest-pro','nextmirror'],lang);
+  assert.deepEqual(others,['smoothcast','presenter-deck','netdoctor','ksic-studio'],lang);
   assert.equal(new Set([...featured,...others]).size,7);
   assert.match(section,/href="barnest\/support.html"/);assert.match(section,/href="barnest\/privacy.html"/);
  }
 });
-test('NextMirror prelaunch cannot send users to an unlicensed installer or checkout',()=>{
+test('NextMirror catalog points to its licensed product domain and manual launch offer',()=>{
  const catalog=JSON.parse(read('index.json')).apps.find(app=>app.id==='nextmirror');
- assert.equal(catalog.availability,'coming-soon');assert.equal(catalog.architecture,'arm64');
- assert.equal(catalog.downloadUrl,undefined);assert.equal(catalog.appStoreUrl,undefined);
+ assert.equal(catalog.availability,'available');assert.equal(catalog.architecture,'arm64');
+ assert.equal(catalog.downloadUrl,'https://nextmirror.kevinlabs.app/download');assert.equal(catalog.appStoreUrl,undefined);
  const pricing=JSON.parse(read('nextmirror/pricing.json'));
- assert.equal(pricing.saleEnabled,false);assert.equal(pricing.promotionEndMode,'manual');
+ assert.equal(pricing.saleEnabled,true);assert.equal(pricing.promotionEndMode,'manual');
  assert.equal(pricing.currencyPrices.CN.regularMinor-pricing.currencyPrices.CN.discountMinor,2500);
  assert.equal(pricing.currencyPrices.international.regularMinor-pricing.currencyPrices.international.discountMinor,499);
  const page=read('nextmirror/index.html');
  assert.doesNotMatch(page,/href="[^"]*(?:\.dmg|\/buy|checkout)[^"]*"/);
- for(const lang of ['en','zh','ja','ko','de','fr','es','pt'])assert.ok(page.includes(`id="support-${lang}"`));
+ assert.match(page,/nextmirror\.kevinlabs\.app/);
 });

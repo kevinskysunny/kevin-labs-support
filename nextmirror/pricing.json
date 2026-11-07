@@ -19,7 +19,7 @@
     }
   },
   "provider": "paddle",
-  "saleEnabled": false,
+  "saleEnabled": true,
   "earlyBirdEndsAt": null,
   "license": {
     "majorVersion": 1,
@@ -31,5 +31,7 @@
   "productId": "pro_01m6sjktmdvcfgc62xd3nfbgyq",
   "priceId": "pri_01m6sjsy8n4yewekevwjz23xn5",
   "promotionEndMode": "manual",
-  "paddleEnvironment": "live"
+  "paddleEnvironment": "live",
+  "priceIdCNY": "pri_01m6sqc1vv551qmkd410nzy83x",
+  "domain": "https://nextmirror.kevinlabs.app"
 }
