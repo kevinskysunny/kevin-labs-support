@@ -61,3 +61,4 @@ kbd{border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-size:13p
 .guide-figure{margin:18px 0 0;padding:0}
 .guide-figure img{display:block;width:100%;height:auto;border-radius:var(--radius-md);border:1px solid var(--line);box-shadow:0 8px 24px var(--shadow-soft)}
 .guide-figure figcaption{margin-top:10px;font-size:13px;color:var(--muted);text-align:center}
+.product-identity{display:flex;align-items:center;gap:14px;margin:0 0 20px}.product-identity img{width:48px;height:48px;border-radius:12px;object-fit:cover;flex:0 0 auto}.product-identity strong{display:block;font-size:16px;line-height:1.2}.product-identity span{display:block;margin-top:4px;font-size:12px;color:var(--muted)}
