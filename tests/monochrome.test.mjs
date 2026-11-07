@@ -83,3 +83,22 @@ test('support directory offers all eight apps with real icons in every language'
   assert.match(section,new RegExp('nextmirror\\.kevinlabs\\.app/\\?lang='+lang+'#support-'+lang));
  }
 });
+
+test('every product identity has an explicit catalog return above it',()=>{
+ const paths=['support.html','privacy.html'];
+ for(const directory of ['volmix','barnest','ksic-studio','netdoctor','presenter-deck','mindcharge']){
+  for(const filename of ['index.html','support.html','privacy.html']){
+   const path=directory+'/'+filename;
+   if(fs.existsSync(new URL('../'+path,import.meta.url)))paths.push(path);
+  }
+ }
+ for(const path of paths){
+  const html=read(path);let previous=-1;
+  for(const match of html.matchAll(/class="product-identity"/g)){
+   const back=html.lastIndexOf('class="back"',match.index);
+   assert.ok(back>previous,path+' is missing an explicit catalog return');
+   assert.match(html.slice(back,html.indexOf('</a>',back)),/href="(?:\.\.\/)?index\.html"/);
+   previous=match.index;
+  }
+ }
+});
