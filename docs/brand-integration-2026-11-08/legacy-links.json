@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-08",
+  "scope": "Current catalog product/support/privacy URLs and selected apex paths; does not inspect store account settings",
+  "results": [
+    {
+      "url": "https://barnest.kevinlabs.app/",
+      "status": 200,
+      "finalUrl": "https://barnest.kevinlabs.app/"
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/privacy",
+      "status": 200,
+      "finalUrl": "https://barnest.kevinlabs.app/privacy"
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/support",
+      "status": 200,
+      "finalUrl": "https://barnest.kevinlabs.app/support"
+    },
+    {
+      "url": "https://kevinlabs.app/",
+      "status": 200,
+      "finalUrl": "https://kevinlabs.app/"
+    },
+    {
+      "url": "https://kevinlabs.app/guides.html",
+      "status": 200,
+      "finalUrl": "https://kevinlabs.app/guides.html"
+    },
+    {
+      "url": "https://kevinlabs.app/volmix/index.html",
+      "status": 200,
+      "finalUrl": "https://kevinlabs.app/volmix/index.html"
+    },
+    {
+      "url": "https://kevinlabs.app/website-privacy.html",
+      "status": 200,
+      "finalUrl": "https://kevinlabs.app/website-privacy.html"
+    },
+    {
+      "url": "https://macpulse.kevinlabs.app/",
+      "status": 200,
+      "finalUrl": "https://macpulse.kevinlabs.app/"
+    },
+    {
+      "url": "https://macpulse.kevinlabs.app/privacy",
+      "status": 200,
+      "finalUrl": "https://macpulse.kevinlabs.app/en/privacy"
+    },
+    {
+      "url": "https://macpulse.kevinlabs.app/support",
+      "status": 200,
+      "finalUrl": "https://macpulse.kevinlabs.app/en/support"
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/",
+      "status": 200,
+      "finalUrl": "https://mindcharge.kevinlabs.app/"
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/#support",
+      "status": 200,
+      "finalUrl": "https://mindcharge.kevinlabs.app/#support"
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/legal.html#privacy",
+      "status": 200,
+      "finalUrl": "https://mindcharge.kevinlabs.app/legal.html#privacy"
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/",
+      "status": 200,
+      "finalUrl": "https://nextmirror.kevinlabs.app/"
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/#support-en",
+      "status": 200,
+      "finalUrl": "https://nextmirror.kevinlabs.app/#support-en",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/legal.html#privacy",
+      "status": 200,
+      "finalUrl": "https://nextmirror.kevinlabs.app/legal.html#privacy",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/",
+      "status": 200,
+      "finalUrl": "https://smoothcast.kevinlabs.app/",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/privacy",
+      "status": 200,
+      "finalUrl": "https://smoothcast.kevinlabs.app/privacy",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/support",
+      "status": 200,
+      "finalUrl": "https://smoothcast.kevinlabs.app/support",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/barnest/",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/privacy.html",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/barnest/privacy.html",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/support.html",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/barnest/support.html",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/ksic-studio/",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/ksic-studio/",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/netdoctor/",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/netdoctor/",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/netdoctor/privacy.html",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/netdoctor/privacy.html",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/netdoctor/support.html",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/netdoctor/support.html",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/presenter-deck/privacy.html",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/presenter-deck/privacy.html",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/presenter-deck/support.html",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/presenter-deck/support.html",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/privacy.html",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/privacy.html",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/support.html",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/support.html",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/volmix/",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/volmix/",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/volmix/privacy.html",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/volmix/privacy.html",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://support.kevinlabs.app/volmix/support.html",
+      "status": 200,
+      "finalUrl": "https://support.kevinlabs.app/volmix/support.html",
+      "retryTransport": "curl"
+    },
+    {
+      "url": "https://www.kevinlabs.app/guides.html?lang=ja",
+      "status": 200,
+      "finalUrl": "https://kevinlabs.app/guides.html?lang=ja",
+      "retryTransport": "curl"
+    }
+  ]
+}

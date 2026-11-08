@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-08",
+  "sourceCommit": "7dfb18d",
+  "source": "Production browser viewport emulation, not physical phones",
+  "roundTrip": {
+    "verified": true,
+    "flow": "Chinese apex catalog → MacPulse → brand header → apex",
+    "language": "zh-Hans",
+    "finalUrl": "https://kevinlabs.app/?lang=zh"
+  },
+  "results": [
+    {
+      "lang": "en",
+      "url": "https://kevinlabs.app/?lang=en&brand=260-final-browser",
+      "width": 390,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/en?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "zh",
+      "url": "https://kevinlabs.app/?lang=zh&brand=260-final-browser",
+      "width": 390,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/zh?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "ja",
+      "url": "https://kevinlabs.app/?lang=ja&brand=260-final-browser",
+      "width": 390,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/ja?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "ko",
+      "url": "https://kevinlabs.app/?lang=ko&brand=260-final-browser",
+      "width": 390,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/ko?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "de",
+      "url": "https://kevinlabs.app/?lang=de&brand=260-final-browser",
+      "width": 390,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/de?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "fr",
+      "url": "https://kevinlabs.app/?lang=fr&brand=260-final-browser",
+      "width": 390,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/fr?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "es",
+      "url": "https://kevinlabs.app/?lang=es&brand=260-final-browser",
+      "width": 390,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/es?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "pt",
+      "url": "https://kevinlabs.app/?lang=pt&brand=260-final-browser",
+      "width": 390,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/pt?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "en",
+      "url": "https://kevinlabs.app/?lang=en&brand=260-final-browser",
+      "width": 1440,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/en?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "zh",
+      "url": "https://kevinlabs.app/?lang=zh&brand=260-final-browser",
+      "width": 1440,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/zh?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "ja",
+      "url": "https://kevinlabs.app/?lang=ja&brand=260-final-browser",
+      "width": 1440,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/ja?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "ko",
+      "url": "https://kevinlabs.app/?lang=ko&brand=260-final-browser",
+      "width": 1440,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/ko?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "de",
+      "url": "https://kevinlabs.app/?lang=de&brand=260-final-browser",
+      "width": 1440,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/de?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "fr",
+      "url": "https://kevinlabs.app/?lang=fr&brand=260-final-browser",
+      "width": 1440,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/fr?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "es",
+      "url": "https://kevinlabs.app/?lang=es&brand=260-final-browser",
+      "width": 1440,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/es?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "pt",
+      "url": "https://kevinlabs.app/?lang=pt&brand=260-final-browser",
+      "width": 1440,
+      "overflow": false,
+      "canonical": "https://kevinlabs.app/",
+      "macpulse": [
+        "https://macpulse.kevinlabs.app/lang/pt?to="
+      ],
+      "broken": 0
+    }
+  ]
+}
