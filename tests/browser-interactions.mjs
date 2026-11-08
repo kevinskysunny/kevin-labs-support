@@ -33,6 +33,13 @@ try {
       await page.evaluate(()=>document.addEventListener('click',event=>{if(event.target.closest('a[href^="mailto:"]'))event.preventDefault();},{capture:true}));
       await email.click();
       assert.deepEqual(await page.evaluate(()=>window.clipboardWrites),[],'mail action must not write clipboard');
+      const mailFeedback=page.locator('.site-toast');await mailFeedback.waitFor({state:'visible'});
+      assert.ok((await mailFeedback.textContent()).includes(copy.mailFallback));
+      const gmail=new URL(await mailFeedback.locator('a').getAttribute('href'));
+      assert.equal(gmail.hostname,'mail.google.com');assert.equal(gmail.searchParams.get('to'),'support@kevinlabs.app');
+      assert.ok(gmail.searchParams.get('body').includes(copy.prompt));
+      assert.equal(await mailFeedback.locator('a').getAttribute('rel'),'noopener');
+      await mailFeedback.getByRole('button',{name:copy.close,exact:true}).click();
       const copyButton=page.getByRole('button',{name:copy.copy,exact:true});
       await copyButton.click();
       const toast=page.locator('.site-toast'); await toast.waitFor({state:'visible'});

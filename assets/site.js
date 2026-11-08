@@ -27,7 +27,10 @@
     "storeWeb": "View on web",
     "storeRegion": "Store country or region",
     "storeChoose": "Choose a region",
-    "storeView": "View app ↗"
+    "storeView": "View app ↗",
+    "mailApp": "Open mail app",
+    "mailFallback": "If your mail app did not open, copy the address or use Gmail on the web.",
+    "mailWeb": "Open Web Gmail"
   },
   "zh": {
     "copy": "复制邮箱",
@@ -48,7 +51,10 @@
     "storeWeb": "在网页查看",
     "storeRegion": "商店国家或地区",
     "storeChoose": "选择地区",
-    "storeView": "查看应用 ↗"
+    "storeView": "查看应用 ↗",
+    "mailApp": "用邮件应用打开",
+    "mailFallback": "如果邮件应用未打开，可复制邮箱或使用网页版 Gmail。",
+    "mailWeb": "在网页版 Gmail 打开"
   },
   "ja": {
     "copy": "メールアドレスをコピー",
@@ -69,7 +75,10 @@
     "storeWeb": "Web で見る",
     "storeRegion": "ストアの国または地域",
     "storeChoose": "地域を選択",
-    "storeView": "アプリを見る ↗"
+    "storeView": "アプリを見る ↗",
+    "mailApp": "メールアプリで開く",
+    "mailFallback": "メールアプリが開かない場合は、アドレスをコピーするか、Web 版 Gmail をご利用ください。",
+    "mailWeb": "Web 版 Gmail で開く"
   },
   "ko": {
     "copy": "이메일 복사",
@@ -90,7 +99,10 @@
     "storeWeb": "웹에서 보기",
     "storeRegion": "스토어 국가 또는 지역",
     "storeChoose": "지역 선택",
-    "storeView": "앱 보기 ↗"
+    "storeView": "앱 보기 ↗",
+    "mailApp": "메일 앱에서 열기",
+    "mailFallback": "메일 앱이 열리지 않으면 주소를 복사하거나 웹 Gmail을 사용하세요.",
+    "mailWeb": "웹 Gmail에서 열기"
   },
   "de": {
     "copy": "E-Mail kopieren",
@@ -111,7 +123,10 @@
     "storeWeb": "Im Web ansehen",
     "storeRegion": "Land oder Region des Stores",
     "storeChoose": "Region wählen",
-    "storeView": "App ansehen ↗"
+    "storeView": "App ansehen ↗",
+    "mailApp": "Mail-App öffnen",
+    "mailFallback": "Falls sich die Mail-App nicht öffnet, kopieren Sie die Adresse oder nutzen Sie Gmail im Web.",
+    "mailWeb": "Gmail im Web öffnen"
   },
   "fr": {
     "copy": "Copier l’adresse",
@@ -132,7 +147,10 @@
     "storeWeb": "Voir sur le Web",
     "storeRegion": "Pays ou région du Store",
     "storeChoose": "Choisir une région",
-    "storeView": "Voir l’app ↗"
+    "storeView": "Voir l’app ↗",
+    "mailApp": "Ouvrir l’app de messagerie",
+    "mailFallback": "Si l’app de messagerie ne s’ouvre pas, copiez l’adresse ou utilisez Gmail sur le Web.",
+    "mailWeb": "Ouvrir Gmail sur le Web"
   },
   "es": {
     "copy": "Copiar correo",
@@ -153,7 +171,10 @@
     "storeWeb": "Ver en la web",
     "storeRegion": "País o región de la tienda",
     "storeChoose": "Elegir región",
-    "storeView": "Ver app ↗"
+    "storeView": "Ver app ↗",
+    "mailApp": "Abrir app de correo",
+    "mailFallback": "Si no se abre tu app de correo, copia la dirección o usa Gmail en la web.",
+    "mailWeb": "Abrir Gmail en la web"
   },
   "pt": {
     "copy": "Copiar e-mail",
@@ -174,7 +195,10 @@
     "storeWeb": "Ver na web",
     "storeRegion": "País ou região da loja",
     "storeChoose": "Escolher região",
-    "storeView": "Ver app ↗"
+    "storeView": "Ver app ↗",
+    "mailApp": "Abrir app de e-mail",
+    "mailFallback": "Se o app de e-mail não abrir, copie o endereço ou use o Gmail na web.",
+    "mailWeb": "Abrir Gmail na web"
   }
 }/* ui-copy:end */;
   for (const code of supported) {
@@ -213,7 +237,7 @@
     if (restoreFocus && toastOrigin?.isConnected) toastOrigin.focus({ preventScroll:true });
     toastOrigin = null;
   }
-  function showToast(email, copied) {
+  function showToast(email, copied, mailUrl = null) {
     dismissToast();
     toastOrigin = document.activeElement;
     if (!toast) {
@@ -227,11 +251,23 @@
     const lang = resolveLang(), copy = messages[lang];
     toast.lang = htmlLangTags[lang];
     const text = document.createElement('span');
-    text.textContent = `${copied ? copy.copied : copy.copyFailed} ${email}`;
+    text.textContent = `${mailUrl ? copy.mailFallback : copied ? copy.copied : copy.copyFailed} ${email}`;
     const close = document.createElement('button');
     close.type = 'button'; close.textContent = copy.close;
     close.addEventListener('click', dismissToast);
-    toast.append(text, close); toast.hidden = false; toast.classList.add('show');
+    toast.append(text);
+    if (mailUrl) {
+      const actions = document.createElement('div'); actions.className = 'mail-fallback-actions';
+      const copyButton = document.createElement('button');
+      copyButton.type = 'button'; copyButton.className = 'copy-email';
+      copyButton.dataset.email = email; copyButton.textContent = copy.copy;
+      const web = document.createElement('a');
+      const destination = new URL('https://mail.google.com/mail/');
+      destination.search = new URLSearchParams({ view:'cm', fs:'1', to:email, su:mailUrl.searchParams.get('subject') || '', body:mailUrl.searchParams.get('body') || '' });
+      web.href = destination.href; web.target = '_blank'; web.rel = 'noopener'; web.textContent = copy.mailWeb;
+      actions.append(copyButton, web); toast.append(actions);
+    }
+    toast.append(close); toast.hidden = false; toast.classList.add('show');
     // Failure remains available for manual selection until explicitly dismissed.
     if (copied) toastTimeout = setTimeout(dismissToast, 6000);
   }
@@ -367,6 +403,14 @@
   });
   window.addEventListener('languagechange', () => { if (preference === 'system') render(); });
   document.addEventListener('click', event => {
+    const mailLink = event.target.closest('a[href^="mailto:"]');
+    if (mailLink) {
+      // Browsers cannot report whether an external mail handler opened.
+      // Keep native navigation and offer an immediate, honest fallback without auto-copying or opening a second destination.
+      const mailUrl = new URL(mailLink.href);
+      showToast(mailUrl.pathname, false, mailUrl);
+      return;
+    }
     const target = event.target.closest('button.copy-email');
     if (!target) return;
     const email = target.dataset.email;

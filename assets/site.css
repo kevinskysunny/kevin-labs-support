@@ -77,3 +77,6 @@ kbd{border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-size:13p
 .store-region-controls select { min-height:44px; max-width:100%; font:inherit; }
 .store-web-link { min-height:44px; align-items:center; display:inline-flex; }
 .store-web-link[hidden], .store-region-controls[hidden] { display:none; }
+
+.mail-fallback-actions{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px;min-width:0}
+.site-toast .mail-fallback-actions a{white-space:normal;min-height:44px;display:inline-flex;align-items:center}
