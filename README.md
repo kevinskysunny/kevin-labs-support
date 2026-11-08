@@ -10,6 +10,7 @@ npm run build
 npm test
 npm run test:browser
 npm run test:interactions
+node tests/browser-store-links.mjs
 npm run test:footers # 按五个实际域名逐路由检查公开页脚
 python3 -m http.server 18765 --bind 127.0.0.1
 ```
@@ -42,3 +43,9 @@ python3 -m http.server 18765 --bind 127.0.0.1
 Safari/iOS真机、读屏和真实交易必须分别验证，不将Chrome或代码审查结果标成这些平台已经通过。
 
 全站设计接收与五域名优化记录：`docs/full-site-reception-2026-11-08/README.md`。当前设计以该记录和design.md为准，保留此前报告作为历史。
+
+## 官网产品上架与商店入口
+
+商品入口从 `index.json` 统一生成（`scripts/sync-store-links.mjs`），八语文案来自 `content/ui.json`，完整商店地区来自 `content/store-regions.json`。地区选择独立于界面语言；原生商店只在点击时打开。地区列表更新时重新核对 Apple 官方列表，不按UI语言强制 CN 或 US。
+
+本机可复用技能：`skills/product-website-launch/SKILL.md`。2.4.1 修复与真实验收边界：`docs/store-routing-2026-11-08/README.md`。

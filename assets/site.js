@@ -22,7 +22,12 @@
     "device": "Device",
     "contact": "Contact support",
     "auto": "Automatic",
-    "englishFallback": "Opens in English"
+    "englishFallback": "Opens in English",
+    "storeOpen": "Open in Mac App Store ↗",
+    "storeWeb": "View on web",
+    "storeRegion": "Store country or region",
+    "storeChoose": "Choose a region",
+    "storeView": "View app ↗"
   },
   "zh": {
     "copy": "复制邮箱",
@@ -38,7 +43,12 @@
     "device": "设备",
     "contact": "联系支持",
     "auto": "跟随系统",
-    "englishFallback": "以英文打开"
+    "englishFallback": "以英文打开",
+    "storeOpen": "在 Mac App Store 打开 ↗",
+    "storeWeb": "在网页查看",
+    "storeRegion": "商店国家或地区",
+    "storeChoose": "选择地区",
+    "storeView": "查看应用 ↗"
   },
   "ja": {
     "copy": "メールアドレスをコピー",
@@ -54,7 +64,12 @@
     "device": "デバイス",
     "contact": "サポートに連絡",
     "auto": "システム設定",
-    "englishFallback": "英語で開きます"
+    "englishFallback": "英語で開きます",
+    "storeOpen": "Mac App Store で開く ↗",
+    "storeWeb": "Web で見る",
+    "storeRegion": "ストアの国または地域",
+    "storeChoose": "地域を選択",
+    "storeView": "アプリを見る ↗"
   },
   "ko": {
     "copy": "이메일 복사",
@@ -70,7 +85,12 @@
     "device": "기기",
     "contact": "지원 문의",
     "auto": "시스템 설정",
-    "englishFallback": "영어로 열림"
+    "englishFallback": "영어로 열림",
+    "storeOpen": "Mac App Store에서 열기 ↗",
+    "storeWeb": "웹에서 보기",
+    "storeRegion": "스토어 국가 또는 지역",
+    "storeChoose": "지역 선택",
+    "storeView": "앱 보기 ↗"
   },
   "de": {
     "copy": "E-Mail kopieren",
@@ -86,7 +106,12 @@
     "device": "Gerät",
     "contact": "Support kontaktieren",
     "auto": "Systemsprache",
-    "englishFallback": "Öffnet auf Englisch"
+    "englishFallback": "Öffnet auf Englisch",
+    "storeOpen": "Im Mac App Store öffnen ↗",
+    "storeWeb": "Im Web ansehen",
+    "storeRegion": "Land oder Region des Stores",
+    "storeChoose": "Region wählen",
+    "storeView": "App ansehen ↗"
   },
   "fr": {
     "copy": "Copier l’adresse",
@@ -102,7 +127,12 @@
     "device": "Appareil",
     "contact": "Contacter l’assistance",
     "auto": "Langue système",
-    "englishFallback": "S’ouvre en anglais"
+    "englishFallback": "S’ouvre en anglais",
+    "storeOpen": "Ouvrir dans le Mac App Store ↗",
+    "storeWeb": "Voir sur le Web",
+    "storeRegion": "Pays ou région du Store",
+    "storeChoose": "Choisir une région",
+    "storeView": "Voir l’app ↗"
   },
   "es": {
     "copy": "Copiar correo",
@@ -118,7 +148,12 @@
     "device": "Dispositivo",
     "contact": "Contactar con soporte",
     "auto": "Idioma del sistema",
-    "englishFallback": "Se abre en inglés"
+    "englishFallback": "Se abre en inglés",
+    "storeOpen": "Abrir en Mac App Store ↗",
+    "storeWeb": "Ver en la web",
+    "storeRegion": "País o región de la tienda",
+    "storeChoose": "Elegir región",
+    "storeView": "Ver app ↗"
   },
   "pt": {
     "copy": "Copiar e-mail",
@@ -134,7 +169,12 @@
     "device": "Dispositivo",
     "contact": "Contatar suporte",
     "auto": "Idioma do sistema",
-    "englishFallback": "Abre em inglês"
+    "englishFallback": "Abre em inglês",
+    "storeOpen": "Abrir na Mac App Store ↗",
+    "storeWeb": "Ver na web",
+    "storeRegion": "País ou região da loja",
+    "storeChoose": "Escolher região",
+    "storeView": "Ver app ↗"
   }
 }/* ui-copy:end */;
   for (const code of supported) {
@@ -242,6 +282,41 @@
       if (heading.closest('[data-lang]')?.dataset.lang === lang) heading.textContent = copy.contact;
     }
   }
+  const storeRegions = /* store-regions:start */["ae","af","ag","ai","al","am","ao","ar","at","au","az","ba","bb","be","bf","bg","bh","bj","bm","bn","bo","br","bs","bt","bw","by","bz","ca","cd","cg","ch","ci","cl","cm","cn","co","cr","cv","cy","cz","de","dk","dm","do","dz","ec","ee","eg","es","fi","fj","fm","fr","ga","gb","gd","ge","gh","gm","gr","gt","gw","gy","hk","hn","hr","hu","id","ie","il","in","iq","is","it","jm","jo","jp","ke","kg","kh","kn","kr","kw","ky","kz","la","lb","lc","lk","lr","lt","lu","lv","ly","ma","md","me","mg","mk","ml","mm","mn","mo","mr","ms","mt","mu","mv","mw","mx","my","mz","na","ne","ng","ni","nl","no","np","nr","nz","om","pa","pe","pg","ph","pk","pl","pt","pw","py","qa","ro","rs","ru","rw","sa","sb","sc","se","sg","si","sk","sl","sn","sr","st","sv","sz","tc","td","th","tj","tm","tn","to","tr","tt","tw","tz","ua","ug","us","uy","uz","vc","ve","vg","vn","vu","xk","ye","za","zm","zw"]/* store-regions:end */;
+  let storeRegion = '';
+  try { const saved = localStorage.getItem('kevinLabsStoreRegion'); if (storeRegions.includes(saved)) storeRegion = saved; } catch (_) {}
+  function localizeStore(lang) {
+    const copy = messages[lang];
+    const displayNames = new Intl.DisplayNames([htmlLangTags[lang]], { type:'region' });
+    for (const link of document.querySelectorAll('.store-native')) link.textContent = copy.storeOpen;
+    for (const details of document.querySelectorAll('.store-web')) {
+      details.querySelector('summary').textContent = copy.storeWeb;
+      const controls = details.querySelector('.store-region-controls');
+      if (!controls.firstChild) {
+        const label = document.createElement('label'), caption = document.createElement('span'), picker = document.createElement('select');
+        label.append(caption, picker); controls.append(label);
+        picker.addEventListener('change', () => {
+          storeRegion = picker.value;
+          try { localStorage.setItem('kevinLabsStoreRegion', storeRegion); } catch (_) {}
+          localizeStore(resolveLang());
+        });
+      }
+      controls.hidden = false;
+      controls.querySelector('span').textContent = copy.storeRegion;
+      const picker = controls.querySelector('select');
+      if (picker.dataset.lang !== lang) {
+        picker.replaceChildren(new Option(copy.storeChoose, ''), ...storeRegions.map(region => new Option(displayNames.of(region.toUpperCase()), region)).sort((a,b)=>a.text.localeCompare(b.text,htmlLangTags[lang])));
+        picker.dataset.lang = lang;
+      }
+      picker.value = storeRegion;
+      const web = details.querySelector('.store-web-link');
+      web.textContent = copy.storeView;
+      web.hidden = !storeRegion;
+      // UI language, IP location and Apple Account storefront are different things.
+      // Only an explicit selection changes the HTTPS storefront; never force CN/US.
+      if (storeRegion) web.href = `https://apps.apple.com/${storeRegion}/app/id${details.dataset.storeId}?mt=12&ct=ksic_website`;
+    }
+  }
   function render() {
     const requestedLang = resolveLang();
     const lang = document.querySelector(`main section[data-lang="${requestedLang}"]`) ? requestedLang : 'en';
@@ -278,6 +353,7 @@
       notice.lang = htmlLangTags[requestedLang]; notice.textContent = messages[requestedLang].fallback;
     } else notice?.remove();
     localizeContact(lang);
+    localizeStore(requestedLang);
     dismissToast();
     const heading = sectionHeading(lang);
     if (heading) document.title = heading.textContent.replace(/\s+/g,' ').trim() + ' — Kevin Labs';

@@ -83,9 +83,9 @@
     "support": "volmix/support.html",
     "privacy": "volmix/privacy.html",
     "demo": "volmix/review/",
-    "store": "https://apps.apple.com/us/app/volmix-per-app-volume/id6806717830?mt=12&ct=ksic_website",
+    "store": "https://apps.apple.com/app/id6806717830?mt=12&ct=ksic_website",
     "version": "1.1.6",
-    "nativeStore": "macappstores://apps.apple.com/us/app/volmix-per-app-volume/id6806717830?mt=12&ct=ksic_website"
+    "nativeStore": "macappstores://apps.apple.com/app/id6806717830?mt=12&ct=ksic_website"
   },
   {
     "id": "netdoctor",
@@ -125,9 +125,9 @@
     "support": "netdoctor/support.html",
     "privacy": "netdoctor/privacy.html",
     "demo": null,
-    "store": "https://apps.apple.com/us/app/netdoctor/id6801707344?mt=12&ct=ksic_website",
+    "store": "https://apps.apple.com/app/id6801707344?mt=12&ct=ksic_website",
     "version": "1.1",
-    "nativeStore": "macappstores://apps.apple.com/us/app/netdoctor/id6801707344?mt=12&ct=ksic_website"
+    "nativeStore": "macappstores://apps.apple.com/app/id6801707344?mt=12&ct=ksic_website"
   },
   {
     "id": "ksic-studio",
@@ -167,9 +167,9 @@
     "support": "support.html",
     "privacy": "privacy.html",
     "demo": "review/",
-    "store": "https://apps.apple.com/us/app/ksic-studio/id6801325655?mt=12&ct=ksic_website",
+    "store": "https://apps.apple.com/app/id6801325655?mt=12&ct=ksic_website",
     "version": "1.0.0",
-    "nativeStore": "macappstores://apps.apple.com/us/app/ksic-studio/id6801325655?mt=12&ct=ksic_website"
+    "nativeStore": "macappstores://apps.apple.com/app/id6801325655?mt=12&ct=ksic_website"
   },
   {
     "id": "presenter-deck",

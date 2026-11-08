@@ -13,7 +13,12 @@
     "device": "Device",
     "contact": "Contact support",
     "auto": "Automatic",
-    "englishFallback": "Opens in English"
+    "englishFallback": "Opens in English",
+    "storeOpen": "Open in Mac App Store ↗",
+    "storeWeb": "View on web",
+    "storeRegion": "Store country or region",
+    "storeChoose": "Choose a region",
+    "storeView": "View app ↗"
   },
   "zh": {
     "copy": "复制邮箱",
@@ -29,7 +34,12 @@
     "device": "设备",
     "contact": "联系支持",
     "auto": "跟随系统",
-    "englishFallback": "以英文打开"
+    "englishFallback": "以英文打开",
+    "storeOpen": "在 Mac App Store 打开 ↗",
+    "storeWeb": "在网页查看",
+    "storeRegion": "商店国家或地区",
+    "storeChoose": "选择地区",
+    "storeView": "查看应用 ↗"
   },
   "ja": {
     "copy": "メールアドレスをコピー",
@@ -45,7 +55,12 @@
     "device": "デバイス",
     "contact": "サポートに連絡",
     "auto": "システム設定",
-    "englishFallback": "英語で開きます"
+    "englishFallback": "英語で開きます",
+    "storeOpen": "Mac App Store で開く ↗",
+    "storeWeb": "Web で見る",
+    "storeRegion": "ストアの国または地域",
+    "storeChoose": "地域を選択",
+    "storeView": "アプリを見る ↗"
   },
   "ko": {
     "copy": "이메일 복사",
@@ -61,7 +76,12 @@
     "device": "기기",
     "contact": "지원 문의",
     "auto": "시스템 설정",
-    "englishFallback": "영어로 열림"
+    "englishFallback": "영어로 열림",
+    "storeOpen": "Mac App Store에서 열기 ↗",
+    "storeWeb": "웹에서 보기",
+    "storeRegion": "스토어 국가 또는 지역",
+    "storeChoose": "지역 선택",
+    "storeView": "앱 보기 ↗"
   },
   "de": {
     "copy": "E-Mail kopieren",
@@ -77,7 +97,12 @@
     "device": "Gerät",
     "contact": "Support kontaktieren",
     "auto": "Systemsprache",
-    "englishFallback": "Öffnet auf Englisch"
+    "englishFallback": "Öffnet auf Englisch",
+    "storeOpen": "Im Mac App Store öffnen ↗",
+    "storeWeb": "Im Web ansehen",
+    "storeRegion": "Land oder Region des Stores",
+    "storeChoose": "Region wählen",
+    "storeView": "App ansehen ↗"
   },
   "fr": {
     "copy": "Copier l’adresse",
@@ -93,7 +118,12 @@
     "device": "Appareil",
     "contact": "Contacter l’assistance",
     "auto": "Langue système",
-    "englishFallback": "S’ouvre en anglais"
+    "englishFallback": "S’ouvre en anglais",
+    "storeOpen": "Ouvrir dans le Mac App Store ↗",
+    "storeWeb": "Voir sur le Web",
+    "storeRegion": "Pays ou région du Store",
+    "storeChoose": "Choisir une région",
+    "storeView": "Voir l’app ↗"
   },
   "es": {
     "copy": "Copiar correo",
@@ -109,7 +139,12 @@
     "device": "Dispositivo",
     "contact": "Contactar con soporte",
     "auto": "Idioma del sistema",
-    "englishFallback": "Se abre en inglés"
+    "englishFallback": "Se abre en inglés",
+    "storeOpen": "Abrir en Mac App Store ↗",
+    "storeWeb": "Ver en la web",
+    "storeRegion": "País o región de la tienda",
+    "storeChoose": "Elegir región",
+    "storeView": "Ver app ↗"
   },
   "pt": {
     "copy": "Copiar e-mail",
@@ -125,6 +160,11 @@
     "device": "Dispositivo",
     "contact": "Contatar suporte",
     "auto": "Idioma do sistema",
-    "englishFallback": "Abre em inglês"
+    "englishFallback": "Abre em inglês",
+    "storeOpen": "Abrir na Mac App Store ↗",
+    "storeWeb": "Ver na web",
+    "storeRegion": "País ou região da loja",
+    "storeChoose": "Escolher região",
+    "storeView": "Ver app ↗"
   }
 }
