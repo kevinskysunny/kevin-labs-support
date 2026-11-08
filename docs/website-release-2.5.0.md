@@ -9,3 +9,6 @@ Validation: reproducible site generation, 21 unit checks, 16 local Chrome scenar
 MacPulse's public DMG has Developer ID signing, Apple notarization and Gatekeeper acceptance, with verified SHA-256. Download/trial is available. Production Paddle checkout returned vendor-level 403. MacPulse domain has been submitted in Paddle and is In review; buying remains visibly disabled pending approval and revalidation. No payment was performed.
 
 Sources: MacPulse repository `docs/releases/0.9.0-build148.md`; current catalog tests and browser observations. Existing untracked `.hallmark` directories are excluded from this release.
+
+
+Update later on 2026-11-08: Paddle approved the MacPulse domain for Checkout and Apple Pay. Subsequent production checkout creation returned 201, with Single US$9.99 / 2 Macs and Family US$14.99 / 5 Macs. Purchase buttons are now enabled. This supersedes the earlier pending-approval stage; no real payment was made.
