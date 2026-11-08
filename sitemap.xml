@@ -2,130 +2,130 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://support.kevinlabs.app/</loc>
+    <loc>https://kevinlabs.app/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <!-- BarNest -->
   <url>
-    <loc>https://support.kevinlabs.app/barnest/index.html</loc>
+    <loc>https://kevinlabs.app/barnest/index.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://support.kevinlabs.app/barnest/support.html</loc>
+    <loc>https://kevinlabs.app/barnest/support.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://support.kevinlabs.app/barnest/privacy.html</loc>
+    <loc>https://kevinlabs.app/barnest/privacy.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <!-- PresenterDeck -->
   <url>
-    <loc>https://support.kevinlabs.app/presenter-deck/index.html</loc>
+    <loc>https://kevinlabs.app/presenter-deck/index.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://support.kevinlabs.app/presenter-deck/privacy.html</loc>
+    <loc>https://kevinlabs.app/presenter-deck/privacy.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://support.kevinlabs.app/presenter-deck/review/index.html</loc>
+    <loc>https://kevinlabs.app/presenter-deck/review/index.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <!-- VolMix -->
   <url>
-    <loc>https://support.kevinlabs.app/volmix/index.html</loc>
+    <loc>https://kevinlabs.app/volmix/index.html</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://support.kevinlabs.app/volmix/support.html</loc>
+    <loc>https://kevinlabs.app/volmix/support.html</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://support.kevinlabs.app/volmix/privacy.html</loc>
+    <loc>https://kevinlabs.app/volmix/privacy.html</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://support.kevinlabs.app/volmix/review/index.html</loc>
+    <loc>https://kevinlabs.app/volmix/review/index.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <!-- NetDoctor -->
   <url>
-    <loc>https://support.kevinlabs.app/netdoctor/index.html</loc>
+    <loc>https://kevinlabs.app/netdoctor/index.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://support.kevinlabs.app/netdoctor/support.html</loc>
+    <loc>https://kevinlabs.app/netdoctor/support.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://support.kevinlabs.app/netdoctor/privacy.html</loc>
+    <loc>https://kevinlabs.app/netdoctor/privacy.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <!-- KSIC Studio -->
   <url>
-    <loc>https://support.kevinlabs.app/ksic-studio/index.html</loc>
+    <loc>https://kevinlabs.app/ksic-studio/index.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://support.kevinlabs.app/support.html</loc>
+    <loc>https://kevinlabs.app/support.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://support.kevinlabs.app/privacy.html</loc>
+    <loc>https://kevinlabs.app/privacy.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <!-- Studio Privacy -->
   <url>
-    <loc>https://support.kevinlabs.app/website-privacy.html</loc>
+    <loc>https://kevinlabs.app/website-privacy.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <!-- Review & Demos -->
   <url>
-    <loc>https://support.kevinlabs.app/review/index.html</loc>
+    <loc>https://kevinlabs.app/review/index.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://support.kevinlabs.app/photoslim/privacy.html</loc>
+    <loc>https://kevinlabs.app/photoslim/privacy.html</loc>
   </url>
-<url><loc>https://support.kevinlabs.app/smoothcast/privacy.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://support.kevinlabs.app/guides.html</loc><lastmod>2026-11-04</lastmod><priority>0.8</priority></url>
-<url><loc>https://support.kevinlabs.app/nextmirror/index.html</loc><lastmod>2026-11-07</lastmod></url>
-<url><loc>https://support.kevinlabs.app/mindcharge/</loc></url><url><loc>https://support.kevinlabs.app/mindcharge/support.html</loc></url></urlset>
+<url><loc>https://kevinlabs.app/smoothcast/privacy.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://kevinlabs.app/guides.html</loc><lastmod>2026-11-04</lastmod><priority>0.8</priority></url>
+<url><loc>https://kevinlabs.app/nextmirror/index.html</loc><lastmod>2026-11-07</lastmod></url>
+<url><loc>https://kevinlabs.app/mindcharge/</loc></url><url><loc>https://kevinlabs.app/mindcharge/support.html</loc></url></urlset>

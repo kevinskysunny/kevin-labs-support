@@ -1,6 +1,6 @@
 # Kevin Labs Support
 
-静态产品目录、支持、使用指南和隐私页面。GitHub Pages 从 main 根目录部署。
+静态产品目录、支持、使用指南和隐私页面。正式门户为 https://kevinlabs.app；GitHub Pages 从 main 根目录部署，support.kevinlabs.app 保留为内容源站及历史入口。Cloudflare 仅对主域名提供固定源站转发，配置与回滚见 docs/brand-integration-2026-11-08/README.md。
 
 ## 本机开发与验收
 

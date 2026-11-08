@@ -226,7 +226,7 @@
     }
     return 'en';
   }
-  const productHosts = new Set(['support.kevinlabs.app', 'nextmirror.kevinlabs.app', 'barnest.kevinlabs.app', 'smoothcast.kevinlabs.app', 'mindcharge.kevinlabs.app', 'macpulse.kevinlabs.app']);
+  const productHosts = new Set(['kevinlabs.app', 'support.kevinlabs.app', 'nextmirror.kevinlabs.app', 'barnest.kevinlabs.app', 'smoothcast.kevinlabs.app', 'mindcharge.kevinlabs.app', 'macpulse.kevinlabs.app']);
   let toastTimeout;
   let toast;
   let toastOrigin;
@@ -438,7 +438,7 @@
  const send=event=>{const body=JSON.stringify({event,path:location.pathname,marketing:fields()});try{if(navigator.sendBeacon&&navigator.sendBeacon(endpoint,body))return;fetch(endpoint,{method:'POST',body,keepalive:true,credentials:'omit'}).catch(()=>{})}catch{}};
  if(document.prerendering){document.addEventListener('prerenderingchange',()=>send('page'),{once:true})}else send('page');
  document.addEventListener('click',event=>{const link=event.target.closest?.('a[href]');if(!link)return;let url;try{url=new URL(link.href,location.href)}catch{return}
- if(url.origin===location.origin||['support.kevinlabs.app','nextmirror.kevinlabs.app','smoothcast.kevinlabs.app','barnest.kevinlabs.app','mindcharge.kevinlabs.app','macpulse.kevinlabs.app'].includes(url.hostname)){const tags=fields();if(tags.source)url.searchParams.set('utm_source',tags.source);if(tags.campaign)url.searchParams.set('utm_campaign',tags.campaign);link.href=url.href}
+ if(url.origin===location.origin||['kevinlabs.app','support.kevinlabs.app','nextmirror.kevinlabs.app','smoothcast.kevinlabs.app','barnest.kevinlabs.app','mindcharge.kevinlabs.app','macpulse.kevinlabs.app'].includes(url.hostname)){const tags=fields();if(tags.source)url.searchParams.set('utm_source',tags.source);if(tags.campaign)url.searchParams.set('utm_campaign',tags.campaign);link.href=url.href}
  if(['apps.apple.com','chromewebstore.google.com','microsoftedge.microsoft.com','addons.mozilla.org'].includes(url.hostname))send('store_click');
  else if(/\.dmg$|\.zip$|\/download(?:s\/|$)|\/releases\/download\//i.test(url.pathname))send('download_click');
  else if(/\/buy(?:\/|$)|checkout/i.test(url.pathname)||url.hash==='#buy')send('buy_click');

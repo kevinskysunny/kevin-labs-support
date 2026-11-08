@@ -29,3 +29,15 @@ test('light theme metadata and analytics privacy behavior are retained',()=>{
  assert.match(read('assets/site.js'),/send\('store_click'\)/);
  assert.match(read('assets/site.js'),/credentials:'omit'/);
 });
+test('brand origin is canonical while GitHub Pages retains its legacy content host',()=>{
+ const config=JSON.parse(read('site.json'));
+ assert.equal(config.canonicalOrigin,'https://kevinlabs.app');
+ assert.equal(config.contentOrigin,'https://support.kevinlabs.app');
+ assert.equal(read('CNAME').trim(),'support.kevinlabs.app');
+ for(const path of ['index.html','guides.html','volmix/index.html','website-privacy.html']){
+  assert.ok(read(path).includes('href="https://kevinlabs.app/'));
+  assert.doesNotMatch(read(path).match(/<link[^>]*rel="canonical"[^>]*>/)[0],/support.kevinlabs.app/);
+ }
+ assert.doesNotMatch(read('sitemap.xml'),/support.kevinlabs.app/);
+ assert.match(read('robots.txt'),/Sitemap: https:\/\/kevinlabs.app\/sitemap.xml/);
+});

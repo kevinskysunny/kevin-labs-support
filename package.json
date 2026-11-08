@@ -1,6 +1,6 @@
 {
   "name": "kevin-labs-support",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,7 +9,8 @@
     "test:browser": "node tests/browser-regression.mjs",
     "build": "node scripts/render-catalog.mjs && node scripts/build-ui.mjs && node scripts/sync-products.mjs && node scripts/sync-store-links.mjs && node scripts/sync-site.mjs",
     "test:interactions": "node tests/browser-interactions.mjs",
-    "test:footers": "node tests/browser-site-footers.mjs"
+    "test:footers": "node tests/browser-site-footers.mjs",
+    "deploy:portal": "npx --yes wrangler@4.149.0 deploy --config edge/wrangler.toml"
   },
   "devDependencies": {
     "playwright-core": "1.58.2"

@@ -1,5 +1,5 @@
 {
-  "version": "2.5.0",
+  "version": "2.6.0",
   "languages": [
     "en",
     "zh",
@@ -10,5 +10,7 @@
     "es",
     "pt"
   ],
-  "theme": "light"
+  "theme": "light",
+  "canonicalOrigin": "https://kevinlabs.app",
+  "contentOrigin": "https://support.kevinlabs.app"
 }
