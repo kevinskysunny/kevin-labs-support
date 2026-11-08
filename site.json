@@ -1,5 +1,14 @@
 {
-  "version": "2.2.7",
-  "languages": ["en", "zh", "ja", "ko", "de", "fr", "es", "pt"],
+  "version": "2.3.0",
+  "languages": [
+    "en",
+    "zh",
+    "ja",
+    "ko",
+    "de",
+    "fr",
+    "es",
+    "pt"
+  ],
   "theme": "light"
 }

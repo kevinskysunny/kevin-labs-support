@@ -83,6 +83,17 @@ p, li { line-height: 1.7; }
 .product-page main > section > section { border-top: 1px solid var(--line); padding-top: 24px; margin-top: 32px; }
 .product-page .help ul { padding-left: 24px; }
 .product-page .help li { max-width: 75ch; }
+/* Informational feature groups use normal lists, not individual floating cards. */
+.feature-groups { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.feature-groups section { min-width: 0; }
+.feature-groups h3 { margin: 0 0 12px; font-size: 21px; }
+.feature-options summary { min-height: 44px; display: list-item; padding: 12px 0; cursor: pointer; }
+.image-preview { display: block; min-width: 0; }
+.product-stage figcaption { margin-top: 12px; font-size: 14px; }
+.product-stage figcaption a { display: inline-flex; align-items: center; min-height: 44px; }
+.app-row-copy { display: flex; flex-direction: column; min-width: 0; gap: 4px; }
+.app-row-copy strong { font-size: 16px; font-weight: 600; }
+.app-row-copy > span { font-size: 14px; line-height: 1.5; color: var(--muted); }
 /* Support directories and long-form documents. */
 .guides-page main > section { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 24px 48px; align-items: start; }
 .guides-page h1 { grid-column: 1 / -1; margin: 0 0 8px; }
@@ -123,6 +134,7 @@ footer p { margin: 12px 0 0; }
   .guides-page main > section { grid-template-columns: minmax(0, 1fr); gap: 24px; }
 }
 @media (max-width: 700px) {
+  .feature-groups { grid-template-columns: minmax(0, 1fr); }
   .product-hero, .reading-layout { grid-template-columns: minmax(0, 1fr); gap: 24px; }
   .contents { position: static; flex-direction: row; flex-wrap: wrap; max-height: none; gap: 4px 12px; }
   .reading-body { width: 100%; }

@@ -75,9 +75,9 @@ test('support directory offers all eight apps with real icons in every language'
  for(const [,lang,section] of sections){
   const rows=[...section.matchAll(/<a class="app-row"[^>]*>([\s\S]*?)<\/a>/g)].map(x=>x[1]);
   assert.equal(rows.length,8,lang);
-  assert.deepEqual(rows.map(row=>row.replace(/<[^>]*>/g,'').trim()),['VolMix','BarNest Pro','NextMirror','MindCharge','SmoothCast','PresenterDeck','NetDoctor','KSIC Studio'],lang);
+  assert.deepEqual(rows.map(row=>row.match(/<strong>([^<]+)<\/strong>/)[1]),['VolMix','BarNest Pro','NextMirror','MindCharge','SmoothCast','PresenterDeck','NetDoctor','KSIC Studio'],lang);
   for(const app of ['BarNest Pro','VolMix','NextMirror','MindCharge','SmoothCast','KSIC Studio','NetDoctor','PresenterDeck']) {
-   assert.equal(rows.filter(row=>row.endsWith(app)).length,1,lang+' '+app);
+   assert.equal(rows.filter(row=>row.includes('<strong>'+app+'</strong>')).length,1,lang+' '+app);
   }
   for(const row of rows) assert.match(row,/<img[^>]*src="assets\/[^" ]+-icon\.png"/,lang);
   assert.match(section,new RegExp('nextmirror\\.kevinlabs\\.app/\\?lang='+lang+'#support-'+lang));
