@@ -42,7 +42,7 @@ test('language fallback and header DOM stay usable before scripts run',()=>{
   assert.match(html,/noscript data-language-fallback/);
  }
 });
-test('homepage preserves the confirmed flagship order and five utility products plus store support',()=>{
+test('homepage preserves the confirmed flagship order and five utility products without promoting the store edition',()=>{
  const html=read('index.html');
  const sections=[...html.matchAll(/<section data-lang="([a-z]{2})"[^>]*>([\s\S]*?)(?=<section class="faq-section">)/g)];
  assert.equal(sections.length,8);
@@ -52,7 +52,7 @@ test('homepage preserves the confirmed flagship order and five utility products 
   assert.deepEqual(featured,['nextmirror','volmix','barnest-pro'],lang);
   assert.deepEqual(others,['mindcharge','smoothcast','presenter-deck','netdoctor','ksic-studio'],lang);
   assert.equal(new Set([...featured,...others]).size,8);
-  assert.match(section,/href="barnest\/support.html"/);assert.match(section,/href="barnest\/privacy.html"/);
+  assert.doesNotMatch(section,/href="barnest\/|src="assets\/barnest-icon.png"|legacy-support/);
  }
 });
 test('NextMirror catalog points to its licensed product domain and manual launch offer',()=>{

@@ -39,7 +39,7 @@ try {
         assert.ok(result.cards[0].y<=result.cards[1].y && result.cards[1].y<=result.cards[2].y,label+' DOM/visual order');
         if(width>600)assert.ok(result.cards[0].w>result.cards[1].w*1.8,label+' confirmed flagship width');
         else assert.ok(Math.max(...result.cards.map(c=>c.w))-Math.min(...result.cards.map(c=>c.w))<2,label+' mobile cards');
-        assert.equal(await page.locator('section:not([hidden]) .other-products > .legacy-support').count(),1,label+' store support occupies sixth grid slot');
+        assert.equal(await page.locator('section:not([hidden]) .other-products > .legacy-support').count(),0,label+' store edition is no longer promoted');
       }
       if (width<=700 && result.hero) assert.equal(result.hero.columns,1,label+' mobile hero');
       if (width>700 && result.hero && !result.textHero) assert.equal(result.hero.columns,2,label+' desktop hero');

@@ -16,7 +16,7 @@ try {
       await page.setViewportSize({width,height:900});
       await page.goto(`${base}/index.html?lang=${lang}`);
       assert.equal(await page.locator('h1:visible').count(),1);
-      for (const target of await page.locator('#language, .site-nav, section:not([hidden]) .button, section:not([hidden]) .copy-email, section:not([hidden]) .legacy-support a').all()) {
+      for (const target of await page.locator('#language, .site-nav, section:not([hidden]) .button, section:not([hidden]) .copy-email').all()) {
         assert.ok((await target.boundingBox()).height>=44,'primary touch target');
       }
       const overflow=await page.evaluate(()=>[...document.querySelectorAll('main *,header *')].filter(e=>e.getClientRects().length&&!e.closest('.skip')&&e.getBoundingClientRect().right>innerWidth+1).map(e=>e.tagName+'.'+e.className));

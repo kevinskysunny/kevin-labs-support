@@ -83,20 +83,7 @@
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
       }
-    ],
-    "legacy": {
-      "label": "Using the Mac App Store edition of BarNest?",
-      "links": [
-        {
-          "label": "User guide",
-          "href": "barnest/support.html"
-        },
-        {
-          "label": "Privacy policy",
-          "href": "barnest/privacy.html"
-        }
-      ]
-    }
+    ]
   },
   "zh": {
     "title": "Mac 工具",
@@ -182,20 +169,7 @@
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
       }
-    ],
-    "legacy": {
-      "label": "使用 Mac App Store 版 BarNest？",
-      "links": [
-        {
-          "label": "使用指南",
-          "href": "barnest/support.html"
-        },
-        {
-          "label": "隐私政策",
-          "href": "barnest/privacy.html"
-        }
-      ]
-    }
+    ]
   },
   "ja": {
     "title": "Mac アプリ",
@@ -281,20 +255,7 @@
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
       }
-    ],
-    "legacy": {
-      "label": "Mac App Store 版 BarNest をお使いですか？",
-      "links": [
-        {
-          "label": "使い方",
-          "href": "barnest/support.html"
-        },
-        {
-          "label": "プライバシー",
-          "href": "barnest/privacy.html"
-        }
-      ]
-    }
+    ]
   },
   "ko": {
     "title": "Mac 앱",
@@ -380,20 +341,7 @@
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
       }
-    ],
-    "legacy": {
-      "label": "Mac App Store 버전 BarNest를 사용하시나요?",
-      "links": [
-        {
-          "label": "사용 가이드",
-          "href": "barnest/support.html"
-        },
-        {
-          "label": "개인정보 처리방침",
-          "href": "barnest/privacy.html"
-        }
-      ]
-    }
+    ]
   },
   "de": {
     "title": "Mac-Apps",
@@ -479,20 +427,7 @@
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
       }
-    ],
-    "legacy": {
-      "label": "Du nutzt BarNest aus dem Mac App Store?",
-      "links": [
-        {
-          "label": "Anleitung",
-          "href": "barnest/support.html"
-        },
-        {
-          "label": "Datenschutz",
-          "href": "barnest/privacy.html"
-        }
-      ]
-    }
+    ]
   },
   "fr": {
     "title": "Apps Mac",
@@ -578,20 +513,7 @@
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
       }
-    ],
-    "legacy": {
-      "label": "Vous utilisez BarNest du Mac App Store ?",
-      "links": [
-        {
-          "label": "Guide",
-          "href": "barnest/support.html"
-        },
-        {
-          "label": "Confidentialité",
-          "href": "barnest/privacy.html"
-        }
-      ]
-    }
+    ]
   },
   "es": {
     "title": "Apps para Mac",
@@ -677,20 +599,7 @@
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
       }
-    ],
-    "legacy": {
-      "label": "¿Usas BarNest de Mac App Store?",
-      "links": [
-        {
-          "label": "Guía de uso",
-          "href": "barnest/support.html"
-        },
-        {
-          "label": "Privacidad",
-          "href": "barnest/privacy.html"
-        }
-      ]
-    }
+    ]
   },
   "pt": {
     "title": "Apps para Mac",
@@ -776,19 +685,6 @@
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
       }
-    ],
-    "legacy": {
-      "label": "Usa o BarNest da Mac App Store?",
-      "links": [
-        {
-          "label": "Guia de uso",
-          "href": "barnest/support.html"
-        },
-        {
-          "label": "Privacidade",
-          "href": "barnest/privacy.html"
-        }
-      ]
-    }
+    ]
   }
 }
