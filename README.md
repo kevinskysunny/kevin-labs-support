@@ -25,7 +25,7 @@ python3 -m http.server 18765 --bind 127.0.0.1
 - `content/product-details.json`：兼容旧API的能力细节；`sync-products.mjs`从index.json派生旧`assets/products.json`中的版本、简介及链接，避免双写。
 - `sync-site.mjs`：共享资源SHA-256指纹与内部网站版本同步；不改产品版本。
 
-先修改来源再执行构建，不直接编辑生成区。目录顺序保留当前VolMix、BarNest Pro、NextMirror三款主卡，另列五款工具；这不是销量排名。
+先修改来源再执行构建，不直接编辑生成区。首页按上午确认的NextMirror主角Bento组织，另列五款工具与第六格BarNest商店版支持；DOM、视觉与键盘顺序一致。
 
 ## 样式与跨端约束
 
@@ -40,3 +40,5 @@ python3 -m http.server 18765 --bind 127.0.0.1
 - `docs/website-release-*.md`：按批次发布记录。
 
 Safari/iOS真机、读屏和真实交易必须分别验证，不将Chrome或代码审查结果标成这些平台已经通过。
+
+全站设计接收与五域名优化记录：`docs/full-site-reception-2026-11-08/README.md`。当前设计以该记录和design.md为准，保留此前报告作为历史。

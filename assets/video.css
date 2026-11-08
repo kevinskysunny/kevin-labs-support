@@ -156,3 +156,7 @@ video {
     scroll-behavior: auto !important;
   }
 }
+
+/* Keep a stable route back to the product without changing native playback. */
+main nav a,.actions a{display:inline-flex;align-items:center;min-height:44px;min-width:44px}
+.player-page main nav{margin-bottom:16px}

@@ -21,9 +21,9 @@
       "privacyUrl": "https://barnest.kevinlabs.app/privacy",
       "videos": [],
       "availability": "available",
-      "version": "1.0.0",
-      "verifiedAt": "2026-10-30",
-      "build": 61,
+      "version": "1.0.2",
+      "verifiedAt": "2026-11-08",
+      "build": 98,
       "downloadUrl": "https://barnest.kevinlabs.app/download"
     },
     {
@@ -229,5 +229,5 @@
       "downloadUrl": "https://mindcharge.kevinlabs.app/download"
     }
   ],
-  "siteVersion": "2.3.2"
+  "siteVersion": "2.4.0"
 }

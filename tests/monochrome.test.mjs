@@ -42,14 +42,14 @@ test('language fallback and header DOM stay usable before scripts run',()=>{
   assert.match(html,/noscript data-language-fallback/);
  }
 });
-test('homepage presents three featured peers and five unique utility entries per language',()=>{
+test('homepage preserves the confirmed flagship order and five utility products plus store support',()=>{
  const html=read('index.html');
  const sections=[...html.matchAll(/<section data-lang="([a-z]{2})"[^>]*>([\s\S]*?)(?=<section class="faq-section">)/g)];
  assert.equal(sections.length,8);
  for(const [,lang,section] of sections){
   const featured=[...section.matchAll(/class="product-card" data-product="([^"]+)"/g)].map(x=>x[1]);
   const others=[...section.matchAll(/class="tool-card" data-product="([^"]+)"/g)].map(x=>x[1]);
-  assert.deepEqual(featured,['volmix','barnest-pro','nextmirror'],lang);
+  assert.deepEqual(featured,['nextmirror','volmix','barnest-pro'],lang);
   assert.deepEqual(others,['mindcharge','smoothcast','presenter-deck','netdoctor','ksic-studio'],lang);
   assert.equal(new Set([...featured,...others]).size,8);
   assert.match(section,/href="barnest\/support.html"/);assert.match(section,/href="barnest\/privacy.html"/);

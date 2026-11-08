@@ -4,6 +4,16 @@
     "more": "More apps",
     "apps": [
       {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "HarmonyOS screen mirroring",
+        "description": "View and control your HarmonyOS NEXT phone over USB with low latency.",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "Explore app",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": true
+      },
+      {
         "id": "volmix",
         "name": "VolMix",
         "purpose": "Per-app audio",
@@ -21,16 +31,6 @@
         "href": "https://barnest.kevinlabs.app/?lang=en",
         "action": "Explore app",
         "icon": "assets/barnest-pro-icon.png",
-        "featured": true
-      },
-      {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "HarmonyOS screen mirroring",
-        "description": "View and control your HarmonyOS NEXT phone over USB with low latency.",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "Explore app",
-        "icon": "assets/nextmirror-icon.png",
         "featured": true
       },
       {
@@ -103,6 +103,16 @@
     "more": "其他工具",
     "apps": [
       {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "鸿蒙投屏工作台",
+        "description": "通过 USB 低延迟投屏控制 HarmonyOS NEXT 手机，键鼠顺畅反向操作。",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "了解应用",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": true
+      },
+      {
         "id": "volmix",
         "name": "VolMix",
         "purpose": "应用独立调音",
@@ -123,20 +133,10 @@
         "featured": true
       },
       {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "鸿蒙投屏工作台",
-        "description": "通过 USB 低延迟投屏控制 HarmonyOS NEXT 手机，键鼠顺畅反向操作。",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "了解应用",
-        "icon": "assets/nextmirror-icon.png",
-        "featured": true
-      },
-      {
         "id": "mindcharge",
         "name": "MindCharge",
         "purpose": "订阅成本与心情管理",
-        "description": "追踪订阅支出对日常心情的真实影响，退订鸡肋，只留真正有价值的服务。",
+        "description": "一起记录订阅支出与日常心情，回顾消费习惯和个人感受。",
         "href": "https://mindcharge.kevinlabs.app/?lang=zh-Hans",
         "action": "了解应用",
         "icon": "assets/mindcharge-icon.png",
@@ -146,7 +146,7 @@
         "id": "smoothcast",
         "name": "SmoothCast",
         "purpose": "录屏视频与教程生成",
-        "description": "一次屏幕录制，自动生成带分步图文教程与双语字幕的高质感演示视频。",
+        "description": "一次屏幕录制，制作演示视频并导出分步图文教程。",
         "href": "https://smoothcast.kevinlabs.app/",
         "action": "了解应用",
         "icon": "assets/smoothcast-icon.png",
@@ -176,7 +176,7 @@
         "id": "ksic-studio",
         "name": "KSIC Studio",
         "purpose": "工作入口与资源中枢",
-        "description": "集中管理项目网站、文档与日常工具，快捷键毫秒级全局搜索与唤醒。",
+        "description": "集中管理项目网站、文档与日常工具，用快捷键快速搜索与打开。",
         "href": "ksic-studio/index.html",
         "action": "了解应用",
         "icon": "assets/ksic-studio-icon.png",
@@ -202,6 +202,16 @@
     "more": "その他のアプリ",
     "apps": [
       {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "HarmonyOS 画面ミラーリング",
+        "description": "USB 接続で低遅延に画面投影。Mac のマウスとキーボードで快適に操作。",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "アプリを見る",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": true
+      },
+      {
         "id": "volmix",
         "name": "VolMix",
         "purpose": "アプリ別音量調整",
@@ -222,20 +232,10 @@
         "featured": true
       },
       {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "HarmonyOS 画面ミラーリング",
-        "description": "USB 接続で低遅延に画面投影。Mac のマウスとキーボードで快適に操作。",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "アプリを見る",
-        "icon": "assets/nextmirror-icon.png",
-        "featured": true
-      },
-      {
         "id": "mindcharge",
         "name": "MindCharge",
         "purpose": "サブスクと気分の管理",
-        "description": "サブスク支出が気分に与える影響を記録し、本当に価値ある出費だけを残せます。",
+        "description": "サブスクの支出と日々の気分を一緒に記録し、消費習慣と気持ちを振り返れます。",
         "href": "https://mindcharge.kevinlabs.app/?lang=ja",
         "action": "アプリを見る",
         "icon": "assets/mindcharge-icon.png",
@@ -301,6 +301,16 @@
     "more": "다른 앱",
     "apps": [
       {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "HarmonyOS 화면 미러링",
+        "description": "USB로 HarmonyOS NEXT 휴대폰 화면을 보고 Mac의 키보드와 마우스로 조작하세요.",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "앱 알아보기",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": true
+      },
+      {
         "id": "volmix",
         "name": "VolMix",
         "purpose": "앱별 오디오 제어",
@@ -321,20 +331,10 @@
         "featured": true
       },
       {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "HarmonyOS 화면 미러링",
-        "description": "USB로 지연 없이 화면을 보고 키보드와 마우스로 기기를 원활하게 제어하세요.",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "앱 알아보기",
-        "icon": "assets/nextmirror-icon.png",
-        "featured": true
-      },
-      {
         "id": "mindcharge",
         "name": "MindCharge",
         "purpose": "구독 비용과 기분 관리",
-        "description": "정기 지출이 기분에 미치는 영향을 기록하고 불필요한 구독을 차분하게 정리하세요.",
+        "description": "구독 지출과 일상의 기분을 함께 기록하고 소비 습관과 감정을 돌아보세요.",
         "href": "https://mindcharge.kevinlabs.app/?lang=ko",
         "action": "앱 보기",
         "icon": "assets/mindcharge-icon.png",
@@ -400,6 +400,16 @@
     "more": "Weitere Apps",
     "apps": [
       {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "HarmonyOS Bildschirm-Mirroring",
+        "description": "HarmonyOS NEXT Smartphones über USB mit geringer Latenz spiegeln und steuern.",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "App ansehen",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": true
+      },
+      {
         "id": "volmix",
         "name": "VolMix",
         "purpose": "App-Audio-Mixer",
@@ -417,16 +427,6 @@
         "href": "https://barnest.kevinlabs.app/?lang=de",
         "action": "App entdecken",
         "icon": "assets/barnest-pro-icon.png",
-        "featured": true
-      },
-      {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "HarmonyOS Bildschirm-Mirroring",
-        "description": "HarmonyOS NEXT Smartphones über USB mit geringer Latenz spiegeln und steuern.",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "App ansehen",
-        "icon": "assets/nextmirror-icon.png",
         "featured": true
       },
       {
@@ -499,6 +499,16 @@
     "more": "Autres apps",
     "apps": [
       {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "Recopie d’écran HarmonyOS",
+        "description": "Affichez et contrôlez votre smartphone HarmonyOS NEXT via USB avec faible latence.",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "Découvrir",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": true
+      },
+      {
         "id": "volmix",
         "name": "VolMix",
         "purpose": "Audio par application",
@@ -516,16 +526,6 @@
         "href": "https://barnest.kevinlabs.app/?lang=fr",
         "action": "Découvrir l’app",
         "icon": "assets/barnest-pro-icon.png",
-        "featured": true
-      },
-      {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "Recopie d’écran HarmonyOS",
-        "description": "Affichez et contrôlez votre smartphone HarmonyOS NEXT via USB avec faible latence.",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "Découvrir",
-        "icon": "assets/nextmirror-icon.png",
         "featured": true
       },
       {
@@ -598,6 +598,16 @@
     "more": "Más apps",
     "apps": [
       {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "Duplicación de pantalla HarmonyOS",
+        "description": "Visualiza y controla tu móvil HarmonyOS NEXT por USB con baja latencia.",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "Ver aplicación",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": true
+      },
+      {
         "id": "volmix",
         "name": "VolMix",
         "purpose": "Audio por aplicación",
@@ -615,16 +625,6 @@
         "href": "https://barnest.kevinlabs.app/?lang=es",
         "action": "Conocer la app",
         "icon": "assets/barnest-pro-icon.png",
-        "featured": true
-      },
-      {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "Duplicación de pantalla HarmonyOS",
-        "description": "Visualiza y controla tu móvil HarmonyOS NEXT por USB con baja latencia.",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "Ver aplicación",
-        "icon": "assets/nextmirror-icon.png",
         "featured": true
       },
       {
@@ -697,6 +697,16 @@
     "more": "Mais apps",
     "apps": [
       {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "Espelhamento HarmonyOS",
+        "description": "Visualize e controle seu telefone HarmonyOS NEXT via USB com baixa latência.",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "Ver aplicativo",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": true
+      },
+      {
         "id": "volmix",
         "name": "VolMix",
         "purpose": "Áudio por aplicativo",
@@ -717,16 +727,6 @@
         "featured": true
       },
       {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "Espelhamento HarmonyOS",
-        "description": "Visualize e controle seu telefone HarmonyOS NEXT via USB com baixa latência.",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "Ver aplicativo",
-        "icon": "assets/nextmirror-icon.png",
-        "featured": true
-      },
-      {
         "id": "mindcharge",
         "name": "MindCharge",
         "purpose": "Assinaturas e humor",
@@ -740,7 +740,7 @@
         "id": "smoothcast",
         "name": "SmoothCast",
         "purpose": "Gravação de tela e tutoriais",
-        "description": "Transforme uma captura de tela em vídeos refinados e guías passo a passo.",
+        "description": "Transforme uma captura de tela em vídeos refinados e guias passo a passo.",
         "href": "https://smoothcast.kevinlabs.app/",
         "action": "Conhecer o app",
         "icon": "assets/smoothcast-icon.png",
