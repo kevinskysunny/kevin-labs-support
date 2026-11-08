@@ -11,10 +11,6 @@
       "Clean up your Mac menu bar with elegance.",
       "优雅整理与折叠 Mac 菜单栏图标。"
     ],
-    "summary": [
-      "Intelligently hide, tier, and organize menu bar items with instant hover drawers, multi-display support, and notch protection.",
-      "智能分级收纳与折叠菜单栏图标，支持悬停快速唤起、刘海屏防遮挡与多显示器独立记忆。"
-    ],
     "features": [
       [
         "3-tier organization: Always Visible, Auto Hide, and Always Hidden",
@@ -33,12 +29,16 @@
       "Compatible with macOS 12.0 or later. Zero-Permission architecture — runs safely in sandbox without requiring Accessibility or screen recording permissions.",
       "兼容 macOS 12.0 或更高版本。纯净零系统权限架构，无需辅助功能与屏幕录制权限，沙盒安全即开即用。"
     ],
+    "os": "12.0",
+    "summary": [
+      "Intelligently hide, tier, and organize menu bar items with instant hover drawers and notch protection.",
+      "智能分级收纳与折叠菜单栏图标，支持悬停快速唤起、刘海屏防遮挡与多显示器独立记忆。"
+    ],
     "support": "barnest/support.html",
     "privacy": "barnest/privacy.html",
     "demo": null,
     "store": "https://apps.apple.com/app/id6820881227?mt=12&ct=ksic_website",
     "version": "1.0.0",
-    "os": "12.0",
     "nativeStore": "macappstores://apps.apple.com/app/id6820881227?mt=12&ct=ksic_website"
   },
   {
@@ -53,10 +53,6 @@
       "Control one app’s sound.",
       "单独调整一个应用的声音。"
     ],
-    "summary": [
-      "Adjust volume and mute for detected audio apps from your Mac menu bar.",
-      "在 Mac 菜单栏中，为检测到的音频应用独立调音或静音。"
-    ],
     "features": [
       [
         "Independent volume from 0% to 100%",
@@ -69,19 +65,27 @@
       [
         "System output selection in the same panel",
         "在同一面板选择系统输出设备"
+      ],
+      [
+        "Per-app output selection and scenes that remember each app’s device",
+        "按应用选择输出设备，场景可记住各应用的设备"
       ]
     ],
     "limits": [
-      "Requires system-audio capture permission. Protected audio and some routing or devices may not work. Controls apps, not browser tabs; no amplification above 100% or per-app output routing.",
-      "需要系统音频捕获权限。受保护音频、部分路由或设备可能不兼容。按应用而非浏览器标签页控制；不支持超过 100% 放大或按应用分配输出设备。"
+      "Requires system-audio capture permission. Protected audio and some routing or devices may not work. Controls apps, not browser tabs; no amplification above 100%.",
+      "需要系统音频捕获权限。受保护音频、部分路由或设备可能不兼容。按应用而非浏览器标签页控制；不支持超过 100% 放大。"
+    ],
+    "os": "14.2",
+    "summary": [
+      "Adjust volume, mute and output device per app from the menu bar.",
+      "为每个 App 单独控制音量与输出设备，会议耳机、音乐音箱各归其位。"
     ],
     "support": "volmix/support.html",
     "privacy": "volmix/privacy.html",
     "demo": "volmix/review/",
     "store": "https://apps.apple.com/us/app/volmix-per-app-volume/id6806717830?mt=12&ct=ksic_website",
     "version": "1.1.6",
-    "os": "14.2",
-    "nativeStore": "macappstores://apps.apple.com/app/id6806717830?mt=12&ct=ksic_website"
+    "nativeStore": "macappstores://apps.apple.com/us/app/volmix-per-app-volume/id6806717830?mt=12&ct=ksic_website"
   },
   {
     "id": "netdoctor",
@@ -94,10 +98,6 @@
     "headline": [
       "Understand your connection.",
       "看清网络连接的问题。"
-    ],
-    "summary": [
-      "Inspect your Mac’s network state and get practical next steps without changing network settings.",
-      "检查 Mac 网络状态并获取排查建议，不修改网络设置。"
     ],
     "features": [
       [
@@ -117,13 +117,17 @@
       "Read-only diagnostics, not automatic repair or a VPN service. Connectivity tests contact public endpoints. Results describe the sampled connection and do not guarantee that every service is reachable.",
       "仅提供只读诊断，不是自动修复或 VPN 服务。连通性测试会访问公开端点；结果反映采样情况，不保证所有服务均可访问。"
     ],
+    "os": "14.0",
+    "summary": [
+      "Inspect your Mac’s network state and get practical next steps without changing network settings.",
+      "检查 Mac 网络状态并获取排查建议，不修改网络设置。"
+    ],
     "support": "netdoctor/support.html",
     "privacy": "netdoctor/privacy.html",
     "demo": null,
     "store": "https://apps.apple.com/us/app/netdoctor/id6801707344?mt=12&ct=ksic_website",
     "version": "1.1",
-    "os": "14.0",
-    "nativeStore": "macappstores://apps.apple.com/app/id6801707344?mt=12&ct=ksic_website"
+    "nativeStore": "macappstores://apps.apple.com/us/app/netdoctor/id6801707344?mt=12&ct=ksic_website"
   },
   {
     "id": "ksic-studio",
@@ -136,10 +140,6 @@
     "headline": [
       "Keep your work links together.",
       "把工作入口放在一起。"
-    ],
-    "summary": [
-      "Organize, search and open your websites and work resources from a local-first Mac workspace.",
-      "在本地优先的 Mac 工作空间中整理、搜索和打开网站与工作资源。"
     ],
     "features": [
       [
@@ -159,13 +159,17 @@
       "Opens links in your default browser. HTTPS reachability checks run when requested. This is a link launcher, not a cloud sync or team collaboration service.",
       "链接交给默认浏览器打开，HTTPS 连通性检查由用户主动发起。这是链接启动工具，不是云同步或团队协作服务。"
     ],
+    "os": "14.0",
+    "summary": [
+      "Organize, search and open your websites and work resources from a local-first Mac workspace.",
+      "在本地优先的 Mac 工作空间中整理、搜索和打开网站与工作资源。"
+    ],
     "support": "support.html",
     "privacy": "privacy.html",
     "demo": "review/",
     "store": "https://apps.apple.com/us/app/ksic-studio/id6801325655?mt=12&ct=ksic_website",
     "version": "1.0.0",
-    "os": "14.0",
-    "nativeStore": "macappstores://apps.apple.com/app/id6801325655?mt=12&ct=ksic_website"
+    "nativeStore": "macappstores://apps.apple.com/us/app/ksic-studio/id6801325655?mt=12&ct=ksic_website"
   },
   {
     "id": "presenter-deck",
@@ -178,10 +182,6 @@
     "headline": [
       "Keep every minute of your talk under control.",
       "专为演讲者打造的分章节议程规划、排练复盘与演示流程台。"
-    ],
-    "summary": [
-      "A native macOS presentation runbook for section-by-section agenda planning, rehearsal review, and live presentation control.",
-      "专为演讲者打造的分章节议程规划、秒级排练复盘与演示流程台工具。"
     ],
     "features": [
       [
@@ -201,12 +201,16 @@
       "Native macOS runbook companion. Does not edit PowerPoint/Keynote slide content directly.",
       "原生 macOS 演说助手工具，不直接修改 PowerPoint/Keynote 幻灯片文件本身。"
     ],
+    "os": "14.0",
+    "summary": [
+      "A native macOS presentation runbook for section-by-section agenda planning, rehearsal review, and live presentation control.",
+      "专为演讲者打造的分章节议程规划、秒级排练复盘与演示流程台工具。"
+    ],
     "support": "presenter-deck/support.html",
     "privacy": "presenter-deck/privacy.html",
     "demo": "presenter-deck/review/index.html",
     "store": "https://apps.apple.com/app/id6805086319?mt=12&ct=ksic_website",
     "version": "1.4.0",
-    "os": "14.0",
     "nativeStore": "macappstores://apps.apple.com/app/id6805086319?mt=12&ct=ksic_website"
   },
   {
@@ -220,10 +224,6 @@
     "headline": [
       "Turn recordings into polished videos and step-by-step guides.",
       "电影级平滑运镜录屏与分步教程工坊。"
-    ],
-    "summary": [
-      "Turn screen recordings into polished videos and auto-generated step-by-step tutorial guide packages.",
-      "为 macOS 打造的智能录屏工具，自带智能平滑变焦运镜，独创一键导出分步图文教程资料包。"
     ],
     "features": [
       [
@@ -243,12 +243,16 @@
       "Requires macOS 14.0 or later and screen recording permissions. Direct download and licensing provided via official website.",
       "需要 macOS 14.0 或更高版本及屏幕录制权限。通过官网直销提供下载与授权。"
     ],
-    "support": "https://smoothcast.kevinlabs.app/",
+    "os": "13.0",
+    "summary": [
+      "Record and create guides for free. Pro unlocks watermark-free, 4K and ProRes exports.",
+      "免费录制与制作教程；Pro 解锁无水印、4K 与 ProRes 导出。"
+    ],
+    "support": "https://smoothcast.kevinlabs.app/support",
     "privacy": "https://smoothcast.kevinlabs.app/privacy",
     "demo": null,
     "store": "https://smoothcast.kevinlabs.app/",
-    "version": "1.1.1",
-    "os": "14.0",
+    "version": "1.3.2",
     "nativeStore": "https://smoothcast.kevinlabs.app/"
   }
 ]

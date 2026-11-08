@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-08",
   "apps": [
     {
       "id": "barnest-pro",
@@ -103,8 +103,8 @@
       "name": "VolMix",
       "platform": "macOS",
       "summary": {
-        "en": "Adjust volume and mute for detected audio apps from your Mac menu bar.",
-        "zh": "在 Mac 菜单栏中，为检测到的音频应用独立调音或静音。"
+        "en": "Adjust volume, mute and output device per app from the menu bar.",
+        "zh": "为每个 App 单独控制音量与输出设备，会议耳机、音乐音箱各归其位。"
       },
       "supportUrl": "volmix/support.html",
       "privacyUrl": "volmix/privacy.html",
@@ -196,12 +196,12 @@
       "supportUrl": "https://nextmirror.kevinlabs.app/#support-en",
       "privacyUrl": "https://nextmirror.kevinlabs.app/legal.html#privacy",
       "availability": "available",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "architecture": "arm64",
       "minimumSystemVersion": "12.0",
       "videos": [],
-      "verifiedAt": "2026-11-07",
-      "build": 6,
+      "verifiedAt": "2026-11-08",
+      "build": 23,
       "downloadUrl": "https://nextmirror.kevinlabs.app/download"
     },
     {
@@ -229,5 +229,5 @@
       "downloadUrl": "https://mindcharge.kevinlabs.app/download"
     }
   ],
-  "siteVersion": "2.3.0"
+  "siteVersion": "2.3.1"
 }

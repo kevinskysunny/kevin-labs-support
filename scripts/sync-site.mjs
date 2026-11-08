@@ -16,7 +16,6 @@ function walk(dir) {
       let after = before;
       for (const [name, revision] of Object.entries(revisions))
         after = after.replaceAll(new RegExp(`assets/${name.replace('.', '\\.')}\\?v=[a-f0-9]+`, 'g'), `assets/${name}?v=${revision}`);
-      after = after.replace(/(<span class="site-version">)v[\d.]+(<\/span>)/g, `$1v${version}$2`);
       if (after !== before) fs.writeFileSync(file, after);
     }
   }

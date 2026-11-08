@@ -15,7 +15,7 @@ test('redesign retains all eight homepage languages and live product destination
    const revision=createHash('sha256').update(read('assets/'+asset)).digest('hex').slice(0,12);
    assert.ok(content.includes('assets/'+asset+'?v='+revision),path+' loads the current '+asset);
   }
-  assert.match(content,/id="language"/);assert.ok(content.includes('v'+JSON.parse(read('site.json')).version));
+  assert.match(content,/id="language"/);assert.doesNotMatch(content, /class="site-version"/);
  }
 });
 test('documentation contents point at actual translated headings',()=>{

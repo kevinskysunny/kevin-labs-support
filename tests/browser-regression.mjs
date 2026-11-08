@@ -2,28 +2,8 @@
 // Run npm install, then npm run test:browser. Uses installed Chrome by default.
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
-import path from 'node:path';
-import http from 'node:http';
-import { fileURLToPath } from 'node:url';
-import { chromium } from 'playwright-core';
-const root = fileURLToPath(new URL('../', import.meta.url));
-const external = process.env.SITE_BASE_URL;
-const mime = { '.html':'text/html', '.css':'text/css', '.js':'text/javascript', '.json':'application/json', '.png':'image/png', '.svg':'image/svg+xml', '.ico':'image/x-icon' };
-const server = http.createServer(async (req, res) => {
-  try {
-    const requested = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
-    const file = path.resolve(root, '.' + (requested.endsWith('/') ? requested + 'index.html' : requested));
-    if (!file.startsWith(root)) { res.writeHead(403).end(); return; }
-    const data = await fs.readFile(file);
-    res.writeHead(200, { 'Content-Type':mime[path.extname(file)] || 'application/octet-stream' }).end(data);
-  } catch { res.writeHead(404).end(); }
-});
-if (!external) await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
-const base = external || `http://127.0.0.1:${server.address().port}`;
-const browser = await chromium.launch({ executablePath: process.env.BROWSER_EXECUTABLE || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true });
-const context = await browser.newContext({ locale:'zh-CN' });
-// Acceptance traffic must not reach production analytics or trigger downloads.
-await context.route('**/*', route => new URL(route.request().url()).origin === new URL(base).origin ? route.continue() : route.abort());
+import { createBrowserHarness } from './browser-harness.mjs';
+const { browser, context, base, close } = await createBrowserHarness();
 const page = await context.newPage();
 const records = [];
 const paths = ['index.html','guides.html','volmix/index.html','presenter-deck/index.html','netdoctor/index.html','ksic-studio/index.html','volmix/support.html','barnest/support.html','support.html','website-privacy.html','privacy.html'];
@@ -64,11 +44,11 @@ try {
       if (result.guide) { assert.equal(result.guide.columns,width<=1000?1:2,label+' directory layout'); assert.equal(result.catalog.columns,width<=600?1:2,label+' directory columns'); }
       if (result.textHero) assert.equal(result.textHero.columns,1,label+' text template');
       if (result.reading && width<=700) assert.ok(result.reading.width>=result.mainWidth-2,label+' reading width');
-      assert.equal(result.version.length,1,label+' visible website version');
+      assert.equal(result.version.length,0,label+' no website version in footer');
       records.push({ file,width,...result });
     }
   }
   await fs.mkdir(new URL('../output/playwright/',import.meta.url),{recursive:true});
   await fs.writeFile(new URL('../output/playwright/layout-results.json',import.meta.url),JSON.stringify(records,null,2));
   console.log(`PASS: ${records.length} browser layout combinations; clipping, reading width, columns, order, images, version.`);
-} finally { await browser.close(); if (!external) await new Promise(resolve=>server.close(resolve)); }
+} finally { await close(); }

@@ -17,7 +17,7 @@ test('manual and automatic language preferences survive product links',()=>{
   const context=vm.createContext({URL,URLSearchParams,setTimeout,clearTimeout,
    location:{href:'https://support.kevinlabs.app/',search:''},navigator:{languages:['en-US']},
    localStorage:{getItem:key=>key==='ksicSupportLanguage'?preference:null},window:{addEventListener(){}},
-   document:{documentElement:{},querySelector:s=>s==='#language'?select:s.includes('h1')?{textContent:'Kevin Labs'}:{},querySelectorAll:s=>s==='a[href]'?[link]:[],addEventListener(){}}});
+   document:{documentElement:{},querySelector:s=>s==='#language'?select:s.includes('h1')?{textContent:'Kevin Labs'}:s.startsWith('main section')?{querySelector:()=>null}:null,querySelectorAll:s=>s==='a[href]'?[link]:[],addEventListener(){}}});
   vm.runInContext(read('assets/site.js'),context);
   assert.equal(new URL(link.href).searchParams.get('lang'),preference);
  }
