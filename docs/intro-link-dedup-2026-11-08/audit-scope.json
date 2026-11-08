@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-08",
+  "scope": "9 actual product introduction destinations; read-only browsing; no purchase/download/third-party calls",
+  "pages": [
+    {
+      "name": "NextMirror",
+      "url": "https://nextmirror.kevinlabs.app/",
+      "status": 200,
+      "mainLinkCount": 5,
+      "footerLinkCount": 2
+    },
+    {
+      "name": "MindCharge",
+      "url": "https://mindcharge.kevinlabs.app/",
+      "status": 200,
+      "mainLinkCount": 7,
+      "footerLinkCount": 4
+    },
+    {
+      "name": "BarNest Pro",
+      "url": "https://barnest.kevinlabs.app/",
+      "status": 200,
+      "mainLinkCount": 4,
+      "footerLinkCount": 4
+    },
+    {
+      "name": "SmoothCast",
+      "url": "https://smoothcast.kevinlabs.app/",
+      "status": 200,
+      "mainLinkCount": 9,
+      "footerLinkCount": 4
+    },
+    {
+      "name": "volmix",
+      "url": "https://support.kevinlabs.app/volmix/index.html",
+      "status": 200,
+      "mainLinkCount": 6,
+      "footerLinkCount": 2
+    },
+    {
+      "name": "barnest",
+      "url": "https://support.kevinlabs.app/barnest/index.html",
+      "status": 200,
+      "mainLinkCount": 3,
+      "footerLinkCount": 2
+    },
+    {
+      "name": "netdoctor",
+      "url": "https://support.kevinlabs.app/netdoctor/index.html",
+      "status": 200,
+      "mainLinkCount": 3,
+      "footerLinkCount": 2
+    },
+    {
+      "name": "ksic-studio",
+      "url": "https://support.kevinlabs.app/ksic-studio/index.html",
+      "status": 200,
+      "mainLinkCount": 4,
+      "footerLinkCount": 2
+    },
+    {
+      "name": "presenter-deck",
+      "url": "https://support.kevinlabs.app/presenter-deck/index.html",
+      "status": 200,
+      "mainLinkCount": 3,
+      "footerLinkCount": 2
+    }
+  ]
+}
