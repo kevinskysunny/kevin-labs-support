@@ -1,0 +1,121 @@
+{
+  "network": "Current local/proxy route, external requests blocked by repository harness; NOT mainland direct-access evidence",
+  "rows": [
+    {
+      "width": 390,
+      "file": "index.html",
+      "status": 200,
+      "url": "https://support.kevinlabs.app/index.html?lang=zh",
+      "language": "zh-Hans",
+      "storeLinks": [],
+      "emailLinks": 8,
+      "overflow": false,
+      "errors": [],
+      "downloads": [],
+      "popups": [],
+      "failed": []
+    },
+    {
+      "width": 390,
+      "file": "volmix/index.html",
+      "status": 200,
+      "url": "https://support.kevinlabs.app/volmix/index.html?lang=zh",
+      "language": "zh-Hans",
+      "storeLinks": [
+        "https://apps.apple.com/app/id6806717830?mt=12&ct=ksic_website"
+      ],
+      "emailLinks": 0,
+      "overflow": false,
+      "errors": [],
+      "downloads": [],
+      "popups": [],
+      "failed": []
+    },
+    {
+      "width": 390,
+      "file": "support.html",
+      "status": 200,
+      "url": "https://support.kevinlabs.app/support.html?lang=zh",
+      "language": "zh-Hans",
+      "storeLinks": [],
+      "emailLinks": 8,
+      "overflow": false,
+      "errors": [],
+      "downloads": [],
+      "popups": [],
+      "failed": []
+    },
+    {
+      "width": 390,
+      "file": "website-privacy.html",
+      "status": 200,
+      "url": "https://support.kevinlabs.app/website-privacy.html?lang=zh",
+      "language": "zh-Hans",
+      "storeLinks": [],
+      "emailLinks": 8,
+      "overflow": false,
+      "errors": [],
+      "downloads": [],
+      "popups": [],
+      "failed": []
+    },
+    {
+      "width": 1440,
+      "file": "index.html",
+      "status": 200,
+      "url": "https://support.kevinlabs.app/index.html?lang=zh",
+      "language": "zh-Hans",
+      "storeLinks": [],
+      "emailLinks": 8,
+      "overflow": false,
+      "errors": [],
+      "downloads": [],
+      "popups": [],
+      "failed": []
+    },
+    {
+      "width": 1440,
+      "file": "volmix/index.html",
+      "status": 200,
+      "url": "https://support.kevinlabs.app/volmix/index.html?lang=zh",
+      "language": "zh-Hans",
+      "storeLinks": [
+        "https://apps.apple.com/app/id6806717830?mt=12&ct=ksic_website"
+      ],
+      "emailLinks": 0,
+      "overflow": false,
+      "errors": [],
+      "downloads": [],
+      "popups": [],
+      "failed": []
+    },
+    {
+      "width": 1440,
+      "file": "support.html",
+      "status": 200,
+      "url": "https://support.kevinlabs.app/support.html?lang=zh",
+      "language": "zh-Hans",
+      "storeLinks": [],
+      "emailLinks": 8,
+      "overflow": false,
+      "errors": [],
+      "downloads": [],
+      "popups": [],
+      "failed": []
+    },
+    {
+      "width": 1440,
+      "file": "website-privacy.html",
+      "status": 200,
+      "url": "https://support.kevinlabs.app/website-privacy.html?lang=zh",
+      "language": "zh-Hans",
+      "storeLinks": [],
+      "emailLinks": 8,
+      "overflow": false,
+      "errors": [],
+      "downloads": [],
+      "popups": [],
+      "failed": []
+    }
+  ]
+}

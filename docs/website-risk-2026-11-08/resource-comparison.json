@@ -1,0 +1,328 @@
+{
+  "checked_at_utc": "2026-11-08T04:17:10.068288+00:00",
+  "source_commit": "a91023840e9857772217bd207bec5490cad1d21f",
+  "network": "Environment proxy; NOT mainland direct-access evidence",
+  "method": "Compare response bytes; reverse only the observed Cloudflare edge beacon script insertion and email protection encoding/decoder injection. Do not strip arbitrary scripts or markup.",
+  "results": [
+    {
+      "file": "assets/monochrome.css",
+      "raw_matches": true,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "ee7321aee8c9e5d205a36982322b43d3dc650a6cfe2a26c5246d8f4cc3cc527e",
+      "online_sha256": "ee7321aee8c9e5d205a36982322b43d3dc650a6cfe2a26c5246d8f4cc3cc527e",
+      "status": 200
+    },
+    {
+      "file": "assets/site.css",
+      "raw_matches": true,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "6f4680e043ac65846360973d2b4a53b7c410fedfca6c602bccca7ce9537ca35b",
+      "online_sha256": "6f4680e043ac65846360973d2b4a53b7c410fedfca6c602bccca7ce9537ca35b",
+      "status": 200
+    },
+    {
+      "file": "assets/site.js",
+      "raw_matches": true,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "a4c89938f4614a09015a5c59987d84cc5dff03f59f3d1862c9bbff0a69a5a509",
+      "online_sha256": "a4c89938f4614a09015a5c59987d84cc5dff03f59f3d1862c9bbff0a69a5a509",
+      "status": 200
+    },
+    {
+      "file": "assets/smoothcast-redirect.js",
+      "raw_matches": true,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "1dee63de7715346757176514b2543f621e8c351e831756cf4b4b3fae6ef5a8f1",
+      "online_sha256": "1dee63de7715346757176514b2543f621e8c351e831756cf4b4b3fae6ef5a8f1",
+      "status": 200
+    },
+    {
+      "file": "assets/video.css",
+      "raw_matches": true,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "23ee5727ab69bb11db7426bc69c2662297ff9cff63435eb2d3571c0fe264a3f6",
+      "online_sha256": "23ee5727ab69bb11db7426bc69c2662297ff9cff63435eb2d3571c0fe264a3f6",
+      "status": 200
+    },
+    {
+      "file": "barnest/index.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "8c0587b699d9dcf7cc042b3b88f77b52632f2a9c533916186c19c6a932224a33",
+      "online_sha256": "266ad42ffdc3a072e5d57e7f9d5ce363f6b65ce47142a559c4cee2a091655d93",
+      "status": 200
+    },
+    {
+      "file": "barnest/privacy.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "11e21a0ae70b71d6e7271467f0552e540df4a8a5b7e26a514a53971e3be89438",
+      "online_sha256": "a53cf2bf2db923e6f0077e0993e5e32888bc7b7f291dc2ae1e9d9ae82219259d",
+      "status": 200
+    },
+    {
+      "file": "barnest/support.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "2191206a8aec4c42823c3e20c9c7307cae09b91307f4f6efa8bd8dfc631a2fa1",
+      "online_sha256": "94aeb34a7d9aa18ac083ff18e783bd9b9fed2b81de0e17f02c7bc85ce5090e36",
+      "status": 200
+    },
+    {
+      "file": "guides.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "40d4422df32b0b1cb96963fa9a16a00c572ecf81daf2ce09f5e6ade21f144460",
+      "online_sha256": "f4a7492c645acece07433386cb76dfefa531567f9df8518fedc4dc7a65866fc4",
+      "status": 200
+    },
+    {
+      "file": "index.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "cc0b52b9a7533aed5f347fe7037099794d47b3766d0da16d5ed7d6d251b16b5e",
+      "online_sha256": "84a1e6ab4201d6fb9220001e0c8264d9df0515747691c418a8d6457281bcfd9e",
+      "status": 200
+    },
+    {
+      "file": "ksic-studio/index.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "b6874d83be63cc3166316dadf1f11f4af5b31b3798d5d744929bc62bcd2d9685",
+      "online_sha256": "b22bb3270032bc68e1577ff80085df4cc2c71b13493a28be595f330077f615ee",
+      "status": 200
+    },
+    {
+      "file": "mindcharge/index.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "5ee97a5d46eaededcab2e45325512b372aff1f30e81fc783500c06bea0205ca9",
+      "online_sha256": "7bdd398740ae6cd30b7561fdaa886fbeca1f7aaec63034fcbf67ff4c37ba4735",
+      "status": 200
+    },
+    {
+      "file": "mindcharge/privacy.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "dd0efbec4976e1f12fe08694592510129595a3684058b4879cd996b5e78bca8e",
+      "online_sha256": "d61e9af17dddf8eb2f6553ebb887eb98e10e6a1377c3c83931dd38f498d1bc9e",
+      "status": 200
+    },
+    {
+      "file": "mindcharge/support.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "40213bedb023efd5e92e693346930368ab1bb22de655c8e2fb6ffa9776cece9c",
+      "online_sha256": "692274bd9a41e2da5d23d0a586fb939098ea95446218c5f1f29b3f9f80d4a65a",
+      "status": 200
+    },
+    {
+      "file": "netdoctor/index.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "f159235cb45fc29d4b9df1266c173deba621fea717a0aa5678290f205eba2989",
+      "online_sha256": "85b7efc47814e04af2d9137dbdc90ce7fe1bad5c316b884ae4fcfef31a4c68f1",
+      "status": 200
+    },
+    {
+      "file": "netdoctor/privacy.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "6839e0202964627d0c3909f27dcb1e0a8ebba53f5ace51ea29254dc1e7f64d14",
+      "online_sha256": "35100479943d8b88330e981396240657b823c0de3761290b645e3af370e57531",
+      "status": 200
+    },
+    {
+      "file": "netdoctor/support.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "d0d315b22389cc7cc8a8dde52008fe4e1cf6b1f843260bfb2ee6bbdb333ea1dd",
+      "online_sha256": "c4adf73413c4124951522e7b2b58fd964b07e6baf9416008a6d99cb45fbbc0fb",
+      "status": 200
+    },
+    {
+      "file": "networkconsole-lite/index.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "df2ea4a161c2f44db6b00aa044b321363119aecd5e7e6043948ed344ebc5add3",
+      "online_sha256": "d6436ced9a88e2f43349b3c1de54cd5bfabe153affa99f3569b7765d31df2f65",
+      "status": 200
+    },
+    {
+      "file": "networkconsole-lite/privacy.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "74ef6fdb9a550adc2f0fa361bc9abdecdde141da6f3c9c705b1fff392d0e3f4e",
+      "online_sha256": "33cf54bbd0823171887ad7fa2eeaa64c36b55f23e0e29db003b0f443fdb52712",
+      "status": 200
+    },
+    {
+      "file": "networkconsole-lite/support.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "69f265e0a4e0abb3e3676d1671c69cbeee7e3a656836a0c79584f3ef51639aa1",
+      "online_sha256": "96213e534a18f3b88740956eed610fa526847102d2d4d4fdecfc24fe860bd25f",
+      "status": 200
+    },
+    {
+      "file": "nextmirror/index.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "26c33ce1fdcc08625c696b07e2fc846016066e9a54a04ca4b7182c836b79a1c6",
+      "online_sha256": "4a2e268e122e0a2015645710fc3f5fca5aaee91d5bd41b0b6c51d821b32f1c2b",
+      "status": 200
+    },
+    {
+      "file": "nextmirror/legal.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "3221307ee5f85d8e5486bd55a6b7214a262cda8f5e2e52351cf980820f128437",
+      "online_sha256": "ef62515f450b5143b3c07c8a7badc6ea10af3367163e0b01b1d448c1f801ba91",
+      "status": 200
+    },
+    {
+      "file": "nextmirror/nextmirror.css",
+      "raw_matches": true,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "80c1c177c21fcf410cd8fb785079b994b51dc1106ce6275321685c7a2114b448",
+      "online_sha256": "80c1c177c21fcf410cd8fb785079b994b51dc1106ce6275321685c7a2114b448",
+      "status": 200
+    },
+    {
+      "file": "photoslim/privacy.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "b3345222bc6a65bf0c757cc18c04130d7a63fbc9f8c79564761ade9262bd1468",
+      "online_sha256": "ddf121320d8b7d5357446401b713ef01c14afbe357dae4c10de9b25a4a3fcf14",
+      "status": 200
+    },
+    {
+      "file": "presenter-deck/index.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "3029b24d89ed06419050f78005c54505907d56aff87e9cee87d4fbb23495bc7f",
+      "online_sha256": "3aef7c2cdfac2caa750428755cb0dbd41670b56f795771b8a40ce326142eca70",
+      "status": 200
+    },
+    {
+      "file": "presenter-deck/privacy.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "de3ebc3c3d21ce7d25c968778a1f71841065c38a37fbcc6354de08d806ead452",
+      "online_sha256": "0c38bf1e03739ff6221ab000137821482bde4f5d0f0f7e56878a9976292ee3a8",
+      "status": 200
+    },
+    {
+      "file": "presenter-deck/review/index.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "101479001f889fb007ffe2a414a6e2c623774c3ef0a73ce5520083c04df788c3",
+      "online_sha256": "e4c3ebebc21bf8f1b542a3c126c10477edb478f189263ad6f156024e73fa0ead",
+      "status": 200
+    },
+    {
+      "file": "presenter-deck/support.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "44ec8b5397aaabce39680bae6bb70911df5ea2a35c59ee186a59f4137b725a6e",
+      "online_sha256": "81b3b76dc55783c96da49edd24fcc325677e94cad3ce9371eeaae988abec19e6",
+      "status": 200
+    },
+    {
+      "file": "privacy.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "c0b7fa6d0025dbc88e6ed9ced0a7fcee0222e4203e5fe125cff60cc70184d7f6",
+      "online_sha256": "217738ae06f24663c0a950693e700a593ea7dbe70e4dd13216086c0de148be88",
+      "status": 200
+    },
+    {
+      "file": "review/index.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "1804954c38677b3b3b5337662dc220ff2127e90c02d93eb53196f1e8ff5af8e3",
+      "online_sha256": "56ca2ef8c4869d45558d477175afe6cf30e6dbcd1e90592eeacf4c438ca379b9",
+      "status": 200
+    },
+    {
+      "file": "smoothcast/index.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "f8ea960064a7e3f7a1c230e0d89cee3f6650c27b69157a71a00071965db8ec3d",
+      "online_sha256": "d7f8ce4d5d5dc66ea7572b42be62e478366b75c2ee4a6e787d86eac097f4d3b8",
+      "status": 200
+    },
+    {
+      "file": "smoothcast/privacy.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "0b1408bad9999f2be244ae40d7fd77455b1f41f5e2962896ff85f6ec29aee9cf",
+      "online_sha256": "218aeb79a84af7acec2db9a2490a946bc727be7e144a7976676cd85cd709f1a8",
+      "status": 200
+    },
+    {
+      "file": "smoothcast/releases.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "0dfba93b384f8d6960bfd6dd58740c63a15b9d868554d273a1244101b667fa36",
+      "online_sha256": "ac0b4a88327b0fbef4fe201c2abb25004b93c7f7632c61ccfaaa332842bd758c",
+      "status": 200
+    },
+    {
+      "file": "smoothcast/support.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "626441b4b9ad708711c837c68281ec5e07e7aeaa05cf878e4930c4c7c7753b9a",
+      "online_sha256": "99c8e115c6c398c7ad88561d23da3cd9bbad4c86eb4c1c129b30f594e78b4279",
+      "status": 200
+    },
+    {
+      "file": "support.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "b0192719cb8b445d39dcbd1776eecdbe6e8941338ba4dd61d688a6e63bc84087",
+      "online_sha256": "2046dbebe48536e17447099c3466ff059fa0fb9ad621d00e595e04fea1154a71",
+      "status": 200
+    },
+    {
+      "file": "volmix/index.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "70ad1ff8770be64f191b8e88816e5c12e5b3b67d0b612081c00d216a9147bda9",
+      "online_sha256": "c3c147f5beb5c8db03497635568875acf94a1bd1715a555c6b6690161b2455a3",
+      "status": 200
+    },
+    {
+      "file": "volmix/privacy.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "e39260fd428c918e85d4ebfaba949dbc311efea66807b0a7064d0e9585bba25d",
+      "online_sha256": "797c31e37a44758dc18807bc1753d5deb4ae28a62bf1208dbd6ba442e0a66467",
+      "status": 200
+    },
+    {
+      "file": "volmix/review/index.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "24744944a20ee6c84ef4ce8c6cd47e271ccb9e59a1cab15664d81f8d9c430928",
+      "online_sha256": "12616c5af179deec3472898b6eff3ccc59b4dc3a4e2d40a507495dae0f5c532c",
+      "status": 200
+    },
+    {
+      "file": "volmix/support.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "25ee40905f53106de7bd3d4a7d5c574d985d7bf62ede388f468f0a64ae290578",
+      "online_sha256": "24ce9ec4aca49eff82ea2c54589b4becd6d346a36263a5f14197746643e6c218",
+      "status": 200
+    },
+    {
+      "file": "website-privacy.html",
+      "raw_matches": false,
+      "matches_after_cloudflare_transforms": true,
+      "local_sha256": "f58d58aa534fffc752ddfcfc646a433953dd249b9e4266ef8b1879a55090f744",
+      "online_sha256": "7926b31515193251dd9550508bc08ce8147d1b177854e8853a5c0db3c994ee66",
+      "status": 200
+    }
+  ]
+}
