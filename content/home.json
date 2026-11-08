@@ -4,16 +4,6 @@
     "more": "More apps",
     "apps": [
       {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "HarmonyOS screen mirroring",
-        "description": "View and control your HarmonyOS NEXT phone over USB with low latency.",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "Explore app",
-        "icon": "assets/nextmirror-icon.png",
-        "featured": true
-      },
-      {
         "id": "volmix",
         "name": "VolMix",
         "purpose": "Per-app audio",
@@ -21,6 +11,16 @@
         "href": "volmix/index.html",
         "action": "Explore app",
         "icon": "assets/volmix-icon.png",
+        "featured": true
+      },
+      {
+        "id": "macpulse",
+        "name": "MacPulse",
+        "purpose": "Mac performance diagnostics",
+        "description": "Find resource-heavy apps and review slowdowns on a 24-hour timeline.",
+        "href": "https://macpulse.kevinlabs.app/en/",
+        "action": "Explore app",
+        "icon": "assets/macpulse-icon.png",
         "featured": true
       },
       {
@@ -32,6 +32,16 @@
         "action": "Explore app",
         "icon": "assets/barnest-pro-icon.png",
         "featured": true
+      },
+      {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "HarmonyOS screen mirroring",
+        "description": "View and control your HarmonyOS NEXT phone over USB with low latency.",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "Explore app",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": false
       },
       {
         "id": "mindcharge",
@@ -82,16 +92,6 @@
         "action": "Explore app",
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
-      },
-      {
-        "id": "macpulse",
-        "name": "MacPulse",
-        "purpose": "Mac performance diagnostics",
-        "description": "Find resource-heavy apps and review slowdowns on a 24-hour timeline.",
-        "href": "https://macpulse.kevinlabs.app/en/",
-        "action": "Explore app",
-        "icon": "assets/macpulse-icon.png",
-        "featured": false
       }
     ]
   },
@@ -99,16 +99,6 @@
     "title": "Mac 工具",
     "more": "其他工具",
     "apps": [
-      {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "鸿蒙投屏工作台",
-        "description": "通过 USB 低延迟投屏控制 HarmonyOS NEXT 手机，键鼠顺畅反向操作。",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "了解应用",
-        "icon": "assets/nextmirror-icon.png",
-        "featured": true
-      },
       {
         "id": "volmix",
         "name": "VolMix",
@@ -120,6 +110,16 @@
         "featured": true
       },
       {
+        "id": "macpulse",
+        "name": "MacPulse",
+        "purpose": "Mac 性能诊断",
+        "description": "查看高资源应用，沿 24 小时时间线追溯卡顿原因。",
+        "href": "https://macpulse.kevinlabs.app/zh/",
+        "action": "了解应用",
+        "icon": "assets/macpulse-icon.png",
+        "featured": true
+      },
+      {
         "id": "barnest-pro",
         "name": "BarNest Pro",
         "purpose": "菜单栏收纳整理",
@@ -128,6 +128,16 @@
         "action": "了解应用",
         "icon": "assets/barnest-pro-icon.png",
         "featured": true
+      },
+      {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "鸿蒙投屏工作台",
+        "description": "通过 USB 低延迟投屏控制 HarmonyOS NEXT 手机，键鼠顺畅反向操作。",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "了解应用",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": false
       },
       {
         "id": "mindcharge",
@@ -178,16 +188,6 @@
         "action": "了解应用",
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
-      },
-      {
-        "id": "macpulse",
-        "name": "MacPulse",
-        "purpose": "Mac 性能诊断",
-        "description": "查看高资源应用，沿 24 小时时间线追溯卡顿原因。",
-        "href": "https://macpulse.kevinlabs.app/zh/",
-        "action": "了解应用",
-        "icon": "assets/macpulse-icon.png",
-        "featured": false
       }
     ]
   },
@@ -195,16 +195,6 @@
     "title": "Mac アプリ",
     "more": "その他のアプリ",
     "apps": [
-      {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "HarmonyOS 画面ミラーリング",
-        "description": "USB 接続で低遅延に画面投影。Mac のマウスとキーボードで快適に操作。",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "アプリを見る",
-        "icon": "assets/nextmirror-icon.png",
-        "featured": true
-      },
       {
         "id": "volmix",
         "name": "VolMix",
@@ -216,6 +206,16 @@
         "featured": true
       },
       {
+        "id": "macpulse",
+        "name": "MacPulse",
+        "purpose": "Mac パフォーマンス診断",
+        "description": "負荷の高いアプリを確認し、24時間の履歴で遅延を調べます。",
+        "href": "https://macpulse.kevinlabs.app/ja/",
+        "action": "アプリを見る",
+        "icon": "assets/macpulse-icon.png",
+        "featured": true
+      },
+      {
         "id": "barnest-pro",
         "name": "BarNest Pro",
         "purpose": "メニューバー整理",
@@ -224,6 +224,16 @@
         "action": "アプリを見る",
         "icon": "assets/barnest-pro-icon.png",
         "featured": true
+      },
+      {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "HarmonyOS 画面ミラーリング",
+        "description": "USB 接続で低遅延に画面投影。Mac のマウスとキーボードで快適に操作。",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "アプリを見る",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": false
       },
       {
         "id": "mindcharge",
@@ -274,16 +284,6 @@
         "action": "アプリを見る",
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
-      },
-      {
-        "id": "macpulse",
-        "name": "MacPulse",
-        "purpose": "Mac パフォーマンス診断",
-        "description": "負荷の高いアプリを確認し、24時間の履歴で遅延を調べます。",
-        "href": "https://macpulse.kevinlabs.app/ja/",
-        "action": "アプリを見る",
-        "icon": "assets/macpulse-icon.png",
-        "featured": false
       }
     ]
   },
@@ -291,16 +291,6 @@
     "title": "Mac 앱",
     "more": "다른 앱",
     "apps": [
-      {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "HarmonyOS 화면 미러링",
-        "description": "USB로 HarmonyOS NEXT 휴대폰 화면을 보고 Mac의 키보드와 마우스로 조작하세요.",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "앱 알아보기",
-        "icon": "assets/nextmirror-icon.png",
-        "featured": true
-      },
       {
         "id": "volmix",
         "name": "VolMix",
@@ -312,6 +302,16 @@
         "featured": true
       },
       {
+        "id": "macpulse",
+        "name": "MacPulse",
+        "purpose": "Mac 성능 진단",
+        "description": "리소스를 많이 쓰는 앱과 24시간 타임라인의 지연 원인을 확인하세요.",
+        "href": "https://macpulse.kevinlabs.app/ko/",
+        "action": "앱 알아보기",
+        "icon": "assets/macpulse-icon.png",
+        "featured": true
+      },
+      {
         "id": "barnest-pro",
         "name": "BarNest Pro",
         "purpose": "메뉴 막대 정리",
@@ -320,6 +320,16 @@
         "action": "앱 알아보기",
         "icon": "assets/barnest-pro-icon.png",
         "featured": true
+      },
+      {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "HarmonyOS 화면 미러링",
+        "description": "USB로 HarmonyOS NEXT 휴대폰 화면을 보고 Mac의 키보드와 마우스로 조작하세요.",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "앱 알아보기",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": false
       },
       {
         "id": "mindcharge",
@@ -370,16 +380,6 @@
         "action": "앱 알아보기",
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
-      },
-      {
-        "id": "macpulse",
-        "name": "MacPulse",
-        "purpose": "Mac 성능 진단",
-        "description": "리소스를 많이 쓰는 앱과 24시간 타임라인의 지연 원인을 확인하세요.",
-        "href": "https://macpulse.kevinlabs.app/ko/",
-        "action": "앱 알아보기",
-        "icon": "assets/macpulse-icon.png",
-        "featured": false
       }
     ]
   },
@@ -387,16 +387,6 @@
     "title": "Mac-Apps",
     "more": "Weitere Apps",
     "apps": [
-      {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "HarmonyOS Bildschirm-Mirroring",
-        "description": "HarmonyOS NEXT Smartphones über USB mit geringer Latenz spiegeln und steuern.",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "App ansehen",
-        "icon": "assets/nextmirror-icon.png",
-        "featured": true
-      },
       {
         "id": "volmix",
         "name": "VolMix",
@@ -408,6 +398,16 @@
         "featured": true
       },
       {
+        "id": "macpulse",
+        "name": "MacPulse",
+        "purpose": "Mac-Leistungsdiagnose",
+        "description": "Ressourcenhungrige Apps finden und Verzögerungen über 24 Stunden untersuchen.",
+        "href": "https://macpulse.kevinlabs.app/de/",
+        "action": "App ansehen",
+        "icon": "assets/macpulse-icon.png",
+        "featured": true
+      },
+      {
         "id": "barnest-pro",
         "name": "BarNest Pro",
         "purpose": "Menüleisten-Verwaltung",
@@ -416,6 +416,16 @@
         "action": "App entdecken",
         "icon": "assets/barnest-pro-icon.png",
         "featured": true
+      },
+      {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "HarmonyOS Bildschirm-Mirroring",
+        "description": "HarmonyOS NEXT Smartphones über USB mit geringer Latenz spiegeln und steuern.",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "App ansehen",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": false
       },
       {
         "id": "mindcharge",
@@ -466,16 +476,6 @@
         "action": "App entdecken",
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
-      },
-      {
-        "id": "macpulse",
-        "name": "MacPulse",
-        "purpose": "Mac-Leistungsdiagnose",
-        "description": "Ressourcenhungrige Apps finden und Verzögerungen über 24 Stunden untersuchen.",
-        "href": "https://macpulse.kevinlabs.app/de/",
-        "action": "App ansehen",
-        "icon": "assets/macpulse-icon.png",
-        "featured": false
       }
     ]
   },
@@ -483,16 +483,6 @@
     "title": "Apps Mac",
     "more": "Autres apps",
     "apps": [
-      {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "Recopie d’écran HarmonyOS",
-        "description": "Affichez et contrôlez votre smartphone HarmonyOS NEXT via USB avec faible latence.",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "Découvrir",
-        "icon": "assets/nextmirror-icon.png",
-        "featured": true
-      },
       {
         "id": "volmix",
         "name": "VolMix",
@@ -504,6 +494,16 @@
         "featured": true
       },
       {
+        "id": "macpulse",
+        "name": "MacPulse",
+        "purpose": "Diagnostic des performances Mac",
+        "description": "Repérez les apps gourmandes et examinez les ralentissements sur 24 heures.",
+        "href": "https://macpulse.kevinlabs.app/fr/",
+        "action": "Découvrir",
+        "icon": "assets/macpulse-icon.png",
+        "featured": true
+      },
+      {
         "id": "barnest-pro",
         "name": "BarNest Pro",
         "purpose": "Gestion de la barre des menus",
@@ -512,6 +512,16 @@
         "action": "Découvrir l’app",
         "icon": "assets/barnest-pro-icon.png",
         "featured": true
+      },
+      {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "Recopie d’écran HarmonyOS",
+        "description": "Affichez et contrôlez votre smartphone HarmonyOS NEXT via USB avec faible latence.",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "Découvrir",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": false
       },
       {
         "id": "mindcharge",
@@ -562,16 +572,6 @@
         "action": "Découvrir l’app",
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
-      },
-      {
-        "id": "macpulse",
-        "name": "MacPulse",
-        "purpose": "Diagnostic des performances Mac",
-        "description": "Repérez les apps gourmandes et examinez les ralentissements sur 24 heures.",
-        "href": "https://macpulse.kevinlabs.app/fr/",
-        "action": "Découvrir",
-        "icon": "assets/macpulse-icon.png",
-        "featured": false
       }
     ]
   },
@@ -579,16 +579,6 @@
     "title": "Apps para Mac",
     "more": "Más apps",
     "apps": [
-      {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "Duplicación de pantalla HarmonyOS",
-        "description": "Visualiza y controla tu móvil HarmonyOS NEXT por USB con baja latencia.",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "Ver aplicación",
-        "icon": "assets/nextmirror-icon.png",
-        "featured": true
-      },
       {
         "id": "volmix",
         "name": "VolMix",
@@ -600,6 +590,16 @@
         "featured": true
       },
       {
+        "id": "macpulse",
+        "name": "MacPulse",
+        "purpose": "Diagnóstico de rendimiento Mac",
+        "description": "Identifica apps exigentes y revisa los problemas en una cronología de 24 horas.",
+        "href": "https://macpulse.kevinlabs.app/es/",
+        "action": "Ver aplicación",
+        "icon": "assets/macpulse-icon.png",
+        "featured": true
+      },
+      {
         "id": "barnest-pro",
         "name": "BarNest Pro",
         "purpose": "Organización de barra de menú",
@@ -608,6 +608,16 @@
         "action": "Conocer la app",
         "icon": "assets/barnest-pro-icon.png",
         "featured": true
+      },
+      {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "Duplicación de pantalla HarmonyOS",
+        "description": "Visualiza y controla tu móvil HarmonyOS NEXT por USB con baja latencia.",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "Ver aplicación",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": false
       },
       {
         "id": "mindcharge",
@@ -658,16 +668,6 @@
         "action": "Conocer la app",
         "icon": "assets/ksic-studio-icon.png",
         "featured": false
-      },
-      {
-        "id": "macpulse",
-        "name": "MacPulse",
-        "purpose": "Diagnóstico de rendimiento Mac",
-        "description": "Identifica apps exigentes y revisa los problemas en una cronología de 24 horas.",
-        "href": "https://macpulse.kevinlabs.app/es/",
-        "action": "Ver aplicación",
-        "icon": "assets/macpulse-icon.png",
-        "featured": false
       }
     ]
   },
@@ -675,16 +675,6 @@
     "title": "Apps para Mac",
     "more": "Mais apps",
     "apps": [
-      {
-        "id": "nextmirror",
-        "name": "NextMirror",
-        "purpose": "Espelhamento HarmonyOS",
-        "description": "Visualize e controle seu telefone HarmonyOS NEXT via USB com baixa latência.",
-        "href": "https://nextmirror.kevinlabs.app/",
-        "action": "Ver aplicativo",
-        "icon": "assets/nextmirror-icon.png",
-        "featured": true
-      },
       {
         "id": "volmix",
         "name": "VolMix",
@@ -696,6 +686,16 @@
         "featured": true
       },
       {
+        "id": "macpulse",
+        "name": "MacPulse",
+        "purpose": "Diagnóstico de desempenho Mac",
+        "description": "Encontre apps exigentes e analise lentidão em uma linha do tempo de 24 horas.",
+        "href": "https://macpulse.kevinlabs.app/pt/",
+        "action": "Ver aplicativo",
+        "icon": "assets/macpulse-icon.png",
+        "featured": true
+      },
+      {
         "id": "barnest-pro",
         "name": "BarNest Pro",
         "purpose": "Organização da barra de menus",
@@ -704,6 +704,16 @@
         "action": "Conhecer o app",
         "icon": "assets/barnest-pro-icon.png",
         "featured": true
+      },
+      {
+        "id": "nextmirror",
+        "name": "NextMirror",
+        "purpose": "Espelhamento HarmonyOS",
+        "description": "Visualize e controle seu telefone HarmonyOS NEXT via USB com baixa latência.",
+        "href": "https://nextmirror.kevinlabs.app/",
+        "action": "Ver aplicativo",
+        "icon": "assets/nextmirror-icon.png",
+        "featured": false
       },
       {
         "id": "mindcharge",
@@ -753,16 +763,6 @@
         "href": "ksic-studio/index.html",
         "action": "Conhecer o app",
         "icon": "assets/ksic-studio-icon.png",
-        "featured": false
-      },
-      {
-        "id": "macpulse",
-        "name": "MacPulse",
-        "purpose": "Diagnóstico de desempenho Mac",
-        "description": "Encontre apps exigentes e analise lentidão em uma linha do tempo de 24 horas.",
-        "href": "https://macpulse.kevinlabs.app/pt/",
-        "action": "Ver aplicativo",
-        "icon": "assets/macpulse-icon.png",
         "featured": false
       }
     ]

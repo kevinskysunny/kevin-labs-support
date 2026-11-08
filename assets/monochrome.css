@@ -49,6 +49,12 @@ p, li { line-height: 1.7; }
 .button-outline { background: var(--bg); border: 1px solid var(--field-border); color: var(--ink); }
 .button-outline:hover { background: var(--card); }
 .back { display: inline-flex; align-items: center; min-height: 44px; font-size: 14px; margin-bottom: 24px; padding: 6px 14px; border-radius: 9999px; background: var(--card); border: 1px solid var(--border-subtle); text-decoration: none; }
+/* Product navigation matches the compact brand/product breadcrumb. */
+.product-page .bar, .reading-page .bar { gap: 12px; }
+.product-page .bar .brand, .reading-page .bar .brand { margin-right: 0; font-size: 13px; gap: 8px; }
+.product-page .bar .brand-logo, .reading-page .bar .brand-logo { width: 24px; height: 24px; }
+.brand-divider { color: var(--muted); font-size: 20px; }
+.brand-product { font-size: 16px; margin-right: auto; }
 /* The confirmed flagship hierarchy follows DOM and keyboard order. */
 .home-intro { padding: 16px 0 32px; max-width: 900px; }
 .home-intro h1 { margin: 0 0 16px; }
@@ -67,14 +73,24 @@ p, li { line-height: 1.7; }
 .product-action { display: inline-block; font-size: 14px; font-weight: 500; line-height: 1.5; margin-top: auto; padding-top: 4px; color: var(--accent); }
 .product-action::after { content: ' →'; display: inline-block; transition: transform .15s ease; }
 .product-card:hover .product-action::after, .tool-card:hover .product-action::after, .product-card:focus-visible .product-action::after, .tool-card:focus-visible .product-action::after { transform: translateX(4px); }
-.featured-products > [data-product="nextmirror"] { grid-column: span 2; grid-row: span 2; padding: 36px; background: linear-gradient(145deg, #f1f7f5, #f9f9fb); }
-.featured-products > [data-product="nextmirror"] > img { width: 128px; height: 128px; margin-bottom: 28px; }
-.featured-products > [data-product="nextmirror"] h2 { font-size: 40px; }
-.featured-products > [data-product="nextmirror"] .product-description { max-width: 44ch; font-size: 18px; }
-.featured-products > [data-product="nextmirror"] .product-action { margin-top: auto; }
+.featured-products > [data-product="volmix"] { grid-column: span 2; grid-row: span 2; padding: 36px; background: linear-gradient(145deg, #f1f7f5, #f9f9fb); }
+.featured-products > [data-product="volmix"] > img { width: 128px; height: 128px; margin-bottom: 28px; }
+.featured-products > [data-product="volmix"] h2 { font-size: 40px; }
+.featured-products > [data-product="volmix"] .product-description { max-width: 44ch; font-size: 18px; }
+.featured-products > [data-product="volmix"] .product-action { margin-top: auto; }
 .featured-products > .product-card { min-height: 248px; }
 .home-page main > section > .other-heading { margin: 40px 0 24px; }
 .home-page .faq-section { margin-top: 40px; }
+/* Show the approved panel from the existing comparison artwork without duplicating its headline. */
+.featured-products > [data-product="volmix"] { position: relative; overflow: hidden; }
+.featured-products > [data-product="volmix"] > img { width: 80px; height: 80px; margin-bottom: 20px; }
+.featured-products > [data-product="volmix"] .product-description { max-width: 27ch; }
+.flagship-art { position: absolute; right: 28px; bottom: 48px; width: 340px; aspect-ratio: 540 / 582; overflow: hidden; border-radius: 24px; box-shadow: 0 16px 36px rgba(25,40,50,.12); pointer-events: none; }
+.flagship-art img { position: absolute; width: 266.667%; max-width: none; height: auto; left: -72.78%; top: -43.81%; }
+@media (min-width: 1001px) and (max-width: 1250px) {
+  .flagship-art { width: 290px; right: 20px; bottom: 48px; }
+  .featured-products > [data-product="volmix"] .product-description { max-width: 22ch; }
+}
 /* Product introduction and image stage. Pure text is always one column. */
 .product-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); align-items: center; gap: 40px; margin-bottom: 48px; }
 .text-product-hero { grid-template-columns: minmax(0, 1fr); max-width: 900px; }
@@ -152,7 +168,8 @@ footer p { margin: 12px 0 0; }
 /* Responsive rules are last: no later desktop override may defeat them. */
 @media (max-width: 1000px) {
   .featured-products, .other-products { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .featured-products > [data-product="nextmirror"] { grid-row: auto; }
+  .featured-products > [data-product="volmix"] { grid-row: auto; }
+  .flagship-art { position: relative; right: auto; bottom: auto; align-self: center; width: min(340px, 100%); margin: 12px 0 28px; flex-shrink: 0; }
   .product-hero { gap: 24px; }
   .reading-layout { grid-template-columns: 180px minmax(0, 1fr); gap: 24px; }
   .guides-page main > section { grid-template-columns: minmax(0, 1fr); gap: 24px; }
@@ -177,9 +194,9 @@ footer p { margin: 12px 0 0; }
   .home-intro h1 { font-size: 34px; }
   .featured-products, .other-products, .guides-page .catalog-list { grid-template-columns: minmax(0, 1fr); gap: 16px; }
   .product-card, .tool-card { padding: 20px; }
-  .featured-products > [data-product="nextmirror"] { grid-column: auto; grid-row: auto; padding: 24px; }
-  .featured-products > [data-product="nextmirror"] > img { width: 64px; height: 64px; margin-bottom: 20px; }
-  .featured-products > [data-product="nextmirror"] h2 { font-size: 28px; }
+  .featured-products > [data-product="volmix"] { grid-column: auto; grid-row: auto; padding: 24px; }
+  .featured-products > [data-product="volmix"] > img { width: 64px; height: 64px; margin-bottom: 20px; }
+  .featured-products > [data-product="volmix"] h2 { font-size: 28px; }
   .featured-products > .product-card { min-height: 0; }
   .product-hero h1 { font-size: 32px; }
   .product-identity img { width: 40px; height: 40px; }

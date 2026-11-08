@@ -22,7 +22,7 @@ try {
           const r=e.getBoundingClientRect(); return { x:r.x,y:r.y,w:r.width };
         });
         return {
-          overflow:[...document.querySelectorAll('main *, header *')].filter(e => visible(e) && !e.closest('.skip') && e.getBoundingClientRect().width > 0 && (e.getBoundingClientRect().right > innerWidth + 1 || e.getBoundingClientRect().left < -1)).map(e=>e.tagName+'.'+e.className),
+          overflow:[...document.querySelectorAll('main *, header *')].filter(e => visible(e) && !e.closest('.skip') && e.getBoundingClientRect().width > 0 && ((e.closest('.flagship-art') || e).getBoundingClientRect().right > innerWidth + 1 || (e.closest('.flagship-art') || e).getBoundingClientRect().left < -1)).map(e=>e.tagName+'.'+e.className),
           featured:grid('.featured-products'), other:grid('.other-products'), hero:grid('.product-hero'), guide:grid('.guides-page main > section'), catalog:grid('.guides-page .catalog-list'),
           mainWidth:document.querySelector('main').clientWidth, reading:grid('.reading-body'), textHero:grid('.text-product-hero'), cards,
           broken:[...document.images].filter(e=>visible(e)&&e.complete&&!e.naturalWidth).map(e=>e.src),

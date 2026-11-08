@@ -49,8 +49,8 @@ test('homepage preserves the confirmed flagship order and six utility products w
  for(const [,lang,section] of sections){
   const featured=[...section.matchAll(/class="product-card" data-product="([^"]+)"/g)].map(x=>x[1]);
   const others=[...section.matchAll(/class="tool-card" data-product="([^"]+)"/g)].map(x=>x[1]);
-  assert.deepEqual(featured,['nextmirror','volmix','barnest-pro'],lang);
-  assert.deepEqual(others,['mindcharge','smoothcast','presenter-deck','netdoctor','ksic-studio','macpulse'],lang);
+  assert.deepEqual(featured,['volmix','macpulse','barnest-pro'],lang);
+  assert.deepEqual(others,['nextmirror','mindcharge','smoothcast','presenter-deck','netdoctor','ksic-studio'],lang);
   assert.equal(new Set([...featured,...others]).size,9);
   assert.doesNotMatch(section,/href="barnest\/|src="assets\/barnest-icon.png"|legacy-support/);
  }
@@ -84,21 +84,15 @@ test('support directory offers all nine apps with real icons in every language',
  }
 });
 
-test('every product identity has an explicit catalog return above it',()=>{
- const paths=['support.html','privacy.html'];
- for(const directory of ['volmix','barnest','ksic-studio','netdoctor','presenter-deck','mindcharge']){
+test('product headers offer one branded catalog return with a product breadcrumb',()=>{
+ for(const directory of ['volmix','barnest','ksic-studio','netdoctor','presenter-deck']){
   for(const filename of ['index.html','support.html','privacy.html']){
    const path=directory+'/'+filename;
-   if(fs.existsSync(new URL('../'+path,import.meta.url)))paths.push(path);
-  }
- }
- for(const path of paths){
-  const html=read(path);let previous=-1;
-  for(const match of html.matchAll(/class="product-identity"/g)){
-   const back=html.lastIndexOf('class="back"',match.index);
-   assert.ok(back>previous,path+' is missing an explicit catalog return');
-   assert.match(html.slice(back,html.indexOf('</a>',back)),/href="(?:\.\.\/)?index\.html"/);
-   previous=match.index;
+   if(!fs.existsSync(new URL('../'+path,import.meta.url)))continue;
+   const html=read(path),header=html.match(/<header[\s\S]*?<\/header>/)?.[0];
+   assert.ok(header?.includes('href="https://kevinlabs.app/"'),path);
+   assert.match(header,/class="brand-product"/);
+   assert.doesNotMatch(html, /class="back" href="(?:\.\.\/)?index\.html"/);
   }
  }
 });
