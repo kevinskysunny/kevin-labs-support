@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-08",
+  "codeCommit": "18081ba7a926aa50f8bcc9885eff2745d3c21adc",
+  "deployment": "GitHub Pages built",
+  "internalWebsiteVersion": "2.3.1",
+  "assetSha256Prefix": {
+    "site.css": "6f4680e043ac",
+    "monochrome.css": "ee7321aee8c9",
+    "site.js": "a4c89938f461"
+  },
+  "productionBrowserLayouts": 154,
+  "productionLocalizedContactScenarios": 16,
+  "localStaticTests": 19,
+  "mobileSupportReadingWidth": 358,
+  "mobileSupportViewport": 390,
+  "footer": "© 2026 Kevin Labs",
+  "checks": [
+    "same remote/local HEAD before evidence-only commit",
+    "shared asset bytes matched via browser fetch SHA-256",
+    "no public footer website version",
+    "Antigravity explicit code and visual approval"
+  ],
+  "limitations": [
+    "Safari and iOS physical devices not tested",
+    "full screen-reader acceptance not performed",
+    "no real email, clipboard or purchase transactions"
+  ]
+}

@@ -8,7 +8,7 @@
 |---|---|---|
 | 2.2.7 / 6240fb1 | 响应式与共享CSS结构、自然顺序、文档宽度、纯文字模板、浏览器检查 | [方案](antigravity-design.md)、[第一批代码](antigravity-batch1.md) |
 | 2.3.0 / 08b2335 | 首页内容层级、八语静态目录、旧版支持出口、商店HTTPS入口、VolMix阅读结构与原图 | [第二批代码](antigravity-batch2.md) |
-| 2.3.1 | 邮件/复制、八语反馈、语言传递、数据与文档一致性、页脚去版本、恢复前版材料 | [第三批代码](antigravity-batch3.md)、[前后视觉对照](antigravity-visual.md) |
+| 2.3.1 / 18081ba | 邮件/复制、八语反馈、语言传递、数据与文档一致性、页脚去版本、恢复前版材料 | [第三批代码](antigravity-batch3.md)、[前后视觉对照](antigravity-visual.md) |
 
 审核来自本机Antigravity CLI（agy）/ Gemini 3.8 Flash，使用只读方案、纯文本代码审查与内置图像读取对照。曾有无头command权限拒绝和一次超时，没有绕过权限，也没有把空输出当通过。实际浏览器由Codex运行。
 
@@ -39,6 +39,7 @@
 - `npm run test:interactions`：八语×320/1440px=16组布局/联系场景；复制成功与失败、邮件不复制、状态播报标记、关闭及切语言清理、跨页语言与system变化、旧双语页回退、FAQ键盘、无JS英文。
 - 截图：[本轮桌面](evidence/desktop.png)、[本轮手机](evidence/mobile.png)。原版证据保留在原审查目录。效果图和截图不等于所有平台验收。
 - Antigravity明确给出APPROVED，但不把模型意见表述成Safari、iOS真机或完整读屏通过。
-- 发布核查在推送后补录：GitHub Pages构建提交、线上内部版本/共享资源指纹、生产浏览器检查。
+- 生产复核：18081ba的GitHub Pages构建成功，线上内部版本2.3.1；三个共享资源SHA-256与本地相同；生产地址154布局组合及16组八语交互全部通过。390px支持页正文358px，占满可用宽度；页脚无网站版本。见[机器记录](evidence/production-validation.json)、[生产布局明细](evidence/production-layout-results.json)、[生产手机支持页](evidence/production-support-mobile.png)。
+- 主要静态文字组合对比度：主文字17.4:1，辅助文字/卡片6.0:1，青绿链接/卡片6.47:1，白字/青绿按钮6.81:1。仅表示这些组合通过，不代表全站WCAG认证。
 
 用户现已明确授权实施；原审查报告的“仅建议、未实施”是当时状态，保留历史记录。本轮没有修改独立产品站购买逻辑、发信或真实用户剪贴板。
