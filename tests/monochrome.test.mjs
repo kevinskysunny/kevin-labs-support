@@ -92,6 +92,7 @@ test('product headers offer one branded catalog return with a product breadcrumb
    const html=read(path),header=html.match(/<header[\s\S]*?<\/header>/)?.[0];
    assert.ok(header?.includes('href="https://kevinlabs.app/"'),path);
    assert.match(header,/class="brand-product"/);
+   assert.doesNotMatch(html, /class="product-identity"/, path+' repeats product identity');
    assert.doesNotMatch(html, /class="back" href="(?:\.\.\/)?index\.html"/);
   }
  }
