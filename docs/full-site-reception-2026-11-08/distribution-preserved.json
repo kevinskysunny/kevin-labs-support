@@ -1,0 +1,80 @@
+[
+  {
+    "site": "nextmirror",
+    "file": "NextMirror-v1.0.0.dmg",
+    "sha256": "68994c862993f51f44a7e2cde1441bc1fa2289c07a2e9f7317c1926156ca031b",
+    "unchanged": true
+  },
+  {
+    "site": "mindcharge",
+    "file": "MindCharge.dmg",
+    "sha256": "ec1bfab9f859ed351b0b90949fd4ff2988b0b32da20758b4e2eb6e590a422e48",
+    "unchanged": true
+  },
+  {
+    "site": "barnest",
+    "file": "BarNest-Pro-1.0.0-62.dmg",
+    "sha256": "6da60b2dc6ce29281b7a5f4ebbe4655f802a66cac9fa20f1553d475cc68fa7e2",
+    "unchanged": true
+  },
+  {
+    "site": "barnest",
+    "file": "BarNest-Pro-1.0.2-98.dmg",
+    "sha256": "e558c3b3a00e936408e3ea83b632d3414ff48dcbdede7bd021dc024e1d5858a8",
+    "unchanged": true
+  },
+  {
+    "site": "barnest",
+    "file": "BarNest-Pro-1.1.7-97.dmg",
+    "sha256": "541763e9377dcc3e33e40799c542d6e30cdae2cff720f138e78d934431abcf2b",
+    "unchanged": true
+  },
+  {
+    "site": "barnest",
+    "file": "BarNest-Pro-1.0.0-61.dmg",
+    "sha256": "d5c4058adc0acf27bc8befc70e77a666835ae7b06e6a5984b141ac98de516c8e",
+    "unchanged": true
+  },
+  {
+    "site": "barnest",
+    "file": "BarNest-Pro-1.0.1-63.dmg",
+    "sha256": "1a4ea94dbfa4eb09dd94886803659effab45fc38a9f40c3f749561edc2823940",
+    "unchanged": true
+  },
+  {
+    "site": "barnest",
+    "file": "BarNest-Pro-1.1.0-80.dmg",
+    "sha256": "647d5269acdfb4c9e02d092452bbcb4dcc40b96803006fc571e59bf9fbaaab2b",
+    "unchanged": true
+  },
+  {
+    "site": "smoothcast",
+    "file": "SmoothCast.dmg",
+    "sha256": "b3ee14241403791b106be12ceceee5d1fbfec419473f0f39bd232d4625d5cd41",
+    "unchanged": true
+  },
+  {
+    "site": "smoothcast",
+    "file": "updates/SmoothCast-1.3.2-20.dmg",
+    "sha256": "e4b2305b889b7cba90dc0f5acac16c5ebf32190591f6a2d761d6e24c93159b2b",
+    "unchanged": true
+  },
+  {
+    "site": "smoothcast",
+    "file": "updates/SmoothCast-1.3.2-21.dmg",
+    "sha256": "badea42358623f635f4177f79b2db5d2c2bfd98bb591b7a9cb0779a7e0ce4ea7",
+    "unchanged": true
+  },
+  {
+    "site": "smoothcast",
+    "file": "updates/SmoothCast-1.3.2-22.dmg",
+    "sha256": "b3ee14241403791b106be12ceceee5d1fbfec419473f0f39bd232d4625d5cd41",
+    "unchanged": true
+  },
+  {
+    "site": "smoothcast",
+    "file": "downloads/SmoothCast.dmg",
+    "sha256": "b3ee14241403791b106be12ceceee5d1fbfec419473f0f39bd232d4625d5cd41",
+    "unchanged": true
+  }
+]

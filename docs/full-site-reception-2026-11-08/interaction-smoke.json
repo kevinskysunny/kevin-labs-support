@@ -1,0 +1,77 @@
+{
+  "rows": [
+    {
+      "host": "support",
+      "initial": "zh-Hans",
+      "manualPersisted": true,
+      "system": true,
+      "focus": {
+        "tag": "A",
+        "outline": "solid"
+      }
+    },
+    {
+      "host": "nextmirror",
+      "initial": "zh-Hans",
+      "manualPersisted": true,
+      "system": true,
+      "focus": {
+        "tag": "A",
+        "outline": "solid"
+      }
+    },
+    {
+      "host": "mindcharge",
+      "initial": "zh-Hans",
+      "manualPersisted": true,
+      "system": true,
+      "focus": {
+        "tag": "A",
+        "outline": "solid"
+      }
+    },
+    {
+      "host": "barnest",
+      "initial": "zh",
+      "manualPersisted": true,
+      "system": true,
+      "focus": {
+        "tag": "A",
+        "outline": "solid"
+      }
+    },
+    {
+      "host": "smoothcast",
+      "initial": "zh-CN",
+      "manualPersisted": true,
+      "system": true,
+      "focus": {
+        "tag": "A",
+        "outline": "solid"
+      }
+    },
+    {
+      "host": "nextmirror",
+      "route": "/buy",
+      "language": "ja",
+      "localizedUnavailableFeedback": true,
+      "errors": []
+    },
+    {
+      "host": "mindcharge",
+      "route": "/buy",
+      "language": "ja",
+      "localizedUnavailableFeedback": true,
+      "errors": []
+    },
+    {
+      "host": "barnest",
+      "route": "/buy",
+      "language": "ja",
+      "localizedUnavailableFeedback": true,
+      "errors": []
+    }
+  ],
+  "blockedRequests": 30,
+  "paymentOrMailSent": false
+}

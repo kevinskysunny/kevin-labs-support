@@ -1,0 +1,1160 @@
+{
+  "date": "2026-11-08",
+  "network": "Local desktop/proxy; not mainland direct-access evidence",
+  "browser": "Headless Google Chrome",
+  "routes": 86,
+  "scenarios": 1548,
+  "languageParameters": [
+    "en",
+    "zh",
+    "zh-Hant",
+    "ja",
+    "ko",
+    "de",
+    "fr",
+    "es",
+    "pt"
+  ],
+  "widths": [
+    390,
+    1440
+  ],
+  "axeVersion": "4.11.0",
+  "axeScopes": "172 route/Chinese-parameter/width observations, WCAG2A/AA,2.1AA,2.2AA tags; not certification",
+  "statuses": {
+    "200": 1548
+  },
+  "scriptErrorScenarios": 0,
+  "overflowScenarios": 0,
+  "brokenImageScenarios": 0,
+  "axeViolationsReturned": 0,
+  "redirectHarnessRecovery": {
+    "routes": [
+      "https://support.kevinlabs.app/networkconsole-lite/support.html",
+      "https://support.kevinlabs.app/networkconsole-lite/index.html",
+      "https://support.kevinlabs.app/networkconsole-lite/privacy.html"
+    ],
+    "scenarios": 54,
+    "reason": "Immediate meta refresh destroyed the original evaluation context; wait for the known NetDoctor destination then observe. Not a product JS failure."
+  },
+  "observations": [
+    {
+      "url": "https://barnest.kevinlabs.app/buy",
+      "finalDestinations": [
+        "https://barnest.kevinlabs.app/buy"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/support",
+      "finalDestinations": [
+        "https://barnest.kevinlabs.app/support"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/releases",
+      "finalDestinations": [
+        "https://barnest.kevinlabs.app/releases"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/index.html",
+      "finalDestinations": [
+        "https://barnest.kevinlabs.app/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/privacy",
+      "finalDestinations": [
+        "https://barnest.kevinlabs.app/privacy"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/",
+      "finalDestinations": [
+        "https://barnest.kevinlabs.app/"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/de/index.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/de/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/buy.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/buy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/de/legal.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/de/legal.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/de/buy.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/de/buy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/buy",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/buy"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/de/restore.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/de/restore.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/en/buy.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/en/buy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/en/index.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/en/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/en/restore.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/en/restore.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/en/legal.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/en/legal.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/es/buy.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/es/buy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/es/index.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/es/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/es/legal.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/es/legal.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/fr/buy.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/fr/buy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/es/restore.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/es/restore.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/fr/index.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/fr/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/fr/legal.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/fr/legal.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/fr/restore.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/fr/restore.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/ja/index.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/ja/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/ja/buy.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/ja/buy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/ja/restore.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/ja/restore.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/ja/legal.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/ja/legal.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/zh-Hans/buy.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/zh-Hans/buy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/zh-Hans/index.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/zh-Hans/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/zh-Hans/restore.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/zh-Hans/restore.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/zh-Hant/buy.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/zh-Hant/buy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/zh-Hans/legal.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/zh-Hans/legal.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/zh-Hant/index.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/zh-Hant/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/zh-Hant/legal.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/zh-Hant/legal.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/zh-Hant/restore.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/i18n/zh-Hant/restore.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/index.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/legal.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/legal.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/restore.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/restore.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/",
+      "finalDestinations": [
+        "https://nextmirror.kevinlabs.app/"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/buy",
+      "finalDestinations": [
+        "https://nextmirror.kevinlabs.app/buy"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/index.html",
+      "finalDestinations": [
+        "https://nextmirror.kevinlabs.app/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/legal.html",
+      "finalDestinations": [
+        "https://nextmirror.kevinlabs.app/legal.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/",
+      "finalDestinations": [
+        "https://smoothcast.kevinlabs.app/"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/index.html",
+      "finalDestinations": [
+        "https://smoothcast.kevinlabs.app/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/privacy",
+      "finalDestinations": [
+        "https://smoothcast.kevinlabs.app/privacy"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/refund",
+      "finalDestinations": [
+        "https://smoothcast.kevinlabs.app/refund"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/releases",
+      "finalDestinations": [
+        "https://smoothcast.kevinlabs.app/releases"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/support",
+      "finalDestinations": [
+        "https://smoothcast.kevinlabs.app/support"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/terms",
+      "finalDestinations": [
+        "https://smoothcast.kevinlabs.app/terms"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/index.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/barnest/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/privacy.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/barnest/privacy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/support.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/barnest/support.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/guides.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/guides.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/index.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/ksic-studio/index.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/ksic-studio/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/mindcharge/index.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/netdoctor/index.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/netdoctor/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/netdoctor/privacy.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/netdoctor/privacy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/mindcharge/privacy.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/legal.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/mindcharge/support.html",
+      "finalDestinations": [
+        "https://mindcharge.kevinlabs.app/"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/netdoctor/support.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/netdoctor/support.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/networkconsole-lite/index.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/netdoctor/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/networkconsole-lite/support.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/netdoctor/support.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/networkconsole-lite/privacy.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/netdoctor/privacy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/nextmirror/legal.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/nextmirror/legal.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/photoslim/privacy.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/photoslim/privacy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/nextmirror/index.html",
+      "finalDestinations": [
+        "https://nextmirror.kevinlabs.app/"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/presenter-deck/index.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/presenter-deck/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/presenter-deck/review/index.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/presenter-deck/review/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/presenter-deck/privacy.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/presenter-deck/privacy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/presenter-deck/support.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/presenter-deck/support.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/review/index.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/review/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/privacy.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/privacy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/support.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/support.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/volmix/index.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/volmix/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/smoothcast/index.html",
+      "finalDestinations": [
+        "https://smoothcast.kevinlabs.app/"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/smoothcast/privacy.html",
+      "finalDestinations": [
+        "https://smoothcast.kevinlabs.app/privacy"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/smoothcast/releases.html",
+      "finalDestinations": [
+        "https://smoothcast.kevinlabs.app/releases"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/volmix/review/index.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/volmix/review/index.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/smoothcast/support.html",
+      "finalDestinations": [
+        "https://smoothcast.kevinlabs.app/support"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/volmix/privacy.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/volmix/privacy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/volmix/support.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/volmix/support.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    },
+    {
+      "url": "https://support.kevinlabs.app/website-privacy.html",
+      "finalDestinations": [
+        "https://support.kevinlabs.app/website-privacy.html"
+      ],
+      "scenarios": 18,
+      "statuses": [
+        200
+      ],
+      "errors": 0,
+      "clipping": 0,
+      "brokenImages": 0
+    }
+  ]
+}

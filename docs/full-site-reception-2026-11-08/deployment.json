@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-08",
+  "sites": {
+    "support": {
+      "commit": "3bf1550",
+      "websiteVersion": "2.4.0",
+      "deployment": "GitHub Pages built"
+    },
+    "nextmirror": {
+      "commit": "5c5f845",
+      "websiteVersion": "1.0.5",
+      "workers": [
+        "nextmirror-commerce-live"
+      ],
+      "workerVersions": [
+        "bec72140-7ab1-488e-bbb4-4e1702171f1c"
+      ]
+    },
+    "mindcharge": {
+      "commit": "6784592",
+      "websiteVersion": "1.0.5",
+      "workers": [
+        "mindcharge-commerce-live"
+      ],
+      "workerVersions": [
+        "6b7049b8-a9c9-40c4-ba13-41e6004038fd"
+      ]
+    },
+    "barnest": {
+      "commit": "d736ab7",
+      "websiteVersion": "1.4.18",
+      "workers": [
+        "barnest-product-site",
+        "barnest-pro-commerce-live"
+      ],
+      "workerVersions": [
+        "b446d383-3cd1-4e97-816e-c6e33c7cb2bf",
+        "effad181-350e-48bd-b975-1881f5bf8f15"
+      ]
+    },
+    "smoothcast": {
+      "commit": "5d086d6",
+      "websiteVersion": "1.2.12",
+      "workers": [
+        "smoothcast-sales"
+      ],
+      "workerVersions": [
+        "3161199b-c7bb-48ff-a814-ecabc070b564"
+      ]
+    }
+  },
+  "remoteHeadsVerified": true,
+  "backendBusinessLogicChanged": false,
+  "appDistributionChanged": false
+}
