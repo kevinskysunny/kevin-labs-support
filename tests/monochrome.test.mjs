@@ -42,7 +42,7 @@ test('language fallback and header DOM stay usable before scripts run',()=>{
   assert.match(html,/noscript data-language-fallback/);
  }
 });
-test('homepage preserves the confirmed flagship order and five utility products without promoting the store edition',()=>{
+test('homepage preserves the confirmed flagship order and six utility products without promoting the store edition',()=>{
  const html=read('index.html');
  const sections=[...html.matchAll(/<section data-lang="([a-z]{2})"[^>]*>([\s\S]*?)(?=<section class="faq-section">)/g)];
  assert.equal(sections.length,8);
@@ -50,8 +50,8 @@ test('homepage preserves the confirmed flagship order and five utility products 
   const featured=[...section.matchAll(/class="product-card" data-product="([^"]+)"/g)].map(x=>x[1]);
   const others=[...section.matchAll(/class="tool-card" data-product="([^"]+)"/g)].map(x=>x[1]);
   assert.deepEqual(featured,['nextmirror','volmix','barnest-pro'],lang);
-  assert.deepEqual(others,['mindcharge','smoothcast','presenter-deck','netdoctor','ksic-studio'],lang);
-  assert.equal(new Set([...featured,...others]).size,8);
+  assert.deepEqual(others,['mindcharge','smoothcast','presenter-deck','netdoctor','ksic-studio','macpulse'],lang);
+  assert.equal(new Set([...featured,...others]).size,9);
   assert.doesNotMatch(section,/href="barnest\/|src="assets\/barnest-icon.png"|legacy-support/);
  }
 });
@@ -68,15 +68,15 @@ test('NextMirror catalog points to its licensed product domain and manual launch
  assert.match(page,/nextmirror\.kevinlabs\.app/);
 });
 
-test('support directory offers all eight apps with real icons in every language',()=>{
+test('support directory offers all nine apps with real icons in every language',()=>{
  const html=read('guides.html').replace(/<!--[\s\S]*?-->/g,'');
  const sections=[...html.matchAll(/<section data-lang="([a-z]{2})"[^>]*>([\s\S]*?)<\/section>/g)];
  assert.equal(sections.length,8);
  for(const [,lang,section] of sections){
   const rows=[...section.matchAll(/<a class="app-row"[^>]*>([\s\S]*?)<\/a>/g)].map(x=>x[1]);
-  assert.equal(rows.length,8,lang);
-  assert.deepEqual(rows.map(row=>row.match(/<strong>([^<]+)<\/strong>/)[1]),['VolMix','BarNest Pro','NextMirror','MindCharge','SmoothCast','PresenterDeck','NetDoctor','KSIC Studio'],lang);
-  for(const app of ['BarNest Pro','VolMix','NextMirror','MindCharge','SmoothCast','KSIC Studio','NetDoctor','PresenterDeck']) {
+  assert.equal(rows.length,9,lang);
+  assert.deepEqual(rows.map(row=>row.match(/<strong>([^<]+)<\/strong>/)[1]),['VolMix','BarNest Pro','NextMirror','MindCharge','SmoothCast','PresenterDeck','NetDoctor','KSIC Studio','MacPulse'],lang);
+  for(const app of ['BarNest Pro','VolMix','NextMirror','MindCharge','SmoothCast','KSIC Studio','NetDoctor','PresenterDeck','MacPulse']) {
    assert.equal(rows.filter(row=>row.includes('<strong>'+app+'</strong>')).length,1,lang+' '+app);
   }
   for(const row of rows) assert.match(row,/<img[^>]*src="assets\/[^" ]+-icon\.png"/,lang);

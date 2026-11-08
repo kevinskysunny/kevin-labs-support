@@ -4,14 +4,14 @@ import fs from 'node:fs';
 import { execFileSync } from 'node:child_process';
 const root = new URL('../',import.meta.url);
 const read = p=>fs.readFileSync(new URL(p,root),'utf8');
-test('catalog generation is reproducible and preserves all eight products without promoting the store edition',()=>{
+test('catalog generation is reproducible and preserves all nine products without promoting the store edition',()=>{
  const before=read('index.html');
  execFileSync(process.execPath,['scripts/render-catalog.mjs','--check'],{cwd:root});
  assert.equal(read('index.html'),before);
  const data=JSON.parse(read('content/home.json'));
  assert.equal(Object.keys(data).length,8);
  for(const [lang,item] of Object.entries(data)){
-  assert.equal(item.apps.length,8);assert.equal(new Set(item.apps.map(a=>a.id)).size,8);
+  assert.equal(item.apps.length,9);assert.equal(new Set(item.apps.map(a=>a.id)).size,9);
   assert.equal(item.apps.filter(a=>a.featured).length,3);
   assert.equal(item.legacy,undefined);
   const section=before.match(new RegExp('<section data-lang="'+lang+'"[^>]*>([\\s\\S]*?)(?=<section class="faq-section">)'))[1];

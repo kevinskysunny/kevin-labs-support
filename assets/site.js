@@ -226,7 +226,7 @@
     }
     return 'en';
   }
-  const productHosts = new Set(['support.kevinlabs.app', 'nextmirror.kevinlabs.app', 'barnest.kevinlabs.app', 'smoothcast.kevinlabs.app', 'mindcharge.kevinlabs.app']);
+  const productHosts = new Set(['support.kevinlabs.app', 'nextmirror.kevinlabs.app', 'barnest.kevinlabs.app', 'smoothcast.kevinlabs.app', 'mindcharge.kevinlabs.app', 'macpulse.kevinlabs.app']);
   let toastTimeout;
   let toast;
   let toastOrigin;
@@ -365,6 +365,13 @@
       if (sameOrigin && destination.pathname === location.pathname && destination.hash) continue;
       const isDocument = destination.pathname.endsWith('.html') || destination.pathname.endsWith('/');
       if ((sameOrigin && isDocument) || (productHosts.has(destination.hostname) && !sameOrigin)) {
+        if (destination.hostname === 'macpulse.kevinlabs.app') {
+          const page = destination.pathname.endsWith('/support') || destination.searchParams.get('to') === 'support' ? 'support' : '';
+          destination.pathname = '/lang/' + (preference === 'system' ? 'auto' : preference);
+          destination.searchParams.set('to', page);
+          destination.searchParams.delete('lang'); link.href = destination.href;
+          continue;
+        }
         // MindCharge currently supports six manual languages. Preserve auto mode.
         const productLanguage = { system:'system', en:'en', zh:'zh-Hans', ja:'ja', de:'de', fr:'fr', es:'es' };
         destination.searchParams.set('lang', destination.hostname === 'mindcharge.kevinlabs.app' ? productLanguage[preference] || 'en' : preference);
@@ -431,7 +438,7 @@
  const send=event=>{const body=JSON.stringify({event,path:location.pathname,marketing:fields()});try{if(navigator.sendBeacon&&navigator.sendBeacon(endpoint,body))return;fetch(endpoint,{method:'POST',body,keepalive:true,credentials:'omit'}).catch(()=>{})}catch{}};
  if(document.prerendering){document.addEventListener('prerenderingchange',()=>send('page'),{once:true})}else send('page');
  document.addEventListener('click',event=>{const link=event.target.closest?.('a[href]');if(!link)return;let url;try{url=new URL(link.href,location.href)}catch{return}
- if(url.origin===location.origin||['support.kevinlabs.app','nextmirror.kevinlabs.app','smoothcast.kevinlabs.app','barnest.kevinlabs.app','mindcharge.kevinlabs.app'].includes(url.hostname)){const tags=fields();if(tags.source)url.searchParams.set('utm_source',tags.source);if(tags.campaign)url.searchParams.set('utm_campaign',tags.campaign);link.href=url.href}
+ if(url.origin===location.origin||['support.kevinlabs.app','nextmirror.kevinlabs.app','smoothcast.kevinlabs.app','barnest.kevinlabs.app','mindcharge.kevinlabs.app','macpulse.kevinlabs.app'].includes(url.hostname)){const tags=fields();if(tags.source)url.searchParams.set('utm_source',tags.source);if(tags.campaign)url.searchParams.set('utm_campaign',tags.campaign);link.href=url.href}
  if(['apps.apple.com','chromewebstore.google.com','microsoftedge.microsoft.com','addons.mozilla.org'].includes(url.hostname))send('store_click');
  else if(/\.dmg$|\.zip$|\/download(?:s\/|$)|\/releases\/download\//i.test(url.pathname))send('download_click');
  else if(/\/buy(?:\/|$)|checkout/i.test(url.pathname)||url.hash==='#buy')send('buy_click');
