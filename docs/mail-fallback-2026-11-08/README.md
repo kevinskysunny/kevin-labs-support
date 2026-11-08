@@ -9,3 +9,5 @@
 验证：20项Node测试、16个新增八语/手机/桌面邮件场景、原16个多语交互与154布局组合通过。新增测试在window冒泡末端记录网站未取消默认动作，再模拟无外部处理器，验证键盘触发、默认动作保留、显式复制、剪贴板拒绝、Gmail模板与noopener、语言切换和窄屏提示无溢出。检查实际截图。测试没有发送邮件、登录邮箱或证明所有用户设备的邮件客户端均能打开。
 
 `node tests/browser-mail-fallback.mjs`运行新增测试，可用SITE_BASE_URL验证生产。本机截图仅作任务私有证据，不复制进共享知识库。
+
+生产核对：实现8b8d65c2a5067960b58f35ea7ae814f08a1ce971已推送，Pages状态built且commit精确匹配。线上site.json为2.4.2，首页八语标签已更新，site.js/site.css与源码逐字节一致；SITE_BASE_URL=https://support.kevinlabs.app下16个新增邮件场景通过。未触发真实邮件发送，测试依旧明确模拟无外部邮件处理器。
