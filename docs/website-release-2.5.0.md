@@ -4,7 +4,7 @@
 
 Cross-site language links use MacPulse's persistent `/lang/<code|auto>?to=<page>` endpoint, including support routes. Re-rendering language choice preserves the destination page. Website version remains internal.
 
-Validation: reproducible site generation, 21 unit checks, 16 local Chrome scenarios (eight languages × 390px/1280px), correct MacPulse destinations, no broken images or document overflow. Chinese mobile layout visually inspected. Production checks and deployment are recorded after publishing. Browser mobile emulation does not represent a physical phone test.
+Validation: reproducible site generation, 21 unit checks, 16 local Chrome scenarios (eight languages × 390px/1280px), correct MacPulse destinations, no broken images or document overflow. Chinese mobile layout visually inspected. GitHub Pages built source commit `f22a25d17841e18f2c0d057e7d471bea410a1b27` successfully. Sixteen production Chrome scenarios also passed; see `macpulse-2.5.0-browser.json`. An actual click from the Chinese catalog reached `/zh/`, preserving language and displaying build148 with the pending-approval notice. Browser mobile emulation does not represent a physical phone test.
 
 MacPulse's public DMG has Developer ID signing, Apple notarization and Gatekeeper acceptance, with verified SHA-256. Download/trial is available. Production Paddle checkout returned vendor-level 403. MacPulse domain has been submitted in Paddle and is In review; buying remains visibly disabled pending approval and revalidation. No payment was performed.
 

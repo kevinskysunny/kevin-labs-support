@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-08",
+  "sourceCommit": "f22a25d17841e18f2c0d057e7d471bea410a1b27",
+  "source": "Production Chrome DevTools viewport emulation, not physical phones",
+  "results": [
+    {
+      "lang": "en",
+      "width": 390,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/en?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "zh",
+      "width": 390,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/zh?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "ja",
+      "width": 390,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/ja?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "ko",
+      "width": 390,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/ko?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "de",
+      "width": 390,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/de?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/fr?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "es",
+      "width": 390,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/es?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "pt",
+      "width": 390,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/pt?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/en?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "zh",
+      "width": 1280,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/zh?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "ja",
+      "width": 1280,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/ja?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "ko",
+      "width": 1280,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/ko?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "de",
+      "width": 1280,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/de?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "fr",
+      "width": 1280,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/fr?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "es",
+      "width": 1280,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/es?to="
+      ],
+      "broken": 0
+    },
+    {
+      "lang": "pt",
+      "width": 1280,
+      "overflow": false,
+      "link": [
+        "https://macpulse.kevinlabs.app/lang/pt?to="
+      ],
+      "broken": 0
+    }
+  ]
+}
