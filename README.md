@@ -10,6 +10,7 @@ npm run build
 npm test
 npm run test:browser
 npm run test:interactions
+npm run test:footers # 按五个实际域名逐路由检查公开页脚
 python3 -m http.server 18765 --bind 127.0.0.1
 ```
 

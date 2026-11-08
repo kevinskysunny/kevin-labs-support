@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-08",
+  "rootCause": "Support-repository acceptance did not cover independent product-site static and generated checkout footers.",
+  "sites": {
+    "nextmirror.kevinlabs.app": {
+      "commit": "09fff87",
+      "branch": "main",
+      "websiteVersion": "1.0.3",
+      "workers": [
+        "nextmirror-commerce-live"
+      ]
+    },
+    "mindcharge.kevinlabs.app": {
+      "commit": "e6db191",
+      "branch": "main",
+      "websiteVersion": "1.0.4",
+      "workers": [
+        "mindcharge-commerce-live"
+      ]
+    },
+    "barnest.kevinlabs.app": {
+      "commit": "bb621ba",
+      "branch": "fix/drag-collapse-1.0.1",
+      "websiteVersion": "1.4.17",
+      "workers": [
+        "barnest-pro-commerce-live",
+        "barnest-product-site"
+      ]
+    },
+    "smoothcast.kevinlabs.app": {
+      "commit": "379761a",
+      "branch": "main",
+      "websiteVersion": "1.2.11",
+      "workers": [
+        "smoothcast-sales"
+      ]
+    }
+  },
+  "productionDomains": 5,
+  "productionRouteLanguageChecks": 259,
+  "customerFooterVersionMarkers": 0,
+  "downloadAssetsPreserved": true,
+  "purchaseOrEmailActionsPerformed": false
+}

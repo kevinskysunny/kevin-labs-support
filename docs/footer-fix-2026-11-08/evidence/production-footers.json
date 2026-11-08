@@ -1,0 +1,2074 @@
+[
+  {
+    "url": "https://nextmirror.kevinlabs.app/?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/?lang=zh-Hans",
+    "lang": "zh-Hans",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/legal.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/legal.html?lang=zh-Hans",
+    "lang": "zh-Hans",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/legal.html?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/guides.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/index.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/legal.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/guides.html?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/index.html?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/legal.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/guides.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/index.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/support?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/legal.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/support?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/guides.html?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/index.html?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/support?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/legal.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/support?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/index.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/support?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/guides.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/restore.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/support?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/index.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/guides.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/support?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/restore.html?lang=zh-Hans",
+    "lang": "zh-Hans",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/support?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/guides.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/restore.html?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/index.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/support?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/support?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/guides.html?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/restore.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/index.html?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/support?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/support?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/restore.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/index.html?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/index.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/support?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/support?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/restore.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/index.html?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/legal.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/support?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/restore.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/support?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/legal.html?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/index.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/releases?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/support?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/legal.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/index.html?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/releases?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/legal.html?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/privacy?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy?lang=zh-Hans",
+    "lang": "zh-Hans",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/releases?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/index.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/legal.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/privacy?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/legal.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/index.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/releases?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/legal.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/privacy?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/index.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/legal.html?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/privacy?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/releases?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/index.html?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/legal.html?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/privacy?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/releases?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/privacy?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/support.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/buy?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/releases?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/support.html?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/buy?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/privacy?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/support.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/releases?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/buy?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/privacy?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/privacy?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/support.html?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/privacy?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/buy?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy.html?lang=zh-Hans",
+    "lang": "zh-Hans",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/releases?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy.html?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/support.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/privacy?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/buy?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/releases?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/support.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/buy?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/releases?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/privacy?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/support.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/buy?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/privacy?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/volmix/support.html?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/releases?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/buy?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/buy.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/privacy?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/releases?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/barnest/support.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/buy?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/i18n/ja/legal.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/privacy?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/releases?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/i18n/ja/legal.html?lang=zh-Hans",
+    "lang": "zh-Hans",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/releases?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/barnest/support.html?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/privacy?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/i18n/ja/legal.html?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/releases?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/i18n/ja/legal.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/barnest/support.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/privacy?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/releases?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/i18n/ja/legal.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/terms?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/barnest/support.html?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/i18n/ja/legal.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/buy?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/barnest/support.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/i18n/ja/legal.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/terms?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/buy?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/barnest/support.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/buy?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/terms?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/barnest/support.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/buy?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/terms?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/barnest/support.html?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/terms?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/buy?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/presenter-deck/index.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/terms?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/buy?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/presenter-deck/index.html?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/terms?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/presenter-deck/index.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/buy?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/terms?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/presenter-deck/index.html?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/buy?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/refund?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/presenter-deck/index.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/buy?lang=zh-Hant",
+    "lang": "zh-Hant",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/refund?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/presenter-deck/index.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/refund?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/presenter-deck/index.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/refund?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/presenter-deck/index.html?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/refund?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/netdoctor/index.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/netdoctor/index.html?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/refund?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/netdoctor/index.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/netdoctor/index.html?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/refund?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/netdoctor/index.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/refund?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 4
+  },
+  {
+    "url": "https://support.kevinlabs.app/netdoctor/index.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/netdoctor/index.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/netdoctor/index.html?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/ksic-studio/index.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/ksic-studio/index.html?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/ksic-studio/index.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/ksic-studio/index.html?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/ksic-studio/index.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/ksic-studio/index.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/ksic-studio/index.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/ksic-studio/index.html?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/support.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/support.html?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/support.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/support.html?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/support.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/support.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/support.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/support.html?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/privacy.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/privacy.html?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/privacy.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/privacy.html?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/privacy.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/privacy.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/privacy.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/privacy.html?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 2
+  },
+  {
+    "url": "https://support.kevinlabs.app/website-privacy.html?lang=en",
+    "lang": "en",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://support.kevinlabs.app/website-privacy.html?lang=zh",
+    "lang": "zh",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://support.kevinlabs.app/website-privacy.html?lang=ja",
+    "lang": "ja",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://support.kevinlabs.app/website-privacy.html?lang=ko",
+    "lang": "ko",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://support.kevinlabs.app/website-privacy.html?lang=de",
+    "lang": "de",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://support.kevinlabs.app/website-privacy.html?lang=fr",
+    "lang": "fr",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://support.kevinlabs.app/website-privacy.html?lang=es",
+    "lang": "es",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  },
+  {
+    "url": "https://support.kevinlabs.app/website-privacy.html?lang=pt",
+    "lang": "pt",
+    "status": 200,
+    "copyright": "© 2026 Kevin Labs",
+    "versionMarkers": 0,
+    "policyLinks": 1
+  }
+]
