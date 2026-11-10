@@ -451,13 +451,17 @@
   render();
 })();
 
-/* Kevin Labs website analytics v1.1.0. Only an explicit test-exclusion cookie; no visitor identifier. */
+/* Kevin Labs website analytics v1.1.1. Only an explicit test-exclusion cookie; no visitor identifier. */
 (()=>{
  if(typeof window==='undefined'||typeof document==='undefined'||typeof navigator==='undefined'||typeof document.addEventListener!=='function')return;
- const testQuery=new URLSearchParams(location.search).get('kl_test')==='1';
- if(testQuery){try{
-  const domain=location.hostname==='kevinlabs.app'||location.hostname.endsWith('.kevinlabs.app')?'; Domain=kevinlabs.app':'';
-  document.cookie='kl_test=1; Path=/; Max-Age=31536000; SameSite=Lax'+domain+(location.protocol==='https:'?'; Secure':'');
+ const testMode=new URLSearchParams(location.search).get('kl_test');
+ const testQuery=testMode==='1';
+ if(testQuery||testMode==='0'){try{
+  const domain=location.hostname==='kevinlabs.app'||location.hostname.endsWith('.kevinlabs.app')?'; Domain=.kevinlabs.app':'';
+  const secure=location.protocol==='https:'?'; Secure':'';
+  document.cookie='kl_test='+(testQuery?'1':'')+'; Path=/; Max-Age='+(testQuery?'31536000':'0')+'; SameSite=Lax'+domain+secure;
+  // Also expire an older host-only flag so it cannot shadow the shared opt-out.
+  if(testMode==='0'&&domain)document.cookie='kl_test=; Path=/; Max-Age=0; SameSite=Lax'+secure;
  }catch{}}
  const isTest=()=>testQuery||/(?:^|;\s*)kl_test=1(?:;|$)/.test(document.cookie||'');
  if(isTest())return;

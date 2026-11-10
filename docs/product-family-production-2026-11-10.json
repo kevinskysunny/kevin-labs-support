@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-10",
+  "status": "已上线验证",
+  "sites": [
+    {
+      "site": "portal",
+      "worker": "kevinlabs-brand-portal",
+      "source": "fbc91649ec88ffd4f09fffdb598baeceec1ca37c",
+      "beforeVersion": "17af7d03-1509-4b59-815c-efe61175b59e",
+      "version": "17af7d03-1509-4b59-815c-efe61175b59e",
+      "workerUnchanged": true
+    },
+    {
+      "site": "smoothcast",
+      "worker": "smoothcast-sales",
+      "source": "4b16181fce408a9f220614cfcd209ebd235074ff",
+      "beforeVersion": "ba9dd28a-a4c9-4aa0-8553-7b74184f3f36",
+      "version": "3b1f0c64-0ac7-4429-a6f7-ed11e9c421c2"
+    },
+    {
+      "site": "barnest",
+      "worker": "barnest-product-site",
+      "source": "dcae39789cbdbdab2475da3ee7610c64c1e93ff2",
+      "beforeVersion": "d801ca5c-1620-4e69-a2d5-099a6b0d8b7e",
+      "version": "07b315e5-e8bc-4cfa-8861-eff5151171b2"
+    },
+    {
+      "site": "macpulse",
+      "worker": "macpulse-license",
+      "source": "c2ce7b070d8e7898f673ed920b11e367446ec2e2",
+      "beforeVersion": "598a4aa6-98b7-4347-a66f-77edf90d4706",
+      "version": "fb6c19c6-25ea-4a9d-914a-6855b2b2cb13"
+    },
+    {
+      "site": "mindcharge",
+      "worker": "mindcharge-commerce-live",
+      "source": "13ea7d69325a6bebe2b4ea052762c83c825f8819",
+      "beforeVersion": "c9021300-7e72-4db4-b1dc-d16de1379541",
+      "version": "67672d4e-cc50-41f9-bc6f-3913600dec0f"
+    },
+    {
+      "site": "nextmirror",
+      "worker": "nextmirror-commerce-live",
+      "source": "532398cc497c5bd7bba8ccef1425c0c5f1f37bb5",
+      "beforeVersion": "a94bb843-14ca-49ab-b8ec-53161cdbf210",
+      "version": "55e3eff0-77ee-4fb6-9d5d-058023428576"
+    }
+  ],
+  "githubPages": {
+    "commit": "fbc91649ec88ffd4f09fffdb598baeceec1ca37c",
+    "status": "built"
+  },
+  "httpChecks": 41,
+  "browserChecks": 10,
+  "configurationUnchanged": true,
+  "existingInstallerCount": 30,
+  "existingInstallerHashesUnchanged": true,
+  "newGrokFixesDeployed": false
+}
