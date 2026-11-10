@@ -360,7 +360,6 @@
     document.querySelectorAll('[data-lang]').forEach(node => { node.hidden = node.dataset.lang !== lang; });
     for (const link of document.querySelectorAll('a[href]')) {
       const destination = new URL(link.getAttribute('href'), location.href);
-      if (link.hasAttribute('data-direct-action')) continue;
       if (!['http:','https:'].includes(destination.protocol)) continue;
       const sameOrigin = destination.origin === location.origin;
       if (sameOrigin && destination.pathname === location.pathname && destination.hash) continue;

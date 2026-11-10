@@ -12,7 +12,7 @@ test('catalog generation is reproducible and preserves all nine products without
  assert.equal(Object.keys(data).length,8);
  for(const [lang,item] of Object.entries(data)){
   assert.equal(item.apps.length,9);assert.equal(new Set(item.apps.map(a=>a.id)).size,9);
-  assert.equal(item.apps.filter(a=>a.featured).length,5);
+  assert.equal(item.apps.filter(a=>a.featured).length,3);
   assert.equal(item.legacy,undefined);
   const section=before.match(new RegExp('<section data-lang="'+lang+'"[^>]*>([\\s\\S]*?)(?=<section class="faq-section">)'))[1];
   assert.equal((section.match(/<h1>/g)||[]).length,1);

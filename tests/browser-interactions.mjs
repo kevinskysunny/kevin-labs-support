@@ -71,7 +71,7 @@ try {
   assert.equal(await page.locator('.language-fallback').getAttribute('lang'),'de');
   assert.equal(await page.locator('#language').inputValue(),'de','fallback preserves requested mode');
   await page.goto(`${base}/index.html?lang=system`);
-  assert.equal(new URL(await page.locator('section[data-lang="zh"] [data-product="nextmirror"] a.product-overview').getAttribute('href')).searchParams.has('lang'),false);
+  assert.equal(new URL(await page.locator('section[data-lang="zh"] a[data-product="nextmirror"]').getAttribute('href')).searchParams.has('lang'),false);
   await page.selectOption('#language','system');
   assert.equal(await page.evaluate(()=>localStorage.getItem('ksicSupportLanguage')),'system');
   await page.evaluate(()=>{Object.defineProperty(navigator,'languages',{get:()=>['fr-FR'],configurable:true});window.dispatchEvent(new Event('languagechange'));});
@@ -86,8 +86,8 @@ try {
   await page.keyboard.press('Space');assert.equal(await summary.evaluate(e=>e.parentElement.open),false);
   const noJS=await browser.newContext({javaScriptEnabled:false});
   const plain=await noJS.newPage();await plain.goto(`${base}/index.html`);
-  assert.equal(await plain.locator('h1:visible').textContent(),'Mac apps. Ready for your workflow.');
-  assert.equal(await plain.locator('section[data-lang="en"] .product-card:visible').count(),5);
+  assert.equal(await plain.locator('h1:visible').textContent(),'Mac apps');
+  assert.equal(await plain.locator('section[data-lang="en"] .product-card:visible').count(),3);
   assert.equal(await plain.locator('.language').isVisible(),false);
   await noJS.close();
   console.log(`PASS: ${checks} localized layout/contact scenarios; clipboard success/failure, mail separation, live/system/persisted language, fallback, keyboard FAQ, no-JS.`);

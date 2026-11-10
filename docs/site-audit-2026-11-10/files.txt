@@ -1,11 +1,11 @@
 README.md
-assets/monochrome.css
 assets/site.js
 assets/smoothcast-redirect.js
 barnest/index.html
 barnest/privacy.html
 barnest/support.html
 content/home.json
+docs/kevinlabs-site-audit-2026-11-10.md
 edge/worker.mjs
 guides.html
 index.html
@@ -31,7 +31,6 @@ presenter-deck/review/index.html
 presenter-deck/support.html
 privacy.html
 review/index.html
-scripts/render-catalog.mjs
 scripts/sync-site.mjs
 site.json
 sitemap.xml
@@ -41,7 +40,7 @@ smoothcast/releases.html
 smoothcast/support.html
 support.html
 tests/browser-interactions.mjs
-tests/catalog.test.mjs
+tests/browser-seo-audit.mjs
 tests/monochrome.test.mjs
 tests/portal.test.mjs
 tests/smoothcast-sync.test.mjs
@@ -50,6 +49,4 @@ volmix/privacy.html
 volmix/review/index.html
 volmix/support.html
 website-privacy.html
-tests/browser-seo-audit.mjs
-docs/kevinlabs-site-audit-2026-11-10.md
 docs/site-audit-2026-11-10/{README.md,delivery.json,files.txt,changes.diff.gz,evidence/live.json}

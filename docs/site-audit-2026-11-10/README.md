@@ -2,13 +2,17 @@
 
 日期：2026-11-10（Asia/Shanghai）。依据：`../kevinlabs-site-audit-2026-11-10.md`（Grok bot 建议）。本轮逐条核对本机真实来源与线上 HTTP/浏览器行为；截至本报告交付，修改仅在审核分支，**尚未部署**。以下「已修」均指代码及本机验证，不能理解成线上已经生效。
 
+## 最新范围调整（2026-11-10，用户确认）
+
+用户最终选择保留原首页视觉：上方 VolMix 图文大卡片、MacPulse、BarNest Pro，下方 NextMirror、MindCharge、SmoothCast、PresenterDeck、NetDoctor、KSIC Studio，共上 3 下 6。不对调 VolMix/MindCharge，不新增 NextMirror 图片，不给首页增添按钮。下文原首页重排方案已撤回；产品导向 title/description、下载与 SEO/路由修复保留。MindCharge 将来上架 Apple 商店是用户计划，不代表当前已上架，不新增商店地址。
+
 ## 逐条结论
 
 | 编号 | 优先级 | 核实与状态 | 实际处理 |
 |---|---|---|---|
 | 1 | P0 | **不成立：正常浏览器加载后按钮失效**；**已修：初始 HTML／无脚本状态仍禁用** | 线上浏览器实测加载 `/release.json` 后为 `Download free trial`，`aria-disabled=false`，链接 `/download`。初始 HTML 确有 coming soon、`#release`、禁用标记；修改 MindCharge 构建源，七种语言默认即提供 `https://mindcharge.kevinlabs.app/download`，保留原发布状态检查。不是修改安装包或发布清单。 |
 | 2 | P0 | **已修** | 原主域 `/barnest/index.html` 实测 200、canonical 自指。门户 Worker 对 `/barnest`、`/barnest/`、`/barnest/index.html` 返回 301 到 BarNest Pro；从 sitemap 移除。旧源页 canonical 同步指向 Pro；历史商店版帮助与隐私保留。 |
-| 3 | P0 | **已修** | 原 title/description 为支持站定位，首推 VolMix/MacPulse/BarNest，属实。首页改为产品定位，八语优先顺序 NextMirror → SmoothCast Pro → BarNest Pro → MindCharge → MacPulse，每款提供独立下载试用与购买入口。SmoothCast 购买入口到现有 `/#pricing`，MacPulse 到现有 `/<locale>/#buy`；不另造结账流程。指南仍从顶部进入 guides.html。 |
+| 3 | P0 | **已修：title/description；首页视觉重排按用户最新意见撤回** | 保留产品导向 SEO 元信息；首页恢复上 3 下 6、VolMix 大图及既有产品顺序，下载/购买动作保留在产品落地页，不再添加首页 CTA。 |
 | 4 | P1 | **已修：日期、清单及子域 sitemap**；**不成立：单行 XML 非法／主站必须混入子域 URL** | 原 XML 可解析，单行本身没有错。规范缩进，更新首页和指南实际变更日期，移除旧 BarNest 及 canonical 指向独立站的兼容入口。BarNest 新增静态 sitemap/robots，MacPulse 新增服务端 sitemap/robots；已有 SmoothCast/MindCharge/NextMirror 继续独立维护。MindCharge sitemap 补真实语言内容页。未对未变正文的页面统一伪造 lastmod。 |
 | 5 | P1 | **已修** | guides.html canonical 与 og:url 确实错指首页，已改自指；SmoothCast/BarNest/MacPulse 根路径确实缺 canonical，已补。MacPulse 已有语言页 canonical 和 hreflang，保留；即使根路径读取语言 Cookie，canonical 仍稳定自指根路径。BarNest 支持/隐私/更新路由分别自指，不一律指向首页。 |
 | 6 | P1 | **已修：导航语言参数与真实语言页 hreflang**；**不成立：八语共用 URL 必须有八条 hreflang** | 清理主站及相关子站导航动态添加的 `?lang=`，保留旧入站参数兼容解析、本站语言持久化、自动模式。MindCharge 的七语独立路径补自引用 canonical、相互 hreflang 与 x-default；MacPulse 已有八语/x-default，保留。SmoothCast `/en/` 实测 404，但其单 URL 已支持切换语言，本站未暴露该不存在路径，因此不虚构英语路由、不为同 URL 添加假语言集合。跨域无独立语言路径时由目标站自身设置／系统语言决定。 |
@@ -26,7 +30,7 @@ Search Console 当前告警、Lighthouse 分数、目录实际收录和 NextMirr
 
 ## Diff 摘要与文件
 
-- 主站网站版本 2.8.0：`content/home.json`、`scripts/render-catalog.mjs`、`index.html`、`assets/monochrome.css` 调整八语顺序及 CTA；`assets/site.js`、`assets/smoothcast-redirect.js` 清理链接，兼容旧入站参数；`guides.html`、`edge/worker.mjs`、`sitemap.xml` 修复 SEO/路由；`scripts/sync-site.mjs` 补元信息；其余 HTML 为元信息或共享资源指纹同步。原 `.hallmark/` 未纳入。
+- 主站网站版本 2.8.1：`content/home.json`、`scripts/render-catalog.mjs`、`index.html`、`assets/monochrome.css` 恢复原八语上 3 下 6 布局和 VolMix 图文展示；`assets/site.js`、`assets/smoothcast-redirect.js` 清理链接，兼容旧入站参数；`guides.html`、`edge/worker.mjs`、`sitemap.xml` 修复 SEO/路由；`scripts/sync-site.mjs` 补元信息；其余 HTML 为元信息或共享资源指纹同步。原 `.hallmark/` 未纳入。
 - SmoothCast 网站 1.2.15：`site/index.html`、`site/assets/js/legal.js`、`scripts/site.test.mjs`、`package.json`、`package-lock.json`。生成 dist 为忽略产物，不单独提交。
 - BarNest 网站 1.4.21：`website/worker.mjs`、`website/public/index.html`、`website/public/assets/site.js`、`website/public/{robots.txt,sitemap.xml}`、`website/test/seo.test.mjs`、`website/package.json`。已有 videos/ 未纳入。
 - MacPulse 网站服务 1.4.2：`server/src/{landing.js,index.js,i18n.js}`、`server/test/pages.test.mjs`、`server/package.json`、`server/package-lock.json`。
@@ -38,7 +42,7 @@ Search Console 当前告警、Lighthouse 分数、目录实际收录和 NextMirr
 ## 验证证据
 
 - 主站 27 项测试通过；BarNest 24 项（含新增 HEAD 下载回归）、MacPulse 38 项、SmoothCast 36 项通过。
-- 主站 154 组页面×尺寸布局检查通过，16 组本地化联系/布局场景与语言持久化、系统模式、键盘、无 JS 回归通过；首页八语及自动模式、390/1440 宽度的五款产品 CTA/顺序/干净 URL 检查通过。
+- 主站 154 组页面×尺寸布局检查通过，16 组本地化联系/布局场景与语言持久化、系统模式、键盘、无 JS 回归通过；首页八语及自动模式、390/1440 宽度的上 3 下 6 布局、原有产品顺序与干净 URL 检查通过。
 - MindCharge 33 页生成检查通过；浏览器验证无 JS 下载入口、七语言 alternates+x-default、手动切换与自动模式刷新持久化。线上正常加载下载按钮可用（未点击下载）。
 - NextMirror 原有网站检查通过（八语、版本及本地既有 DMG 摘要核对）；未执行购买。
 - 所有仓库 diff whitespace 检查通过。改动审核确认价格文件、commerce 配置、统计模块未纳入；共享脚本只改导航逻辑。
@@ -48,7 +52,7 @@ Search Console 当前告警、Lighthouse 分数、目录实际收录和 NextMirr
 
 | URL／请求 | 期望结果 |
 |---|---|
-| `https://kevinlabs.app/` | 200；原始 title/description 为产品导向；八语切换顺序一致，五款直销产品各有下载/购买入口，无新 `?lang=` 导航 |
+| `https://kevinlabs.app/` | 200；原始 title/description 为产品导向；八语切换保持上 3 下 6 的原有布局与顺序；VolMix 图文展示正常，无新 `?lang=` 导航 |
 | `https://mindcharge.kevinlabs.app/`、`https://mindcharge.kevinlabs.app/i18n/zh-Hans/index.html` | 原始 HTML 中下载文案正确、无禁用标记，链接指向 `https://mindcharge.kevinlabs.app/download`；后者 canonical 自指，含七语与 x-default |
 | `HEAD https://mindcharge.kevinlabs.app/download` | 200，附件为 MindCharge.dmg；不以成功下载代替签名/公证验收 |
 | `GET/HEAD https://kevinlabs.app/barnest/index.html` | 301，Location 严格为 `https://barnest.kevinlabs.app/`，不回旧商店页 |

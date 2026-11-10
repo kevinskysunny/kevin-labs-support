@@ -27,7 +27,7 @@ python3 -m http.server 18765 --bind 127.0.0.1
 - `content/product-details.json`：兼容旧API的能力细节；`sync-products.mjs`从index.json派生旧`assets/products.json`中的版本、简介及链接，避免双写。
 - `sync-site.mjs`：共享资源SHA-256指纹与内部网站版本同步；不改产品版本。
 
-先修改来源再执行构建，不直接编辑生成区。首页以 NextMirror 为首，优先展示五款直销产品及下载/购买入口，另列四款工具；BarNest商店版不再在目录推广，既有支持/隐私直达地址保留；DOM、视觉与键盘顺序一致。
+先修改来源再执行构建，不直接编辑生成区。首页保留已认可的 VolMix 图文大卡片，右侧 MacPulse、BarNest Pro，下面六款工具；2026-11-10 用户确认本次只修入口和 SEO，首页视觉、产品顺序和操作位置保持原样；BarNest商店版不再在目录推广，既有支持/隐私直达地址保留；DOM、视觉与键盘顺序一致。
 
 ## 样式与跨端约束
 

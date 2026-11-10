@@ -8,11 +8,11 @@ try {
   await page.setViewportSize({width,height:1000});await page.goto(base+'/');
   for(const lang of ['en','zh','ja','ko','de','fr','es','pt','system']) {
    await page.selectOption('#language',lang);
-   assert.equal(await page.locator('section:not([hidden]) .product-ctas a').count(),10);
+   assert.equal(await page.locator('section:not([hidden]) .other-products .tool-card').count(),6);
    const urls=await page.locator('main a').evaluateAll(nodes=>nodes.filter(n=>n.getClientRects().length).map(n=>n.href));
    assert.ok(urls.every(url=>!new URL(url).searchParams.has('lang')));
    const order=await page.locator('section:not([hidden]) .product-card').evaluateAll(nodes=>nodes.map(n=>n.dataset.product));
-   assert.deepEqual(order,['nextmirror','smoothcast','barnest-pro','mindcharge','macpulse']);
+   assert.deepEqual(order,['volmix','macpulse','barnest-pro']);
   }
   await fs.mkdir('output/playwright',{recursive:true});await page.screenshot({path:`output/playwright/seo-home-${width}.png`,fullPage:true});
  }
@@ -23,5 +23,5 @@ try {
   console.log('LIVE MindCharge loaded button:',await p.locator('.download').evaluate(n=>({text:n.textContent,href:n.href,disabled:n.getAttribute('aria-disabled')})));
   await live.close();
  }
- console.log('PASS: product CTA, order and clean URLs in eight languages plus system mode, at mobile/desktop widths.');
+ console.log('PASS: three featured/six secondary products, order and clean URLs in eight languages plus system mode, at mobile/desktop widths.');
 } finally {await close();}
