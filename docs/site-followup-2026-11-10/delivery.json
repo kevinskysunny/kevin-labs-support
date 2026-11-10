@@ -1,0 +1,70 @@
+[
+  {
+    "repo": "NextMirror",
+    "path": "/Users/kevinsmith/Person/project/07-apps-experiments/NextMirror",
+    "base": "55ebbb738cb8ef42834c73d3339198da8db736b4",
+    "commit": "980c0b5d365fc0fefb296adeddb9c015f74ba83e",
+    "branch": "codex/site-followup-2026-11-10",
+    "files": [
+      "commerce/package.json",
+      "commerce/worker.mjs",
+      "commerce/test/worker.test.mjs"
+    ],
+    "isolatedTestsPassed": true
+  },
+  {
+    "repo": "mindcharge",
+    "path": "/Users/kevinsmith/Person/project/07-apps-experiments/mindcharge",
+    "base": "99d7f5fc41aa6830295b865f131361b0d13a7cc5",
+    "commit": "7807c75b86a9e1a8714e3fef6c23d08d77117fb3",
+    "branch": "codex/site-followup-2026-11-10",
+    "files": [
+      "commerce/package.json",
+      "commerce/worker.mjs",
+      "commerce/test/worker.test.mjs"
+    ],
+    "isolatedTestsPassed": true
+  },
+  {
+    "repo": "kl-ibar",
+    "path": "/Users/kevinsmith/Person/project/07-apps-experiments/kl-ibar",
+    "base": "e95f3751bae0507f5386454f20c1047c8e977a3b",
+    "commit": "0c71d228773dba35c6db05282faa2aafd3e91475",
+    "branch": "codex/site-followup-2026-11-10",
+    "files": [
+      "website/package.json",
+      "website/public/index.html",
+      "website/test/seo.test.mjs",
+      "website/worker.mjs"
+    ],
+    "isolatedTestsPassed": true
+  },
+  {
+    "repo": "smoothcast-site",
+    "path": "/Users/kevinsmith/Person/project/07-apps-experiments/smoothcast-site",
+    "base": "1abb8d43c8565e8ce20e0cd4f5fef71121b5049e",
+    "commit": "8f5e81acdc189a6ce466c85b253f05207ad73cc3",
+    "branch": "codex/site-followup-2026-11-10",
+    "files": [
+      "package.json",
+      "package-lock.json",
+      "scripts/site.test.mjs",
+      "scripts/worker_runtime.js"
+    ],
+    "isolatedTestsPassed": true
+  },
+  {
+    "repo": "kl-macpulse",
+    "path": "/Users/kevinsmith/Person/project/07-apps-experiments/kl-macpulse",
+    "base": "d70507e9034fd2d921b8c208baa5b1c54c2c21fd",
+    "commit": "3d4c10ba5de44c7f7b721aadf6de41d6349abe60",
+    "branch": "codex/site-followup-2026-11-10",
+    "files": [
+      "server/package.json",
+      "server/package-lock.json",
+      "server/src/index.js",
+      "server/test/pages.test.mjs"
+    ],
+    "isolatedTestsPassed": true
+  }
+]

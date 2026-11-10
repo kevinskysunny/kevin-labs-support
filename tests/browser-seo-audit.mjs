@@ -2,12 +2,19 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {createBrowserHarness} from './browser-harness.mjs';
 const {browser,context,base,close}=await createBrowserHarness();
+const ui=JSON.parse(await fs.readFile(new URL('../content/ui.json',import.meta.url),'utf8'));
 try {
  const page=await context.newPage();
  for(const width of [390,1440]) {
   await page.setViewportSize({width,height:1000});await page.goto(base+'/');
   for(const lang of ['en','zh','ja','ko','de','fr','es','pt','system']) {
    await page.selectOption('#language',lang);
+   const metadata=await page.evaluate(()=>({lang:document.documentElement.lang,title:document.title,fields:Object.fromEntries(['description','og:title','og:description','twitter:title','twitter:description'].map(field=>[field,document.querySelector(`meta[name="${field}"],meta[property="${field}"]`)?.content]))}));
+   const locale=metadata.lang.startsWith('zh')?'zh':metadata.lang.split('-')[0];
+   assert.equal(metadata.title,ui[locale].homeMetaTitle);
+   for(const field of ['og:title','twitter:title'])assert.equal(metadata.fields[field],ui[locale].homeMetaTitle);
+   for(const field of ['description','og:description','twitter:description'])assert.equal(metadata.fields[field],ui[locale].homeMetaDescription);
+
    assert.equal(await page.locator('section:not([hidden]) .other-products .tool-card').count(),6);
    const urls=await page.locator('main a').evaluateAll(nodes=>nodes.filter(n=>n.getClientRects().length).map(n=>n.href));
    assert.ok(urls.every(url=>!new URL(url).searchParams.has('lang')));

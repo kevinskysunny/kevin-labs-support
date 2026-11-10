@@ -40,8 +40,8 @@
       "productUrl": "barnest/",
       "appStoreUrl": "https://apps.apple.com/app/id6820881227?mt=12&ct=ksic_website",
       "availability": "available",
-      "verifiedAt": "2026-10-20",
-      "version": "1.0.0"
+      "verifiedAt": "2026-11-10",
+      "version": "1.0.2"
     },
     {
       "id": "ksic-studio",
@@ -256,5 +256,5 @@
       "minimumSystemVersion": "13.0"
     }
   ],
-  "siteVersion": "2.8.3"
+  "siteVersion": "2.9.0"
 }

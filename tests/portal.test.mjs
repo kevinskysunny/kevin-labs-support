@@ -27,9 +27,16 @@ test('download streams, partial status and validators are preserved, HEAD has no
  const h=await handlePortal(new Request('https://kevinlabs.app/',{method:'HEAD'}),async()=>new Response(null,{headers:{'content-type':'text/html'}}));assert.equal(await h.text(),'');
 });
 
-test('legacy BarNest landing permanently redirects before fetching the content origin', async()=>{
- for (const path of ['/barnest','/barnest/','/barnest/index.html']) for (const method of ['GET','HEAD']) {
-  const r=await handlePortal(new Request('https://kevinlabs.app'+path,{method}),()=>{throw Error('origin must not be fetched')});
-  assert.equal(r.status,301);assert.equal(r.headers.get('location'),'https://barnest.kevinlabs.app/');
+test('App Store BarNest pages stay on the portal for GET and HEAD',async()=>{
+ for(const path of ['/barnest/','/barnest/index.html','/barnest/support.html','/barnest/privacy.html'])for(const method of ['GET','HEAD']){
+  let seen;
+  const r=await handlePortal(new Request('https://kevinlabs.app'+path,{method}),async request=>{seen=request;return new Response(method==='HEAD'?null:'App Store page',{headers:{'content-type':'text/html'}})});
+  assert.equal(r.status,200);assert.equal(r.headers.get('location'),null);assert.equal(seen.url,'https://support.kevinlabs.app'+path);
+ }
+});
+test('unsupported English paths redirect permanently to the clean homepage',async()=>{
+ for(const path of ['/en/','/en/index.html'])for(const method of ['GET','HEAD']){
+  const r=await handlePortal(new Request('https://kevinlabs.app'+path+'?lang=en',{method}),()=>{throw Error('must not fetch origin')});
+  assert.equal(r.status,301);assert.equal(r.headers.get('location'),'https://kevinlabs.app/');
  }
 });

@@ -11,7 +11,7 @@ export async function handlePortal(request, fetchOrigin = fetch) {
   }
   // Forms and commerce APIs stay on their existing hosts; this is a read-only portal.
   if (!['GET', 'HEAD'].includes(request.method)) return new Response('Method not allowed', { status: 405, headers: { allow: 'GET, HEAD' } });
-  if (['/barnest', '/barnest/', '/barnest/index.html'].includes(incoming.pathname)) return new Response(null, { status: 301, headers: { location: 'https://barnest.kevinlabs.app/' } });
+  if (['/en/', '/en/index.html'].includes(incoming.pathname)) return new Response(null, { status: 301, headers: { location: PORTAL_ORIGIN + '/' } });
   const upstream = new URL(incoming.pathname + incoming.search, CONTENT_ORIGIN);
   const headers = new Headers();
   // Support conditional/range requests without forwarding browser credentials or unrelated headers.

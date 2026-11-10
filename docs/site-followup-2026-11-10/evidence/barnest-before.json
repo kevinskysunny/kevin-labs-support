@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://support.kevinlabs.app/barnest/",
+    "statuses": [
+      "200",
+      "200"
+    ],
+    "location": [],
+    "error": ""
+  },
+  {
+    "url": "https://support.kevinlabs.app/barnest/support.html",
+    "statuses": [
+      "200",
+      "200"
+    ],
+    "location": [],
+    "error": ""
+  },
+  {
+    "url": "https://support.kevinlabs.app/barnest/privacy.html",
+    "statuses": [
+      "200",
+      "200"
+    ],
+    "location": [],
+    "error": ""
+  },
+  {
+    "url": "https://kevinlabs.app/barnest/",
+    "statuses": [
+      "200",
+      "301"
+    ],
+    "location": [
+      "https://barnest.kevinlabs.app/"
+    ],
+    "error": ""
+  },
+  {
+    "url": "https://kevinlabs.app/barnest/support.html",
+    "statuses": [
+      "200",
+      "200"
+    ],
+    "location": [],
+    "error": ""
+  },
+  {
+    "url": "https://kevinlabs.app/barnest/privacy.html",
+    "statuses": [
+      "200",
+      "200"
+    ],
+    "location": [],
+    "error": ""
+  }
+]

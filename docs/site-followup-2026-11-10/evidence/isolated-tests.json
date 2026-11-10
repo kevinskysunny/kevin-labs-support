@@ -1,0 +1,55 @@
+[
+  {
+    "repo": "NextMirror",
+    "base": "d8f0406",
+    "files": [
+      "commerce/package.json",
+      "commerce/worker.mjs",
+      "commerce/test/worker.test.mjs"
+    ],
+    "isolatedTestsPassed": true
+  },
+  {
+    "repo": "mindcharge",
+    "base": "c6f76fb",
+    "files": [
+      "commerce/package.json",
+      "commerce/worker.mjs",
+      "commerce/test/worker.test.mjs"
+    ],
+    "isolatedTestsPassed": true
+  },
+  {
+    "repo": "kl-ibar",
+    "base": "9c56c02",
+    "files": [
+      "website/package.json",
+      "website/public/index.html",
+      "website/test/seo.test.mjs",
+      "website/worker.mjs"
+    ],
+    "isolatedTestsPassed": true
+  },
+  {
+    "repo": "smoothcast-site",
+    "base": "1252658",
+    "files": [
+      "package.json",
+      "package-lock.json",
+      "scripts/site.test.mjs",
+      "scripts/worker_runtime.js"
+    ],
+    "isolatedTestsPassed": true
+  },
+  {
+    "repo": "kl-macpulse",
+    "base": "d70507e",
+    "files": [
+      "server/package.json",
+      "server/package-lock.json",
+      "server/src/index.js",
+      "server/test/pages.test.mjs"
+    ],
+    "isolatedTestsPassed": true
+  }
+]

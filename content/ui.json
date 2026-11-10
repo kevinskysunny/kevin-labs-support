@@ -21,7 +21,9 @@
     "storeView": "View app ↗",
     "mailApp": "Open mail app",
     "mailFallback": "If your mail app did not open, copy the address or use Gmail on the web.",
-    "mailWeb": "Open Web Gmail"
+    "mailWeb": "Open Web Gmail",
+    "homeMetaTitle": "Kevin Labs — Mac Apps to Mirror, Record & Organize",
+    "homeMetaDescription": "Discover NextMirror, SmoothCast Pro, BarNest Pro, MindCharge and MacPulse. Explore Mac apps, download trials and find the right purchase option."
   },
   "zh": {
     "copy": "复制邮箱",
@@ -45,7 +47,9 @@
     "storeView": "查看应用 ↗",
     "mailApp": "用邮件应用打开",
     "mailFallback": "如果邮件应用未打开，可复制邮箱或使用网页版 Gmail。",
-    "mailWeb": "在网页版 Gmail 打开"
+    "mailWeb": "在网页版 Gmail 打开",
+    "homeMetaTitle": "Kevin Labs — Mac 投屏、录屏与效率应用",
+    "homeMetaDescription": "探索 NextMirror、SmoothCast Pro、BarNest Pro、MindCharge 和 MacPulse，了解 Mac 应用功能、下载试用并选择合适的购买渠道。"
   },
   "ja": {
     "copy": "メールアドレスをコピー",
@@ -69,7 +73,9 @@
     "storeView": "アプリを見る ↗",
     "mailApp": "メールアプリで開く",
     "mailFallback": "メールアプリが開かない場合は、アドレスをコピーするか、Web 版 Gmail をご利用ください。",
-    "mailWeb": "Web 版 Gmail で開く"
+    "mailWeb": "Web 版 Gmail で開く",
+    "homeMetaTitle": "Kevin Labs — Mac のミラーリング・録画・作業効率化",
+    "homeMetaDescription": "NextMirror、SmoothCast Pro、BarNest Pro、MindCharge、MacPulse の機能を確認し、体験版や購入方法を探せます。"
   },
   "ko": {
     "copy": "이메일 복사",
@@ -93,7 +99,9 @@
     "storeView": "앱 보기 ↗",
     "mailApp": "메일 앱에서 열기",
     "mailFallback": "메일 앱이 열리지 않으면 주소를 복사하거나 웹 Gmail을 사용하세요.",
-    "mailWeb": "웹 Gmail에서 열기"
+    "mailWeb": "웹 Gmail에서 열기",
+    "homeMetaTitle": "Kevin Labs — Mac 미러링·화면 녹화·생산성 앱",
+    "homeMetaDescription": "NextMirror, SmoothCast Pro, BarNest Pro, MindCharge, MacPulse의 기능을 살펴보고 체험판과 구매 방법을 확인하세요."
   },
   "de": {
     "copy": "E-Mail kopieren",
@@ -117,7 +125,9 @@
     "storeView": "App ansehen ↗",
     "mailApp": "Mail-App öffnen",
     "mailFallback": "Falls sich die Mail-App nicht öffnet, kopieren Sie die Adresse oder nutzen Sie Gmail im Web.",
-    "mailWeb": "Gmail im Web öffnen"
+    "mailWeb": "Gmail im Web öffnen",
+    "homeMetaTitle": "Kevin Labs — Mac Apps für Spiegelung, Aufnahme und Organisation",
+    "homeMetaDescription": "Entdecke NextMirror, SmoothCast Pro, BarNest Pro, MindCharge und MacPulse. Funktionen kennenlernen, Testversionen laden und passende Kaufoptionen finden."
   },
   "fr": {
     "copy": "Copier l’adresse",
@@ -141,7 +151,9 @@
     "storeView": "Voir l’app ↗",
     "mailApp": "Ouvrir l’app de messagerie",
     "mailFallback": "Si l’app de messagerie ne s’ouvre pas, copiez l’adresse ou utilisez Gmail sur le Web.",
-    "mailWeb": "Ouvrir Gmail sur le Web"
+    "mailWeb": "Ouvrir Gmail sur le Web",
+    "homeMetaTitle": "Kevin Labs — Apps Mac pour partager, enregistrer et organiser",
+    "homeMetaDescription": "Découvrez NextMirror, SmoothCast Pro, BarNest Pro, MindCharge et MacPulse, leurs fonctions, leurs versions d’essai et leurs options d’achat."
   },
   "es": {
     "copy": "Copiar correo",
@@ -165,7 +177,9 @@
     "storeView": "Ver app ↗",
     "mailApp": "Abrir app de correo",
     "mailFallback": "Si no se abre tu app de correo, copia la dirección o usa Gmail en la web.",
-    "mailWeb": "Abrir Gmail en la web"
+    "mailWeb": "Abrir Gmail en la web",
+    "homeMetaTitle": "Kevin Labs — Apps Mac para duplicar, grabar y organizar",
+    "homeMetaDescription": "Descubre NextMirror, SmoothCast Pro, BarNest Pro, MindCharge y MacPulse. Explora funciones, descarga versiones de prueba y consulta las opciones de compra."
   },
   "pt": {
     "copy": "Copiar e-mail",
@@ -189,6 +203,8 @@
     "storeView": "Ver app ↗",
     "mailApp": "Abrir app de e-mail",
     "mailFallback": "Se o app de e-mail não abrir, copie o endereço ou use o Gmail na web.",
-    "mailWeb": "Abrir Gmail na web"
+    "mailWeb": "Abrir Gmail na web",
+    "homeMetaTitle": "Kevin Labs — Apps Mac para espelhar, gravar e organizar",
+    "homeMetaDescription": "Conheça NextMirror, SmoothCast Pro, BarNest Pro, MindCharge e MacPulse. Explore funções, baixe versões de teste e encontre opções de compra."
   }
 }

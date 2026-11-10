@@ -1,0 +1,226 @@
+[
+  {
+    "site": "nextmirror",
+    "path": "/buy",
+    "method": "HEAD",
+    "status": "404",
+    "location": null,
+    "error": "curl: (35) TLS connect error: error:00000000:lib(0)::reason(0)\n"
+  },
+  {
+    "site": "nextmirror",
+    "path": "/buy/",
+    "method": "HEAD",
+    "status": "404",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "nextmirror",
+    "path": "/download",
+    "method": "HEAD",
+    "status": "200",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "nextmirror",
+    "path": "/download/",
+    "method": "HEAD",
+    "status": "404",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "mindcharge",
+    "path": "/buy",
+    "method": "HEAD",
+    "status": "404",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "mindcharge",
+    "path": "/buy/",
+    "method": "HEAD",
+    "status": "200",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "mindcharge",
+    "path": "/download",
+    "method": "HEAD",
+    "status": "200",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "mindcharge",
+    "path": "/download/",
+    "method": "HEAD",
+    "status": "404",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "barnest",
+    "path": "/buy",
+    "method": "HEAD",
+    "status": "200",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "barnest",
+    "path": "/buy/",
+    "method": "HEAD",
+    "status": "404",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "barnest",
+    "path": "/download",
+    "method": "HEAD",
+    "status": "302",
+    "location": "https://barnest.kevinlabs.app/downloads/BarNest-Pro-1.0.2-98.dmg",
+    "error": ""
+  },
+  {
+    "site": "barnest",
+    "path": "/download/",
+    "method": "HEAD",
+    "status": "404",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "barnest",
+    "path": "/support",
+    "method": "HEAD",
+    "status": "200",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "barnest",
+    "path": "/support/",
+    "method": "HEAD",
+    "status": "200",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "barnest",
+    "path": "/privacy",
+    "method": "HEAD",
+    "status": "200",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "barnest",
+    "path": "/privacy/",
+    "method": "HEAD",
+    "status": "200",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "smoothcast",
+    "path": "/download",
+    "method": "HEAD",
+    "status": "200",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "smoothcast",
+    "path": "/download/",
+    "method": "HEAD",
+    "status": "404",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "smoothcast",
+    "path": "/support",
+    "method": "HEAD",
+    "status": "200",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "smoothcast",
+    "path": "/support/",
+    "method": "HEAD",
+    "status": "404",
+    "location": null,
+    "error": "curl: (35) TLS connect error: error:00000000:lib(0)::reason(0)\n"
+  },
+  {
+    "site": "smoothcast",
+    "path": "/privacy",
+    "method": "HEAD",
+    "status": "200",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "smoothcast",
+    "path": "/privacy/",
+    "method": "HEAD",
+    "status": "404",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "macpulse",
+    "path": "/download",
+    "method": "HEAD",
+    "status": "302",
+    "location": "https://macpulse.kevinlabs.app/downloads/MacPulse-v1.0.0-build150.dmg",
+    "error": ""
+  },
+  {
+    "site": "macpulse",
+    "path": "/download/",
+    "method": "HEAD",
+    "status": "404",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "macpulse",
+    "path": "/support",
+    "method": "HEAD",
+    "status": "302",
+    "location": "/en/support",
+    "error": ""
+  },
+  {
+    "site": "macpulse",
+    "path": "/support/",
+    "method": "HEAD",
+    "status": "404",
+    "location": null,
+    "error": ""
+  },
+  {
+    "site": "macpulse",
+    "path": "/privacy",
+    "method": "HEAD",
+    "status": "302",
+    "location": "/en/privacy",
+    "error": ""
+  },
+  {
+    "site": "macpulse",
+    "path": "/privacy/",
+    "method": "HEAD",
+    "status": "404",
+    "location": null,
+    "error": ""
+  }
+]
