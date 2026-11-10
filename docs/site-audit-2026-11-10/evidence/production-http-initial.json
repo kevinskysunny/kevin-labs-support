@@ -1,0 +1,628 @@
+{
+  "requests": [
+    {
+      "url": "https://kevinlabs.app/",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://kevinlabs.app/",
+      "hreflang": {},
+      "ogUrl": "https://kevinlabs.app/",
+      "twitterCard": "summary"
+    },
+    {
+      "url": "https://kevinlabs.app/guides.html",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://kevinlabs.app/",
+      "hreflang": {},
+      "ogUrl": "https://kevinlabs.app/",
+      "twitterCard": "summary"
+    },
+    {
+      "url": "https://kevinlabs.app/sitemap.xml",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "application/xml"
+      },
+      "error": "",
+      "canonical": null,
+      "hreflang": {},
+      "ogUrl": null,
+      "twitterCard": null
+    },
+    {
+      "url": "https://support.kevinlabs.app/",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://kevinlabs.app/",
+      "hreflang": {},
+      "ogUrl": "https://kevinlabs.app/",
+      "twitterCard": "summary"
+    },
+    {
+      "url": "https://support.kevinlabs.app/guides.html",
+      "method": "GET",
+      "status": "000",
+      "headers": {},
+      "error": "curl: (35) TLS connect error: error:00000000:lib(0)::reason(0)\n",
+      "canonical": null,
+      "hreflang": {},
+      "ogUrl": null,
+      "twitterCard": null
+    },
+    {
+      "url": "https://support.kevinlabs.app/volmix/index.html",
+      "method": "GET",
+      "status": "000",
+      "headers": {},
+      "error": "curl: (35) TLS connect error: error:00000000:lib(0)::reason(0)\n",
+      "canonical": null,
+      "hreflang": {},
+      "ogUrl": null,
+      "twitterCard": null
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://smoothcast.kevinlabs.app/",
+      "hreflang": {},
+      "ogUrl": "https://smoothcast.kevinlabs.app/",
+      "twitterCard": "summary"
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "error": "",
+      "canonical": "https://barnest.kevinlabs.app/",
+      "hreflang": {},
+      "ogUrl": "https://barnest.kevinlabs.app/",
+      "twitterCard": "summary"
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/support",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "error": "",
+      "canonical": "https://barnest.kevinlabs.app/support",
+      "hreflang": {},
+      "ogUrl": "https://barnest.kevinlabs.app/support",
+      "twitterCard": "summary"
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/sitemap.xml",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "application/xml"
+      },
+      "error": "",
+      "canonical": null,
+      "hreflang": {},
+      "ogUrl": null,
+      "twitterCard": null
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/robots.txt",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/plain"
+      },
+      "error": "",
+      "canonical": null,
+      "hreflang": {},
+      "ogUrl": null,
+      "twitterCard": null
+    },
+    {
+      "url": "https://macpulse.kevinlabs.app/",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://macpulse.kevinlabs.app/",
+      "hreflang": {
+        "en": "https://macpulse.kevinlabs.app/en/",
+        "zh-Hans": "https://macpulse.kevinlabs.app/zh/",
+        "ja": "https://macpulse.kevinlabs.app/ja/",
+        "ko": "https://macpulse.kevinlabs.app/ko/",
+        "de": "https://macpulse.kevinlabs.app/de/",
+        "fr": "https://macpulse.kevinlabs.app/fr/",
+        "es": "https://macpulse.kevinlabs.app/es/",
+        "pt": "https://macpulse.kevinlabs.app/pt/",
+        "x-default": "https://macpulse.kevinlabs.app/"
+      },
+      "ogUrl": "https://macpulse.kevinlabs.app/",
+      "twitterCard": "summary"
+    },
+    {
+      "url": "https://macpulse.kevinlabs.app/en/",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://macpulse.kevinlabs.app/en/",
+      "hreflang": {
+        "en": "https://macpulse.kevinlabs.app/en/",
+        "zh-Hans": "https://macpulse.kevinlabs.app/zh/",
+        "ja": "https://macpulse.kevinlabs.app/ja/",
+        "ko": "https://macpulse.kevinlabs.app/ko/",
+        "de": "https://macpulse.kevinlabs.app/de/",
+        "fr": "https://macpulse.kevinlabs.app/fr/",
+        "es": "https://macpulse.kevinlabs.app/es/",
+        "pt": "https://macpulse.kevinlabs.app/pt/",
+        "x-default": "https://macpulse.kevinlabs.app/"
+      },
+      "ogUrl": "https://macpulse.kevinlabs.app/en/",
+      "twitterCard": "summary"
+    },
+    {
+      "url": "https://macpulse.kevinlabs.app/zh/",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://macpulse.kevinlabs.app/zh/",
+      "hreflang": {
+        "en": "https://macpulse.kevinlabs.app/en/",
+        "zh-Hans": "https://macpulse.kevinlabs.app/zh/",
+        "ja": "https://macpulse.kevinlabs.app/ja/",
+        "ko": "https://macpulse.kevinlabs.app/ko/",
+        "de": "https://macpulse.kevinlabs.app/de/",
+        "fr": "https://macpulse.kevinlabs.app/fr/",
+        "es": "https://macpulse.kevinlabs.app/es/",
+        "pt": "https://macpulse.kevinlabs.app/pt/",
+        "x-default": "https://macpulse.kevinlabs.app/"
+      },
+      "ogUrl": "https://macpulse.kevinlabs.app/zh/",
+      "twitterCard": "summary"
+    },
+    {
+      "url": "https://macpulse.kevinlabs.app/sitemap.xml",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "application/xml; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null,
+      "hreflang": {},
+      "ogUrl": null,
+      "twitterCard": null
+    },
+    {
+      "url": "https://macpulse.kevinlabs.app/robots.txt",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null,
+      "hreflang": {},
+      "ogUrl": null,
+      "twitterCard": null
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "error": "",
+      "canonical": "https://mindcharge.kevinlabs.app/",
+      "hreflang": {
+        "en": "https://mindcharge.kevinlabs.app/i18n/en/index.html",
+        "zh-Hans": "https://mindcharge.kevinlabs.app/i18n/zh-Hans/index.html",
+        "zh-Hant": "https://mindcharge.kevinlabs.app/i18n/zh-Hant/index.html",
+        "ja": "https://mindcharge.kevinlabs.app/i18n/ja/index.html",
+        "de": "https://mindcharge.kevinlabs.app/i18n/de/index.html",
+        "fr": "https://mindcharge.kevinlabs.app/i18n/fr/index.html",
+        "es": "https://mindcharge.kevinlabs.app/i18n/es/index.html",
+        "x-default": "https://mindcharge.kevinlabs.app/"
+      },
+      "ogUrl": "https://mindcharge.kevinlabs.app/",
+      "twitterCard": "summary"
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/i18n/zh-Hans/index.html",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "error": "",
+      "canonical": "https://mindcharge.kevinlabs.app/i18n/zh-Hans/index.html",
+      "hreflang": {
+        "en": "https://mindcharge.kevinlabs.app/i18n/en/index.html",
+        "zh-Hans": "https://mindcharge.kevinlabs.app/i18n/zh-Hans/index.html",
+        "zh-Hant": "https://mindcharge.kevinlabs.app/i18n/zh-Hant/index.html",
+        "ja": "https://mindcharge.kevinlabs.app/i18n/ja/index.html",
+        "de": "https://mindcharge.kevinlabs.app/i18n/de/index.html",
+        "fr": "https://mindcharge.kevinlabs.app/i18n/fr/index.html",
+        "es": "https://mindcharge.kevinlabs.app/i18n/es/index.html",
+        "x-default": "https://mindcharge.kevinlabs.app/"
+      },
+      "ogUrl": "https://mindcharge.kevinlabs.app/i18n/zh-Hans/index.html",
+      "twitterCard": "summary"
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/sitemap.xml",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "application/xml"
+      },
+      "error": "",
+      "canonical": null,
+      "hreflang": {},
+      "ogUrl": null,
+      "twitterCard": null
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "error": "",
+      "canonical": "https://nextmirror.kevinlabs.app/",
+      "hreflang": {},
+      "ogUrl": "https://nextmirror.kevinlabs.app/",
+      "twitterCard": "summary"
+    },
+    {
+      "url": "https://kevinlabs.app/barnest/index.html",
+      "method": "GET",
+      "status": "301",
+      "headers": {
+        "location": "https://barnest.kevinlabs.app/"
+      },
+      "error": "",
+      "canonical": null,
+      "hreflang": {},
+      "ogUrl": null,
+      "twitterCard": null
+    },
+    {
+      "url": "https://kevinlabs.app/barnest/index.html",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://barnest.kevinlabs.app/"
+      },
+      "error": "",
+      "canonical": null,
+      "hreflang": {},
+      "ogUrl": null,
+      "twitterCard": null
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/download",
+      "method": "GET",
+      "status": "302",
+      "headers": {
+        "location": "https://barnest.kevinlabs.app/downloads/BarNest-Pro-1.0.2-98.dmg"
+      },
+      "error": "",
+      "canonical": null,
+      "hreflang": {},
+      "ogUrl": null,
+      "twitterCard": null
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/download",
+      "method": "HEAD",
+      "status": "302",
+      "headers": {
+        "location": "https://barnest.kevinlabs.app/downloads/BarNest-Pro-1.0.2-98.dmg"
+      },
+      "error": "",
+      "canonical": null,
+      "hreflang": {},
+      "ogUrl": null,
+      "twitterCard": null
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/download",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "application/octet-stream",
+        "content-disposition": "attachment; filename=\"MindCharge.dmg\""
+      },
+      "error": "",
+      "canonical": null,
+      "hreflang": {},
+      "ogUrl": null,
+      "twitterCard": null
+    }
+  ],
+  "checks": [
+    {
+      "check": "GET https://kevinlabs.app/ 200",
+      "passed": true
+    },
+    {
+      "check": "https://kevinlabs.app/ self/main canonical",
+      "passed": true
+    },
+    {
+      "check": "GET https://kevinlabs.app/guides.html 200",
+      "passed": true
+    },
+    {
+      "check": "https://kevinlabs.app/guides.html self/main canonical",
+      "passed": false
+    },
+    {
+      "check": "guides og:url",
+      "passed": false
+    },
+    {
+      "check": "GET https://kevinlabs.app/sitemap.xml 200",
+      "passed": true
+    },
+    {
+      "check": "https://kevinlabs.app/sitemap.xml valid XML",
+      "passed": true
+    },
+    {
+      "check": "https://kevinlabs.app/sitemap.xml same-host URLs",
+      "passed": true
+    },
+    {
+      "check": "old BarNest removed from sitemap",
+      "passed": false
+    },
+    {
+      "check": "GET https://support.kevinlabs.app/ 200",
+      "passed": true
+    },
+    {
+      "check": "https://support.kevinlabs.app/ self/main canonical",
+      "passed": true
+    },
+    {
+      "check": "GET https://support.kevinlabs.app/guides.html 200",
+      "passed": false
+    },
+    {
+      "check": "https://support.kevinlabs.app/guides.html self/main canonical",
+      "passed": false
+    },
+    {
+      "check": "GET https://support.kevinlabs.app/volmix/index.html 200",
+      "passed": false
+    },
+    {
+      "check": "https://support.kevinlabs.app/volmix/index.html self/main canonical",
+      "passed": false
+    },
+    {
+      "check": "GET https://smoothcast.kevinlabs.app/ 200",
+      "passed": true
+    },
+    {
+      "check": "https://smoothcast.kevinlabs.app/ self/main canonical",
+      "passed": true
+    },
+    {
+      "check": "https://smoothcast.kevinlabs.app/ social cards",
+      "passed": true
+    },
+    {
+      "check": "GET https://barnest.kevinlabs.app/ 200",
+      "passed": true
+    },
+    {
+      "check": "https://barnest.kevinlabs.app/ self/main canonical",
+      "passed": true
+    },
+    {
+      "check": "https://barnest.kevinlabs.app/ social cards",
+      "passed": true
+    },
+    {
+      "check": "GET https://barnest.kevinlabs.app/support 200",
+      "passed": true
+    },
+    {
+      "check": "https://barnest.kevinlabs.app/support self/main canonical",
+      "passed": true
+    },
+    {
+      "check": "GET https://barnest.kevinlabs.app/sitemap.xml 200",
+      "passed": true
+    },
+    {
+      "check": "https://barnest.kevinlabs.app/sitemap.xml valid XML",
+      "passed": true
+    },
+    {
+      "check": "https://barnest.kevinlabs.app/sitemap.xml same-host URLs",
+      "passed": true
+    },
+    {
+      "check": "GET https://barnest.kevinlabs.app/robots.txt 200",
+      "passed": true
+    },
+    {
+      "check": "https://barnest.kevinlabs.app/robots.txt sitemap declaration",
+      "passed": true
+    },
+    {
+      "check": "GET https://macpulse.kevinlabs.app/ 200",
+      "passed": true
+    },
+    {
+      "check": "https://macpulse.kevinlabs.app/ self/main canonical",
+      "passed": true
+    },
+    {
+      "check": "https://macpulse.kevinlabs.app/ eight locales+x-default",
+      "passed": true
+    },
+    {
+      "check": "https://macpulse.kevinlabs.app/ social cards",
+      "passed": true
+    },
+    {
+      "check": "GET https://macpulse.kevinlabs.app/en/ 200",
+      "passed": true
+    },
+    {
+      "check": "https://macpulse.kevinlabs.app/en/ self/main canonical",
+      "passed": true
+    },
+    {
+      "check": "https://macpulse.kevinlabs.app/en/ eight locales+x-default",
+      "passed": true
+    },
+    {
+      "check": "GET https://macpulse.kevinlabs.app/zh/ 200",
+      "passed": true
+    },
+    {
+      "check": "https://macpulse.kevinlabs.app/zh/ self/main canonical",
+      "passed": true
+    },
+    {
+      "check": "https://macpulse.kevinlabs.app/zh/ eight locales+x-default",
+      "passed": true
+    },
+    {
+      "check": "GET https://macpulse.kevinlabs.app/sitemap.xml 200",
+      "passed": true
+    },
+    {
+      "check": "https://macpulse.kevinlabs.app/sitemap.xml valid XML",
+      "passed": true
+    },
+    {
+      "check": "https://macpulse.kevinlabs.app/sitemap.xml same-host URLs",
+      "passed": true
+    },
+    {
+      "check": "GET https://macpulse.kevinlabs.app/robots.txt 200",
+      "passed": true
+    },
+    {
+      "check": "https://macpulse.kevinlabs.app/robots.txt sitemap declaration",
+      "passed": true
+    },
+    {
+      "check": "GET https://mindcharge.kevinlabs.app/ 200",
+      "passed": true
+    },
+    {
+      "check": "https://mindcharge.kevinlabs.app/ self/main canonical",
+      "passed": true
+    },
+    {
+      "check": "https://mindcharge.kevinlabs.app/ seven locales+x-default",
+      "passed": true
+    },
+    {
+      "check": "https://mindcharge.kevinlabs.app/ initial download enabled",
+      "passed": true
+    },
+    {
+      "check": "https://mindcharge.kevinlabs.app/ social cards",
+      "passed": true
+    },
+    {
+      "check": "GET https://mindcharge.kevinlabs.app/i18n/zh-Hans/index.html 200",
+      "passed": true
+    },
+    {
+      "check": "https://mindcharge.kevinlabs.app/i18n/zh-Hans/index.html self/main canonical",
+      "passed": true
+    },
+    {
+      "check": "https://mindcharge.kevinlabs.app/i18n/zh-Hans/index.html seven locales+x-default",
+      "passed": true
+    },
+    {
+      "check": "https://mindcharge.kevinlabs.app/i18n/zh-Hans/index.html initial download enabled",
+      "passed": true
+    },
+    {
+      "check": "GET https://mindcharge.kevinlabs.app/sitemap.xml 200",
+      "passed": true
+    },
+    {
+      "check": "https://mindcharge.kevinlabs.app/sitemap.xml valid XML",
+      "passed": true
+    },
+    {
+      "check": "https://mindcharge.kevinlabs.app/sitemap.xml same-host URLs",
+      "passed": true
+    },
+    {
+      "check": "GET https://nextmirror.kevinlabs.app/ 200",
+      "passed": true
+    },
+    {
+      "check": "https://nextmirror.kevinlabs.app/ self/main canonical",
+      "passed": true
+    },
+    {
+      "check": "https://nextmirror.kevinlabs.app/ social cards",
+      "passed": true
+    },
+    {
+      "check": "GET old BarNest 301",
+      "passed": true
+    },
+    {
+      "check": "HEAD old BarNest 301",
+      "passed": true
+    },
+    {
+      "check": "GET BarNest download 302",
+      "passed": true
+    },
+    {
+      "check": "HEAD BarNest download 302",
+      "passed": true
+    },
+    {
+      "check": "HEAD https://mindcharge.kevinlabs.app/download 200",
+      "passed": true
+    }
+  ]
+}

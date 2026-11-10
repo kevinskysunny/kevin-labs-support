@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-10",
+  "status": "deployed-and-verified",
+  "approvedSource": "afe1ec2e97d8efb30b758b5667e7650a5a29ad52",
+  "sites": [
+    {
+      "site": "portal",
+      "worker": "kevinlabs-brand-portal",
+      "source": "afe1ec2e97d8efb30b758b5667e7650a5a29ad52",
+      "beforeVersion": "22ec1327-0546-4390-a638-fc7a88b59598",
+      "version": "74a37b26-24aa-4175-be0d-c319db7e97fe"
+    },
+    {
+      "site": "smoothcast",
+      "worker": "smoothcast-sales",
+      "source": "1252658d5af4f4ee5cb09c30d3c6d746b562ead4",
+      "beforeVersion": "6a2f24e3-2c67-4f5b-99ae-183665386d32",
+      "version": "5b41ad1c-f6bf-4b00-a4a1-b0a62197f93e"
+    },
+    {
+      "site": "barnest",
+      "worker": "barnest-product-site",
+      "source": "9c56c02745554485b88c2646ed3e0f623829c7bf",
+      "beforeVersion": "4f45b5fa-10ab-463c-9073-a64d04eaa97d",
+      "version": "e425b388-6c21-48a5-bf2e-a968e11c30b8"
+    },
+    {
+      "site": "macpulse",
+      "worker": "macpulse-license",
+      "source": "d70507e9034fd2d921b8c208baa5b1c54c2c21fd",
+      "beforeVersion": "71728034-7625-4692-b399-b2122f54170f",
+      "version": "e5726eab-f543-499a-b5d7-1904b69ac0b0"
+    },
+    {
+      "site": "mindcharge",
+      "worker": "mindcharge-commerce-live",
+      "source": "c6f76fb958391c97fba51690eff31e36426e12fd",
+      "beforeVersion": "fa36f243-6ef6-4ded-a5ec-445e5df66bc9",
+      "version": "1af64457-508d-4b98-acef-3886170a5fc4"
+    },
+    {
+      "site": "nextmirror",
+      "worker": "nextmirror-commerce-live",
+      "source": "d8f04064a8c00bbeea609c6dbe4be9257a9823bc",
+      "beforeVersion": "e79882e8-32bf-4e25-8a4b-7357b5dcb324",
+      "version": "6f446b02-e1ec-4ae3-898c-740de7550140"
+    }
+  ],
+  "githubPages": {
+    "commit": "afe1ec2e97d8efb30b758b5667e7650a5a29ad52",
+    "error": null,
+    "status": "built"
+  },
+  "productionHttpChecks": 63,
+  "productionHttpFailures": 0,
+  "homepageLocaleViewportChecks": 18,
+  "productSiteViewportChecks": 10,
+  "existingConfigurationUnchanged": true,
+  "existingDistributionBinariesUnchanged": true,
+  "paymentsExecuted": false,
+  "externalPromotionPerformed": false
+}
