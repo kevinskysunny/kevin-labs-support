@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-10",
+  "status": "已上线验证，并经Grok线上只读复查",
+  "userApproved": true,
+  "sourceCommits": {
+    "NextMirror": "b64f8639b2e7bc8153100b981bbfc0677a329cab",
+    "kl-ibar": "2c40b097c359f9a10defdbd8f7d41e67afa6e290",
+    "smoothcast-site": "5c813ce6c838e7664cb579d81e5a1cb13b26994a",
+    "mindcharge": "e17f3c01fd588d983c23cdae11a8d6038d70f4de",
+    "portal": "b2e8b3604cb0469dd227260da596c86f913aad63",
+    "stats": "7406de9aac0a8b966c05f913a852c03e2839c619"
+  },
+  "workers": [
+    {
+      "site": "portal",
+      "worker": "kevinlabs-brand-portal",
+      "source": "b2e8b3604cb0469dd227260da596c86f913aad63",
+      "beforeVersion": "17af7d03-1509-4b59-815c-efe61175b59e",
+      "version": "17af7d03-1509-4b59-815c-efe61175b59e",
+      "workerUnchanged": true
+    },
+    {
+      "site": "smoothcast",
+      "worker": "smoothcast-sales",
+      "source": "5c813ce6c838e7664cb579d81e5a1cb13b26994a",
+      "beforeVersion": "3b1f0c64-0ac7-4429-a6f7-ed11e9c421c2",
+      "version": "06b0aa79-f100-4299-8831-4bfd4d42ad48"
+    },
+    {
+      "site": "barnest",
+      "worker": "barnest-product-site",
+      "source": "2c40b097c359f9a10defdbd8f7d41e67afa6e290",
+      "beforeVersion": "07b315e5-e8bc-4cfa-8861-eff5151171b2",
+      "version": "9bb07c8c-43c3-4110-864a-fcd2d170a84a"
+    },
+    {
+      "site": "mindcharge",
+      "worker": "mindcharge-commerce-live",
+      "source": "e17f3c01fd588d983c23cdae11a8d6038d70f4de",
+      "beforeVersion": "67672d4e-cc50-41f9-bc6f-3913600dec0f",
+      "version": "65f4adf7-9fd8-4aca-8450-67ecd6ac3eb1"
+    },
+    {
+      "site": "nextmirror",
+      "worker": "nextmirror-commerce-live",
+      "source": "b64f8639b2e7bc8153100b981bbfc0677a329cab",
+      "beforeVersion": "55e3eff0-77ee-4fb6-9d5d-058023428576",
+      "version": "d9c09503-c6d0-4f83-a2b1-aeeef1dd4b92"
+    }
+  ],
+  "githubPages": {
+    "source": "b2e8b3604cb0469dd227260da596c86f913aad63",
+    "status": "built"
+  },
+  "central": {
+    "source": "7406de9aac0a8b966c05f913a852c03e2839c619",
+    "runtimeVersion": "7406de9-202611101938",
+    "ciRun": "42808911009",
+    "ciStatus": "success",
+    "centralStaticPathRequiresLogin": true,
+    "anonymousStaticStatus": 307,
+    "publicIngestionMarkerChecksPassed": true
+  },
+  "httpChecks": 26,
+  "httpFailures": 0,
+  "productionCookiePages": 16,
+  "productionLayoutChecks": 32,
+  "analyticsMarkerChecks": [
+    {
+      "endpoint": "event",
+      "marker": "header",
+      "status": "204"
+    },
+    {
+      "endpoint": "event",
+      "marker": "ua-slash",
+      "status": "204"
+    },
+    {
+      "endpoint": "event",
+      "marker": "ua-containing",
+      "status": "204"
+    },
+    {
+      "endpoint": "server-event",
+      "marker": "header",
+      "status": "204"
+    },
+    {
+      "endpoint": "server-event",
+      "marker": "ua-slash",
+      "status": "204"
+    },
+    {
+      "endpoint": "server-event",
+      "marker": "ua-containing",
+      "status": "204"
+    }
+  ],
+  "configurationUnchanged": true,
+  "existingInstallerCount": 30,
+  "existingInstallerHashesUnchanged": true,
+  "grokOnlineReview": {
+    "completed": true,
+    "verified": [
+      "BarNest两域14天徽章与无七天残留",
+      "六份线上采集器1.1.1逻辑",
+      "NextMirror两页资源指纹及过期页脚清理",
+      "SmoothCast六页资源指纹"
+    ],
+    "limitation": "Grok的Cookie复核为线上源码读取，真实Chromium行为由Codex16页验证覆盖",
+    "mindchargeFingerprintQuestion": "Grok已接受独立复算结论：组合指纹设计，非缺陷；不新增修复或部署",
+    "finalAcknowledged": true
+  },
+  "paymentsExecuted": false,
+  "validSyntheticEventsPersisted": false,
+  "unchangedScope": [
+    "prices",
+    "Paddle",
+    "App versions",
+    "release manifests",
+    "MacPulse custom analytics scope",
+    "Cloudflare Web Analytics scope"
+  ],
+  "mindchargeCompositeFingerprint": {
+    "type": "composite sha256(site.css + source copy.json + site.js)",
+    "current": "3514e06efea1",
+    "previous": "9011225962c5",
+    "changesWhenScriptChanges": true,
+    "generatedReferencesMatch": true,
+    "individualFileHashesNotUsedByDesign": true
+  }
+}
