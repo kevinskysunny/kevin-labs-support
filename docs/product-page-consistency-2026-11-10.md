@@ -1,6 +1,6 @@
 # 产品页统一建议与NextMirror尾部小修
 
-日期2026-11-10。用户希望讨论以 https://macpulse.kevinlabs.app/ 为参照统一各App页面。本轮对MacPulse、NextMirror、SmoothCast、BarNest Pro和MindCharge的公开首屏及尾部做了只读浏览器对照。本文的整体统一方案是建议，尚未实施，也不等于全站改版授权。
+日期2026-11-10。用户希望讨论以 https://macpulse.kevinlabs.app/ 为参照统一各App页面。本轮对MacPulse、NextMirror、SmoothCast、BarNest Pro和MindCharge的公开首屏及尾部做了只读浏览器对照。用户随后已明确授权：先发布两项小修，再推进完整优化。整体优化目前进入结构梳理，下一步以NextMirror实施样板后扩展其它产品；新优化版本仍须先审核diff再发布。
 
 ## 判断
 
@@ -20,7 +20,7 @@
 
 代码落点：MacPulse使用server/src/landing.js与i18n.js的服务端页面，NextMirror使用website/public HTML/CSS，SmoothCast使用site与worker生成器，MindCharge使用website构建器。优先用一致的组件规格和样式变量落到各自现有来源，不为统一外观引入新的跨仓库框架或更改服务契约。
 
-## 本轮已执行的NextMirror尾部去重（已修待上线）
+## 本轮已执行的NextMirror尾部去重（已上线验证）
 
 用户另外明确指出页尾重复，本轮做最小修正：
 
@@ -32,4 +32,4 @@
 
 本轮没有将NextMirror完整重构成MacPulse风格，仅完成用户已指出的尾部重复；其他产品页未修改。修后本地预览：官网仓库output/playwright/nextmirror-footer-1280.png、nextmirror-footer-390.png。五站公开页面对照在output/playwright/product-ui-comparison.png（只供本次设计评审）。
 
-本轮改动只提交审核，尚未上线。
+用户批准后，尾部去重已上线（NextMirror来源e51f4ef，Worker版本见product-page-polish-release-2026-11-10.json）；生产GET200、正文重复链接已删除、页脚仅一个完整政策入口，隐私披露保留。完整统一优化继续在审核版本实施。

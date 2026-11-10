@@ -1,6 +1,6 @@
-# BarNest 商店版 canonical 修正：已修待上线
+# BarNest 商店版 canonical 修正：已上线验证
 
-用户已确认主域及support域的App Store版介绍页统一标记 `https://kevinlabs.app/barnest/` 为主地址。现网仍是上一批发布；本轮按既有要求先提交diff供审核，未更新生产main、未部署。
+用户已确认主域及support域的App Store版介绍页统一标记 `https://kevinlabs.app/barnest/` 为主地址。用户于2026-11-10批准上线，现已发布到生产main cd86e5b，Pages构建成功；四个商店介绍页HTTP200、canonical均为主域/barnest/，Pro仍自引用。
 
 ## Diff摘要
 
@@ -22,4 +22,4 @@
 - https://support.kevinlabs.app/barnest/
 - https://support.kevinlabs.app/barnest/index.html
 
-另检查 https://barnest.kevinlabs.app/ 仍自引用Pro地址，主站sitemap保留商店版营销/支持/隐私三类URL。当前仅本地验证，不写成线上已生效。
+另检查 https://barnest.kevinlabs.app/ 仍自引用Pro地址，主站sitemap保留商店版营销/支持/隐私三类URL。上述生产检查已执行且全部通过，记录见product-page-polish-release-2026-11-10.json。

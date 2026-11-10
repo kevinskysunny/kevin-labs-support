@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-10",
+  "status": "已上线验证",
+  "mainSource": "cd86e5bb3c9f69ac6280821acb78b667d987f7c4",
+  "nextmirrorSource": "e51f4ef174056175857b029d39e5c664183393f3",
+  "workers": [
+    {
+      "site": "nextmirror",
+      "worker": "nextmirror-commerce-live",
+      "source": "e51f4ef174056175857b029d39e5c664183393f3",
+      "beforeVersion": "fbbf31bb-37c0-45b3-beaf-8113f844c34b",
+      "version": "a94bb843-14ca-49ab-b8ec-53161cdbf210"
+    }
+  ],
+  "githubPages": {
+    "commit": "cd86e5bb3c9f69ac6280821acb78b667d987f7c4",
+    "status": "built"
+  },
+  "checks": [
+    {
+      "url": "https://kevinlabs.app/barnest/",
+      "status": "200",
+      "passed": true
+    },
+    {
+      "url": "https://kevinlabs.app/barnest/index.html",
+      "status": "200",
+      "passed": true
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/",
+      "status": "200",
+      "passed": true
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/index.html",
+      "status": "200",
+      "passed": true
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/",
+      "status": "200",
+      "passed": true
+    },
+    {
+      "url": "https://kevinlabs.app/sitemap.xml",
+      "status": "200",
+      "passed": true
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/",
+      "status": "200",
+      "passed": true
+    }
+  ],
+  "nextmirrorConfigurationUnchanged": true,
+  "fullOptimizationAuthorized": true,
+  "fullOptimizationDeploymentRequiresReview": true
+}
