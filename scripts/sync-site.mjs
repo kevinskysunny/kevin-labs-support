@@ -14,6 +14,16 @@ function walk(dir) {
     else if (item.name.endsWith('.html')) {
       const before = fs.readFileSync(file, 'utf8');
       let after = before;
+      if (!/rel="canonical"/.test(after) && /<head[ >]/.test(after)) {
+        const relative = path.relative(root.pathname, file).split(path.sep).join('/');
+        after = after.replace('</head>', `<link rel="canonical" href="${canonicalOrigin}/${relative === 'index.html' ? '' : relative}"/></head>`);
+      }
+      if (/<head[ >]/.test(after) && !/name="twitter:card"/.test(after)) {
+        const title = after.match(/<title>([\s\S]*?)<\/title>/)?.[1] || 'Kevin Labs';
+        const imageTag = after.match(/<meta[^>]*property="og:image"[^>]*>/)?.[0];
+        const image = imageTag?.match(/content="([^"]+)"/)?.[1] || `${canonicalOrigin}/assets/logo.png`;
+        after = after.replace('</head>', `<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="${title}"/><meta name="twitter:image" content="${image}"/></head>`);
+      }
       // Canonical metadata follows the public brand portal; operational legacy links remain valid.
       after = after.replace(/<link\b[^>]*rel="canonical"[^>]*>|<meta\b[^>]*(?:property="og:(?:url|image)"|name="twitter:image")[^>]*>/g,
         tag => tag.replaceAll('https://support.kevinlabs.app', canonicalOrigin));

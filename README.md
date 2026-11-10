@@ -27,7 +27,7 @@ python3 -m http.server 18765 --bind 127.0.0.1
 - `content/product-details.json`：兼容旧API的能力细节；`sync-products.mjs`从index.json派生旧`assets/products.json`中的版本、简介及链接，避免双写。
 - `sync-site.mjs`：共享资源SHA-256指纹与内部网站版本同步；不改产品版本。
 
-先修改来源再执行构建，不直接编辑生成区。首页按上午确认的NextMirror主角Bento组织，另列五款工具；BarNest商店版不再在目录推广，既有支持/隐私直达地址保留；DOM、视觉与键盘顺序一致。
+先修改来源再执行构建，不直接编辑生成区。首页以 NextMirror 为首，优先展示五款直销产品及下载/购买入口，另列四款工具；BarNest商店版不再在目录推广，既有支持/隐私直达地址保留；DOM、视觉与键盘顺序一致。
 
 ## 样式与跨端约束
 

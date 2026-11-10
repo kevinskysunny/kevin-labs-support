@@ -12,14 +12,14 @@ test('SmoothCast catalog uses current app version and localized summaries',()=>{
 });
 test('manual and automatic language preferences survive product links',()=>{
  for(const preference of ['system','en','zh','ja','ko','de','fr','es','pt']){
-  const link={href:'https://smoothcast.kevinlabs.app/',getAttribute(){return this.href}};
+  const link={href:'https://smoothcast.kevinlabs.app/',getAttribute(){return this.href},hasAttribute(){return false}};
   const select={options:[{textContent:''},...['en','zh','ja','ko','de','fr','es','pt'].map(value=>({value}))],addEventListener(){},setAttribute(){}};
   const context=vm.createContext({URL,URLSearchParams,setTimeout,clearTimeout,
    location:{href:'https://support.kevinlabs.app/',search:''},navigator:{languages:['en-US']},
    localStorage:{getItem:key=>key==='ksicSupportLanguage'?preference:null},window:{addEventListener(){}},
    document:{documentElement:{},querySelector:s=>s==='#language'?select:s.includes('h1')?{textContent:'Kevin Labs'}:s.startsWith('main section')?{querySelector:()=>null}:null,querySelectorAll:s=>s==='a[href]'?[link]:[],addEventListener(){}}});
   vm.runInContext(read('assets/site.js'),context);
-  assert.equal(new URL(link.href).searchParams.get('lang'),preference);
+  assert.equal(new URL(link.href).searchParams.has('lang'),false);
  }
 });
 test('legacy privacy route points to the live product policy',()=>{
@@ -27,12 +27,12 @@ test('legacy privacy route points to the live product policy',()=>{
   const html=read(path);assert.match(html,/rel="canonical"/);assert.match(html,/smoothcast-redirect.js/);
  }
  const source=read('assets/smoothcast-redirect.js');assert.match(source,/location.replace/);assert.match(source,/ksicSupportLanguage/);
- assert.equal((read('index.html').match(/smoothcast.kevinlabs.app\/support/g)||[]).length,8);
+ assert.equal((read('guides.html').match(/smoothcast.kevinlabs.app/g)||[]).length,8);
 });
 
 test('MacPulse carries explicit language or Auto through its persistent language endpoint',()=>{
  for(const preference of ['system','en','zh','ja','ko','de','fr','es','pt']){
-  const link={href:'https://macpulse.kevinlabs.app/lang/en?to=support',getAttribute(){return this.href}};
+  const link={href:'https://macpulse.kevinlabs.app/lang/en?to=support',getAttribute(){return this.href},hasAttribute(){return false}};
   const select={options:[{textContent:''},...['en','zh','ja','ko','de','fr','es','pt'].map(value=>({value}))],addEventListener(){},setAttribute(){}};
   const context=vm.createContext({URL,URLSearchParams,setTimeout,clearTimeout,
    location:{href:'https://support.kevinlabs.app/',search:''},navigator:{languages:['en-US']},

@@ -1,0 +1,206 @@
+[
+  {
+    "url": "https://kevinlabs.app/",
+    "status": "200",
+    "error": "",
+    "title": [
+      "Kevin Labs — Official Support &amp; Guides for Mac Apps"
+    ],
+    "metadata": [
+      "<link href=\"https://kevinlabs.app/\" rel=\"canonical\"/>",
+      "<meta content=\"website\" property=\"og:type\"/>",
+      "<meta content=\"Kevin Labs — Official Support &amp; Guides for Mac Apps\" property=\"og:title\"/>",
+      "<meta content=\"Official support, setup guides, and FAQs for Kevin Labs macOS apps — including VolMix (macOS per-app volume mixer), SmoothCast, and native utilities.\" property=\"og:description\"/>",
+      "<meta content=\"https://kevinlabs.app/\" property=\"og:url\"/>",
+      "<meta content=\"https://kevinlabs.app/assets/logo.png\" property=\"og:image\"/>",
+      "<meta content=\"summary\" name=\"twitter:card\"/>",
+      "<meta content=\"Kevin Labs — Official Support &amp; Guides for Mac Apps\" name=\"twitter:title\"/>",
+      "<meta content=\"Official support, setup guides, and FAQs for Kevin Labs macOS apps — including VolMix (macOS per-app volume mixer), SmoothCast, and native utilities.\" name=\"twitter:description\"/>",
+      "<meta content=\"https://kevinlabs.app/assets/logo.png\" name=\"twitter:image\"/>"
+    ]
+  },
+  {
+    "url": "https://kevinlabs.app/guides.html",
+    "status": "200",
+    "error": "",
+    "title": [
+      "Support &amp; guides | Kevin Labs"
+    ],
+    "metadata": [
+      "<link href=\"https://kevinlabs.app/\" rel=\"canonical\"/>",
+      "<meta content=\"website\" property=\"og:type\"/>",
+      "<meta content=\"Kevin Labs — Official Support &amp; Guides for Mac Apps\" property=\"og:title\"/>",
+      "<meta content=\"Official support, setup guides, and FAQs for Kevin Labs macOS apps — including VolMix (macOS per-app volume mixer), SmoothCast, and native utilities.\" property=\"og:description\"/>",
+      "<meta content=\"https://kevinlabs.app/\" property=\"og:url\"/>",
+      "<meta content=\"https://kevinlabs.app/assets/logo.png\" property=\"og:image\"/>",
+      "<meta content=\"summary\" name=\"twitter:card\"/>",
+      "<meta content=\"Kevin Labs — Official Support &amp; Guides for Mac Apps\" name=\"twitter:title\"/>",
+      "<meta content=\"Official support, setup guides, and FAQs for Kevin Labs macOS apps — including VolMix (macOS per-app volume mixer), SmoothCast, and native utilities.\" name=\"twitter:description\"/>",
+      "<meta content=\"https://kevinlabs.app/assets/logo.png\" name=\"twitter:image\"/>"
+    ]
+  },
+  {
+    "url": "https://kevinlabs.app/barnest/index.html",
+    "status": "200",
+    "error": "",
+    "title": [
+      "BarNest — Menu Bar Organizer &amp; Support"
+    ],
+    "metadata": [
+      "<link href=\"https://kevinlabs.app/barnest/index.html\" rel=\"canonical\"/>",
+      "<meta content=\"https://kevinlabs.app/assets/barnest-icon.png\" property=\"og:image\"/>"
+    ]
+  },
+  {
+    "url": "https://kevinlabs.app/sitemap.xml",
+    "status": "200",
+    "error": "",
+    "title": [],
+    "metadata": []
+  },
+  {
+    "url": "https://support.kevinlabs.app/",
+    "status": "200",
+    "error": "",
+    "title": [
+      "Kevin Labs — Official Support &amp; Guides for Mac Apps"
+    ],
+    "metadata": [
+      "<link href=\"https://kevinlabs.app/\" rel=\"canonical\"/>",
+      "<meta content=\"website\" property=\"og:type\"/>",
+      "<meta content=\"Kevin Labs — Official Support &amp; Guides for Mac Apps\" property=\"og:title\"/>",
+      "<meta content=\"Official support, setup guides, and FAQs for Kevin Labs macOS apps — including VolMix (macOS per-app volume mixer), SmoothCast, and native utilities.\" property=\"og:description\"/>",
+      "<meta content=\"https://kevinlabs.app/\" property=\"og:url\"/>",
+      "<meta content=\"https://kevinlabs.app/assets/logo.png\" property=\"og:image\"/>",
+      "<meta content=\"summary\" name=\"twitter:card\"/>",
+      "<meta content=\"Kevin Labs — Official Support &amp; Guides for Mac Apps\" name=\"twitter:title\"/>",
+      "<meta content=\"Official support, setup guides, and FAQs for Kevin Labs macOS apps — including VolMix (macOS per-app volume mixer), SmoothCast, and native utilities.\" name=\"twitter:description\"/>",
+      "<meta content=\"https://kevinlabs.app/assets/logo.png\" name=\"twitter:image\"/>"
+    ]
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/",
+    "status": "200",
+    "error": "",
+    "title": [
+      "SmoothCast - 电影级平滑运镜录屏与分步教程工坊 | Cinematic Screen Recording for macOS"
+    ],
+    "metadata": []
+  },
+  {
+    "url": "https://smoothcast.kevinlabs.app/en/",
+    "status": "404",
+    "error": "",
+    "title": [],
+    "metadata": []
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/",
+    "status": "200",
+    "error": "",
+    "title": [
+      "BarNest Pro — Menu bar, in order."
+    ],
+    "metadata": []
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/sitemap.xml",
+    "status": "404",
+    "error": "",
+    "title": [],
+    "metadata": []
+  },
+  {
+    "url": "https://barnest.kevinlabs.app/robots.txt",
+    "status": "200",
+    "error": "",
+    "title": [],
+    "metadata": []
+  },
+  {
+    "url": "https://macpulse.kevinlabs.app/",
+    "status": "200",
+    "error": "",
+    "title": [
+      "MacPulse — Find out why your Mac is slow and inspect it at once"
+    ],
+    "metadata": [
+      "<link rel=\"alternate\" hreflang=\"en\" href=\"https://macpulse.kevinlabs.app/en/\">",
+      "<link rel=\"alternate\" hreflang=\"zh-Hans\" href=\"https://macpulse.kevinlabs.app/zh/\">",
+      "<link rel=\"alternate\" hreflang=\"ja\" href=\"https://macpulse.kevinlabs.app/ja/\">",
+      "<link rel=\"alternate\" hreflang=\"ko\" href=\"https://macpulse.kevinlabs.app/ko/\">",
+      "<link rel=\"alternate\" hreflang=\"de\" href=\"https://macpulse.kevinlabs.app/de/\">",
+      "<link rel=\"alternate\" hreflang=\"fr\" href=\"https://macpulse.kevinlabs.app/fr/\">",
+      "<link rel=\"alternate\" hreflang=\"es\" href=\"https://macpulse.kevinlabs.app/es/\">",
+      "<link rel=\"alternate\" hreflang=\"pt\" href=\"https://macpulse.kevinlabs.app/pt/\">",
+      "<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://macpulse.kevinlabs.app/\">",
+      "<meta property=\"og:title\" content=\"MacPulse — Find out why your Mac is slow and inspect it at once\">",
+      "<meta property=\"og:description\" content=\"MacPulse explains in plain words why your Mac is slow and which app caused it, helping you inspect and resolve lag safely. Monitoring is free forever, runs locally and uploads nothing.\">",
+      "<meta property=\"og:locale\" content=\"en_US\">"
+    ]
+  },
+  {
+    "url": "https://macpulse.kevinlabs.app/en/",
+    "status": "200",
+    "error": "",
+    "title": [
+      "MacPulse — Find out why your Mac is slow and inspect it at once"
+    ],
+    "metadata": [
+      "<link rel=\"canonical\" href=\"https://macpulse.kevinlabs.app/en/\">",
+      "<link rel=\"alternate\" hreflang=\"en\" href=\"https://macpulse.kevinlabs.app/en/\">",
+      "<link rel=\"alternate\" hreflang=\"zh-Hans\" href=\"https://macpulse.kevinlabs.app/zh/\">",
+      "<link rel=\"alternate\" hreflang=\"ja\" href=\"https://macpulse.kevinlabs.app/ja/\">",
+      "<link rel=\"alternate\" hreflang=\"ko\" href=\"https://macpulse.kevinlabs.app/ko/\">",
+      "<link rel=\"alternate\" hreflang=\"de\" href=\"https://macpulse.kevinlabs.app/de/\">",
+      "<link rel=\"alternate\" hreflang=\"fr\" href=\"https://macpulse.kevinlabs.app/fr/\">",
+      "<link rel=\"alternate\" hreflang=\"es\" href=\"https://macpulse.kevinlabs.app/es/\">",
+      "<link rel=\"alternate\" hreflang=\"pt\" href=\"https://macpulse.kevinlabs.app/pt/\">",
+      "<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://macpulse.kevinlabs.app/\">",
+      "<meta property=\"og:title\" content=\"MacPulse — Find out why your Mac is slow and inspect it at once\">",
+      "<meta property=\"og:description\" content=\"MacPulse explains in plain words why your Mac is slow and which app caused it, helping you inspect and resolve lag safely. Monitoring is free forever, runs locally and uploads nothing.\">",
+      "<meta property=\"og:locale\" content=\"en_US\">"
+    ]
+  },
+  {
+    "url": "https://macpulse.kevinlabs.app/sitemap.xml",
+    "status": "404",
+    "error": "",
+    "title": [],
+    "metadata": []
+  },
+  {
+    "url": "https://macpulse.kevinlabs.app/robots.txt",
+    "status": "200",
+    "error": "",
+    "title": [],
+    "metadata": []
+  },
+  {
+    "url": "https://mindcharge.kevinlabs.app/",
+    "status": "200",
+    "error": "",
+    "title": [
+      "Make room for what feels worth it. — MindCharge · Kevin Labs"
+    ],
+    "metadata": [
+      "<link rel=\"canonical\" href=\"https://mindcharge.kevinlabs.app/\">",
+      "<meta property=\"og:title\" content=\"Make room for what feels worth it. — MindCharge · Kevin Labs\">",
+      "<meta property=\"og:description\" content=\"Your subscriptions, your moods, a little room to think. MindCharge helps you review recurring spending without losing sight of how you feel.\">",
+      "<meta property=\"og:image\" content=\"https://mindcharge.kevinlabs.app/assets/product.svg\">"
+    ]
+  },
+  {
+    "url": "https://nextmirror.kevinlabs.app/",
+    "status": "200",
+    "error": "",
+    "title": [
+      "NextMirror — Kevin Labs"
+    ],
+    "metadata": [
+      "<link href=\"https://nextmirror.kevinlabs.app/\" rel=\"canonical\"/>",
+      "<meta content=\"NextMirror — HarmonyOS on your Mac\" property=\"og:title\"/>",
+      "<meta content=\"https://nextmirror.kevinlabs.app/assets/nextmirror-icon.png\" property=\"og:image\"/>"
+    ]
+  }
+]

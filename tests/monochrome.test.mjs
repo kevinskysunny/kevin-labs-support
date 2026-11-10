@@ -49,8 +49,8 @@ test('homepage preserves the confirmed flagship order and six utility products w
  for(const [,lang,section] of sections){
   const featured=[...section.matchAll(/class="product-card" data-product="([^"]+)"/g)].map(x=>x[1]);
   const others=[...section.matchAll(/class="tool-card" data-product="([^"]+)"/g)].map(x=>x[1]);
-  assert.deepEqual(featured,['volmix','macpulse','barnest-pro'],lang);
-  assert.deepEqual(others,['nextmirror','mindcharge','smoothcast','presenter-deck','netdoctor','ksic-studio'],lang);
+  assert.deepEqual(featured,['nextmirror','smoothcast','barnest-pro','mindcharge','macpulse'],lang);
+  assert.deepEqual(others,['volmix','presenter-deck','netdoctor','ksic-studio'],lang);
   assert.equal(new Set([...featured,...others]).size,9);
   assert.doesNotMatch(section,/href="barnest\/|src="assets\/barnest-icon.png"|legacy-support/);
  }
@@ -80,7 +80,7 @@ test('support directory offers all nine apps with real icons in every language',
    assert.equal(rows.filter(row=>row.includes('<strong>'+app+'</strong>')).length,1,lang+' '+app);
   }
   for(const row of rows) assert.match(row,/<img[^>]*src="assets\/[^" ]+-icon\.png"/,lang);
-  assert.match(section,new RegExp('nextmirror\\.kevinlabs\\.app/\\?lang='+lang+'#support-'+lang));
+  assert.match(section,new RegExp('nextmirror\\.kevinlabs\\.app/#support-'+lang));
  }
 });
 

@@ -26,3 +26,10 @@ test('download streams, partial status and validators are preserved, HEAD has no
  assert.equal(r.status,206);assert.equal(r.headers.get('content-range'),'bytes 0-3/100');assert.equal(r.headers.get('etag'),'abc');assert.equal(await r.text(),'part');
  const h=await handlePortal(new Request('https://kevinlabs.app/',{method:'HEAD'}),async()=>new Response(null,{headers:{'content-type':'text/html'}}));assert.equal(await h.text(),'');
 });
+
+test('legacy BarNest landing permanently redirects before fetching the content origin', async()=>{
+ for (const path of ['/barnest','/barnest/','/barnest/index.html']) for (const method of ['GET','HEAD']) {
+  const r=await handlePortal(new Request('https://kevinlabs.app'+path,{method}),()=>{throw Error('origin must not be fetched')});
+  assert.equal(r.status,301);assert.equal(r.headers.get('location'),'https://barnest.kevinlabs.app/');
+ }
+});

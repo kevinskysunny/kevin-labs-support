@@ -217,7 +217,7 @@
     if (allowed.includes(saved)) preference = saved;
   } catch (_) {}
   const requested = new URLSearchParams(location.search).get('lang');
-  if (allowed.includes(requested)) preference = requested;
+  if (allowed.includes(requested)) { preference = requested; try { localStorage.setItem(key, preference); } catch (_) {} }
   function resolveLang() {
     if (preference !== 'system') return preference;
     for (const candidate of navigator.languages || [navigator.language || 'en']) {
@@ -360,6 +360,7 @@
     document.querySelectorAll('[data-lang]').forEach(node => { node.hidden = node.dataset.lang !== lang; });
     for (const link of document.querySelectorAll('a[href]')) {
       const destination = new URL(link.getAttribute('href'), location.href);
+      if (link.hasAttribute('data-direct-action')) continue;
       if (!['http:','https:'].includes(destination.protocol)) continue;
       const sameOrigin = destination.origin === location.origin;
       if (sameOrigin && destination.pathname === location.pathname && destination.hash) continue;
@@ -374,7 +375,8 @@
         }
         // MindCharge currently supports six manual languages. Preserve auto mode.
         const productLanguage = { system:'system', en:'en', zh:'zh-Hans', ja:'ja', de:'de', fr:'fr', es:'es' };
-        destination.searchParams.set('lang', destination.hostname === 'mindcharge.kevinlabs.app' ? productLanguage[preference] || 'en' : preference);
+        destination.searchParams.delete('lang');
+        if (destination.hostname === 'mindcharge.kevinlabs.app' && destination.pathname === '/' && preference !== 'system') destination.pathname = '/i18n/' + (productLanguage[preference] || 'en') + '/index.html';
         link.href = destination.href;
         if (destination.hostname === 'mindcharge.kevinlabs.app') {
           let note = link.querySelector('.link-language-note');

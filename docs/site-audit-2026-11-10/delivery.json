@@ -1,0 +1,104 @@
+[
+  {
+    "repo": "smoothcast-site",
+    "path": "/Users/kevinsmith/Person/project/07-apps-experiments/smoothcast-site",
+    "base": "5cd5f6491d170f4ed6ff26c28f785761a38a27d9",
+    "branch": "codex/website-audit-2026-11-10",
+    "commit": "1252658d5af4f4ee5cb09c30d3c6d746b562ead4",
+    "files": [
+      "package-lock.json",
+      "package.json",
+      "scripts/site.test.mjs",
+      "site/assets/js/legal.js",
+      "site/index.html"
+    ]
+  },
+  {
+    "repo": "kl-ibar",
+    "path": "/Users/kevinsmith/Person/project/07-apps-experiments/kl-ibar",
+    "base": "ab4421d2677d5deb426c1fe110f780a5867bd5e1",
+    "branch": "codex/website-audit-2026-11-10",
+    "commit": "9c56c02745554485b88c2646ed3e0f623829c7bf",
+    "files": [
+      "website/package.json",
+      "website/public/assets/site.js",
+      "website/public/index.html",
+      "website/worker.mjs",
+      "website/public/robots.txt",
+      "website/public/sitemap.xml",
+      "website/test/seo.test.mjs"
+    ]
+  },
+  {
+    "repo": "kl-macpulse",
+    "path": "/Users/kevinsmith/Person/project/07-apps-experiments/kl-macpulse",
+    "base": "6d9ee2644e837dc868ca43b7ee5b2cc1152124d1",
+    "branch": "codex/website-audit-2026-11-10",
+    "commit": "d70507e9034fd2d921b8c208baa5b1c54c2c21fd",
+    "files": [
+      "server/package-lock.json",
+      "server/package.json",
+      "server/src/i18n.js",
+      "server/src/index.js",
+      "server/src/landing.js",
+      "server/test/pages.test.mjs"
+    ]
+  },
+  {
+    "repo": "mindcharge",
+    "path": "/Users/kevinsmith/Person/project/07-apps-experiments/mindcharge",
+    "base": "1c9d8cd46a1e7f8b957df776aad7a9909a58755c",
+    "branch": "codex/website-audit-2026-11-10",
+    "commit": "c6f76fb958391c97fba51690eff31e36426e12fd",
+    "files": [
+      "scripts/build_website.py",
+      "website/public/assets/site.js",
+      "website/public/buy.html",
+      "website/public/buy/index.html",
+      "website/public/i18n/de/buy.html",
+      "website/public/i18n/de/index.html",
+      "website/public/i18n/de/legal.html",
+      "website/public/i18n/de/restore.html",
+      "website/public/i18n/en/buy.html",
+      "website/public/i18n/en/index.html",
+      "website/public/i18n/en/legal.html",
+      "website/public/i18n/en/restore.html",
+      "website/public/i18n/es/buy.html",
+      "website/public/i18n/es/index.html",
+      "website/public/i18n/es/legal.html",
+      "website/public/i18n/es/restore.html",
+      "website/public/i18n/fr/buy.html",
+      "website/public/i18n/fr/index.html",
+      "website/public/i18n/fr/legal.html",
+      "website/public/i18n/fr/restore.html",
+      "website/public/i18n/ja/buy.html",
+      "website/public/i18n/ja/index.html",
+      "website/public/i18n/ja/legal.html",
+      "website/public/i18n/ja/restore.html",
+      "website/public/i18n/zh-Hans/buy.html",
+      "website/public/i18n/zh-Hans/index.html",
+      "website/public/i18n/zh-Hans/legal.html",
+      "website/public/i18n/zh-Hans/restore.html",
+      "website/public/i18n/zh-Hant/buy.html",
+      "website/public/i18n/zh-Hant/index.html",
+      "website/public/i18n/zh-Hant/legal.html",
+      "website/public/i18n/zh-Hant/restore.html",
+      "website/public/index.html",
+      "website/public/legal.html",
+      "website/public/restore.html",
+      "website/public/sitemap.xml",
+      "website/site-version.json"
+    ]
+  },
+  {
+    "repo": "NextMirror",
+    "path": "/Users/kevinsmith/Person/project/07-apps-experiments/NextMirror",
+    "base": "99265dc76a816ada5c3de7f9d13a88b799eb97de",
+    "branch": "codex/website-audit-2026-11-10",
+    "commit": "d8f04064a8c00bbeea609c6dbe4be9257a9823bc",
+    "files": [
+      "website/public/assets/site.js",
+      "website/public/index.html"
+    ]
+  }
+]
