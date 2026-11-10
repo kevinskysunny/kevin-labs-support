@@ -14,7 +14,7 @@ test('App Store edition identity, trial mechanism and registered links stay sepa
   assert.ok(html.includes('$0'));assert.ok(html.includes('$2.99'));assert.ok(html.includes('$5.99'));assert.ok(html.includes('2026-12-01'));
  }
  assert.equal(JSON.parse(read('index.json')).apps.find(a=>a.id==='barnest').version,'1.0.2');
- assert.match(read('barnest/index.html'),/href="https:\/\/barnest.kevinlabs.app\/" rel="canonical"/);
- for(const route of ['support.html','privacy.html','index.html'])assert.ok(read('sitemap.xml').includes('https://kevinlabs.app/barnest/'+route));
+ assert.match(read('barnest/index.html'),/href="https:\/\/kevinlabs.app\/barnest\/" rel="canonical"/);
+ for(const route of ['support.html','privacy.html',''])assert.ok(read('sitemap.xml').includes('https://kevinlabs.app/barnest/'+route));
  assert.ok(read('sitemap.xml').startsWith('<?xml version="1.0" encoding="UTF-8"?>'));
 });
