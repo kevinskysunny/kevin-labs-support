@@ -429,14 +429,21 @@
   render();
 })();
 
-/* Kevin Labs website analytics v1.0.1. No cookies or persistent browser identifier. */
+/* Kevin Labs website analytics v1.1.0. Only an explicit test-exclusion cookie; no visitor identifier. */
 (()=>{
  if(typeof window==='undefined'||typeof document==='undefined'||typeof navigator==='undefined'||typeof document.addEventListener!=='function')return;
+ const testQuery=new URLSearchParams(location.search).get('kl_test')==='1';
+ if(testQuery){try{
+  const domain=location.hostname==='kevinlabs.app'||location.hostname.endsWith('.kevinlabs.app')?'; Domain=kevinlabs.app':'';
+  document.cookie='kl_test=1; Path=/; Max-Age=31536000; SameSite=Lax'+domain+(location.protocol==='https:'?'; Secure':'');
+ }catch{}}
+ const isTest=()=>testQuery||/(?:^|;\s*)kl_test=1(?:;|$)/.test(document.cookie||'');
+ if(isTest())return;
  if(window.__kevinProductAnalytics)return;window.__kevinProductAnalytics=true;
  if(navigator.doNotTrack==='1'||navigator.globalPrivacyControl)return;
  const endpoint='https://www.ks-sic.com/api/product-analytics/event';
  const fields=()=>{const q=new URLSearchParams(location.search),clean=v=>/^[a-zA-Z0-9_.-]{1,64}$/.test(v||'')?v:'';return{source:clean(q.get('utm_source')),campaign:clean(q.get('utm_campaign'))}};
- const send=event=>{const body=JSON.stringify({event,path:location.pathname,marketing:fields()});try{if(navigator.sendBeacon&&navigator.sendBeacon(endpoint,body))return;fetch(endpoint,{method:'POST',body,keepalive:true,credentials:'omit'}).catch(()=>{})}catch{}};
+ const send=event=>{if(isTest())return;const body=JSON.stringify({event,path:location.pathname,marketing:fields()});try{if(navigator.sendBeacon&&navigator.sendBeacon(endpoint,body))return;fetch(endpoint,{method:'POST',body,keepalive:true,credentials:'omit'}).catch(()=>{})}catch{}};
  if(document.prerendering){document.addEventListener('prerenderingchange',()=>send('page'),{once:true})}else send('page');
  document.addEventListener('click',event=>{const link=event.target.closest?.('a[href]');if(!link)return;let url;try{url=new URL(link.href,location.href)}catch{return}
  if(url.origin===location.origin||['kevinlabs.app','support.kevinlabs.app','nextmirror.kevinlabs.app','smoothcast.kevinlabs.app','barnest.kevinlabs.app','mindcharge.kevinlabs.app','macpulse.kevinlabs.app'].includes(url.hostname)){const tags=fields();if(tags.source)url.searchParams.set('utm_source',tags.source);if(tags.campaign)url.searchParams.set('utm_campaign',tags.campaign);link.href=url.href}
