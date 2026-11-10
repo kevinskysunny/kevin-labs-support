@@ -4,7 +4,7 @@
 
 ## 最新范围调整（2026-11-10，用户确认）
 
-用户最终选择保留原首页视觉：上方 VolMix 图文大卡片、MacPulse、BarNest Pro，下方 NextMirror、PresenterDeck、SmoothCast、MindCharge、NetDoctor、KSIC Studio，共上 3 下 6。用户随后按图确认仅对调下方 MindCharge 与 PresenterDeck，已同步八语。不对调 VolMix/MindCharge，不新增 NextMirror 图片，不给首页增添按钮。下文原首页重排方案已撤回；产品导向 title/description、下载与 SEO/路由修复保留。MindCharge 将来上架 Apple 商店是用户计划，不代表当前已上架，不新增商店地址。
+用户最终选择保留原首页视觉：上方 VolMix 图文大卡片、MacPulse、BarNest Pro，下方 NextMirror、SmoothCast、PresenterDeck、MindCharge、NetDoctor、KSIC Studio，共上 3 下 6。用户随后按图先对调下方 MindCharge 与 PresenterDeck，再对调 PresenterDeck 与 SmoothCast，最终顺序已同步八语。不对调 VolMix/MindCharge，不新增 NextMirror 图片，不给首页增添按钮。下文原首页重排方案已撤回；产品导向 title/description、下载与 SEO/路由修复保留。MindCharge 将来上架 Apple 商店是用户计划，不代表当前已上架，不新增商店地址。
 
 ## 逐条结论
 
@@ -30,7 +30,7 @@ Search Console 当前告警、Lighthouse 分数、目录实际收录和 NextMirr
 
 ## Diff 摘要与文件
 
-- 主站网站版本 2.8.2：`content/home.json`、`scripts/render-catalog.mjs`、`index.html`、`assets/monochrome.css` 恢复原八语上 3 下 6 布局和 VolMix 图文展示；`assets/site.js`、`assets/smoothcast-redirect.js` 清理链接，兼容旧入站参数；`guides.html`、`edge/worker.mjs`、`sitemap.xml` 修复 SEO/路由；`scripts/sync-site.mjs` 补元信息；其余 HTML 为元信息或共享资源指纹同步。原 `.hallmark/` 未纳入。
+- 主站网站版本 2.8.3：`content/home.json`、`scripts/render-catalog.mjs`、`index.html`、`assets/monochrome.css` 恢复原八语上 3 下 6 布局和 VolMix 图文展示；`assets/site.js`、`assets/smoothcast-redirect.js` 清理链接，兼容旧入站参数；`guides.html`、`edge/worker.mjs`、`sitemap.xml` 修复 SEO/路由；`scripts/sync-site.mjs` 补元信息；其余 HTML 为元信息或共享资源指纹同步。原 `.hallmark/` 未纳入。
 - SmoothCast 网站 1.2.15：`site/index.html`、`site/assets/js/legal.js`、`scripts/site.test.mjs`、`package.json`、`package-lock.json`。生成 dist 为忽略产物，不单独提交。
 - BarNest 网站 1.4.21：`website/worker.mjs`、`website/public/index.html`、`website/public/assets/site.js`、`website/public/{robots.txt,sitemap.xml}`、`website/test/seo.test.mjs`、`website/package.json`。已有 videos/ 未纳入。
 - MacPulse 网站服务 1.4.2：`server/src/{landing.js,index.js,i18n.js}`、`server/test/pages.test.mjs`、`server/package.json`、`server/package-lock.json`。

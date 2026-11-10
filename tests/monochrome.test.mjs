@@ -50,7 +50,7 @@ test('homepage preserves the confirmed flagship order and six utility products w
   const featured=[...section.matchAll(/class="product-card" data-product="([^"]+)"/g)].map(x=>x[1]);
   const others=[...section.matchAll(/class="tool-card" data-product="([^"]+)"/g)].map(x=>x[1]);
   assert.deepEqual(featured,['volmix','macpulse','barnest-pro'],lang);
-  assert.deepEqual(others,['nextmirror','presenter-deck','smoothcast','mindcharge','netdoctor','ksic-studio'],lang);
+  assert.deepEqual(others,['nextmirror','smoothcast','presenter-deck','mindcharge','netdoctor','ksic-studio'],lang);
   assert.equal(new Set([...featured,...others]).size,9);
   assert.doesNotMatch(section,/href="barnest\/|src="assets\/barnest-icon.png"|legacy-support/);
  }

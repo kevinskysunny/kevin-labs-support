@@ -44,16 +44,6 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "Presentation timing & spotlight",
-        "description": "Plan pacing, rehearse timing, and present with an on-screen spotlight magnifier.",
-        "href": "presenter-deck/index.html",
-        "action": "Explore app",
-        "icon": "assets/presenter-deck-icon.png",
-        "featured": false
-      },
-      {
         "id": "smoothcast",
         "name": "SmoothCast",
         "purpose": "Screen recording & guides",
@@ -61,6 +51,16 @@
         "href": "https://smoothcast.kevinlabs.app/",
         "action": "Explore app",
         "icon": "assets/smoothcast-icon.png",
+        "featured": false
+      },
+      {
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "Presentation timing & spotlight",
+        "description": "Plan pacing, rehearse timing, and present with an on-screen spotlight magnifier.",
+        "href": "presenter-deck/index.html",
+        "action": "Explore app",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -140,16 +140,6 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "现场演示与排练计时",
-        "description": "演讲计时器、大纲流程台与光标聚光灯，让每一次 Mac 现场分享从容自如。",
-        "href": "presenter-deck/index.html",
-        "action": "了解应用",
-        "icon": "assets/presenter-deck-icon.png",
-        "featured": false
-      },
-      {
         "id": "smoothcast",
         "name": "SmoothCast",
         "purpose": "录屏视频与教程生成",
@@ -157,6 +147,16 @@
         "href": "https://smoothcast.kevinlabs.app/",
         "action": "了解应用",
         "icon": "assets/smoothcast-icon.png",
+        "featured": false
+      },
+      {
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "现场演示与排练计时",
+        "description": "演讲计时器、大纲流程台与光标聚光灯，让每一次 Mac 现场分享从容自如。",
+        "href": "presenter-deck/index.html",
+        "action": "了解应用",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -236,16 +236,6 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "プレゼン進行とタイマー",
-        "description": "アジェンダ進行、リハーサル計測、スポットライト拡大で、登壇をよりスマートに。",
-        "href": "presenter-deck/index.html",
-        "action": "アプリを見る",
-        "icon": "assets/presenter-deck-icon.png",
-        "featured": false
-      },
-      {
         "id": "smoothcast",
         "name": "SmoothCast",
         "purpose": "録画とガイド自動生成",
@@ -253,6 +243,16 @@
         "href": "https://smoothcast.kevinlabs.app/",
         "action": "アプリを見る",
         "icon": "assets/smoothcast-icon.png",
+        "featured": false
+      },
+      {
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "プレゼン進行とタイマー",
+        "description": "アジェンダ進行、リハーサル計測、スポットライト拡大で、登壇をよりスマートに。",
+        "href": "presenter-deck/index.html",
+        "action": "アプリを見る",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -332,16 +332,6 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "발표 진행 및 타이머",
-        "description": "순서 계획, 리허설 타이머, 화면 스포트라이트로 프레젠테이션을 차분하게 이끄세요.",
-        "href": "presenter-deck/index.html",
-        "action": "앱 알아보기",
-        "icon": "assets/presenter-deck-icon.png",
-        "featured": false
-      },
-      {
         "id": "smoothcast",
         "name": "SmoothCast",
         "purpose": "화면 녹화 및 가이드 생성",
@@ -349,6 +339,16 @@
         "href": "https://smoothcast.kevinlabs.app/",
         "action": "앱 알아보기",
         "icon": "assets/smoothcast-icon.png",
+        "featured": false
+      },
+      {
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "발표 진행 및 타이머",
+        "description": "순서 계획, 리허설 타이머, 화면 스포트라이트로 프레젠테이션을 차분하게 이끄세요.",
+        "href": "presenter-deck/index.html",
+        "action": "앱 알아보기",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -428,16 +428,6 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "Präsentations-Timer & Spotlight",
-        "description": "Abschnitte planen, Zeiten proben und mit Cursor-Spotlight souverän präsentieren.",
-        "href": "presenter-deck/index.html",
-        "action": "App entdecken",
-        "icon": "assets/presenter-deck-icon.png",
-        "featured": false
-      },
-      {
         "id": "smoothcast",
         "name": "SmoothCast",
         "purpose": "Aufnahme & Anleitungserstellung",
@@ -445,6 +435,16 @@
         "href": "https://smoothcast.kevinlabs.app/",
         "action": "App entdecken",
         "icon": "assets/smoothcast-icon.png",
+        "featured": false
+      },
+      {
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "Präsentations-Timer & Spotlight",
+        "description": "Abschnitte planen, Zeiten proben und mit Cursor-Spotlight souverän präsentieren.",
+        "href": "presenter-deck/index.html",
+        "action": "App entdecken",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -524,16 +524,6 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "Minuteur de présentation & projecteur",
-        "description": "Planifiez votre rythme, répétez le timing et captivez avec le projecteur d’écran.",
-        "href": "presenter-deck/index.html",
-        "action": "Découvrir l’app",
-        "icon": "assets/presenter-deck-icon.png",
-        "featured": false
-      },
-      {
         "id": "smoothcast",
         "name": "SmoothCast",
         "purpose": "Capture vidéo & guides",
@@ -541,6 +531,16 @@
         "href": "https://smoothcast.kevinlabs.app/",
         "action": "Découvrir l’app",
         "icon": "assets/smoothcast-icon.png",
+        "featured": false
+      },
+      {
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "Minuteur de présentation & projecteur",
+        "description": "Planifiez votre rythme, répétez le timing et captivez avec le projecteur d’écran.",
+        "href": "presenter-deck/index.html",
+        "action": "Découvrir l’app",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -620,16 +620,6 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "Temporizador de presentación y foco",
-        "description": "Planifica tiempos, ensaya el ritmo y destaca detalles con el proyector de pantalla.",
-        "href": "presenter-deck/index.html",
-        "action": "Conocer la app",
-        "icon": "assets/presenter-deck-icon.png",
-        "featured": false
-      },
-      {
         "id": "smoothcast",
         "name": "SmoothCast",
         "purpose": "Grabación de pantalla y guías",
@@ -637,6 +627,16 @@
         "href": "https://smoothcast.kevinlabs.app/",
         "action": "Conocer la app",
         "icon": "assets/smoothcast-icon.png",
+        "featured": false
+      },
+      {
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "Temporizador de presentación y foco",
+        "description": "Planifica tiempos, ensaya el ritmo y destaca detalles con el proyector de pantalla.",
+        "href": "presenter-deck/index.html",
+        "action": "Conocer la app",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -716,16 +716,6 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "Cronômetro de apresentação e foco",
-        "description": "Planeje seu ritmo, ensaie o tempo e apresente com destaque visual na tela.",
-        "href": "presenter-deck/index.html",
-        "action": "Conhecer o app",
-        "icon": "assets/presenter-deck-icon.png",
-        "featured": false
-      },
-      {
         "id": "smoothcast",
         "name": "SmoothCast",
         "purpose": "Gravação de tela e tutoriais",
@@ -733,6 +723,16 @@
         "href": "https://smoothcast.kevinlabs.app/",
         "action": "Conhecer o app",
         "icon": "assets/smoothcast-icon.png",
+        "featured": false
+      },
+      {
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "Cronômetro de apresentação e foco",
+        "description": "Planeje seu ritmo, ensaie o tempo e apresente com destaque visual na tela.",
+        "href": "presenter-deck/index.html",
+        "action": "Conhecer o app",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
