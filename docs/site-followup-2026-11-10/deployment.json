@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-10",
+  "status": "已上线验证",
+  "mainSource": "8762e5f8b00ebbebff960aa7a25e19c1c5f74570",
+  "sites": [
+    {
+      "site": "portal",
+      "worker": "kevinlabs-brand-portal",
+      "source": "8762e5f8b00ebbebff960aa7a25e19c1c5f74570",
+      "beforeVersion": "74a37b26-24aa-4175-be0d-c319db7e97fe",
+      "version": "17af7d03-1509-4b59-815c-efe61175b59e"
+    },
+    {
+      "site": "smoothcast",
+      "worker": "smoothcast-sales",
+      "source": "8f5e81acdc189a6ce466c85b253f05207ad73cc3",
+      "beforeVersion": "5b41ad1c-f6bf-4b00-a4a1-b0a62197f93e",
+      "version": "ba9dd28a-a4c9-4aa0-8553-7b74184f3f36"
+    },
+    {
+      "site": "barnest",
+      "worker": "barnest-product-site",
+      "source": "0c71d228773dba35c6db05282faa2aafd3e91475",
+      "beforeVersion": "e425b388-6c21-48a5-bf2e-a968e11c30b8",
+      "version": "d801ca5c-1620-4e69-a2d5-099a6b0d8b7e"
+    },
+    {
+      "site": "macpulse",
+      "worker": "macpulse-license",
+      "source": "3d4c10ba5de44c7f7b721aadf6de41d6349abe60",
+      "beforeVersion": "e5726eab-f543-499a-b5d7-1904b69ac0b0",
+      "version": "598a4aa6-98b7-4347-a66f-77edf90d4706"
+    },
+    {
+      "site": "mindcharge",
+      "worker": "mindcharge-commerce-live",
+      "source": "7807c75b86a9e1a8714e3fef6c23d08d77117fb3",
+      "beforeVersion": "1af64457-508d-4b98-acef-3886170a5fc4",
+      "version": "c9021300-7e72-4db4-b1dc-d16de1379541"
+    },
+    {
+      "site": "nextmirror",
+      "worker": "nextmirror-commerce-live",
+      "source": "980c0b5d365fc0fefb296adeddb9c015f74ba83e",
+      "beforeVersion": "6f446b02-e1ec-4ae3-898c-740de7550140",
+      "version": "fbbf31bb-37c0-45b3-beaf-8113f844c34b"
+    }
+  ],
+  "githubPages": {
+    "commit": "8762e5f8b00ebbebff960aa7a25e19c1c5f74570",
+    "error": null,
+    "status": "built"
+  },
+  "httpChecks": 77,
+  "httpFailures": 0,
+  "homeLocaleViewportChecks": 18,
+  "storePageLocaleViewportChecks": 48,
+  "productSiteViewportChecks": 10,
+  "buyHeadBodyBytes": {
+    "nextmirror": 0,
+    "mindcharge": 0
+  },
+  "configurationUnchanged": true,
+  "existingInstallerHashesUnchanged": true,
+  "marketingCanonicalChanged": false,
+  "marketingCanonical": "https://barnest.kevinlabs.app/",
+  "realPaymentsExecuted": false
+}

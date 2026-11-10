@@ -1,0 +1,17 @@
+[
+  {
+    "asset": "site.js",
+    "sha256": "92cc010d8f5c19081a25ff476e75c0dbe76c177100443aabcda1520250689fb5",
+    "productionMatches": true
+  },
+  {
+    "asset": "site.css",
+    "sha256": "de8aa24cfec736c1eae4dd5eada986f09b0b5948f0bc1b39396accf6448847ae",
+    "productionMatches": true
+  },
+  {
+    "asset": "monochrome.css",
+    "sha256": "7a7d8a7a303150e7fee2b64ddbf7296455732111e0e2f1a9033397a81c0941b4",
+    "productionMatches": true
+  }
+]

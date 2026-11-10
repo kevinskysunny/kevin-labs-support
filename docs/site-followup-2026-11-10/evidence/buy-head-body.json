@@ -1,0 +1,20 @@
+[
+  {
+    "site": "nextmirror",
+    "headStatus": 200,
+    "getStatus": 200,
+    "headType": "text/html; charset=utf-8",
+    "getType": "text/html; charset=utf-8",
+    "headBodyBytes": 0,
+    "getBodyBytes": 26474
+  },
+  {
+    "site": "mindcharge",
+    "headStatus": 200,
+    "getStatus": 200,
+    "headType": "text/html; charset=utf-8",
+    "getType": "text/html; charset=utf-8",
+    "headBodyBytes": 0,
+    "getBodyBytes": 22613
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "site": "smoothcast",
+    "width": 390,
+    "manualLanguagePersists": true,
+    "systemLanguage": true,
+    "brokenImages": [],
+    "scriptErrors": []
+  },
+  {
+    "site": "smoothcast",
+    "width": 1440,
+    "manualLanguagePersists": true,
+    "systemLanguage": true,
+    "brokenImages": [],
+    "scriptErrors": []
+  },
+  {
+    "site": "barnest",
+    "width": 390,
+    "manualLanguagePersists": true,
+    "systemLanguage": true,
+    "brokenImages": [],
+    "scriptErrors": []
+  },
+  {
+    "site": "barnest",
+    "width": 1440,
+    "manualLanguagePersists": true,
+    "systemLanguage": true,
+    "brokenImages": [],
+    "scriptErrors": []
+  },
+  {
+    "site": "macpulse",
+    "width": 390,
+    "manualLanguagePersists": true,
+    "systemLanguage": true,
+    "brokenImages": [],
+    "scriptErrors": []
+  },
+  {
+    "site": "macpulse",
+    "width": 1440,
+    "manualLanguagePersists": true,
+    "systemLanguage": true,
+    "brokenImages": [],
+    "scriptErrors": []
+  },
+  {
+    "site": "mindcharge",
+    "width": 390,
+    "manualLanguagePersists": true,
+    "systemLanguage": true,
+    "brokenImages": [],
+    "scriptErrors": []
+  },
+  {
+    "site": "mindcharge",
+    "width": 1440,
+    "manualLanguagePersists": true,
+    "systemLanguage": true,
+    "brokenImages": [],
+    "scriptErrors": []
+  },
+  {
+    "site": "nextmirror",
+    "width": 390,
+    "manualLanguagePersists": true,
+    "systemLanguage": true,
+    "brokenImages": [],
+    "scriptErrors": []
+  },
+  {
+    "site": "nextmirror",
+    "width": 1440,
+    "manualLanguagePersists": true,
+    "systemLanguage": true,
+    "brokenImages": [],
+    "scriptErrors": []
+  }
+]

@@ -1,17 +1,17 @@
 # 官网补修：上线前审核（2026-11-10）
 
-状态：**已修待上线**。用户明确选择第1–6项一并实施并提交审核，发布前仍需批准。本次没有部署，没有更新主站生产 main，没有修改价格、Paddle 配置或统计代码；各仓库提交只包含 delivery.json 的声明文件。首页上3下6、卡片按钮、VolMix商店渠道、support内容源和既有多语言切换功能保持。
+状态：**已上线验证**。用户于2026-11-10明确授权“上线”，主站2.9.0及五个子站已发布，77项线上检查通过，见 [生产验收记录](production.md)。主站生产main为8762e5f；本批未修改价格、Paddle配置或统计代码；各仓库提交只包含 delivery.json 的声明文件。首页上3下6、卡片按钮、VolMix商店渠道、support内容源和既有多语言切换功能保持。
 
 ## 六项状态与实际验证
 
 | 项目 | 状态 | 修改与实际结果 |
 |---|---|---|
-| 1 首页 description | 已修待上线 | 改正此前遗漏的独立 `meta name="description"`。静态 HTML 中 description/OG/Twitter 都是产品导向；脚本按已有语言选择同步 document.title 及五个 head 字段，八语完整。浏览器在八语＋自动模式、390/1440px 共18组中逐字段与语言源比对通过。|
-| 2 XML 声明 | 已修待上线 | 主站声明精确为 `<?xml version="1.0" encoding="UTF-8"?>`，本机解析及声明断言通过。保留各子域独立 sitemap。BarNest 支持、隐私条目保留，恢复此前因旧跳转决定而移除的 App Store 营销页 `barnest/index.html`，三页 lastmod 更新为本次实际修订日期。|
-| 3 /en/ | 已修待上线 | 门户 Worker 对 `/en/`、`/en/index.html` 的 GET/HEAD 均301到干净根路径，不保留 `?lang=`。单测确认无回源，Location 严格为 `https://kevinlabs.app/`，不伪造英语页或 hreflang。|
-| 4 两站 /buy HEAD | 已修待上线 | NextMirror/MindCharge 仅为已有 `/buy` 增加 HEAD：复用 GET 的配置及售价有效性读取，返回同类状态和必要响应头，移除响应体；未配置/停售仍503，不伪装200。HEAD不调用已有促销清理函数，测试验证数据库未变、未发邮件；GET原路径、价格、交易、授权实现保持。每站验证正常GET/HEAD200、Content-Type一致、HEAD空体及不可用HEAD503通过。|
-| 5 斜杠兼容 | 已修待上线，部分不成立 | NextMirror `/buy/`、`/download/`；MindCharge `/download/`；BarNest Pro `/buy/`、`/download/`；SmoothCast `/download/`、`/support/`、`/privacy/`；MacPulse同三路由，均仅对GET/HEAD301去尾斜杠并保留其它查询参数。**不成立／不改**：MindCharge `/buy/`本次HEAD200、BarNest Pro `/support/`和`/privacy/`200，保持原状；SmoothCast/MacPulse本来无 `/buy`，未新增。已用既有Worker单测验证301与查询参数；下载没有跟随GET获取安装包。线上修前28次HEAD结果见 evidence/routes-before.json。|
-| 6 BarNest App Store版 | 已修待上线；canonical仅建议，未改 | 三份源页八语明确适用Mac App Store版，并提供BarNest Pro首页、直销支持、直销隐私链接；官网正常产品目录仍只推广Pro。支持页及营销页统一14天、$0试用内购、不自动扣费，保留$2.99与$5.99，注明2026-12-01起$5.99。营销页与机器目录版本1.0.2（依据用户确认，App ID 6820881227不变）。隐私正文逐字未改，仅顶部添加版本范围提示；移除该提示后 main正文SHA-256与修前完全一致。|
+| 1 首页 description | 已上线验证 | 改正此前遗漏的独立 `meta name="description"`。静态 HTML 中 description/OG/Twitter 都是产品导向；脚本按已有语言选择同步 document.title 及五个 head 字段，八语完整。浏览器在八语＋自动模式、390/1440px 共18组中逐字段与语言源比对通过。|
+| 2 XML 声明 | 已上线验证 | 主站声明精确为 `<?xml version="1.0" encoding="UTF-8"?>`，本机解析及声明断言通过。保留各子域独立 sitemap。BarNest 支持、隐私条目保留，恢复此前因旧跳转决定而移除的 App Store 营销页 `barnest/index.html`，三页 lastmod 更新为本次实际修订日期。|
+| 3 /en/ | 已上线验证 | 门户 Worker 对 `/en/`、`/en/index.html` 的 GET/HEAD 均301到干净根路径，不保留 `?lang=`。单测确认无回源，Location 严格为 `https://kevinlabs.app/`，不伪造英语页或 hreflang。|
+| 4 两站 /buy HEAD | 已上线验证 | NextMirror/MindCharge 仅为已有 `/buy` 增加 HEAD：复用 GET 的配置及售价有效性读取，返回同类状态和必要响应头，移除响应体；未配置/停售仍503，不伪装200。HEAD不调用已有促销清理函数，测试验证数据库未变、未发邮件；GET原路径、价格、交易、授权实现保持。每站验证正常GET/HEAD200、Content-Type一致、HEAD空体及不可用HEAD503通过。|
+| 5 斜杠兼容 | 已上线验证，部分不成立 | NextMirror `/buy/`、`/download/`；MindCharge `/download/`；BarNest Pro `/buy/`、`/download/`；SmoothCast `/download/`、`/support/`、`/privacy/`；MacPulse同三路由，均仅对GET/HEAD301去尾斜杠并保留其它查询参数。**不成立／不改**：MindCharge `/buy/`本次HEAD200、BarNest Pro `/support/`和`/privacy/`200，保持原状；SmoothCast/MacPulse本来无 `/buy`，未新增。已用既有Worker单测验证301与查询参数；下载没有跟随GET获取安装包。线上修前28次HEAD结果见 evidence/routes-before.json。|
+| 6 BarNest App Store版 | 已上线验证；canonical仅建议，未改 | 三份源页八语明确适用Mac App Store版，并提供BarNest Pro首页、直销支持、直销隐私链接；官网正常产品目录仍只推广Pro。支持页及营销页统一14天、$0试用内购、不自动扣费，保留$2.99与$5.99，注明2026-12-01起$5.99。营销页与机器目录版本1.0.2（依据用户确认，App ID 6820881227不变）。隐私正文逐字未改，仅顶部添加版本范围提示；移除该提示后 main正文SHA-256与修前完全一致。|
 
 ## BarNest 的路由和 canonical 评估
 
@@ -47,9 +47,9 @@ npm run test:browser
 
 隐私正文原SHA-256：`8a44c314ea8f24ec7fda7b8723896eb5f7c67228e0971c6c1efa0ba24bf5baa3`，去掉新加范围提示后完全一致。商店App ID、价格数字、首页3+6顺序及不推广商店版的断言通过。
 
-本轮只读线上修前核查见 evidence/，不是发布后成功结果。**尚未执行生产发布与下列上线后验收**。
+修前只读核查与最终生产证据均见evidence/，已明确分开；下列上线后验收已执行，实际结果见production.md。
 
-## 批准上线后的验证命令／期望结果
+## 已执行的生产验证命令／期望结果
 
 ```sh
 # 1：查看静态字段；另在浏览器切八语并检查head

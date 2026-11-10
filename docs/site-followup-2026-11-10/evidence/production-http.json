@@ -1,0 +1,744 @@
+{
+  "requests": [
+    {
+      "url": "https://kevinlabs.app/",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://kevinlabs.app/"
+    },
+    {
+      "url": "https://kevinlabs.app/sitemap.xml",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "application/xml"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://kevinlabs.app/en/",
+      "method": "GET",
+      "status": "301",
+      "headers": {
+        "location": "https://kevinlabs.app/"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://kevinlabs.app/en/",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://kevinlabs.app/"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://kevinlabs.app/en/index.html",
+      "method": "GET",
+      "status": "301",
+      "headers": {
+        "location": "https://kevinlabs.app/"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://kevinlabs.app/en/index.html",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://kevinlabs.app/"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/buy",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/buy",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/buy",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/buy",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://kevinlabs.app/barnest/",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://barnest.kevinlabs.app/"
+    },
+    {
+      "url": "https://kevinlabs.app/barnest/",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://kevinlabs.app/barnest/index.html",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://barnest.kevinlabs.app/"
+    },
+    {
+      "url": "https://kevinlabs.app/barnest/index.html",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://kevinlabs.app/barnest/support.html",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://kevinlabs.app/barnest/support.html"
+    },
+    {
+      "url": "https://kevinlabs.app/barnest/support.html",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://kevinlabs.app/barnest/privacy.html",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://kevinlabs.app/barnest/privacy.html"
+    },
+    {
+      "url": "https://kevinlabs.app/barnest/privacy.html",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://barnest.kevinlabs.app/"
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/index.html",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://barnest.kevinlabs.app/"
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/index.html",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/support.html",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://kevinlabs.app/barnest/support.html"
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/support.html",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/privacy.html",
+      "method": "GET",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": "https://kevinlabs.app/barnest/privacy.html"
+    },
+    {
+      "url": "https://support.kevinlabs.app/barnest/privacy.html",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/buy/",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://nextmirror.kevinlabs.app/buy"
+      },
+      "error": "curl: (35) TLS connect error: error:00000000:lib(0)::reason(0)\n",
+      "canonical": null
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/download/",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://nextmirror.kevinlabs.app/download"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/download/",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://mindcharge.kevinlabs.app/download"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/buy/",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://barnest.kevinlabs.app/buy"
+      },
+      "error": "curl: (35) TLS connect error: error:00000000:lib(0)::reason(0)\n",
+      "canonical": null
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/download/",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://barnest.kevinlabs.app/download"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/download/",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://smoothcast.kevinlabs.app/download"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/support/",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://smoothcast.kevinlabs.app/support"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/privacy/",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://smoothcast.kevinlabs.app/privacy"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://macpulse.kevinlabs.app/download/",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://macpulse.kevinlabs.app/download"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://macpulse.kevinlabs.app/support/",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://macpulse.kevinlabs.app/support"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://macpulse.kevinlabs.app/privacy/",
+      "method": "HEAD",
+      "status": "301",
+      "headers": {
+        "location": "https://macpulse.kevinlabs.app/privacy"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://mindcharge.kevinlabs.app/buy/",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/support/",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://barnest.kevinlabs.app/privacy/",
+      "method": "HEAD",
+      "status": "200",
+      "headers": {
+        "content-type": "text/html"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://smoothcast.kevinlabs.app/buy/",
+      "method": "HEAD",
+      "status": "404",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://macpulse.kevinlabs.app/buy/",
+      "method": "HEAD",
+      "status": "404",
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "error": "",
+      "canonical": null
+    },
+    {
+      "url": "https://nextmirror.kevinlabs.app/buy/",
+      "method": "GET",
+      "status": "301",
+      "headers": {
+        "location": "https://nextmirror.kevinlabs.app/buy"
+      },
+      "error": "",
+      "canonical": null
+    }
+  ],
+  "checks": [
+    {
+      "check": "home GET200",
+      "passed": true
+    },
+    {
+      "check": "home description product-oriented",
+      "passed": true
+    },
+    {
+      "check": "home og:title product-oriented",
+      "passed": true
+    },
+    {
+      "check": "home og:description product-oriented",
+      "passed": true
+    },
+    {
+      "check": "home twitter:title product-oriented",
+      "passed": true
+    },
+    {
+      "check": "home twitter:description product-oriented",
+      "passed": true
+    },
+    {
+      "check": "standard UTF-8 XML declaration",
+      "passed": true
+    },
+    {
+      "check": "App Store index.html retained in sitemap",
+      "passed": true
+    },
+    {
+      "check": "App Store support.html retained in sitemap",
+      "passed": true
+    },
+    {
+      "check": "App Store privacy.html retained in sitemap",
+      "passed": true
+    },
+    {
+      "check": "English alias GET https://kevinlabs.app/en/ clean301",
+      "passed": true
+    },
+    {
+      "check": "English alias HEAD https://kevinlabs.app/en/ clean301",
+      "passed": true
+    },
+    {
+      "check": "English alias GET https://kevinlabs.app/en/index.html clean301",
+      "passed": true
+    },
+    {
+      "check": "English alias HEAD https://kevinlabs.app/en/index.html clean301",
+      "passed": true
+    },
+    {
+      "check": "GET buy200 https://nextmirror.kevinlabs.app/buy",
+      "passed": true
+    },
+    {
+      "check": "GET buy HTML https://nextmirror.kevinlabs.app/buy",
+      "passed": true
+    },
+    {
+      "check": "HEAD buy200 https://nextmirror.kevinlabs.app/buy",
+      "passed": true
+    },
+    {
+      "check": "HEAD buy HTML https://nextmirror.kevinlabs.app/buy",
+      "passed": true
+    },
+    {
+      "check": "GET buy200 https://mindcharge.kevinlabs.app/buy",
+      "passed": true
+    },
+    {
+      "check": "GET buy HTML https://mindcharge.kevinlabs.app/buy",
+      "passed": true
+    },
+    {
+      "check": "HEAD buy200 https://mindcharge.kevinlabs.app/buy",
+      "passed": true
+    },
+    {
+      "check": "HEAD buy HTML https://mindcharge.kevinlabs.app/buy",
+      "passed": true
+    },
+    {
+      "check": "App Store GET https://kevinlabs.app/barnest/ 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "eight edition notices https://kevinlabs.app/barnest/",
+      "passed": true
+    },
+    {
+      "check": "14-day trial and unchanged prices https://kevinlabs.app/barnest/",
+      "passed": true
+    },
+    {
+      "check": "marketing version1.0.2; canonical intentionally unchanged https://kevinlabs.app/barnest/",
+      "passed": true
+    },
+    {
+      "check": "App Store HEAD https://kevinlabs.app/barnest/ 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "App Store GET https://kevinlabs.app/barnest/index.html 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "eight edition notices https://kevinlabs.app/barnest/index.html",
+      "passed": true
+    },
+    {
+      "check": "14-day trial and unchanged prices https://kevinlabs.app/barnest/index.html",
+      "passed": true
+    },
+    {
+      "check": "marketing version1.0.2; canonical intentionally unchanged https://kevinlabs.app/barnest/index.html",
+      "passed": true
+    },
+    {
+      "check": "App Store HEAD https://kevinlabs.app/barnest/index.html 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "App Store GET https://kevinlabs.app/barnest/support.html 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "eight edition notices https://kevinlabs.app/barnest/support.html",
+      "passed": true
+    },
+    {
+      "check": "14-day trial and unchanged prices https://kevinlabs.app/barnest/support.html",
+      "passed": true
+    },
+    {
+      "check": "App Store HEAD https://kevinlabs.app/barnest/support.html 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "App Store GET https://kevinlabs.app/barnest/privacy.html 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "eight edition notices https://kevinlabs.app/barnest/privacy.html",
+      "passed": true
+    },
+    {
+      "check": "privacy substantive text unchanged https://kevinlabs.app/barnest/privacy.html",
+      "passed": true
+    },
+    {
+      "check": "App Store HEAD https://kevinlabs.app/barnest/privacy.html 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "App Store GET https://support.kevinlabs.app/barnest/ 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "eight edition notices https://support.kevinlabs.app/barnest/",
+      "passed": true
+    },
+    {
+      "check": "14-day trial and unchanged prices https://support.kevinlabs.app/barnest/",
+      "passed": true
+    },
+    {
+      "check": "marketing version1.0.2; canonical intentionally unchanged https://support.kevinlabs.app/barnest/",
+      "passed": true
+    },
+    {
+      "check": "App Store HEAD https://support.kevinlabs.app/barnest/ 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "App Store GET https://support.kevinlabs.app/barnest/index.html 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "eight edition notices https://support.kevinlabs.app/barnest/index.html",
+      "passed": true
+    },
+    {
+      "check": "14-day trial and unchanged prices https://support.kevinlabs.app/barnest/index.html",
+      "passed": true
+    },
+    {
+      "check": "marketing version1.0.2; canonical intentionally unchanged https://support.kevinlabs.app/barnest/index.html",
+      "passed": true
+    },
+    {
+      "check": "App Store HEAD https://support.kevinlabs.app/barnest/index.html 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "App Store GET https://support.kevinlabs.app/barnest/support.html 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "eight edition notices https://support.kevinlabs.app/barnest/support.html",
+      "passed": true
+    },
+    {
+      "check": "14-day trial and unchanged prices https://support.kevinlabs.app/barnest/support.html",
+      "passed": true
+    },
+    {
+      "check": "App Store HEAD https://support.kevinlabs.app/barnest/support.html 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "App Store GET https://support.kevinlabs.app/barnest/privacy.html 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "eight edition notices https://support.kevinlabs.app/barnest/privacy.html",
+      "passed": true
+    },
+    {
+      "check": "privacy substantive text unchanged https://support.kevinlabs.app/barnest/privacy.html",
+      "passed": true
+    },
+    {
+      "check": "App Store HEAD https://support.kevinlabs.app/barnest/privacy.html 200 without redirect",
+      "passed": true
+    },
+    {
+      "check": "existing slash alias HEAD https://nextmirror.kevinlabs.app/buy/ 301",
+      "passed": true
+    },
+    {
+      "check": "existing slash alias HEAD https://nextmirror.kevinlabs.app/download/ 301",
+      "passed": true
+    },
+    {
+      "check": "existing slash alias HEAD https://mindcharge.kevinlabs.app/download/ 301",
+      "passed": true
+    },
+    {
+      "check": "existing slash alias HEAD https://barnest.kevinlabs.app/buy/ 301",
+      "passed": true
+    },
+    {
+      "check": "existing slash alias HEAD https://barnest.kevinlabs.app/download/ 301",
+      "passed": true
+    },
+    {
+      "check": "existing slash alias HEAD https://smoothcast.kevinlabs.app/download/ 301",
+      "passed": true
+    },
+    {
+      "check": "existing slash alias HEAD https://smoothcast.kevinlabs.app/support/ 301",
+      "passed": true
+    },
+    {
+      "check": "existing slash alias HEAD https://smoothcast.kevinlabs.app/privacy/ 301",
+      "passed": true
+    },
+    {
+      "check": "existing slash alias HEAD https://macpulse.kevinlabs.app/download/ 301",
+      "passed": true
+    },
+    {
+      "check": "existing slash alias HEAD https://macpulse.kevinlabs.app/support/ 301",
+      "passed": true
+    },
+    {
+      "check": "existing slash alias HEAD https://macpulse.kevinlabs.app/privacy/ 301",
+      "passed": true
+    },
+    {
+      "check": "already working route retained https://mindcharge.kevinlabs.app/buy/",
+      "passed": true
+    },
+    {
+      "check": "already working route retained https://barnest.kevinlabs.app/support/",
+      "passed": true
+    },
+    {
+      "check": "already working route retained https://barnest.kevinlabs.app/privacy/",
+      "passed": true
+    },
+    {
+      "check": "no invented buy route https://smoothcast.kevinlabs.app/buy/",
+      "passed": true
+    },
+    {
+      "check": "no invented buy route https://macpulse.kevinlabs.app/buy/",
+      "passed": true
+    },
+    {
+      "check": "existing slash alias GET https://nextmirror.kevinlabs.app/buy/ 301",
+      "passed": true
+    },
+    {
+      "check": "nextmirror GET/HEAD Content-Type equal",
+      "passed": true
+    },
+    {
+      "check": "mindcharge GET/HEAD Content-Type equal",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "site": "portal",
+    "configurationUnchanged": true,
+    "version": "17af7d03-1509-4b59-815c-efe61175b59e"
+  },
+  {
+    "site": "smoothcast",
+    "configurationUnchanged": true,
+    "version": "ba9dd28a-a4c9-4aa0-8553-7b74184f3f36"
+  },
+  {
+    "site": "barnest",
+    "configurationUnchanged": true,
+    "version": "d801ca5c-1620-4e69-a2d5-099a6b0d8b7e"
+  },
+  {
+    "site": "macpulse",
+    "configurationUnchanged": true,
+    "version": "598a4aa6-98b7-4347-a66f-77edf90d4706"
+  },
+  {
+    "site": "mindcharge",
+    "configurationUnchanged": true,
+    "version": "c9021300-7e72-4db4-b1dc-d16de1379541"
+  },
+  {
+    "site": "nextmirror",
+    "configurationUnchanged": true,
+    "version": "fbbf31bb-37c0-45b3-beaf-8113f844c34b"
+  }
+]
