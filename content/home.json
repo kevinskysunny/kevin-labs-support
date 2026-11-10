@@ -44,13 +44,13 @@
         "featured": false
       },
       {
-        "id": "mindcharge",
-        "name": "MindCharge",
-        "purpose": "Subscription & mood assets",
-        "description": "Connect recurring costs to daily mood, trim unused services, and keep what matters.",
-        "href": "https://mindcharge.kevinlabs.app/",
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "Presentation timing & spotlight",
+        "description": "Plan pacing, rehearse timing, and present with an on-screen spotlight magnifier.",
+        "href": "presenter-deck/index.html",
         "action": "Explore app",
-        "icon": "assets/mindcharge-icon.png",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -64,13 +64,13 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "Presentation timing & spotlight",
-        "description": "Plan pacing, rehearse timing, and present with an on-screen spotlight magnifier.",
-        "href": "presenter-deck/index.html",
+        "id": "mindcharge",
+        "name": "MindCharge",
+        "purpose": "Subscription & mood assets",
+        "description": "Connect recurring costs to daily mood, trim unused services, and keep what matters.",
+        "href": "https://mindcharge.kevinlabs.app/",
         "action": "Explore app",
-        "icon": "assets/presenter-deck-icon.png",
+        "icon": "assets/mindcharge-icon.png",
         "featured": false
       },
       {
@@ -140,13 +140,13 @@
         "featured": false
       },
       {
-        "id": "mindcharge",
-        "name": "MindCharge",
-        "purpose": "订阅成本与心情管理",
-        "description": "一起记录订阅支出与日常心情，回顾消费习惯和个人感受。",
-        "href": "https://mindcharge.kevinlabs.app/",
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "现场演示与排练计时",
+        "description": "演讲计时器、大纲流程台与光标聚光灯，让每一次 Mac 现场分享从容自如。",
+        "href": "presenter-deck/index.html",
         "action": "了解应用",
-        "icon": "assets/mindcharge-icon.png",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -160,13 +160,13 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "现场演示与排练计时",
-        "description": "演讲计时器、大纲流程台与光标聚光灯，让每一次 Mac 现场分享从容自如。",
-        "href": "presenter-deck/index.html",
+        "id": "mindcharge",
+        "name": "MindCharge",
+        "purpose": "订阅成本与心情管理",
+        "description": "一起记录订阅支出与日常心情，回顾消费习惯和个人感受。",
+        "href": "https://mindcharge.kevinlabs.app/",
         "action": "了解应用",
-        "icon": "assets/presenter-deck-icon.png",
+        "icon": "assets/mindcharge-icon.png",
         "featured": false
       },
       {
@@ -236,13 +236,13 @@
         "featured": false
       },
       {
-        "id": "mindcharge",
-        "name": "MindCharge",
-        "purpose": "サブスクと気分の管理",
-        "description": "サブスクの支出と日々の気分を一緒に記録し、消費習慣と気持ちを振り返れます。",
-        "href": "https://mindcharge.kevinlabs.app/",
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "プレゼン進行とタイマー",
+        "description": "アジェンダ進行、リハーサル計測、スポットライト拡大で、登壇をよりスマートに。",
+        "href": "presenter-deck/index.html",
         "action": "アプリを見る",
-        "icon": "assets/mindcharge-icon.png",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -256,13 +256,13 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "プレゼン進行とタイマー",
-        "description": "アジェンダ進行、リハーサル計測、スポットライト拡大で、登壇をよりスマートに。",
-        "href": "presenter-deck/index.html",
+        "id": "mindcharge",
+        "name": "MindCharge",
+        "purpose": "サブスクと気分の管理",
+        "description": "サブスクの支出と日々の気分を一緒に記録し、消費習慣と気持ちを振り返れます。",
+        "href": "https://mindcharge.kevinlabs.app/",
         "action": "アプリを見る",
-        "icon": "assets/presenter-deck-icon.png",
+        "icon": "assets/mindcharge-icon.png",
         "featured": false
       },
       {
@@ -332,13 +332,13 @@
         "featured": false
       },
       {
-        "id": "mindcharge",
-        "name": "MindCharge",
-        "purpose": "구독 비용과 기분 관리",
-        "description": "구독 지출과 일상의 기분을 함께 기록하고 소비 습관과 감정을 돌아보세요.",
-        "href": "https://mindcharge.kevinlabs.app/",
-        "action": "앱 보기",
-        "icon": "assets/mindcharge-icon.png",
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "발표 진행 및 타이머",
+        "description": "순서 계획, 리허설 타이머, 화면 스포트라이트로 프레젠테이션을 차분하게 이끄세요.",
+        "href": "presenter-deck/index.html",
+        "action": "앱 알아보기",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -352,13 +352,13 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "발표 진행 및 타이머",
-        "description": "순서 계획, 리허설 타이머, 화면 스포트라이트로 프레젠테이션을 차분하게 이끄세요.",
-        "href": "presenter-deck/index.html",
-        "action": "앱 알아보기",
-        "icon": "assets/presenter-deck-icon.png",
+        "id": "mindcharge",
+        "name": "MindCharge",
+        "purpose": "구독 비용과 기분 관리",
+        "description": "구독 지출과 일상의 기분을 함께 기록하고 소비 습관과 감정을 돌아보세요.",
+        "href": "https://mindcharge.kevinlabs.app/",
+        "action": "앱 보기",
+        "icon": "assets/mindcharge-icon.png",
         "featured": false
       },
       {
@@ -428,13 +428,13 @@
         "featured": false
       },
       {
-        "id": "mindcharge",
-        "name": "MindCharge",
-        "purpose": "Abo-Kosten & Zufriedenheit",
-        "description": "Wiederkehrende Kosten mit Ihrer Stimmung verknüpfen und bewusster entscheiden.",
-        "href": "https://mindcharge.kevinlabs.app/",
-        "action": "App ansehen",
-        "icon": "assets/mindcharge-icon.png",
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "Präsentations-Timer & Spotlight",
+        "description": "Abschnitte planen, Zeiten proben und mit Cursor-Spotlight souverän präsentieren.",
+        "href": "presenter-deck/index.html",
+        "action": "App entdecken",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -448,13 +448,13 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "Präsentations-Timer & Spotlight",
-        "description": "Abschnitte planen, Zeiten proben und mit Cursor-Spotlight souverän präsentieren.",
-        "href": "presenter-deck/index.html",
-        "action": "App entdecken",
-        "icon": "assets/presenter-deck-icon.png",
+        "id": "mindcharge",
+        "name": "MindCharge",
+        "purpose": "Abo-Kosten & Zufriedenheit",
+        "description": "Wiederkehrende Kosten mit Ihrer Stimmung verknüpfen und bewusster entscheiden.",
+        "href": "https://mindcharge.kevinlabs.app/",
+        "action": "App ansehen",
+        "icon": "assets/mindcharge-icon.png",
         "featured": false
       },
       {
@@ -524,13 +524,13 @@
         "featured": false
       },
       {
-        "id": "mindcharge",
-        "name": "MindCharge",
-        "purpose": "Abonnements & humeur",
-        "description": "Associez vos coûts récurrents à votre bien-être pour ne garder que l’essentiel.",
-        "href": "https://mindcharge.kevinlabs.app/",
-        "action": "Voir l’app",
-        "icon": "assets/mindcharge-icon.png",
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "Minuteur de présentation & projecteur",
+        "description": "Planifiez votre rythme, répétez le timing et captivez avec le projecteur d’écran.",
+        "href": "presenter-deck/index.html",
+        "action": "Découvrir l’app",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -544,13 +544,13 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "Minuteur de présentation & projecteur",
-        "description": "Planifiez votre rythme, répétez le timing et captivez avec le projecteur d’écran.",
-        "href": "presenter-deck/index.html",
-        "action": "Découvrir l’app",
-        "icon": "assets/presenter-deck-icon.png",
+        "id": "mindcharge",
+        "name": "MindCharge",
+        "purpose": "Abonnements & humeur",
+        "description": "Associez vos coûts récurrents à votre bien-être pour ne garder que l’essentiel.",
+        "href": "https://mindcharge.kevinlabs.app/",
+        "action": "Voir l’app",
+        "icon": "assets/mindcharge-icon.png",
         "featured": false
       },
       {
@@ -620,13 +620,13 @@
         "featured": false
       },
       {
-        "id": "mindcharge",
-        "name": "MindCharge",
-        "purpose": "Costes de suscripción y ánimo",
-        "description": "Vincula gastos recurrentes con tu estado de ánimo para conservar solo lo valioso.",
-        "href": "https://mindcharge.kevinlabs.app/",
-        "action": "Ver app",
-        "icon": "assets/mindcharge-icon.png",
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "Temporizador de presentación y foco",
+        "description": "Planifica tiempos, ensaya el ritmo y destaca detalles con el proyector de pantalla.",
+        "href": "presenter-deck/index.html",
+        "action": "Conocer la app",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -640,13 +640,13 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "Temporizador de presentación y foco",
-        "description": "Planifica tiempos, ensaya el ritmo y destaca detalles con el proyector de pantalla.",
-        "href": "presenter-deck/index.html",
-        "action": "Conocer la app",
-        "icon": "assets/presenter-deck-icon.png",
+        "id": "mindcharge",
+        "name": "MindCharge",
+        "purpose": "Costes de suscripción y ánimo",
+        "description": "Vincula gastos recurrentes con tu estado de ánimo para conservar solo lo valioso.",
+        "href": "https://mindcharge.kevinlabs.app/",
+        "action": "Ver app",
+        "icon": "assets/mindcharge-icon.png",
         "featured": false
       },
       {
@@ -716,13 +716,13 @@
         "featured": false
       },
       {
-        "id": "mindcharge",
-        "name": "MindCharge",
-        "purpose": "Assinaturas e humor",
-        "description": "Conecte custos recorrentes ao seu bem-estar para manter apenas o essencial.",
-        "href": "https://mindcharge.kevinlabs.app/",
-        "action": "Ver app",
-        "icon": "assets/mindcharge-icon.png",
+        "id": "presenter-deck",
+        "name": "PresenterDeck",
+        "purpose": "Cronômetro de apresentação e foco",
+        "description": "Planeje seu ritmo, ensaie o tempo e apresente com destaque visual na tela.",
+        "href": "presenter-deck/index.html",
+        "action": "Conhecer o app",
+        "icon": "assets/presenter-deck-icon.png",
         "featured": false
       },
       {
@@ -736,13 +736,13 @@
         "featured": false
       },
       {
-        "id": "presenter-deck",
-        "name": "PresenterDeck",
-        "purpose": "Cronômetro de apresentação e foco",
-        "description": "Planeje seu ritmo, ensaie o tempo e apresente com destaque visual na tela.",
-        "href": "presenter-deck/index.html",
-        "action": "Conhecer o app",
-        "icon": "assets/presenter-deck-icon.png",
+        "id": "mindcharge",
+        "name": "MindCharge",
+        "purpose": "Assinaturas e humor",
+        "description": "Conecte custos recorrentes ao seu bem-estar para manter apenas o essencial.",
+        "href": "https://mindcharge.kevinlabs.app/",
+        "action": "Ver app",
+        "icon": "assets/mindcharge-icon.png",
         "featured": false
       },
       {

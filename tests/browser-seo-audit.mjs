@@ -13,6 +13,7 @@ try {
    assert.ok(urls.every(url=>!new URL(url).searchParams.has('lang')));
    const order=await page.locator('section:not([hidden]) .product-card').evaluateAll(nodes=>nodes.map(n=>n.dataset.product));
    assert.deepEqual(order,['volmix','macpulse','barnest-pro']);
+   assert.deepEqual(await page.locator('section:not([hidden]) .other-products .tool-card').evaluateAll(nodes=>nodes.map(n=>n.dataset.product)),['nextmirror','presenter-deck','smoothcast','mindcharge','netdoctor','ksic-studio']);
   }
   await fs.mkdir('output/playwright',{recursive:true});await page.screenshot({path:`output/playwright/seo-home-${width}.png`,fullPage:true});
  }
